@@ -14,13 +14,17 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 960,
-        "Length": 3272960
+        "FSBOffset": 1120,
+        "Length": 4358624
       }
     ]
   },
   "EncryptionKey": "UGFuc2hlbjY2Ng==",
   "HashData": [
+    {
+      "Guid": "3ab85b04-9ea0-4a0e-a1cd-fad261534105",
+      "Hash": 2977751329
+    },
     {
       "Guid": "f6450521-c1b7-4f70-96ad-e48b4b840d0e",
       "Hash": 1045470610
@@ -35,7 +39,7 @@
     },
     {
       "Guid": "e984f962-07b7-4a37-9814-e2490e0a4edc",
-      "Hash": 2090385664
+      "Hash": 3199014649
     },
     {
       "Guid": "2e79b16b-06d7-4fee-bd98-37251a13b191",
@@ -48,6 +52,14 @@
     {
       "Guid": "3a60c790-bad1-44f3-91ea-3de0dcde419e",
       "Hash": 441993065
+    },
+    {
+      "Guid": "d71d00cd-59ce-4913-bfad-74f25276c7b8",
+      "Hash": 906128275
+    },
+    {
+      "Guid": "fb709efb-bc61-4c5c-b8c5-c7de1261fa96",
+      "Hash": 2996364867
     }
   ],
   "SoundBankData": [
@@ -55,9 +67,18 @@
       "Header": {
         "AudioType": "VORBIS",
         "Version": 1,
-        "NumSamples": 7
+        "NumSamples": 10
       },
       "Samples": [
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 817007,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "ui_btc_cg_zhiliu_item01"
+        },
         {
           "Metadata": {
             "IsStereo": true,
@@ -88,7 +109,7 @@
         {
           "Metadata": {
             "IsStereo": true,
-            "SampleCount": 924640,
+            "SampleCount": 816000,
             "Frequency": 48000,
             "Channels": 2
           },
@@ -120,6 +141,24 @@
             "Channels": 2
           },
           "Name": "赛琪皮肤 老爷车"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 779231,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "ui_btc_cg_zhiliu_skin01"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 2528866,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "泳装"
         }
       ]
     }
@@ -131,46 +170,64 @@
   "TransitionNodes": {},
   "InstrumentNodes": {},
   "WavEntries": {
+    "3ab85b04-9ea0-4a0e-a1cd-fad261534105": {
+      "BaseGuid": "3ab85b04-9ea0-4a0e-a1cd-fad261534105",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 0,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
     "f6450521-c1b7-4f70-96ad-e48b4b840d0e": {
       "BaseGuid": "f6450521-c1b7-4f70-96ad-e48b4b840d0e",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 0,
+      "SoundBankIndex": 1,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "cb101625-6a89-49da-be7a-9ae0489b5f2f": {
       "BaseGuid": "cb101625-6a89-49da-be7a-9ae0489b5f2f",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 1,
+      "SoundBankIndex": 2,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "669b7160-3c81-4acf-b373-0e6ad21dcc56": {
       "BaseGuid": "669b7160-3c81-4acf-b373-0e6ad21dcc56",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 2,
+      "SoundBankIndex": 3,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "e984f962-07b7-4a37-9814-e2490e0a4edc": {
       "BaseGuid": "e984f962-07b7-4a37-9814-e2490e0a4edc",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 3,
+      "SoundBankIndex": 4,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "2e79b16b-06d7-4fee-bd98-37251a13b191": {
       "BaseGuid": "2e79b16b-06d7-4fee-bd98-37251a13b191",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 4,
+      "SoundBankIndex": 5,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "d0e5bb8c-848b-43ae-8bd3-9f63816c8c22": {
       "BaseGuid": "d0e5bb8c-848b-43ae-8bd3-9f63816c8c22",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 5,
+      "SoundBankIndex": 6,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "3a60c790-bad1-44f3-91ea-3de0dcde419e": {
       "BaseGuid": "3a60c790-bad1-44f3-91ea-3de0dcde419e",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 6,
+      "SoundBankIndex": 7,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "d71d00cd-59ce-4913-bfad-74f25276c7b8": {
+      "BaseGuid": "d71d00cd-59ce-4913-bfad-74f25276c7b8",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 8,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
+    "fb709efb-bc61-4c5c-b8c5-c7de1261fa96": {
+      "BaseGuid": "fb709efb-bc61-4c5c-b8c5-c7de1261fa96",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 9,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     }
   },

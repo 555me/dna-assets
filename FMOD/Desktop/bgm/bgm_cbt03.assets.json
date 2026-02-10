@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 1824,
-        "Length": 30561536
+        "FSBOffset": 2016,
+        "Length": 33406848
       }
     ]
   },
@@ -86,6 +86,10 @@
       "Hash": 3128263859
     },
     {
+      "Guid": "d6839d84-33eb-4122-81b0-0e0679591b22",
+      "Hash": 2609091442
+    },
+    {
       "Guid": "700c5486-faed-49aa-9b23-03ff0f3eaba4",
       "Hash": 301454378
     },
@@ -98,6 +102,10 @@
       "Hash": 2651091111
     },
     {
+      "Guid": "4105c5ac-d55c-4469-8a15-da8f4587e20c",
+      "Hash": 2597855142
+    },
+    {
       "Guid": "7774b5e0-b3e4-4236-af01-63c5d4361809",
       "Hash": 470791853
     },
@@ -108,6 +116,10 @@
     {
       "Guid": "9d2ed5e8-ae86-4e83-b6ad-ffc884c55e3a",
       "Hash": 1927830032
+    },
+    {
+      "Guid": "fb709efb-bc61-4c5c-b8c5-c7de1261fa96",
+      "Hash": 2996364867
     }
   ],
   "SoundBankData": [
@@ -115,7 +127,7 @@
       "Header": {
         "AudioType": "VORBIS",
         "Version": 1,
-        "NumSamples": 22
+        "NumSamples": 25
       },
       "Samples": [
         {
@@ -265,6 +277,15 @@
         {
           "Metadata": {
             "IsStereo": true,
+            "SampleCount": 4978286,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "登录_1209_2"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
             "SampleCount": 4992000,
             "Frequency": 48000,
             "Channels": 2
@@ -292,6 +313,15 @@
         {
           "Metadata": {
             "IsStereo": true,
+            "SampleCount": 3006247,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "莉莉寇的歌v2"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
             "SampleCount": 7042300,
             "Frequency": 48000,
             "Channels": 2
@@ -315,6 +345,15 @@
             "Channels": 2
           },
           "Name": "M05_Galea Theater_Mix5_cut"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 2528866,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "泳装"
         }
       ]
     }
@@ -422,40 +461,58 @@
       "SoundBankIndex": 15,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
+    "d6839d84-33eb-4122-81b0-0e0679591b22": {
+      "BaseGuid": "d6839d84-33eb-4122-81b0-0e0679591b22",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 16,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
     "700c5486-faed-49aa-9b23-03ff0f3eaba4": {
       "BaseGuid": "700c5486-faed-49aa-9b23-03ff0f3eaba4",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 16,
+      "SoundBankIndex": 17,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "059ff1a3-e26b-4e06-bc84-a901804efa41": {
       "BaseGuid": "059ff1a3-e26b-4e06-bc84-a901804efa41",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 17,
+      "SoundBankIndex": 18,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "642418a4-369f-4c9c-8a05-d823a9f97146": {
       "BaseGuid": "642418a4-369f-4c9c-8a05-d823a9f97146",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 18,
+      "SoundBankIndex": 19,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "4105c5ac-d55c-4469-8a15-da8f4587e20c": {
+      "BaseGuid": "4105c5ac-d55c-4469-8a15-da8f4587e20c",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 20,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "7774b5e0-b3e4-4236-af01-63c5d4361809": {
       "BaseGuid": "7774b5e0-b3e4-4236-af01-63c5d4361809",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 19,
+      "SoundBankIndex": 21,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "ec3c07e8-7d2b-4cc5-83aa-e95202f00d0c": {
       "BaseGuid": "ec3c07e8-7d2b-4cc5-83aa-e95202f00d0c",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 20,
+      "SoundBankIndex": 22,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "9d2ed5e8-ae86-4e83-b6ad-ffc884c55e3a": {
       "BaseGuid": "9d2ed5e8-ae86-4e83-b6ad-ffc884c55e3a",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 21,
+      "SoundBankIndex": 23,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "fb709efb-bc61-4c5c-b8c5-c7de1261fa96": {
+      "BaseGuid": "fb709efb-bc61-4c5c-b8c5-c7de1261fa96",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 24,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     }
   },

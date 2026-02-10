@@ -83,7 +83,7 @@
     },
     {
       "Guid": "f9511b86-95aa-46f0-a8e5-055a2bf94956",
-      "Hash": 1971716518
+      "Hash": 3468401351
     },
     {
       "Guid": "7c283088-4d15-44d8-8037-4827eb9077fe",
@@ -143,7 +143,7 @@
     },
     {
       "Guid": "91246cf7-f6d7-438b-a54c-550f07a88141",
-      "Hash": 135220986
+      "Hash": 3456894336
     },
     {
       "Guid": "a48ab5f8-bddb-4de6-a06e-4cb3d8d5ba14",
@@ -539,7 +539,7 @@
       "TimelineGuid": "79d928a9-7469-4cd6-97d0-9cec8222e905",
       "InputBusGuid": "2cb2a6cf-10e1-4715-8d6d-af7df18f67f2",
       "MasterTrackGuid": "a7b8d554-8b93-4eff-b773-787aa6da9809",
-      "MaximumPolyphony": 5,
+      "MaximumPolyphony": 1,
       "Priority": 128,
       "PolyphonyLimitBehavior": true,
       "SchedulingMode": 0,
@@ -4208,6 +4208,11 @@
           "Guid": "f46e182b-4f01-489b-a1e2-034f0fb6f971",
           "StartTime": 0,
           "Length": 38400
+        },
+        {
+          "Guid": "0b7cbb9c-4e4c-4beb-bf05-3d348f1c2e5f",
+          "StartTime": 38400,
+          "Length": 26281
         }
       ],
       "TimeLockedTriggerBoxes": [
@@ -4215,11 +4220,6 @@
           "Guid": "c2c51472-f3a2-4d3c-bf1d-2105cdc6e206",
           "StartTime": 0,
           "Length": 27533
-        },
-        {
-          "Guid": "a9878ba9-28fc-4bf2-9a92-5e950056a7e4",
-          "StartTime": 38432,
-          "Length": 26281
         }
       ],
       "SustainPoints": [],
@@ -5685,6 +5685,43 @@
         "Evaluators": []
       }
     },
+    "0b7cbb9c-4e4c-4beb-bf05-3d348f1c2e5f": {
+      "BaseGuid": "0b7cbb9c-4e4c-4beb-bf05-3d348f1c2e5f",
+      "EventGuid": "f9511b86-95aa-46f0-a8e5-055a2bf94956",
+      "SnapshotIntensity": 100.0,
+      "EventParameterStubs": [],
+      "InstrumentBody": {
+        "TimelineGuid": "a3393d5c-0147-43a2-b9f2-55fd6f3553d0",
+        "Volume": 0.0,
+        "Pitch": 0.0,
+        "LoopCount": 0,
+        "Flags": 0,
+        "Offset3DDistance": 0.0,
+        "TriggerChancePercent": 100.0,
+        "TriggerDelay": {
+          "Min": 0.0,
+          "Max": 0.0
+        },
+        "Quantization": {
+          "Unit": "None",
+          "Multiplier": 0
+        },
+        "ControlParameterGuid": "00000000-0000-0000-0000-000000000000",
+        "AutoPitchReference": 1.0,
+        "InitialSeekPosition": 0.0,
+        "MaximumPolyphony": 2147483647,
+        "Routable": {
+          "BaseGuid": "ac5b9156-b549-4d97-ac94-c9caf355cc9c",
+          "OutputChannelLayout": 3,
+          "ChannelMask": 4294967295
+        },
+        "PolyphonyLimitBehavior": 2,
+        "LeftTrimOffset": 0,
+        "InitialSeekPercent": 0.0,
+        "AutoPitchAtMinimum": 0.0,
+        "Evaluators": []
+      }
+    },
     "0edcf5ad-de43-491f-835b-8fb03f6bb91c": {
       "BaseGuid": "0edcf5ad-de43-491f-835b-8fb03f6bb91c",
       "EventGuid": "f0dcf66d-a6f1-4861-aeb9-47359e229eef",
@@ -6984,42 +7021,6 @@
         "MaximumPolyphony": 2147483647,
         "Routable": {
           "BaseGuid": "3a637994-bd57-419d-ba0a-e88bcc44315d",
-          "OutputChannelLayout": 3,
-          "ChannelMask": 4294967295
-        },
-        "PolyphonyLimitBehavior": 2,
-        "LeftTrimOffset": 0,
-        "InitialSeekPercent": 0.0,
-        "AutoPitchAtMinimum": 0.0,
-        "Evaluators": []
-      }
-    },
-    "a9878ba9-28fc-4bf2-9a92-5e950056a7e4": {
-      "BaseGuid": "a9878ba9-28fc-4bf2-9a92-5e950056a7e4",
-      "LegacyLoadingMode": "WaveformLoadingMode_LoadInMemory",
-      "WaveformResourceGuid": "fca80cd7-a9e7-46d4-b4f3-70bad35d824d",
-      "InstrumentBody": {
-        "TimelineGuid": "a3393d5c-0147-43a2-b9f2-55fd6f3553d0",
-        "Volume": 0.0,
-        "Pitch": 0.0,
-        "LoopCount": 0,
-        "Flags": 0,
-        "Offset3DDistance": 0.0,
-        "TriggerChancePercent": 100.0,
-        "TriggerDelay": {
-          "Min": 0.0,
-          "Max": 0.0
-        },
-        "Quantization": {
-          "Unit": "None",
-          "Multiplier": 0
-        },
-        "ControlParameterGuid": "00000000-0000-0000-0000-000000000000",
-        "AutoPitchReference": 1.0,
-        "InitialSeekPosition": 0.0,
-        "MaximumPolyphony": 2147483647,
-        "Routable": {
-          "BaseGuid": "ac5b9156-b549-4d97-ac94-c9caf355cc9c",
           "OutputChannelLayout": 3,
           "ChannelMask": 4294967295
         },

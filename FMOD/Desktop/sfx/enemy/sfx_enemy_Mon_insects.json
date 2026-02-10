@@ -23,11 +23,11 @@
   "HashData": [
     {
       "Guid": "e49daa3f-7c77-4f26-b3f6-8bd2f791aef5",
-      "Hash": 1443981909
+      "Hash": 3587449964
     },
     {
       "Guid": "854433da-7ef6-44a8-ab64-d864d1d83b12",
-      "Hash": 303252925
+      "Hash": 1362390132
     }
   ],
   "SoundBankData": [],
@@ -54,7 +54,7 @@
       "ParameterIds": [],
       "EventTriggeredInstruments": [],
       "MinimumDistance": 1.0,
-      "MaximumDistance": 40.0
+      "MaximumDistance": 30.0
     },
     "854433da-7ef6-44a8-ab64-d864d1d83b12": {
       "BaseGuid": "854433da-7ef6-44a8-ab64-d864d1d83b12",
@@ -78,7 +78,7 @@
       "ParameterIds": [],
       "EventTriggeredInstruments": [],
       "MinimumDistance": 1.0,
-      "MaximumDistance": 40.0
+      "MaximumDistance": 30.0
     }
   },
   "BusNodes": {
@@ -145,7 +145,7 @@
         "PreFaderEffects": [],
         "PostFaderEffects": [],
         "MixerStrip": {
-          "Volume": 7.0,
+          "Volume": 4.5,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -170,7 +170,7 @@
         "PreFaderEffects": [],
         "PostFaderEffects": [],
         "MixerStrip": {
-          "Volume": 7.0,
+          "Volume": 3.5,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -561,6 +561,45 @@
         "Evaluators": []
       }
     },
+    "35cf812f-31e7-4a11-98c3-7786b1a9631f": {
+      "BaseGuid": "35cf812f-31e7-4a11-98c3-7786b1a9631f",
+      "PlaylistBody": {
+        "PlayMode": "PlaylistPlayMode_SmartRandom",
+        "SelectionMode": "PlaylistSelectionMode_SelectNormal",
+        "Entries": []
+      },
+      "InstrumentBody": {
+        "TimelineGuid": "00000000-0000-0000-0000-000000000000",
+        "Volume": 0.0,
+        "Pitch": 0.0,
+        "LoopCount": 0,
+        "Flags": 0,
+        "Offset3DDistance": 0.0,
+        "TriggerChancePercent": 100.0,
+        "TriggerDelay": {
+          "Min": 0.0,
+          "Max": 0.0
+        },
+        "Quantization": {
+          "Unit": "None",
+          "Multiplier": 0
+        },
+        "ControlParameterGuid": "00000000-0000-0000-0000-000000000000",
+        "AutoPitchReference": 1.0,
+        "InitialSeekPosition": 0.0,
+        "MaximumPolyphony": 2147483647,
+        "Routable": {
+          "BaseGuid": "00000000-0000-0000-0000-000000000000",
+          "OutputChannelLayout": 2,
+          "ChannelMask": 4294967295
+        },
+        "PolyphonyLimitBehavior": 2,
+        "LeftTrimOffset": 0,
+        "InitialSeekPercent": 0.0,
+        "AutoPitchAtMinimum": 0.0,
+        "Evaluators": []
+      }
+    },
     "37b9e38b-61fe-44f9-b131-ff3af626de62": {
       "BaseGuid": "37b9e38b-61fe-44f9-b131-ff3af626de62",
       "PlaylistBody": {
@@ -569,19 +608,23 @@
         "Entries": [
           {
             "Guid": "da2b0486-ed0d-43f1-8a6f-51790af79fce",
-            "Weight": 25.0
+            "Weight": 15.0
           },
           {
             "Guid": "5c0d4cda-67da-414b-af54-567a19710bd3",
-            "Weight": 25.0
+            "Weight": 15.0
           },
           {
             "Guid": "3498ae0a-a56c-4341-93c3-ac670806275b",
-            "Weight": 25.0
+            "Weight": 15.0
           },
           {
             "Guid": "cc25f57d-ebe0-4d78-96e7-71ee1e4660f4",
-            "Weight": 25.0
+            "Weight": 15.0
+          },
+          {
+            "Guid": "35cf812f-31e7-4a11-98c3-7786b1a9631f",
+            "Weight": 40.0
           }
         ]
       },

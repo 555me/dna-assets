@@ -39,7 +39,7 @@
     },
     {
       "Guid": "fdfa9e23-0171-4fb6-b829-76296e77e480",
-      "Hash": 643343947
+      "Hash": 3208110948
     },
     {
       "Guid": "f9f25840-291e-48b0-b4d3-9256e38ebb86",
@@ -91,7 +91,7 @@
     },
     {
       "Guid": "f51fa8f4-89ee-4394-ae8b-296e7102ea1a",
-      "Hash": 1013618126
+      "Hash": 2051875314
     }
   ],
   "SoundBankData": [],
@@ -4289,15 +4289,19 @@
         "Entries": [
           {
             "Guid": "03dfdfed-f33d-41e4-b499-11ad79271292",
-            "Weight": 33.333332
+            "Weight": 20.0
           },
           {
             "Guid": "c7bb8d18-caa7-4604-acc3-8f4eb70ab36c",
-            "Weight": 33.333332
+            "Weight": 20.0
           },
           {
             "Guid": "fb8d6ecc-6cd1-4675-9f61-c40681146fe1",
-            "Weight": 33.333332
+            "Weight": 20.0
+          },
+          {
+            "Guid": "0259c071-6ce3-4131-8c26-66ced67a4456",
+            "Weight": 40.0
           }
         ]
       },
@@ -4341,15 +4345,19 @@
         "Entries": [
           {
             "Guid": "b78348d7-0e30-4cff-bdf1-62c35868d1cb",
-            "Weight": 33.333332
+            "Weight": 16.666666
           },
           {
             "Guid": "4c0006fa-b00f-4257-bd6e-5f48d25a9966",
-            "Weight": 33.333332
+            "Weight": 16.666666
           },
           {
             "Guid": "7ef89681-0587-41ff-abb0-ab44a53b2928",
-            "Weight": 33.333332
+            "Weight": 16.666666
+          },
+          {
+            "Guid": "da97ad37-69cd-4006-96a0-dd5f1d105011",
+            "Weight": 50.0
           }
         ]
       },
@@ -5517,6 +5525,42 @@
         "Evaluators": []
       }
     },
+    "da97ad37-69cd-4006-96a0-dd5f1d105011": {
+      "BaseGuid": "da97ad37-69cd-4006-96a0-dd5f1d105011",
+      "LegacyLoadingMode": "WaveformLoadingMode_LoadInMemory",
+      "WaveformResourceGuid": "00000000-0000-0000-0000-000000000000",
+      "InstrumentBody": {
+        "TimelineGuid": "00000000-0000-0000-0000-000000000000",
+        "Volume": 0.0,
+        "Pitch": 0.0,
+        "LoopCount": 0,
+        "Flags": 0,
+        "Offset3DDistance": 0.0,
+        "TriggerChancePercent": 100.0,
+        "TriggerDelay": {
+          "Min": 0.0,
+          "Max": 0.0
+        },
+        "Quantization": {
+          "Unit": "None",
+          "Multiplier": 0
+        },
+        "ControlParameterGuid": "00000000-0000-0000-0000-000000000000",
+        "AutoPitchReference": 1.0,
+        "InitialSeekPosition": 0.0,
+        "MaximumPolyphony": 2147483647,
+        "Routable": {
+          "BaseGuid": "00000000-0000-0000-0000-000000000000",
+          "OutputChannelLayout": 2,
+          "ChannelMask": 4294967295
+        },
+        "PolyphonyLimitBehavior": 2,
+        "LeftTrimOffset": 0,
+        "InitialSeekPercent": 0.0,
+        "AutoPitchAtMinimum": 0.0,
+        "Evaluators": []
+      }
+    },
     "c63c6d3c-d5fb-4225-8b4f-52c65e66336f": {
       "BaseGuid": "c63c6d3c-d5fb-4225-8b4f-52c65e66336f",
       "LegacyLoadingMode": "WaveformLoadingMode_LoadInMemory",
@@ -5773,6 +5817,42 @@
       "BaseGuid": "ae236363-86be-4f07-99ce-30d5703c539a",
       "LegacyLoadingMode": "WaveformLoadingMode_LoadInMemory",
       "WaveformResourceGuid": "d739ee78-b42a-49b4-9b24-d7410586d124",
+      "InstrumentBody": {
+        "TimelineGuid": "00000000-0000-0000-0000-000000000000",
+        "Volume": 0.0,
+        "Pitch": 0.0,
+        "LoopCount": 0,
+        "Flags": 0,
+        "Offset3DDistance": 0.0,
+        "TriggerChancePercent": 100.0,
+        "TriggerDelay": {
+          "Min": 0.0,
+          "Max": 0.0
+        },
+        "Quantization": {
+          "Unit": "None",
+          "Multiplier": 0
+        },
+        "ControlParameterGuid": "00000000-0000-0000-0000-000000000000",
+        "AutoPitchReference": 1.0,
+        "InitialSeekPosition": 0.0,
+        "MaximumPolyphony": 2147483647,
+        "Routable": {
+          "BaseGuid": "00000000-0000-0000-0000-000000000000",
+          "OutputChannelLayout": 2,
+          "ChannelMask": 4294967295
+        },
+        "PolyphonyLimitBehavior": 2,
+        "LeftTrimOffset": 0,
+        "InitialSeekPercent": 0.0,
+        "AutoPitchAtMinimum": 0.0,
+        "Evaluators": []
+      }
+    },
+    "0259c071-6ce3-4131-8c26-66ced67a4456": {
+      "BaseGuid": "0259c071-6ce3-4131-8c26-66ced67a4456",
+      "LegacyLoadingMode": "WaveformLoadingMode_LoadInMemory",
+      "WaveformResourceGuid": "00000000-0000-0000-0000-000000000000",
       "InstrumentBody": {
         "TimelineGuid": "00000000-0000-0000-0000-000000000000",
         "Volume": 0.0,

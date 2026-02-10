@@ -51,7 +51,7 @@
     },
     {
       "Guid": "986677c6-42c2-4495-8f39-04961341a1a0",
-      "Hash": 1718314034
+      "Hash": 3536079685
     },
     {
       "Guid": "fed104e5-4691-4e66-9c22-b5bb591be9c0",
@@ -4656,6 +4656,27 @@
     }
   },
   "ModulatorNodes": {
+    "a9245007-85a8-4125-beb6-cdc8b72a9935": {
+      "BaseGuid": "a9245007-85a8-4125-beb6-cdc8b72a9935",
+      "OwnerGuid": "30af3c12-a17d-44fd-850a-75ada429adce",
+      "PropertyIndex": 0,
+      "Type": "ADSR",
+      "PropertyType": "PropertyType_Volume",
+      "ClockSource": "ClockSource_Local",
+      "Subnode": {
+        "InitialValue": -80.0,
+        "PeakValue": 0.0,
+        "SustainValue": 0.0,
+        "AttackTime": 1000.0,
+        "HoldTime": 1000.0,
+        "DecayTime": 1000.0,
+        "ReleaseTime": 1000.0,
+        "AttackShape": 0.0,
+        "DecayShape": 0.0,
+        "ReleaseShape": 0.0,
+        "FinalValue": -80.0
+      }
+    },
     "f29b1e15-495a-431a-945a-aae10fdd3287": {
       "BaseGuid": "f29b1e15-495a-431a-945a-aae10fdd3287",
       "OwnerGuid": "8e1976f9-06d7-4975-8287-24ff5cb86f3f",

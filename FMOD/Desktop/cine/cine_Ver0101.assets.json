@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 11296,
-        "Length": 39892832
+        "FSBOffset": 11168,
+        "Length": 39821792
       }
     ]
   },
@@ -56,6 +56,10 @@
     {
       "Guid": "e2d4060b-b110-4502-9a56-ced470aa986a",
       "Hash": 4184185083
+    },
+    {
+      "Guid": "e3ff3b0b-f32d-4069-957e-85bcc2bd4395",
+      "Hash": 1811365936
     },
     {
       "Guid": "d8f05c13-5a21-4710-a9ad-f359f5b8b153",
@@ -100,10 +104,6 @@
     {
       "Guid": "b2738420-2975-4762-9308-811755d2c05e",
       "Hash": 1030784876
-    },
-    {
-      "Guid": "c6743023-122c-4012-89b1-1edb89b34c7d",
-      "Hash": 3293388287
     },
     {
       "Guid": "e19ce024-10ac-4a29-9cd9-9a8ffbbeea94",
@@ -622,10 +622,6 @@
       "Hash": 1271795485
     },
     {
-      "Guid": "67b01fcb-9aff-4e79-8a66-dacaa959eaca",
-      "Hash": 1109673986
-    },
-    {
       "Guid": "498b78cb-3490-49cb-8ea1-4267d6d1cf1c",
       "Hash": 2491718963
     },
@@ -710,10 +706,6 @@
       "Hash": 2325324366
     },
     {
-      "Guid": "6bf52fea-9c38-4e45-be26-99648e71b196",
-      "Hash": 2762745916
-    },
-    {
       "Guid": "bc001deb-debb-4f2b-9b96-9f70098334bb",
       "Hash": 688336427
     },
@@ -767,7 +759,7 @@
       "Header": {
         "AudioType": "VORBIS",
         "Version": 1,
-        "NumSamples": 185
+        "NumSamples": 183
       },
       "Samples": [
         {
@@ -850,6 +842,15 @@
             "Channels": 2
           },
           "Name": "cine_Ver0101_SC002_vo_mix_jp_m"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 3870720,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "cine_Ver0101_SC020_vo_mix_ch_f"
         },
         {
           "Metadata": {
@@ -949,15 +950,6 @@
             "Channels": 2
           },
           "Name": "cine_Ver0101_SC012_vo_mix_ch_m"
-        },
-        {
-          "Metadata": {
-            "IsStereo": true,
-            "SampleCount": 120676,
-            "Frequency": 48000,
-            "Channels": 2
-          },
-          "Name": "sfx_boss_Bian_a_vo_be_hit_death_r01"
         },
         {
           "Metadata": {
@@ -2123,15 +2115,6 @@
         {
           "Metadata": {
             "IsStereo": true,
-            "SampleCount": 3870720,
-            "Frequency": 48000,
-            "Channels": 2
-          },
-          "Name": "cine_Ver0101_SC020_vo_mix_ch_f"
-        },
-        {
-          "Metadata": {
-            "IsStereo": true,
             "SampleCount": 1273248,
             "Frequency": 48000,
             "Channels": 2
@@ -2321,15 +2304,6 @@
         {
           "Metadata": {
             "IsStereo": true,
-            "SampleCount": 74251,
-            "Frequency": 48000,
-            "Channels": 2
-          },
-          "Name": "sfx_boss_Bian_b_skill02_vo_r01"
-        },
-        {
-          "Metadata": {
-            "IsStereo": true,
             "SampleCount": 753696,
             "Frequency": 48000,
             "Channels": 2
@@ -2499,77 +2473,77 @@
       "SoundBankIndex": 8,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
+    "e3ff3b0b-f32d-4069-957e-85bcc2bd4395": {
+      "BaseGuid": "e3ff3b0b-f32d-4069-957e-85bcc2bd4395",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 9,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
     "d8f05c13-5a21-4710-a9ad-f359f5b8b153": {
       "BaseGuid": "d8f05c13-5a21-4710-a9ad-f359f5b8b153",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 9,
+      "SoundBankIndex": 10,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "1989df13-9e39-4c20-aaa2-9295dd50672c": {
       "BaseGuid": "1989df13-9e39-4c20-aaa2-9295dd50672c",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 10,
+      "SoundBankIndex": 11,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "190a0015-0988-4578-958d-4f9bc050b938": {
       "BaseGuid": "190a0015-0988-4578-958d-4f9bc050b938",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 11,
+      "SoundBankIndex": 12,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "9b47da15-d3e7-4d68-a4f2-fb0a667adb40": {
       "BaseGuid": "9b47da15-d3e7-4d68-a4f2-fb0a667adb40",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 12,
+      "SoundBankIndex": 13,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "15358418-7a92-4dd6-a676-c86d32ed8b13": {
       "BaseGuid": "15358418-7a92-4dd6-a676-c86d32ed8b13",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 13,
+      "SoundBankIndex": 14,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "eb59e418-52ee-4a85-882b-aa5de7ef235c": {
       "BaseGuid": "eb59e418-52ee-4a85-882b-aa5de7ef235c",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 14,
+      "SoundBankIndex": 15,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "80923319-7a70-4c3b-82dd-c374c20041ea": {
       "BaseGuid": "80923319-7a70-4c3b-82dd-c374c20041ea",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 15,
+      "SoundBankIndex": 16,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "31ff4d1c-3d57-4e2c-93cc-8de00c7d4cdc": {
       "BaseGuid": "31ff4d1c-3d57-4e2c-93cc-8de00c7d4cdc",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 16,
+      "SoundBankIndex": 17,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "8d1b631c-dc3a-4bd6-b558-3effc26e9db3": {
       "BaseGuid": "8d1b631c-dc3a-4bd6-b558-3effc26e9db3",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 17,
+      "SoundBankIndex": 18,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "e6903d20-3eb4-4eee-bdda-f07e6f775ae4": {
       "BaseGuid": "e6903d20-3eb4-4eee-bdda-f07e6f775ae4",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 18,
+      "SoundBankIndex": 19,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "b2738420-2975-4762-9308-811755d2c05e": {
       "BaseGuid": "b2738420-2975-4762-9308-811755d2c05e",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 19,
-      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
-    },
-    "c6743023-122c-4012-89b1-1edb89b34c7d": {
-      "BaseGuid": "c6743023-122c-4012-89b1-1edb89b34c7d",
-      "SubsoundIndex": 0,
       "SoundBankIndex": 20,
-      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "e19ce024-10ac-4a29-9cd9-9a8ffbbeea94": {
       "BaseGuid": "e19ce024-10ac-4a29-9cd9-9a8ffbbeea94",
@@ -3345,214 +3319,202 @@
       "SoundBankIndex": 149,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "67b01fcb-9aff-4e79-8a66-dacaa959eaca": {
-      "BaseGuid": "67b01fcb-9aff-4e79-8a66-dacaa959eaca",
-      "SubsoundIndex": 0,
-      "SoundBankIndex": 150,
-      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
-    },
     "498b78cb-3490-49cb-8ea1-4267d6d1cf1c": {
       "BaseGuid": "498b78cb-3490-49cb-8ea1-4267d6d1cf1c",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 151,
+      "SoundBankIndex": 150,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "ebfd64cc-295b-4976-8d97-4d67925edd79": {
       "BaseGuid": "ebfd64cc-295b-4976-8d97-4d67925edd79",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 152,
+      "SoundBankIndex": 151,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "79c4abce-9961-4f0c-be38-76d281a90ed8": {
       "BaseGuid": "79c4abce-9961-4f0c-be38-76d281a90ed8",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 153,
+      "SoundBankIndex": 152,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "e2d9cecf-6175-41e5-8454-adcbe00bdf96": {
       "BaseGuid": "e2d9cecf-6175-41e5-8454-adcbe00bdf96",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 154,
+      "SoundBankIndex": 153,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "e5279cd0-2fc6-415b-8a3b-0f1169cd096d": {
       "BaseGuid": "e5279cd0-2fc6-415b-8a3b-0f1169cd096d",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 155,
+      "SoundBankIndex": 154,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "f7a98fd4-6e75-4d88-91c4-6e5fb1ab73c7": {
       "BaseGuid": "f7a98fd4-6e75-4d88-91c4-6e5fb1ab73c7",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 156,
+      "SoundBankIndex": 155,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "875316d5-a2a7-47fb-84b6-878b91d73370": {
       "BaseGuid": "875316d5-a2a7-47fb-84b6-878b91d73370",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 157,
+      "SoundBankIndex": 156,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "fa158dda-543a-48e5-8587-fc38c09935e1": {
       "BaseGuid": "fa158dda-543a-48e5-8587-fc38c09935e1",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 158,
+      "SoundBankIndex": 157,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "ba6499dc-9828-47b2-ad25-f9769de9aa82": {
       "BaseGuid": "ba6499dc-9828-47b2-ad25-f9769de9aa82",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 159,
+      "SoundBankIndex": 158,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "45d16add-315c-4873-8279-40b170a371d1": {
       "BaseGuid": "45d16add-315c-4873-8279-40b170a371d1",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 160,
+      "SoundBankIndex": 159,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "1a4730df-b57b-4cd9-97ad-bc6d168d773a": {
       "BaseGuid": "1a4730df-b57b-4cd9-97ad-bc6d168d773a",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 161,
+      "SoundBankIndex": 160,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "88954ae0-ecfb-49b2-aedf-f8c7c6c9a796": {
       "BaseGuid": "88954ae0-ecfb-49b2-aedf-f8c7c6c9a796",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 162,
+      "SoundBankIndex": 161,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "5d1aa8e1-99c9-4d7c-8cd9-1de195daf8af": {
       "BaseGuid": "5d1aa8e1-99c9-4d7c-8cd9-1de195daf8af",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 163,
+      "SoundBankIndex": 162,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "231c9ae2-237b-4176-a7db-e30c370d63ca": {
       "BaseGuid": "231c9ae2-237b-4176-a7db-e30c370d63ca",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 164,
+      "SoundBankIndex": 163,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "5e17ade2-bf29-4d15-8f2d-269c1cffc454": {
       "BaseGuid": "5e17ade2-bf29-4d15-8f2d-269c1cffc454",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 165,
+      "SoundBankIndex": 164,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "43a573e4-0a62-4190-a63b-07a4643698a0": {
       "BaseGuid": "43a573e4-0a62-4190-a63b-07a4643698a0",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 166,
+      "SoundBankIndex": 165,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "271afbe4-b734-4972-90db-2577296e1d4e": {
       "BaseGuid": "271afbe4-b734-4972-90db-2577296e1d4e",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 167,
+      "SoundBankIndex": 166,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "9e3310e5-f1e0-48b4-9790-14302aa6cfa6": {
       "BaseGuid": "9e3310e5-f1e0-48b4-9790-14302aa6cfa6",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 168,
+      "SoundBankIndex": 167,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "a16901e7-b320-4199-9f64-8f8e74e59a73": {
       "BaseGuid": "a16901e7-b320-4199-9f64-8f8e74e59a73",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 169,
+      "SoundBankIndex": 168,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "b405e7e8-d805-4451-9cc0-f6adb04c0c28": {
       "BaseGuid": "b405e7e8-d805-4451-9cc0-f6adb04c0c28",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 170,
+      "SoundBankIndex": 169,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "a18a0dea-bde7-4544-9b7e-14b3b0d82a70": {
       "BaseGuid": "a18a0dea-bde7-4544-9b7e-14b3b0d82a70",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 171,
+      "SoundBankIndex": 170,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
-    },
-    "6bf52fea-9c38-4e45-be26-99648e71b196": {
-      "BaseGuid": "6bf52fea-9c38-4e45-be26-99648e71b196",
-      "SubsoundIndex": 0,
-      "SoundBankIndex": 172,
-      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "bc001deb-debb-4f2b-9b96-9f70098334bb": {
       "BaseGuid": "bc001deb-debb-4f2b-9b96-9f70098334bb",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 173,
+      "SoundBankIndex": 171,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "c238c5eb-cd07-4f63-84de-96bf7467c62a": {
       "BaseGuid": "c238c5eb-cd07-4f63-84de-96bf7467c62a",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 174,
+      "SoundBankIndex": 172,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "47c828ed-0fe1-47ae-a12f-bc73c3a75bef": {
       "BaseGuid": "47c828ed-0fe1-47ae-a12f-bc73c3a75bef",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 175,
+      "SoundBankIndex": 173,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "8855cbef-9c99-47ae-81c5-0c84126c8c6d": {
       "BaseGuid": "8855cbef-9c99-47ae-81c5-0c84126c8c6d",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 176,
+      "SoundBankIndex": 174,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "4b4ffbef-5037-45ca-8786-9ba7a67b95bc": {
       "BaseGuid": "4b4ffbef-5037-45ca-8786-9ba7a67b95bc",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 177,
+      "SoundBankIndex": 175,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "cabc57f4-1f7c-4444-bc6d-b7b598aea8ae": {
       "BaseGuid": "cabc57f4-1f7c-4444-bc6d-b7b598aea8ae",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 178,
+      "SoundBankIndex": 176,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "a59d44f5-ea14-4626-ba31-6c70c87207f4": {
       "BaseGuid": "a59d44f5-ea14-4626-ba31-6c70c87207f4",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 179,
+      "SoundBankIndex": 177,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "2eca94f7-257a-48a6-8a44-ec51c18444d2": {
       "BaseGuid": "2eca94f7-257a-48a6-8a44-ec51c18444d2",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 180,
+      "SoundBankIndex": 178,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "e6b944f9-f319-4a54-8b94-fd2f930440a9": {
       "BaseGuid": "e6b944f9-f319-4a54-8b94-fd2f930440a9",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 181,
+      "SoundBankIndex": 179,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "42f305fa-d083-4702-ab58-e6e526f329d4": {
       "BaseGuid": "42f305fa-d083-4702-ab58-e6e526f329d4",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 182,
+      "SoundBankIndex": 180,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "3eac9cfa-025d-4621-abae-bbeaf341e996": {
       "BaseGuid": "3eac9cfa-025d-4621-abae-bbeaf341e996",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 183,
+      "SoundBankIndex": 181,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "384a20fb-088a-4692-a43e-acc8e46dbed3": {
       "BaseGuid": "384a20fb-088a-4692-a43e-acc8e46dbed3",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 184,
+      "SoundBankIndex": 182,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     }
   },

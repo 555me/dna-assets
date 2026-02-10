@@ -23,7 +23,7 @@
   "HashData": [
     {
       "Guid": "97270133-b4aa-4b91-b2a0-4b1c89f78511",
-      "Hash": 3735777239
+      "Hash": 4237854495
     },
     {
       "Guid": "c9939550-8997-4dc2-ab27-a5b72f234916",
@@ -35,7 +35,7 @@
     },
     {
       "Guid": "08edcaeb-52a5-41f6-9514-f10acf2837cc",
-      "Hash": 1964005284
+      "Hash": 174536393
     }
   ],
   "SoundBankData": [],
@@ -127,7 +127,7 @@
       "UserPropertyStringList": [],
       "DopplerScale": 0.0,
       "TriggerCooldown": 0.0,
-      "Flags": 7265,
+      "Flags": 5217,
       "NonMasterTracks": [
         "61672f73-1917-44dd-bfe4-1eca7f20e075"
       ],
@@ -411,7 +411,7 @@
           "ed0ccb9c-e308-4ce2-ad4c-a36ef517e509"
         ],
         "MixerStrip": {
-          "Volume": 9.0,
+          "Volume": 4.0,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -981,7 +981,14 @@
         }
       ],
       "SustainPoints": [],
-      "TimelineNamedMarkers": [],
+      "TimelineNamedMarkers": [
+        {
+          "BaseGuid": "8acdaa4f-a3c6-4ef3-8e99-a06bce642642",
+          "Position": 154560,
+          "Name": "",
+          "Length": 7680
+        }
+      ],
       "TimelineTempoMarkers": [],
       "LegacyUIntArray": []
     },
@@ -1026,6 +1033,21 @@
     }
   },
   "TransitionNodes": {
+    "8dd8fab6-fb5d-01ac-17af-08c3f2d8225c": {
+      "BaseGuid": "8dd8fab6-fb5d-01ac-17af-08c3f2d8225c",
+      "DestinationGuid": "8acdaa4f-a3c6-4ef3-8e99-a06bce642642",
+      "Start": 162240,
+      "End": 162240,
+      "LegacyParameterConditions": null,
+      "Evaluators": [],
+      "Quantization": {
+        "Unit": "None",
+        "Multiplier": 0
+      },
+      "TransitionChancePercent": 100.0,
+      "Flags": 2,
+      "TransitionBody": null
+    },
     "47f0c2d9-4cc4-0171-3454-3ef53e3a86db": {
       "BaseGuid": "47f0c2d9-4cc4-0171-3454-3ef53e3a86db",
       "DestinationGuid": "40e59220-145f-4e2e-ad62-965d028682c5",
@@ -1632,6 +1654,19 @@
         "ReleaseShape": 0.0,
         "FinalValue": -80.0
       }
+    },
+    "9382ae71-83f1-42ef-928f-f5202bc7491c": {
+      "BaseGuid": "9382ae71-83f1-42ef-928f-f5202bc7491c",
+      "OwnerGuid": "64ef05ef-b592-48ed-ad17-7d94972a7731",
+      "PropertyIndex": 0,
+      "Type": "Random",
+      "PropertyType": "PropertyType_Volume",
+      "ClockSource": "ClockSource_Local",
+      "Subnode": {
+        "Amount": 5.0,
+        "Minimum": 0.0,
+        "Maximum": 0.0
+      }
     }
   },
   "CurveNodes": {
@@ -1716,7 +1751,7 @@
       "MappingGuid": "d65ba128-a6f5-41d9-b6a1-a7c402f329ac",
       "Controllers": [],
       "Modulators": [
-        "eea0456f-c10e-4011-be51-a97348594bc7"
+        "9382ae71-83f1-42ef-928f-f5202bc7491c"
       ]
     }
   },

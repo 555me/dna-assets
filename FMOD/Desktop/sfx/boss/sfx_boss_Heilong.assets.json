@@ -14,16 +14,16 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 1728,
-        "Length": 513152
+        "FSBOffset": 1824,
+        "Length": 765280
       }
     ]
   },
   "EncryptionKey": "UGFuc2hlbjY2Ng==",
   "HashData": [
     {
-      "Guid": "e06ec318-4b12-4fdd-84c3-da5a522c9a31",
-      "Hash": 2851018080
+      "Guid": "39e8f410-25c8-4cfc-8ec7-c0f8cbfaea2d",
+      "Hash": 194718886
     },
     {
       "Guid": "4e92f122-d510-45b3-bddd-c531ac152890",
@@ -46,8 +46,8 @@
       "Hash": 1225274343
     },
     {
-      "Guid": "aeb5fa4f-993d-45c0-a6ea-f74ac2ebb7b1",
-      "Hash": 448286753
+      "Guid": "f0aa8456-501c-4bdc-9f57-5829c45abe7f",
+      "Hash": 662842046
     },
     {
       "Guid": "4f535658-bbb0-4e88-93ac-b4981a742ef6",
@@ -66,36 +66,44 @@
       "Hash": 2335599332
     },
     {
+      "Guid": "604c2193-c039-4398-a40c-7d9bda0339f0",
+      "Hash": 1625355875
+    },
+    {
       "Guid": "ec0e7694-a9e0-4594-80b2-ad470e806cc6",
       "Hash": 1595099674
+    },
+    {
+      "Guid": "830d9e98-b62a-4c92-a9ba-d59cf0e7df12",
+      "Hash": 1223791149
     },
     {
       "Guid": "324211a0-a391-47e9-b56b-ab2899612aa3",
       "Hash": 3778249211
     },
     {
+      "Guid": "5131a7ab-7246-4b42-a2e4-e093139aa5e5",
+      "Hash": 2430020656
+    },
+    {
       "Guid": "368b52b1-188e-4467-be52-e4d9445e4530",
       "Hash": 2574655931
     },
     {
-      "Guid": "22beb7cd-6ba1-4d8f-980f-32e4b0000142",
-      "Hash": 3835721130
+      "Guid": "dd1549ba-80fa-4007-80ae-99473d6067ee",
+      "Hash": 273166603
     },
     {
       "Guid": "4baba2d8-e6e2-485d-9476-5c7de0167068",
       "Hash": 1265147062
     },
     {
-      "Guid": "f8d356e7-6eb4-41b3-8e3c-f776df41cda4",
-      "Hash": 4253357602
-    },
-    {
       "Guid": "95e83ae8-3489-4913-a892-07bec087b336",
       "Hash": 3031175109
     },
     {
-      "Guid": "b56a43f6-d376-40dc-b000-6b798656c46e",
-      "Hash": 448949380
+      "Guid": "03332cfc-f9aa-4d3c-bfa8-f3c188ceed5d",
+      "Hash": 4263090086
     },
     {
       "Guid": "91f61cff-8277-4f55-9a8a-7655017c2645",
@@ -107,17 +115,17 @@
       "Header": {
         "AudioType": "VORBIS",
         "Version": 1,
-        "NumSamples": 20
+        "NumSamples": 22
       },
       "Samples": [
         {
           "Metadata": {
             "IsStereo": false,
-            "SampleCount": 99455,
+            "SampleCount": 174287,
             "Frequency": 48000,
             "Channels": 1
           },
-          "Name": "sfx_boss_Heilong_vo_ch_Skill06"
+          "Name": "sfx_boss_Heilong_vo_en_Condemn"
         },
         {
           "Metadata": {
@@ -167,11 +175,11 @@
         {
           "Metadata": {
             "IsStereo": false,
-            "SampleCount": 37487,
+            "SampleCount": 93408,
             "Frequency": 48000,
             "Channels": 1
           },
-          "Name": "sfx_boss_Heilong_vo_kr_Condemn_05"
+          "Name": "sfx_boss_Heilong_vo_en_Skill06"
         },
         {
           "Metadata": {
@@ -212,11 +220,29 @@
         {
           "Metadata": {
             "IsStereo": false,
+            "SampleCount": 289776,
+            "Frequency": 48000,
+            "Channels": 1
+          },
+          "Name": "sfx_boss_Heilong_vo_en_Skill05"
+        },
+        {
+          "Metadata": {
+            "IsStereo": false,
             "SampleCount": 99840,
             "Frequency": 48000,
             "Channels": 1
           },
           "Name": "sfx_boss_Heilong_vo_ch_Condemn"
+        },
+        {
+          "Metadata": {
+            "IsStereo": false,
+            "SampleCount": 267455,
+            "Frequency": 48000,
+            "Channels": 1
+          },
+          "Name": "sfx_boss_Heilong_vo_en_BattleStart"
         },
         {
           "Metadata": {
@@ -230,6 +256,15 @@
         {
           "Metadata": {
             "IsStereo": false,
+            "SampleCount": 321167,
+            "Frequency": 48000,
+            "Channels": 1
+          },
+          "Name": "sfx_boss_Heilong_vo_en_Skill07"
+        },
+        {
+          "Metadata": {
+            "IsStereo": false,
             "SampleCount": 186000,
             "Frequency": 48000,
             "Channels": 1
@@ -239,11 +274,11 @@
         {
           "Metadata": {
             "IsStereo": false,
-            "SampleCount": 36288,
+            "SampleCount": 190271,
             "Frequency": 48000,
             "Channels": 1
           },
-          "Name": "sfx_boss_Heilong_vo_kr_Condemn_04"
+          "Name": "sfx_boss_Heilong_vo_en_BattleEnd"
         },
         {
           "Metadata": {
@@ -257,15 +292,6 @@
         {
           "Metadata": {
             "IsStereo": false,
-            "SampleCount": 42767,
-            "Frequency": 48000,
-            "Channels": 1
-          },
-          "Name": "sfx_boss_Heilong_vo_kr_Condemn_03"
-        },
-        {
-          "Metadata": {
-            "IsStereo": false,
             "SampleCount": 79056,
             "Frequency": 48000,
             "Channels": 1
@@ -274,12 +300,12 @@
         },
         {
           "Metadata": {
-            "IsStereo": false,
-            "SampleCount": 62880,
+            "IsStereo": true,
+            "SampleCount": 232908,
             "Frequency": 48000,
-            "Channels": 1
+            "Channels": 2
           },
-          "Name": "sfx_boss_Heilong_vo_kr_Condemn_02"
+          "Name": "sfx_common_story_east_zhuyinvo"
         },
         {
           "Metadata": {
@@ -300,8 +326,8 @@
   "TransitionNodes": {},
   "InstrumentNodes": {},
   "WavEntries": {
-    "e06ec318-4b12-4fdd-84c3-da5a522c9a31": {
-      "BaseGuid": "e06ec318-4b12-4fdd-84c3-da5a522c9a31",
+    "39e8f410-25c8-4cfc-8ec7-c0f8cbfaea2d": {
+      "BaseGuid": "39e8f410-25c8-4cfc-8ec7-c0f8cbfaea2d",
       "SubsoundIndex": 0,
       "SoundBankIndex": 0,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
@@ -336,8 +362,8 @@
       "SoundBankIndex": 5,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "aeb5fa4f-993d-45c0-a6ea-f74ac2ebb7b1": {
-      "BaseGuid": "aeb5fa4f-993d-45c0-a6ea-f74ac2ebb7b1",
+    "f0aa8456-501c-4bdc-9f57-5829c45abe7f": {
+      "BaseGuid": "f0aa8456-501c-4bdc-9f57-5829c45abe7f",
       "SubsoundIndex": 0,
       "SoundBankIndex": 6,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
@@ -366,58 +392,70 @@
       "SoundBankIndex": 10,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
+    "604c2193-c039-4398-a40c-7d9bda0339f0": {
+      "BaseGuid": "604c2193-c039-4398-a40c-7d9bda0339f0",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 11,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
     "ec0e7694-a9e0-4594-80b2-ad470e806cc6": {
       "BaseGuid": "ec0e7694-a9e0-4594-80b2-ad470e806cc6",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 11,
+      "SoundBankIndex": 12,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
+    "830d9e98-b62a-4c92-a9ba-d59cf0e7df12": {
+      "BaseGuid": "830d9e98-b62a-4c92-a9ba-d59cf0e7df12",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 13,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "324211a0-a391-47e9-b56b-ab2899612aa3": {
       "BaseGuid": "324211a0-a391-47e9-b56b-ab2899612aa3",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 12,
+      "SoundBankIndex": 14,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
+    "5131a7ab-7246-4b42-a2e4-e093139aa5e5": {
+      "BaseGuid": "5131a7ab-7246-4b42-a2e4-e093139aa5e5",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 15,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "368b52b1-188e-4467-be52-e4d9445e4530": {
       "BaseGuid": "368b52b1-188e-4467-be52-e4d9445e4530",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 13,
+      "SoundBankIndex": 16,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "22beb7cd-6ba1-4d8f-980f-32e4b0000142": {
-      "BaseGuid": "22beb7cd-6ba1-4d8f-980f-32e4b0000142",
+    "dd1549ba-80fa-4007-80ae-99473d6067ee": {
+      "BaseGuid": "dd1549ba-80fa-4007-80ae-99473d6067ee",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 14,
+      "SoundBankIndex": 17,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "4baba2d8-e6e2-485d-9476-5c7de0167068": {
       "BaseGuid": "4baba2d8-e6e2-485d-9476-5c7de0167068",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 15,
-      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
-    },
-    "f8d356e7-6eb4-41b3-8e3c-f776df41cda4": {
-      "BaseGuid": "f8d356e7-6eb4-41b3-8e3c-f776df41cda4",
-      "SubsoundIndex": 0,
-      "SoundBankIndex": 16,
+      "SoundBankIndex": 18,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "95e83ae8-3489-4913-a892-07bec087b336": {
       "BaseGuid": "95e83ae8-3489-4913-a892-07bec087b336",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 17,
+      "SoundBankIndex": 19,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "b56a43f6-d376-40dc-b000-6b798656c46e": {
-      "BaseGuid": "b56a43f6-d376-40dc-b000-6b798656c46e",
+    "03332cfc-f9aa-4d3c-bfa8-f3c188ceed5d": {
+      "BaseGuid": "03332cfc-f9aa-4d3c-bfa8-f3c188ceed5d",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 18,
+      "SoundBankIndex": 20,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "91f61cff-8277-4f55-9a8a-7655017c2645": {
       "BaseGuid": "91f61cff-8277-4f55-9a8a-7655017c2645",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 19,
+      "SoundBankIndex": 21,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     }
   },

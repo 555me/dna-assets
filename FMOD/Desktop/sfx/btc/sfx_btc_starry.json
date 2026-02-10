@@ -23,7 +23,7 @@
   "HashData": [
     {
       "Guid": "7eba886d-2592-4b77-a0b2-5dbf9a75d2d6",
-      "Hash": 1798165729
+      "Hash": 4066844600
     },
     {
       "Guid": "f1bf5af0-20a1-401c-9450-0347951ef80c",
@@ -47,7 +47,7 @@
       "UserPropertyStringList": [],
       "DopplerScale": 0.0,
       "TriggerCooldown": 0.0,
-      "Flags": 7265,
+      "Flags": 5217,
       "NonMasterTracks": [
         "79812c89-b9d0-4a40-b7d7-90f94bc68254"
       ],
@@ -194,7 +194,8 @@
         "InputChannelLayout": 3,
         "PreFaderEffects": [],
         "PostFaderEffects": [
-          "71bdb390-e4ef-41d5-a6f4-d143e7ab1a8a"
+          "71bdb390-e4ef-41d5-a6f4-d143e7ab1a8a",
+          "43463f09-c0cf-4f38-abdc-7279c7bc8e53"
         ],
         "MixerStrip": {
           "Volume": 4.0,
@@ -205,6 +206,7 @@
         "PolyphonyLimitBehavior": 2,
         "PreFaderInputChannelLayouts": [],
         "PostFaderInputChannelLayouts": [
+          3,
           3
         ],
         "ObjectPannerIndex": -1,
@@ -244,6 +246,47 @@
     }
   },
   "EffectNodes": {
+    "43463f09-c0cf-4f38-abdc-7279c7bc8e53": {
+      "BaseGuid": "43463f09-c0cf-4f38-abdc-7279c7bc8e53",
+      "InputChannelLayout": 0,
+      "DSPType": "FMOD_DSP_TYPE_CONVOLUTIONREVERB",
+      "ParamEffectBody": {
+        "Parameters": [
+          {
+            "Type": 0,
+            "FloatValue": -3.5
+          },
+          {
+            "Type": 0,
+            "FloatValue": 0.0
+          },
+          {
+            "Type": 0,
+            "FloatValue": 0.0
+          },
+          {
+            "Type": 0,
+            "FloatValue": 400.0
+          },
+          {
+            "Type": 0,
+            "FloatValue": 4000.0
+          },
+          {
+            "Type": 1,
+            "FloatValue": 1E-45
+          }
+        ],
+        "SideChainEnabled": false
+      },
+      "EffectBody": {
+        "Flags": 0,
+        "WetMix": 100.0,
+        "WetLevel": 0.0,
+        "DryLevel": -80.0,
+        "InputGain": 0.0
+      }
+    },
     "a05a8b26-4686-4db3-aca6-86da0c8d2137": {
       "BaseGuid": "a05a8b26-4686-4db3-aca6-86da0c8d2137",
       "InputChannelLayout": 0,
@@ -541,12 +584,35 @@
         }
       ],
       "SustainPoints": [],
-      "TimelineNamedMarkers": [],
+      "TimelineNamedMarkers": [
+        {
+          "BaseGuid": "464bb71c-d982-429d-bb67-7f6873ec2b34",
+          "Position": 125760,
+          "Name": "",
+          "Length": 9600
+        }
+      ],
       "TimelineTempoMarkers": [],
       "LegacyUIntArray": []
     }
   },
-  "TransitionNodes": {},
+  "TransitionNodes": {
+    "415ee7e5-8119-0dc2-2251-d7c04f502f2a": {
+      "BaseGuid": "415ee7e5-8119-0dc2-2251-d7c04f502f2a",
+      "DestinationGuid": "464bb71c-d982-429d-bb67-7f6873ec2b34",
+      "Start": 135360,
+      "End": 135360,
+      "LegacyParameterConditions": null,
+      "Evaluators": [],
+      "Quantization": {
+        "Unit": "None",
+        "Multiplier": 0
+      },
+      "TransitionChancePercent": 100.0,
+      "Flags": 2,
+      "TransitionBody": null
+    }
+  },
   "InstrumentNodes": {
     "07a98da8-0963-4180-993d-329b0463f32d": {
       "BaseGuid": "07a98da8-0963-4180-993d-329b0463f32d",
@@ -892,6 +958,40 @@
         "ReleaseShape": 0.0,
         "FinalValue": -80.0
       }
+    },
+    "3642aa30-feaa-4e73-8b2e-517a6f27129f": {
+      "BaseGuid": "3642aa30-feaa-4e73-8b2e-517a6f27129f",
+      "OwnerGuid": "4a706091-af6d-41f4-97b3-05d760780558",
+      "PropertyIndex": 0,
+      "Type": "ADSR",
+      "PropertyType": "PropertyType_Volume",
+      "ClockSource": "ClockSource_Local",
+      "Subnode": {
+        "InitialValue": -80.0,
+        "PeakValue": 0.0,
+        "SustainValue": 0.0,
+        "AttackTime": 0.0,
+        "HoldTime": 1000.0,
+        "DecayTime": 1000.0,
+        "ReleaseTime": 820.0,
+        "AttackShape": 0.0,
+        "DecayShape": 0.0,
+        "ReleaseShape": 0.0,
+        "FinalValue": -80.0
+      }
+    },
+    "e9928489-dc3a-4448-9df1-82796c6b3c40": {
+      "BaseGuid": "e9928489-dc3a-4448-9df1-82796c6b3c40",
+      "OwnerGuid": "4a706091-af6d-41f4-97b3-05d760780558",
+      "PropertyIndex": 0,
+      "Type": "Random",
+      "PropertyType": "PropertyType_Volume",
+      "ClockSource": "ClockSource_Local",
+      "Subnode": {
+        "Amount": 5.0,
+        "Minimum": 0.0,
+        "Maximum": 0.0
+      }
     }
   },
   "CurveNodes": {},
@@ -903,7 +1003,8 @@
       "MappingGuid": "d65ba128-a6f5-41d9-b6a1-a7c402f329ac",
       "Controllers": [],
       "Modulators": [
-        "ba41390a-609e-453b-ac63-8c84bd2139d7"
+        "e9928489-dc3a-4448-9df1-82796c6b3c40",
+        "3642aa30-feaa-4e73-8b2e-517a6f27129f"
       ]
     }
   },

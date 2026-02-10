@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 3232,
-        "Length": 1311808
+        "FSBOffset": 3392,
+        "Length": 1404064
       }
     ]
   },
@@ -98,6 +98,10 @@
       "Hash": 3870926948
     },
     {
+      "Guid": "5848b34f-4609-4393-8ede-0d38375f48be",
+      "Hash": 2865393764
+    },
+    {
       "Guid": "1872cb57-6141-4113-89d5-152226836d6a",
       "Hash": 973247630
     },
@@ -138,6 +142,10 @@
       "Hash": 3299442173
     },
     {
+      "Guid": "288f557d-f5a5-4bed-8358-8ec6b1ab83a3",
+      "Hash": 1961052911
+    },
+    {
       "Guid": "ac665980-8772-4e0e-9b25-52235d0001dd",
       "Hash": 1313941006
     },
@@ -164,6 +172,10 @@
     {
       "Guid": "4dc07c92-a218-4c7e-931d-d7c7e9477612",
       "Hash": 2778720408
+    },
+    {
+      "Guid": "61b4e194-2df4-4519-bbd2-d0b0d503cb23",
+      "Hash": 2409705673
     },
     {
       "Guid": "9270be98-1f18-4528-ad85-3528fa42daa9",
@@ -211,7 +223,7 @@
       "Header": {
         "AudioType": "VORBIS",
         "Version": 1,
-        "NumSamples": 46
+        "NumSamples": 49
       },
       "Samples": [
         {
@@ -388,6 +400,15 @@
         {
           "Metadata": {
             "IsStereo": true,
+            "SampleCount": 111115,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "sfx_player_Yuming_grade6_r01"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
             "SampleCount": 57525,
             "Frequency": 48000,
             "Channels": 2
@@ -478,6 +499,15 @@
         {
           "Metadata": {
             "IsStereo": true,
+            "SampleCount": 126233,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "sfx_player_Yuming_grade6_r02"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
             "SampleCount": 63088,
             "Frequency": 48000,
             "Channels": 2
@@ -537,6 +567,15 @@
             "Channels": 2
           },
           "Name": "sfx_player_Yuming_skill01_fx_hit_r02"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 106879,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "sfx_player_Yuming_grade6_r03"
         },
         {
           "Metadata": {
@@ -752,166 +791,184 @@
       "SoundBankIndex": 18,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
+    "5848b34f-4609-4393-8ede-0d38375f48be": {
+      "BaseGuid": "5848b34f-4609-4393-8ede-0d38375f48be",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 19,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
     "1872cb57-6141-4113-89d5-152226836d6a": {
       "BaseGuid": "1872cb57-6141-4113-89d5-152226836d6a",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 19,
+      "SoundBankIndex": 20,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "4bb6e85d-918b-4192-9c45-c28a01780dc7": {
       "BaseGuid": "4bb6e85d-918b-4192-9c45-c28a01780dc7",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 20,
+      "SoundBankIndex": 21,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "b92c055f-f05f-42e4-b702-d4897dc1d035": {
       "BaseGuid": "b92c055f-f05f-42e4-b702-d4897dc1d035",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 21,
+      "SoundBankIndex": 22,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "4600d561-0f90-4ea5-a0f4-5a51b01fd3f5": {
       "BaseGuid": "4600d561-0f90-4ea5-a0f4-5a51b01fd3f5",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 22,
+      "SoundBankIndex": 23,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "04d3df63-c4a6-4915-9d02-438c310716d4": {
       "BaseGuid": "04d3df63-c4a6-4915-9d02-438c310716d4",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 23,
+      "SoundBankIndex": 24,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "cf28f76b-114d-4d5c-8f45-7884b939ffcd": {
       "BaseGuid": "cf28f76b-114d-4d5c-8f45-7884b939ffcd",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 24,
+      "SoundBankIndex": 25,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "c2d65c6e-9912-40b7-b452-6b0ca5b2edf7": {
       "BaseGuid": "c2d65c6e-9912-40b7-b452-6b0ca5b2edf7",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 25,
+      "SoundBankIndex": 26,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "1de56578-5e73-4d20-8b4f-d98fe7feaa40": {
       "BaseGuid": "1de56578-5e73-4d20-8b4f-d98fe7feaa40",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 26,
+      "SoundBankIndex": 27,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "d12aad7a-47ef-4912-bd11-49611fad56d9": {
       "BaseGuid": "d12aad7a-47ef-4912-bd11-49611fad56d9",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 27,
+      "SoundBankIndex": 28,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "e2f7b47c-21bb-4a36-86a7-c9b8c5bb4920": {
       "BaseGuid": "e2f7b47c-21bb-4a36-86a7-c9b8c5bb4920",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 28,
+      "SoundBankIndex": 29,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
+    "288f557d-f5a5-4bed-8358-8ec6b1ab83a3": {
+      "BaseGuid": "288f557d-f5a5-4bed-8358-8ec6b1ab83a3",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 30,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "ac665980-8772-4e0e-9b25-52235d0001dd": {
       "BaseGuid": "ac665980-8772-4e0e-9b25-52235d0001dd",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 29,
+      "SoundBankIndex": 31,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "4d5e3282-72f3-4dd8-bed4-34126a17da4b": {
       "BaseGuid": "4d5e3282-72f3-4dd8-bed4-34126a17da4b",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 30,
+      "SoundBankIndex": 32,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "2cbe4084-3f0d-4408-b435-9d61d1feae60": {
       "BaseGuid": "2cbe4084-3f0d-4408-b435-9d61d1feae60",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 31,
+      "SoundBankIndex": 33,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "fbe7d484-6c46-41bd-9f3d-2f41cb670bff": {
       "BaseGuid": "fbe7d484-6c46-41bd-9f3d-2f41cb670bff",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 32,
+      "SoundBankIndex": 34,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "bbbd1689-8d8d-43c8-ac37-681bf5e0adf5": {
       "BaseGuid": "bbbd1689-8d8d-43c8-ac37-681bf5e0adf5",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 33,
+      "SoundBankIndex": 35,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "4dd7348c-c60c-4234-adcf-d092829f9b5e": {
       "BaseGuid": "4dd7348c-c60c-4234-adcf-d092829f9b5e",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 34,
+      "SoundBankIndex": 36,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "4dc07c92-a218-4c7e-931d-d7c7e9477612": {
       "BaseGuid": "4dc07c92-a218-4c7e-931d-d7c7e9477612",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 35,
+      "SoundBankIndex": 37,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
+    "61b4e194-2df4-4519-bbd2-d0b0d503cb23": {
+      "BaseGuid": "61b4e194-2df4-4519-bbd2-d0b0d503cb23",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 38,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "9270be98-1f18-4528-ad85-3528fa42daa9": {
       "BaseGuid": "9270be98-1f18-4528-ad85-3528fa42daa9",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 36,
+      "SoundBankIndex": 39,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "613473a6-19a8-4d35-80ad-b7e59e29eb14": {
       "BaseGuid": "613473a6-19a8-4d35-80ad-b7e59e29eb14",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 37,
+      "SoundBankIndex": 40,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "817dd9ad-a2d6-45f0-9b7b-9274ca53e901": {
       "BaseGuid": "817dd9ad-a2d6-45f0-9b7b-9274ca53e901",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 38,
+      "SoundBankIndex": 41,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "8ab926c3-3e5f-4240-a57c-f22f2423e9e0": {
       "BaseGuid": "8ab926c3-3e5f-4240-a57c-f22f2423e9e0",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 39,
+      "SoundBankIndex": 42,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "ee74c1cc-6c36-4c5f-b08a-f5d7fb4eecf0": {
       "BaseGuid": "ee74c1cc-6c36-4c5f-b08a-f5d7fb4eecf0",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 40,
+      "SoundBankIndex": 43,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "1bade3cd-0ff2-4a98-9440-5d807a407b80": {
       "BaseGuid": "1bade3cd-0ff2-4a98-9440-5d807a407b80",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 41,
+      "SoundBankIndex": 44,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "d29677de-8c04-4d7e-a8e1-617e18503644": {
       "BaseGuid": "d29677de-8c04-4d7e-a8e1-617e18503644",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 42,
+      "SoundBankIndex": 45,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "1c7e1ae1-33bc-4451-9b78-9681ec6957c1": {
       "BaseGuid": "1c7e1ae1-33bc-4451-9b78-9681ec6957c1",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 43,
+      "SoundBankIndex": 46,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "4e0f69f0-ff72-496e-96fd-7b77a7637129": {
       "BaseGuid": "4e0f69f0-ff72-496e-96fd-7b77a7637129",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 44,
+      "SoundBankIndex": 47,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "ff52d5f9-9002-488a-b1ed-2210f0cb0043": {
       "BaseGuid": "ff52d5f9-9002-488a-b1ed-2210f0cb0043",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 45,
+      "SoundBankIndex": 48,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     }
   },
