@@ -1,0 +1,92 @@
+{
+  "BankName": "sfx_npc_jiaojiao.assets",
+  "BankInfo": {
+    "BaseGuid": "66fa8a59-36d4-07b3-231a-ed3643a1a735",
+    "Hash": 0,
+    "FileVersion": "FILEVERSION_EFFECT_WET_DRY",
+    "TopLevelEventCount": 0,
+    "ExportFlags": 7
+  },
+  "FormatInfo": {
+    "FileVersion": 146,
+    "CompatVersion": 146
+  },
+  "SoundDataInfo": {
+    "Header": [
+      {
+        "FSBOffset": 672,
+        "Length": 40480
+      }
+    ]
+  },
+  "EncryptionKey": "UGFuc2hlbjY2Ng==",
+  "HashData": [
+    {
+      "Guid": "dbb8f70f-f0c9-4291-bc71-38090e2716af",
+      "Hash": 2303827743
+    },
+    {
+      "Guid": "c39aff22-c165-4ffd-9064-35b93741628d",
+      "Hash": 3856788228
+    }
+  ],
+  "SoundBankData": [
+    {
+      "Header": {
+        "AudioType": "VORBIS",
+        "Version": 1,
+        "NumSamples": 2
+      },
+      "Samples": [
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 166385,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "sfx_npc_jiaojiao_beiabo_end"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 35441,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "sfx_npc_jiaojiao_set_end"
+        }
+      ]
+    }
+  ],
+  "EventNodes": {},
+  "BusNodes": {},
+  "EffectNodes": {},
+  "TimelineNodes": {},
+  "TransitionNodes": {},
+  "InstrumentNodes": {},
+  "WavEntries": {
+    "dbb8f70f-f0c9-4291-bc71-38090e2716af": {
+      "BaseGuid": "dbb8f70f-f0c9-4291-bc71-38090e2716af",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 0,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
+    "c39aff22-c165-4ffd-9064-35b93741628d": {
+      "BaseGuid": "c39aff22-c165-4ffd-9064-35b93741628d",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 1,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    }
+  },
+  "ParameterNodes": {},
+  "ModulatorNodes": {},
+  "CurveNodes": {},
+  "PropertyNodes": {},
+  "MappingNodes": {},
+  "ParameterLayoutNodes": {},
+  "ControllerNodes": {},
+  "SnapshotNodes": {},
+  "VCANodes": {},
+  "ControllerOwnerNodes": []
+}

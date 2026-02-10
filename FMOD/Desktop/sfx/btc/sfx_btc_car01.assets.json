@@ -1,0 +1,111 @@
+{
+  "BankName": "sfx_btc_car01.assets",
+  "BankInfo": {
+    "BaseGuid": "4f383ab4-0a64-0bd9-082a-b340ad7852ea",
+    "Hash": 0,
+    "FileVersion": "FILEVERSION_EFFECT_WET_DRY",
+    "TopLevelEventCount": 0,
+    "ExportFlags": 7
+  },
+  "FormatInfo": {
+    "FileVersion": 146,
+    "CompatVersion": 146
+  },
+  "SoundDataInfo": {
+    "Header": [
+      {
+        "FSBOffset": 736,
+        "Length": 116800
+      }
+    ]
+  },
+  "EncryptionKey": "UGFuc2hlbjY2Ng==",
+  "HashData": [
+    {
+      "Guid": "148fd53c-0cab-4529-8dfd-808a092a328d",
+      "Hash": 628266532
+    },
+    {
+      "Guid": "57eaeb70-ce25-4380-835b-967df490e20d",
+      "Hash": 4010251515
+    },
+    {
+      "Guid": "38fe3a8f-dcee-4469-8e7c-71bf7c878c52",
+      "Hash": 649522368
+    }
+  ],
+  "SoundBankData": [
+    {
+      "Header": {
+        "AudioType": "VORBIS",
+        "Version": 1,
+        "NumSamples": 3
+      },
+      "Samples": [
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 185579,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "sfx_btc_car01_move"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 144401,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "sfx_btc_car01_idle_loop"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 85339,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "sfx_btc_car01_appear_fx"
+        }
+      ]
+    }
+  ],
+  "EventNodes": {},
+  "BusNodes": {},
+  "EffectNodes": {},
+  "TimelineNodes": {},
+  "TransitionNodes": {},
+  "InstrumentNodes": {},
+  "WavEntries": {
+    "148fd53c-0cab-4529-8dfd-808a092a328d": {
+      "BaseGuid": "148fd53c-0cab-4529-8dfd-808a092a328d",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 0,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
+    "57eaeb70-ce25-4380-835b-967df490e20d": {
+      "BaseGuid": "57eaeb70-ce25-4380-835b-967df490e20d",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 1,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
+    "38fe3a8f-dcee-4469-8e7c-71bf7c878c52": {
+      "BaseGuid": "38fe3a8f-dcee-4469-8e7c-71bf7c878c52",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 2,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    }
+  },
+  "ParameterNodes": {},
+  "ModulatorNodes": {},
+  "CurveNodes": {},
+  "PropertyNodes": {},
+  "MappingNodes": {},
+  "ParameterLayoutNodes": {},
+  "ControllerNodes": {},
+  "SnapshotNodes": {},
+  "VCANodes": {},
+  "ControllerOwnerNodes": []
+}
