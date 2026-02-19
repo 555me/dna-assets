@@ -14,17 +14,13 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 1120,
-        "Length": 4358624
+        "FSBOffset": 1248,
+        "Length": 5449632
       }
     ]
   },
   "EncryptionKey": "UGFuc2hlbjY2Ng==",
   "HashData": [
-    {
-      "Guid": "3ab85b04-9ea0-4a0e-a1cd-fad261534105",
-      "Hash": 2977751329
-    },
     {
       "Guid": "f6450521-c1b7-4f70-96ad-e48b4b840d0e",
       "Hash": 1045470610
@@ -42,6 +38,10 @@
       "Hash": 3199014649
     },
     {
+      "Guid": "ad5b286a-1fa5-4e02-b21d-424c5858f9aa",
+      "Hash": 3770303745
+    },
+    {
       "Guid": "2e79b16b-06d7-4fee-bd98-37251a13b191",
       "Hash": 3071434044
     },
@@ -54,8 +54,16 @@
       "Hash": 441993065
     },
     {
+      "Guid": "eb33009d-75bf-4971-a0e4-dce6a4483ca7",
+      "Hash": 465212438
+    },
+    {
       "Guid": "d71d00cd-59ce-4913-bfad-74f25276c7b8",
-      "Hash": 906128275
+      "Hash": 3906598905
+    },
+    {
+      "Guid": "9d3c94e5-896c-42dc-a74d-dc422c289abb",
+      "Hash": 2474027905
     },
     {
       "Guid": "fb709efb-bc61-4c5c-b8c5-c7de1261fa96",
@@ -67,18 +75,9 @@
       "Header": {
         "AudioType": "VORBIS",
         "Version": 1,
-        "NumSamples": 10
+        "NumSamples": 12
       },
       "Samples": [
-        {
-          "Metadata": {
-            "IsStereo": true,
-            "SampleCount": 817007,
-            "Frequency": 48000,
-            "Channels": 2
-          },
-          "Name": "ui_btc_cg_zhiliu_item01"
-        },
         {
           "Metadata": {
             "IsStereo": true,
@@ -118,6 +117,15 @@
         {
           "Metadata": {
             "IsStereo": true,
+            "SampleCount": 2187420,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "止流_bgm_cut2"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
             "SampleCount": 1068350,
             "Frequency": 48000,
             "Channels": 2
@@ -145,11 +153,29 @@
         {
           "Metadata": {
             "IsStereo": true,
+            "SampleCount": 1544400,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "止流_bgm_cut1"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
             "SampleCount": 779231,
             "Frequency": 48000,
             "Channels": 2
           },
           "Name": "ui_btc_cg_zhiliu_skin01"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 932942,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "ui_btc_cg_zhiliu_item01"
         },
         {
           "Metadata": {
@@ -170,35 +196,35 @@
   "TransitionNodes": {},
   "InstrumentNodes": {},
   "WavEntries": {
-    "3ab85b04-9ea0-4a0e-a1cd-fad261534105": {
-      "BaseGuid": "3ab85b04-9ea0-4a0e-a1cd-fad261534105",
-      "SubsoundIndex": 0,
-      "SoundBankIndex": 0,
-      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
-    },
     "f6450521-c1b7-4f70-96ad-e48b4b840d0e": {
       "BaseGuid": "f6450521-c1b7-4f70-96ad-e48b4b840d0e",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 1,
+      "SoundBankIndex": 0,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "cb101625-6a89-49da-be7a-9ae0489b5f2f": {
       "BaseGuid": "cb101625-6a89-49da-be7a-9ae0489b5f2f",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 2,
+      "SoundBankIndex": 1,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "669b7160-3c81-4acf-b373-0e6ad21dcc56": {
       "BaseGuid": "669b7160-3c81-4acf-b373-0e6ad21dcc56",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 3,
+      "SoundBankIndex": 2,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "e984f962-07b7-4a37-9814-e2490e0a4edc": {
       "BaseGuid": "e984f962-07b7-4a37-9814-e2490e0a4edc",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 4,
+      "SoundBankIndex": 3,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
+    "ad5b286a-1fa5-4e02-b21d-424c5858f9aa": {
+      "BaseGuid": "ad5b286a-1fa5-4e02-b21d-424c5858f9aa",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 4,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "2e79b16b-06d7-4fee-bd98-37251a13b191": {
       "BaseGuid": "2e79b16b-06d7-4fee-bd98-37251a13b191",
@@ -218,16 +244,28 @@
       "SoundBankIndex": 7,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
+    "eb33009d-75bf-4971-a0e4-dce6a4483ca7": {
+      "BaseGuid": "eb33009d-75bf-4971-a0e4-dce6a4483ca7",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 8,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
     "d71d00cd-59ce-4913-bfad-74f25276c7b8": {
       "BaseGuid": "d71d00cd-59ce-4913-bfad-74f25276c7b8",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 8,
-      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+      "SoundBankIndex": 9,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "9d3c94e5-896c-42dc-a74d-dc422c289abb": {
+      "BaseGuid": "9d3c94e5-896c-42dc-a74d-dc422c289abb",
+      "SubsoundIndex": 0,
+      "SoundBankIndex": 10,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "fb709efb-bc61-4c5c-b8c5-c7de1261fa96": {
       "BaseGuid": "fb709efb-bc61-4c5c-b8c5-c7de1261fa96",
       "SubsoundIndex": 0,
-      "SoundBankIndex": 9,
+      "SoundBankIndex": 11,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     }
   },

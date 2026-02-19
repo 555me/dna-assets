@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 3744,
-        "Length": 1217600
+        "FSBOffset": 5440,
+        "Length": 24559552
       }
     ]
   },
@@ -893,6 +893,10 @@
     {
       "Guid": "c0c64538-d35e-4edb-9276-dfc92338d80d",
       "Hash": 3591997048
+    },
+    {
+      "Guid": "55266d38-87e0-4654-8795-80275a37c1a6",
+      "Hash": 3707768174
     },
     {
       "Guid": "a9397c38-cb26-4f59-87ba-04a22ec18195",
@@ -2597,6 +2601,10 @@
     {
       "Guid": "4a5bd4b0-20e4-435f-a9b0-74075798d8b0",
       "Hash": 3084802183
+    },
+    {
+      "Guid": "cd9ce4b1-e79e-4c3d-8c4f-659e48c6766b",
+      "Hash": 58744354
     },
     {
       "Guid": "1abc0eb2-909d-4093-9571-13e9f800b9cb",
@@ -10543,6 +10551,31 @@
     },
     "c0c64538-d35e-4edb-9276-dfc92338d80d": {
       "BaseGuid": "c0c64538-d35e-4edb-9276-dfc92338d80d",
+      "Routable": {
+        "BaseGuid": "6ffe77c9-489a-4c2a-807d-24acd5ddf32b",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 1,
+        "InputChannelLayout": 3,
+        "PreFaderEffects": [],
+        "PostFaderEffects": [],
+        "MixerStrip": {
+          "Volume": 0.0,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 1,
+        "PolyphonyLimitBehavior": 0,
+        "PreFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
+    },
+    "55266d38-87e0-4654-8795-80275a37c1a6": {
+      "BaseGuid": "55266d38-87e0-4654-8795-80275a37c1a6",
       "Routable": {
         "BaseGuid": "6ffe77c9-489a-4c2a-807d-24acd5ddf32b",
         "OutputChannelLayout": 3,
@@ -20107,6 +20140,31 @@
       "BaseGuid": "4a5bd4b0-20e4-435f-a9b0-74075798d8b0",
       "Routable": {
         "BaseGuid": "f85ac54e-2822-4a6a-bda3-f8a22a4247c9",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 1,
+        "InputChannelLayout": 3,
+        "PreFaderEffects": [],
+        "PostFaderEffects": [],
+        "MixerStrip": {
+          "Volume": 0.0,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 2147483647,
+        "PolyphonyLimitBehavior": 2,
+        "PreFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
+    },
+    "cd9ce4b1-e79e-4c3d-8c4f-659e48c6766b": {
+      "BaseGuid": "cd9ce4b1-e79e-4c3d-8c4f-659e48c6766b",
+      "Routable": {
+        "BaseGuid": "77910185-7ea0-4c5c-bb6f-70b2639fbb1d",
         "OutputChannelLayout": 3,
         "ChannelMask": 4294967295
       },
