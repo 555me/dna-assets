@@ -29,7 +29,6 @@
   "SoundBankData": [],
   "EventNodes": {
     "eb020e96-1dfb-445b-9692-789c1bc845c5": {
-      "BaseGuid": "eb020e96-1dfb-445b-9692-789c1bc845c5",
       "SnapshotGuid": "00000000-0000-0000-0000-000000000000",
       "TimelineGuid": "a238402a-bcd2-4f2f-9d9f-96cb4b84f19a",
       "InputBusGuid": "98e8fd25-234b-4622-b8ca-54004a9e0337",
@@ -67,7 +66,6 @@
   },
   "BusNodes": {
     "98e8fd25-234b-4622-b8ca-54004a9e0337": {
-      "BaseGuid": "98e8fd25-234b-4622-b8ca-54004a9e0337",
       "Routable": {
         "BaseGuid": "adb4cc37-0dce-4ab1-82a3-407a0779627e",
         "OutputChannelLayout": 3,
@@ -92,7 +90,6 @@
       }
     },
     "39b3e31d-9f09-40e5-a67b-a461bcc3fd48": {
-      "BaseGuid": "39b3e31d-9f09-40e5-a67b-a461bcc3fd48",
       "Routable": {
         "BaseGuid": "bb2a2e59-1f80-4e4a-9c75-841999bdce3a",
         "OutputChannelLayout": 3,
@@ -117,7 +114,6 @@
       }
     },
     "bb2a2e59-1f80-4e4a-9c75-841999bdce3a": {
-      "BaseGuid": "bb2a2e59-1f80-4e4a-9c75-841999bdce3a",
       "Routable": {
         "BaseGuid": "00000000-0000-0000-0000-000000000000",
         "OutputChannelLayout": 3,
@@ -292,7 +288,6 @@
       }
     },
     "9cd2d562-e576-4847-8c2d-64137e3d4f59": {
-      "BaseGuid": "9cd2d562-e576-4847-8c2d-64137e3d4f59",
       "InputChannelLayout": 0,
       "ReturnGuid": "7903c2ba-cf19-4ca8-bfb7-47f895e0cc05",
       "SendLevel": -80.0,
@@ -305,7 +300,6 @@
       }
     },
     "6cd146c1-87e5-43b5-a0e2-fab171ca05aa": {
-      "BaseGuid": "6cd146c1-87e5-43b5-a0e2-fab171ca05aa",
       "InputChannelLayout": 0,
       "ReturnGuid": "3d797d49-039b-4dd0-8b4d-85419a522914",
       "SendLevel": -80.0,
@@ -320,7 +314,6 @@
   },
   "TimelineNodes": {
     "a238402a-bcd2-4f2f-9d9f-96cb4b84f19a": {
-      "BaseGuid": "a238402a-bcd2-4f2f-9d9f-96cb4b84f19a",
       "LegacyGuid": "00000000-0000-0000-0000-000000000000",
       "TriggerBoxes": [],
       "TimeLockedTriggerBoxes": [
@@ -339,7 +332,6 @@
   "TransitionNodes": {},
   "InstrumentNodes": {
     "9d6a43b3-8c08-460f-a2e3-140210a37404": {
-      "BaseGuid": "9d6a43b3-8c08-460f-a2e3-140210a37404",
       "LegacyLoadingMode": "WaveformLoadingMode_LoadInMemory",
       "WaveformResourceGuid": "fa142cb4-3fca-4833-a39f-cb5edad09d07",
       "InstrumentBody": {
@@ -378,7 +370,6 @@
   "WavEntries": {},
   "ParameterNodes": {
     "3f05e138-c329-4228-b00b-96c2342c615e": {
-      "BaseGuid": "3f05e138-c329-4228-b00b-96c2342c615e",
       "Flags": 40,
       "Type": "FMOD_STUDIO_PARAMETER_GAME_CONTROLLED",
       "Name": "IsThirdPerson",
@@ -394,7 +385,6 @@
       ]
     },
     "8e1976f9-06d7-4975-8287-24ff5cb86f3f": {
-      "BaseGuid": "8e1976f9-06d7-4975-8287-24ff5cb86f3f",
       "Flags": 1,
       "Type": "FMOD_STUDIO_PARAMETER_GAME_CONTROLLED",
       "Name": "reroute_1p_to_none_effect",
@@ -409,7 +399,6 @@
   },
   "ModulatorNodes": {
     "f29b1e15-495a-431a-945a-aae10fdd3287": {
-      "BaseGuid": "f29b1e15-495a-431a-945a-aae10fdd3287",
       "OwnerGuid": "8e1976f9-06d7-4975-8287-24ff5cb86f3f",
       "PropertyIndex": 2,
       "Type": "Seek",
@@ -422,7 +411,6 @@
       }
     },
     "8a0fd72a-848b-49b5-8b68-1ca0d6da7d36": {
-      "BaseGuid": "8a0fd72a-848b-49b5-8b68-1ca0d6da7d36",
       "OwnerGuid": "39b3e31d-9f09-40e5-a67b-a461bcc3fd48",
       "PropertyIndex": 0,
       "Type": "ADSR",
@@ -445,7 +433,6 @@
   },
   "CurveNodes": {
     "ac1c400b-30df-47ca-8716-080e12831be0": {
-      "BaseGuid": "ac1c400b-30df-47ca-8716-080e12831be0",
       "OwnerGuid": "ac1c400b-30df-47ca-8716-080e12831be0",
       "CurvePoints": [
         {
@@ -463,7 +450,6 @@
       ]
     },
     "bfbd8440-f52d-40e5-9346-13e8faa02f32": {
-      "BaseGuid": "bfbd8440-f52d-40e5-9346-13e8faa02f32",
       "OwnerGuid": "bfbd8440-f52d-40e5-9346-13e8faa02f32",
       "CurvePoints": [
         {
@@ -481,7 +467,6 @@
       ]
     },
     "14d5795e-1869-44da-8a3e-015405e85589": {
-      "BaseGuid": "14d5795e-1869-44da-8a3e-015405e85589",
       "OwnerGuid": "14d5795e-1869-44da-8a3e-015405e85589",
       "CurvePoints": [
         {
@@ -499,7 +484,6 @@
       ]
     },
     "cd0c5197-eed8-463c-a740-e5f0b4517c08": {
-      "BaseGuid": "cd0c5197-eed8-463c-a740-e5f0b4517c08",
       "OwnerGuid": "cd0c5197-eed8-463c-a740-e5f0b4517c08",
       "CurvePoints": [
         {
@@ -517,7 +501,6 @@
       ]
     },
     "7ad47ee0-a20b-48c8-bae0-774080de338e": {
-      "BaseGuid": "7ad47ee0-a20b-48c8-bae0-774080de338e",
       "OwnerGuid": "7ad47ee0-a20b-48c8-bae0-774080de338e",
       "CurvePoints": [
         {
@@ -580,7 +563,6 @@
   },
   "MappingNodes": {
     "d65ba128-a6f5-41d9-b6a1-a7c402f329ac": {
-      "BaseGuid": "d65ba128-a6f5-41d9-b6a1-a7c402f329ac",
       "MappingPoints": [
         {
           "X": -42.0,
@@ -621,7 +603,6 @@
       ]
     },
     "c021a555-2747-4628-a01b-b732941315e2": {
-      "BaseGuid": "c021a555-2747-4628-a01b-b732941315e2",
       "MappingPoints": [
         {
           "X": -42.0,
@@ -662,7 +643,6 @@
       ]
     },
     "0fb04176-8ff0-09c9-233b-75176d934acf": {
-      "BaseGuid": "0fb04176-8ff0-09c9-233b-75176d934acf",
       "MappingPoints": [
         {
           "X": 0.0,
@@ -675,7 +655,6 @@
       ]
     },
     "887687bb-7fbe-4539-912b-74b6e2b0bf39": {
-      "BaseGuid": "887687bb-7fbe-4539-912b-74b6e2b0bf39",
       "MappingPoints": [
         {
           "X": -42.0,
@@ -718,7 +697,6 @@
   },
   "ParameterLayoutNodes": {
     "5e56ce4d-a07d-065f-2b7d-ff41b7e2d470": {
-      "BaseGuid": "5e56ce4d-a07d-065f-2b7d-ff41b7e2d470",
       "ParameterGuid": "8e1976f9-06d7-4975-8287-24ff5cb86f3f",
       "LegacyGuid": "00000000-0000-0000-0000-000000000000",
       "Instruments": [],
@@ -726,7 +704,6 @@
       "TriggerBoxes": []
     },
     "651b786f-1b2c-0d2e-1415-5c6347702afa": {
-      "BaseGuid": "651b786f-1b2c-0d2e-1415-5c6347702afa",
       "ParameterGuid": "8e1976f9-06d7-4975-8287-24ff5cb86f3f",
       "LegacyGuid": "00000000-0000-0000-0000-000000000000",
       "Instruments": [],
@@ -734,7 +711,6 @@
       "TriggerBoxes": []
     },
     "d407efae-ded2-0673-2699-ee5e2fe4249b": {
-      "BaseGuid": "d407efae-ded2-0673-2699-ee5e2fe4249b",
       "ParameterGuid": "3f05e138-c329-4228-b00b-96c2342c615e",
       "LegacyGuid": "00000000-0000-0000-0000-000000000000",
       "Instruments": [],
@@ -744,31 +720,26 @@
   },
   "ControllerNodes": {
     "ac1c400b-30df-47ca-8716-080e12831be0": {
-      "BaseGuid": "ac1c400b-30df-47ca-8716-080e12831be0",
       "PropertyOwnerGuid": "9cd2d562-e576-4847-8c2d-64137e3d4f59",
       "CurveGuid": "ac1c400b-30df-47ca-8716-080e12831be0",
       "PropertyIndex": 0
     },
     "bfbd8440-f52d-40e5-9346-13e8faa02f32": {
-      "BaseGuid": "bfbd8440-f52d-40e5-9346-13e8faa02f32",
       "PropertyOwnerGuid": "219e68fe-d8bd-422e-963f-505339da15de",
       "CurveGuid": "bfbd8440-f52d-40e5-9346-13e8faa02f32",
       "PropertyIndex": 1000
     },
     "14d5795e-1869-44da-8a3e-015405e85589": {
-      "BaseGuid": "14d5795e-1869-44da-8a3e-015405e85589",
       "PropertyOwnerGuid": "219e68fe-d8bd-422e-963f-505339da15de",
       "CurveGuid": "14d5795e-1869-44da-8a3e-015405e85589",
       "PropertyIndex": 1000
     },
     "cd0c5197-eed8-463c-a740-e5f0b4517c08": {
-      "BaseGuid": "cd0c5197-eed8-463c-a740-e5f0b4517c08",
       "PropertyOwnerGuid": "9cd2d562-e576-4847-8c2d-64137e3d4f59",
       "CurveGuid": "cd0c5197-eed8-463c-a740-e5f0b4517c08",
       "PropertyIndex": 0
     },
     "7ad47ee0-a20b-48c8-bae0-774080de338e": {
-      "BaseGuid": "7ad47ee0-a20b-48c8-bae0-774080de338e",
       "PropertyOwnerGuid": "6cd146c1-87e5-43b5-a0e2-fab171ca05aa",
       "CurveGuid": "7ad47ee0-a20b-48c8-bae0-774080de338e",
       "PropertyIndex": 0
