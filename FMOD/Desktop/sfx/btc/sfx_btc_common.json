@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 3520,
-        "Length": 1836064
+        "FSBOffset": 2688,
+        "Length": 7711392
       }
     ]
   },
@@ -59,7 +59,7 @@
     },
     {
       "Guid": "8e67ac64-99d3-48c1-a63d-dc052ef82467",
-      "Hash": 1605015006
+      "Hash": 603904560
     },
     {
       "Guid": "2e5d5470-0259-4478-ab3e-10b61e88ad64",
@@ -1936,7 +1936,7 @@
           "3f2e0886-0fc3-45bd-8abd-a843021a35a8"
         ],
         "MixerStrip": {
-          "Volume": 0.0,
+          "Volume": -6.0,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -8872,6 +8872,18 @@
         "DecayShape": 0.0,
         "ReleaseShape": 0.0,
         "FinalValue": -80.0
+      }
+    },
+    "adf65cc4-63ac-40f8-ba7c-b506bb5e7269": {
+      "OwnerGuid": "4e24e920-514a-44c1-8d34-d3773ab8bfc3",
+      "PropertyIndex": 0,
+      "Type": "Random",
+      "PropertyType": "PropertyType_Volume",
+      "ClockSource": "ClockSource_Local",
+      "Subnode": {
+        "Amount": 4.0,
+        "Minimum": 0.0,
+        "Maximum": 0.0
       }
     },
     "525a4ce4-d0d3-46da-9152-091a8f20c09b": {

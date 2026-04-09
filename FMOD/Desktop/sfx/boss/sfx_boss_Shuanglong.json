@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 4032,
-        "Length": 3680800
+        "FSBOffset": 2688,
+        "Length": 7711392
       }
     ]
   },
@@ -51,7 +51,7 @@
     },
     {
       "Guid": "eac7b618-9e8b-43e5-918a-4ae50f1b725b",
-      "Hash": 3488928418
+      "Hash": 1949374258
     },
     {
       "Guid": "802c5b1b-39aa-492b-abd2-bb58a0b7a831",
@@ -83,7 +83,7 @@
     },
     {
       "Guid": "7e3cfe4b-c4f0-45ac-82cb-124557f68fe9",
-      "Hash": 2101647912
+      "Hash": 927288655
     },
     {
       "Guid": "7e65cf4e-e683-4522-b2d4-23cb507013bb",
@@ -155,7 +155,7 @@
     },
     {
       "Guid": "bccf33b0-6bd5-4dc6-985e-eb1bab5867dc",
-      "Hash": 3734091576
+      "Hash": 4204333428
     },
     {
       "Guid": "07a5efb7-209a-42fd-8ad2-886baa44e24f",
@@ -167,7 +167,7 @@
     },
     {
       "Guid": "9a7ed3cc-8a08-4ee3-8a96-bf7686c07b0e",
-      "Hash": 4182078144
+      "Hash": 4138125023
     },
     {
       "Guid": "868c08ce-f6fa-401c-ae6b-356a0666001e",
@@ -179,7 +179,7 @@
     },
     {
       "Guid": "3034f3df-147c-4ba5-b655-891305d2e52a",
-      "Hash": 766856353
+      "Hash": 2699863915
     },
     {
       "Guid": "7a5a41e6-63a1-4599-bece-a5dfa59cf5a3",
@@ -394,7 +394,7 @@
       "ParameterIds": [],
       "EventTriggeredInstruments": [],
       "MinimumDistance": 8.0,
-      "MaximumDistance": 130.0
+      "MaximumDistance": 200.0
     },
     "802c5b1b-39aa-492b-abd2-bb58a0b7a831": {
       "SnapshotGuid": "00000000-0000-0000-0000-000000000000",
@@ -577,8 +577,8 @@
       ],
       "ParameterIds": [],
       "EventTriggeredInstruments": [],
-      "MinimumDistance": 5.0,
-      "MaximumDistance": 100.0
+      "MinimumDistance": 10.0,
+      "MaximumDistance": 200.0
     },
     "7e65cf4e-e683-4522-b2d4-23cb507013bb": {
       "SnapshotGuid": "00000000-0000-0000-0000-000000000000",
@@ -977,7 +977,7 @@
       "TimelineGuid": "561b0730-f142-4869-bac5-fde041c1a412",
       "InputBusGuid": "09bf2962-c3aa-4493-9b5a-aa4c6846723e",
       "MasterTrackGuid": "717fe4f3-0ae9-48d0-b8c9-cfa8df20c3f5",
-      "MaximumPolyphony": 5,
+      "MaximumPolyphony": 3,
       "Priority": 128,
       "PolyphonyLimitBehavior": true,
       "SchedulingMode": 0,
@@ -993,7 +993,7 @@
       "ParameterIds": [],
       "EventTriggeredInstruments": [],
       "MinimumDistance": 5.0,
-      "MaximumDistance": 100.0
+      "MaximumDistance": 200.0
     },
     "07a5efb7-209a-42fd-8ad2-886baa44e24f": {
       "SnapshotGuid": "00000000-0000-0000-0000-000000000000",
@@ -1046,7 +1046,7 @@
       "TimelineGuid": "b16eff5e-0166-4ef6-8b10-5064545f320d",
       "InputBusGuid": "cff17f62-1cec-4b02-bf47-a37885e16b47",
       "MasterTrackGuid": "19ed21a4-6130-4f33-9487-ede37fb6c731",
-      "MaximumPolyphony": 5,
+      "MaximumPolyphony": 3,
       "Priority": 128,
       "PolyphonyLimitBehavior": true,
       "SchedulingMode": 0,
@@ -2508,7 +2508,7 @@
         "PreFaderEffects": [],
         "PostFaderEffects": [],
         "MixerStrip": {
-          "Volume": 4.5,
+          "Volume": 0.0,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -3618,7 +3618,7 @@
           "6868ce96-5fa4-46c9-84f5-594e825c809b"
         ],
         "MixerStrip": {
-          "Volume": 0.0,
+          "Volume": 10.0,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -12023,7 +12023,7 @@
         },
         "PolyphonyLimitBehavior": 2,
         "LeftTrimOffset": 0,
-        "InitialSeekPercent": 0.0,
+        "InitialSeekPercent": 3.0,
         "AutoPitchAtMinimum": 0.0,
         "Evaluators": []
       }

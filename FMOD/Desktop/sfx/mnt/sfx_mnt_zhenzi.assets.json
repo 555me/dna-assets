@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 2880,
-        "Length": 1209984
+        "FSBOffset": 2944,
+        "Length": 1252192
       }
     ]
   },
@@ -142,6 +142,10 @@
       "Hash": 3376719239
     },
     {
+      "Guid": "7e06bdcb-f0b1-4a0f-a778-2925fbf79437",
+      "Hash": 997130977
+    },
+    {
       "Guid": "03a6fbd2-860d-471f-87e9-d29c1dd74db2",
       "Hash": 572971139
     },
@@ -187,7 +191,7 @@
       "Header": {
         "AudioType": "VORBIS",
         "Version": 1,
-        "NumSamples": 40
+        "NumSamples": 41
       },
       "Samples": [
         {
@@ -463,6 +467,15 @@
         {
           "Metadata": {
             "IsStereo": true,
+            "SampleCount": 145152,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "sfx_common_scene_east_wuyousheng_wood_shake"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
             "SampleCount": 79902,
             "Frequency": 48000,
             "Channels": 2
@@ -710,54 +723,59 @@
       "SubsoundIndex": 29,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "03a6fbd2-860d-471f-87e9-d29c1dd74db2": {
+    "7e06bdcb-f0b1-4a0f-a778-2925fbf79437": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 30,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "27184ce0-5528-42e6-962e-ba0729b8a374": {
+    "03a6fbd2-860d-471f-87e9-d29c1dd74db2": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 31,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "281c3eec-6271-43bc-b16b-06535b6f398d": {
+    "27184ce0-5528-42e6-962e-ba0729b8a374": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 32,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "fae9aced-5bb5-4841-9aa6-b37df9ec0dea": {
+    "281c3eec-6271-43bc-b16b-06535b6f398d": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 33,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "2345baf3-10dc-4456-baf7-2ca4f0eed827": {
+    "fae9aced-5bb5-4841-9aa6-b37df9ec0dea": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 34,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "3db083f9-080e-4fca-a12d-22ef3194388e": {
+    "2345baf3-10dc-4456-baf7-2ca4f0eed827": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 35,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "a73591fb-3552-44cb-997a-0ebfbd9c16ec": {
+    "3db083f9-080e-4fca-a12d-22ef3194388e": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 36,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "c59198fb-ac6a-4f74-97cb-e52cce2790af": {
+    "a73591fb-3552-44cb-997a-0ebfbd9c16ec": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 37,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "ff5f0efc-b256-4d23-bf71-99ae10bafe0d": {
+    "c59198fb-ac6a-4f74-97cb-e52cce2790af": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 38,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "525bdcff-d30f-4e4a-b260-d31b3202ca9d": {
+    "ff5f0efc-b256-4d23-bf71-99ae10bafe0d": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 39,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
+    "525bdcff-d30f-4e4a-b260-d31b3202ca9d": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 40,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     }
   },

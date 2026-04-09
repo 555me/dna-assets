@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 1248,
-        "Length": 5449632
+        "FSBOffset": 1472,
+        "Length": 6759488
       }
     ]
   },
@@ -26,8 +26,20 @@
       "Hash": 1045470610
     },
     {
+      "Guid": "65babb24-c96e-4814-93b5-7733efff488a",
+      "Hash": 2249816176
+    },
+    {
       "Guid": "cb101625-6a89-49da-be7a-9ae0489b5f2f",
       "Hash": 1828397380
+    },
+    {
+      "Guid": "5615c531-40f7-4b22-b43e-1fb3026722cc",
+      "Hash": 2543750348
+    },
+    {
+      "Guid": "e8805732-a50e-48d7-b3b5-f1fc0daf655e",
+      "Hash": 511891627
     },
     {
       "Guid": "669b7160-3c81-4acf-b373-0e6ad21dcc56",
@@ -58,6 +70,10 @@
       "Hash": 465212438
     },
     {
+      "Guid": "ec06b7ab-5f0c-4a59-aa09-c63d3f4ef1b5",
+      "Hash": 1346380017
+    },
+    {
       "Guid": "d71d00cd-59ce-4913-bfad-74f25276c7b8",
       "Hash": 3906598905
     },
@@ -75,7 +91,7 @@
       "Header": {
         "AudioType": "VORBIS",
         "Version": 1,
-        "NumSamples": 12
+        "NumSamples": 16
       },
       "Samples": [
         {
@@ -90,11 +106,38 @@
         {
           "Metadata": {
             "IsStereo": true,
+            "SampleCount": 673631,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "ui_btc_cg_suyi_skin01"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
             "SampleCount": 3791393,
             "Frequency": 48000,
             "Channels": 2
           },
           "Name": "赛琪皮肤 抽到"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 492816,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "ui_btc_cg_suyi_jijia01"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 2086426,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "苏乙道具_cut"
         },
         {
           "Metadata": {
@@ -162,6 +205,15 @@
         {
           "Metadata": {
             "IsStereo": true,
+            "SampleCount": 1663895,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "苏乙红皮_cut"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
             "SampleCount": 779231,
             "Frequency": 48000,
             "Channels": 2
@@ -201,59 +253,79 @@
       "SubsoundIndex": 0,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "cb101625-6a89-49da-be7a-9ae0489b5f2f": {
+    "65babb24-c96e-4814-93b5-7733efff488a": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 1,
-      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
-    },
-    "669b7160-3c81-4acf-b373-0e6ad21dcc56": {
-      "SoundBankIndex": 0,
-      "SubsoundIndex": 2,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "e984f962-07b7-4a37-9814-e2490e0a4edc": {
+    "cb101625-6a89-49da-be7a-9ae0489b5f2f": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 2,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "5615c531-40f7-4b22-b43e-1fb3026722cc": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 3,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "ad5b286a-1fa5-4e02-b21d-424c5858f9aa": {
+    "e8805732-a50e-48d7-b3b5-f1fc0daf655e": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 4,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "2e79b16b-06d7-4fee-bd98-37251a13b191": {
+    "669b7160-3c81-4acf-b373-0e6ad21dcc56": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 5,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "d0e5bb8c-848b-43ae-8bd3-9f63816c8c22": {
+    "e984f962-07b7-4a37-9814-e2490e0a4edc": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 6,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "3a60c790-bad1-44f3-91ea-3de0dcde419e": {
+    "ad5b286a-1fa5-4e02-b21d-424c5858f9aa": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 7,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "eb33009d-75bf-4971-a0e4-dce6a4483ca7": {
+    "2e79b16b-06d7-4fee-bd98-37251a13b191": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 8,
-      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "d71d00cd-59ce-4913-bfad-74f25276c7b8": {
+    "d0e5bb8c-848b-43ae-8bd3-9f63816c8c22": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 9,
-      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "9d3c94e5-896c-42dc-a74d-dc422c289abb": {
+    "3a60c790-bad1-44f3-91ea-3de0dcde419e": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 10,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "fb709efb-bc61-4c5c-b8c5-c7de1261fa96": {
+    "eb33009d-75bf-4971-a0e4-dce6a4483ca7": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 11,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "ec06b7ab-5f0c-4a59-aa09-c63d3f4ef1b5": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 12,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "d71d00cd-59ce-4913-bfad-74f25276c7b8": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 13,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "9d3c94e5-896c-42dc-a74d-dc422c289abb": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 14,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "fb709efb-bc61-4c5c-b8c5-c7de1261fa96": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 15,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     }
   },

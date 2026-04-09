@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 1536,
-        "Length": 3361600
+        "FSBOffset": 1472,
+        "Length": 4877408
       }
     ]
   },
@@ -66,20 +66,8 @@
       "Hash": 1757296461
     },
     {
-      "Guid": "41232e67-33a8-4cce-a501-4bdf830958dc",
-      "Hash": 2139551463
-    },
-    {
-      "Guid": "d0be3b6d-4667-4d28-91c8-40ce4288a76a",
-      "Hash": 432478773
-    },
-    {
       "Guid": "66c26382-cac6-499e-b92b-9094274563a4",
       "Hash": 1491599140
-    },
-    {
-      "Guid": "d6839d84-33eb-4122-81b0-0e0679591b22",
-      "Hash": 2609091442
     },
     {
       "Guid": "7598279f-bb7d-42aa-a877-2e9fb6549fa7",
@@ -88,6 +76,14 @@
     {
       "Guid": "f1b386e8-b694-4214-9224-092ae4a817af",
       "Hash": 1219772169
+    },
+    {
+      "Guid": "fd5ecbef-6928-4987-93ec-7ca570c7b479",
+      "Hash": 2521614840
+    },
+    {
+      "Guid": "ad320bfa-d87c-4ab3-9931-971da24b739d",
+      "Hash": 482430176
     }
   ],
   "SoundBankData": [
@@ -95,7 +91,7 @@
       "Header": {
         "AudioType": "VORBIS",
         "Version": 1,
-        "NumSamples": 17
+        "NumSamples": 16
       },
       "Samples": [
         {
@@ -200,38 +196,11 @@
         {
           "Metadata": {
             "IsStereo": true,
-            "SampleCount": 555208,
-            "Frequency": 48000,
-            "Channels": 2
-          },
-          "Name": "sfx_common_story_east_east_login_amb"
-        },
-        {
-          "Metadata": {
-            "IsStereo": true,
-            "SampleCount": 232908,
-            "Frequency": 48000,
-            "Channels": 2
-          },
-          "Name": "sfx_common_story_east_east_login_zhuyin"
-        },
-        {
-          "Metadata": {
-            "IsStereo": true,
             "SampleCount": 91364,
             "Frequency": 48000,
             "Channels": 2
           },
           "Name": "ambience_2d_login_bird_s07"
-        },
-        {
-          "Metadata": {
-            "IsStereo": true,
-            "SampleCount": 4978286,
-            "Frequency": 48000,
-            "Channels": 2
-          },
-          "Name": "登录_1209_2"
         },
         {
           "Metadata": {
@@ -250,6 +219,24 @@
             "Channels": 2
           },
           "Name": "ambience_2d_login_bird_s06"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 10368000,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "重铸黑白终版"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 756101,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "cine_login_1_3"
         }
       ]
     }
@@ -316,34 +303,29 @@
       "SubsoundIndex": 10,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "41232e67-33a8-4cce-a501-4bdf830958dc": {
-      "SoundBankIndex": 0,
-      "SubsoundIndex": 11,
-      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
-    },
-    "d0be3b6d-4667-4d28-91c8-40ce4288a76a": {
-      "SoundBankIndex": 0,
-      "SubsoundIndex": 12,
-      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
-    },
     "66c26382-cac6-499e-b92b-9094274563a4": {
       "SoundBankIndex": 0,
-      "SubsoundIndex": 13,
-      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
-    },
-    "d6839d84-33eb-4122-81b0-0e0679591b22": {
-      "SoundBankIndex": 0,
-      "SubsoundIndex": 14,
+      "SubsoundIndex": 11,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "7598279f-bb7d-42aa-a877-2e9fb6549fa7": {
       "SoundBankIndex": 0,
-      "SubsoundIndex": 15,
+      "SubsoundIndex": 12,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "f1b386e8-b694-4214-9224-092ae4a817af": {
       "SoundBankIndex": 0,
-      "SubsoundIndex": 16,
+      "SubsoundIndex": 13,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "fd5ecbef-6928-4987-93ec-7ca570c7b479": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 14,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "ad320bfa-d87c-4ab3-9931-971da24b739d": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 15,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     }
   },

@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 672,
-        "Length": 175968
+        "FSBOffset": 736,
+        "Length": 228768
       }
     ]
   },
@@ -28,6 +28,10 @@
     {
       "Guid": "225abf4f-df6d-447c-82ee-696195a6ffa3",
       "Hash": 862854325
+    },
+    {
+      "Guid": "b19847ed-1cd9-4ecc-b36c-92ba76ce3ef2",
+      "Hash": 512989995
     }
   ],
   "SoundBankData": [
@@ -35,7 +39,7 @@
       "Header": {
         "AudioType": "VORBIS",
         "Version": 1,
-        "NumSamples": 2
+        "NumSamples": 3
       },
       "Samples": [
         {
@@ -55,6 +59,15 @@
             "Channels": 2
           },
           "Name": "sfx_btc_mvp_bg_shanhe"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 208464,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "sfx_btc_mvp_bg_1_3_jijia"
         }
       ]
     }
@@ -74,6 +87,11 @@
     "225abf4f-df6d-447c-82ee-696195a6ffa3": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 1,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
+    "b19847ed-1cd9-4ecc-b36c-92ba76ce3ef2": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 2,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     }
   },

@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 2112,
-        "Length": 906752
+        "FSBOffset": 3744,
+        "Length": 1607392
       }
     ]
   },
@@ -23,7 +23,7 @@
   "HashData": [
     {
       "Guid": "01632609-aa3e-439c-8685-a83486274756",
-      "Hash": 1052445794
+      "Hash": 2099283073
     },
     {
       "Guid": "b4fc7a19-814e-483c-9e48-dc64cb62dfa8",
@@ -818,7 +818,7 @@
           "219e68fe-d8bd-422e-963f-505339da15de"
         ],
         "MixerStrip": {
-          "Volume": 9.0,
+          "Volume": 8.5,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -3749,6 +3749,18 @@
         "Maximum": 0.0
       }
     },
+    "0a540b58-8f61-4484-b318-6e64ac5839bf": {
+      "OwnerGuid": "fbc4dd89-8ef8-445d-a3c7-f14b7d212856",
+      "PropertyIndex": 1,
+      "Type": "Random",
+      "PropertyType": "PropertyType_Normal",
+      "ClockSource": "ClockSource_Global",
+      "Subnode": {
+        "Amount": 5.0,
+        "Minimum": 0.0,
+        "Maximum": 0.0
+      }
+    },
     "98dc535a-bef5-0390-111d-12b44f95a164": {
       "OwnerGuid": "8315b28e-8f10-443c-b9eb-0f2738a9cf85",
       "PropertyIndex": 5,
@@ -3813,6 +3825,18 @@
       "ClockSource": "ClockSource_Local",
       "Subnode": {
         "Amount": 100.0,
+        "Minimum": 0.0,
+        "Maximum": 0.0
+      }
+    },
+    "5cd472bc-fac7-475a-9277-4fd4132fc02b": {
+      "OwnerGuid": "fbc4dd89-8ef8-445d-a3c7-f14b7d212856",
+      "PropertyIndex": 0,
+      "Type": "Random",
+      "PropertyType": "PropertyType_Volume",
+      "ClockSource": "ClockSource_Local",
+      "Subnode": {
+        "Amount": 6.0,
         "Minimum": 0.0,
         "Maximum": 0.0
       }
@@ -3986,7 +4010,17 @@
       "MappingGuid": "d65ba128-a6f5-41d9-b6a1-a7c402f329ac",
       "Controllers": [],
       "Modulators": [
-        "22ce6d5f-7aec-4c01-a3c2-e225ce891ae2"
+        "5cd472bc-fac7-475a-9277-4fd4132fc02b"
+      ]
+    },
+    "a3954632-d7fa-45dc-838b-a64a1b271789": {
+      "Index": 1,
+      "Method": 2,
+      "Type": 0,
+      "MappingGuid": "a3954632-d7fa-45dc-838b-a64a1b271789",
+      "Controllers": [],
+      "Modulators": [
+        "0a540b58-8f61-4484-b318-6e64ac5839bf"
       ]
     },
     "887687bb-7fbe-4539-912b-74b6e2b0bf39": {
@@ -4131,6 +4165,18 @@
         {
           "X": 10.0,
           "Y": 10.0
+        }
+      ]
+    },
+    "a3954632-d7fa-45dc-838b-a64a1b271789": {
+      "MappingPoints": [
+        {
+          "X": -1.0,
+          "Y": -24.0
+        },
+        {
+          "X": 1.0,
+          "Y": 24.0
         }
       ]
     },
