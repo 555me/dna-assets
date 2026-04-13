@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 13952,
-        "Length": 11443872
+        "FSBOffset": 2016,
+        "Length": 1185280
       }
     ]
   },
@@ -211,7 +211,7 @@
     },
     {
       "Guid": "bd1cb946-1de0-48c0-86e2-2076a4fc6a73",
-      "Hash": 2569877090
+      "Hash": 2759194242
     },
     {
       "Guid": "f9f8b947-cbb4-4208-888e-820fa0b3d40b",
@@ -303,7 +303,7 @@
     },
     {
       "Guid": "28245b70-e597-4e94-9f09-11654e6181d8",
-      "Hash": 1484469379
+      "Hash": 2720804408
     },
     {
       "Guid": "3c8ac470-ff44-4c89-8967-f2a151a780d4",
@@ -403,7 +403,7 @@
     },
     {
       "Guid": "ec02979d-71e4-4a3b-b219-bafa934fe108",
-      "Hash": 41556575
+      "Hash": 1759079479
     },
     {
       "Guid": "89aee89f-e16d-4692-9e2e-eeff4cc9865e",
@@ -1746,7 +1746,7 @@
       "ParameterIds": [],
       "EventTriggeredInstruments": [],
       "MinimumDistance": 1.0,
-      "MaximumDistance": 20.0
+      "MaximumDistance": 150.0
     },
     "f9f8b947-cbb4-4208-888e-820fa0b3d40b": {
       "SnapshotGuid": "00000000-0000-0000-0000-000000000000",
@@ -2277,7 +2277,7 @@
       "ParameterIds": [],
       "EventTriggeredInstruments": [],
       "MinimumDistance": 1.0,
-      "MaximumDistance": 20.0
+      "MaximumDistance": 60.0
     },
     "3c8ac470-ff44-4c89-8967-f2a151a780d4": {
       "SnapshotGuid": "00000000-0000-0000-0000-000000000000",
@@ -2845,7 +2845,7 @@
       "MaximumPolyphony": 5,
       "Priority": 128,
       "PolyphonyLimitBehavior": true,
-      "SchedulingMode": 1,
+      "SchedulingMode": 0,
       "ParameterLayouts": [],
       "UserPropertyFloatList": [],
       "UserPropertyStringList": [],
@@ -10507,12 +10507,12 @@
     "4d15a28b-e466-4fa7-8261-188c8fd0a182": {
       "Routable": {
         "BaseGuid": "cb810773-2768-49a4-bf25-0d81a5d1b9cc",
-        "OutputChannelLayout": 3,
+        "OutputChannelLayout": 2,
         "ChannelMask": 4294967295
       },
       "BusBody": {
         "Flags": 0,
-        "InputChannelLayout": 3,
+        "InputChannelLayout": 2,
         "PreFaderEffects": [],
         "PostFaderEffects": [],
         "MixerStrip": {
@@ -32711,11 +32711,6 @@
       "TriggerBoxes": [],
       "TimeLockedTriggerBoxes": [
         {
-          "Guid": "d903011d-fb3d-438b-81a8-f1f7944d7683",
-          "StartTime": 89280,
-          "Length": 117425
-        },
-        {
           "Guid": "527c9348-2dfe-49ed-8b41-8a78199c69ed",
           "StartTime": 0,
           "Length": 79424
@@ -38976,41 +38971,6 @@
         "MaximumPolyphony": 2147483647,
         "Routable": {
           "BaseGuid": "00000000-0000-0000-0000-000000000000",
-          "OutputChannelLayout": 3,
-          "ChannelMask": 4294967295
-        },
-        "PolyphonyLimitBehavior": 2,
-        "LeftTrimOffset": 0,
-        "InitialSeekPercent": 0.0,
-        "AutoPitchAtMinimum": 0.0,
-        "Evaluators": []
-      }
-    },
-    "d903011d-fb3d-438b-81a8-f1f7944d7683": {
-      "LegacyLoadingMode": "WaveformLoadingMode_LoadInMemory",
-      "WaveformResourceGuid": "c2d57d32-5ca8-4e8f-a6bc-992f232789cd",
-      "InstrumentBody": {
-        "TimelineGuid": "bc6c3dbd-be6a-4584-9a14-a12e36772dfc",
-        "Volume": 0.0,
-        "Pitch": 0.0,
-        "LoopCount": 0,
-        "Flags": 0,
-        "Offset3DDistance": 0.0,
-        "TriggerChancePercent": 100.0,
-        "TriggerDelay": {
-          "Min": 0.0,
-          "Max": 0.0
-        },
-        "Quantization": {
-          "Unit": "None",
-          "Multiplier": 0
-        },
-        "ControlParameterGuid": "00000000-0000-0000-0000-000000000000",
-        "AutoPitchReference": 1.0,
-        "InitialSeekPosition": 0.0,
-        "MaximumPolyphony": 2147483647,
-        "Routable": {
-          "BaseGuid": "4d15a28b-e466-4fa7-8261-188c8fd0a182",
           "OutputChannelLayout": 3,
           "ChannelMask": 4294967295
         },

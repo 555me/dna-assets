@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 3744,
-        "Length": 1607392
+        "FSBOffset": 2816,
+        "Length": 605472
       }
     ]
   },
@@ -39,7 +39,7 @@
     },
     {
       "Guid": "22187321-7234-49d9-9152-d8c0b643003e",
-      "Hash": 1354952589
+      "Hash": 2857075515
     },
     {
       "Guid": "a2d9bc36-7bc3-419c-bded-c7e06353daf7",
@@ -51,7 +51,7 @@
     },
     {
       "Guid": "8d4b423f-9e65-4620-a5dd-e9968915e44d",
-      "Hash": 2042466657
+      "Hash": 1201899762
     },
     {
       "Guid": "c250b054-27f8-40d7-b2ea-0f922b3d35c5",
@@ -91,11 +91,11 @@
     },
     {
       "Guid": "166737c7-ef8c-4db8-897f-4601b60dad6a",
-      "Hash": 2949306724
+      "Hash": 360358716
     },
     {
       "Guid": "2fb37ec7-67b5-431f-bdca-91866d8ad3ae",
-      "Hash": 2595168728
+      "Hash": 3673377987
     },
     {
       "Guid": "841d4af2-2734-49cd-ada7-b4f78c0c19d8",
@@ -1410,7 +1410,7 @@
         "PreFaderEffects": [],
         "PostFaderEffects": [],
         "MixerStrip": {
-          "Volume": 0.0,
+          "Volume": -4.0,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -1462,7 +1462,7 @@
         "PreFaderEffects": [],
         "PostFaderEffects": [],
         "MixerStrip": {
-          "Volume": -0.5,
+          "Volume": -1.0,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -1654,7 +1654,7 @@
         "PreFaderEffects": [],
         "PostFaderEffects": [],
         "MixerStrip": {
-          "Volume": -0.5,
+          "Volume": -1.0,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -5529,7 +5529,7 @@
       "InstrumentBody": {
         "TimelineGuid": "37a3846b-e3a5-49eb-83f1-09fa292947d0",
         "Volume": 0.0,
-        "Pitch": 7.5,
+        "Pitch": 2.8,
         "LoopCount": 0,
         "Flags": 0,
         "Offset3DDistance": 0.0,
@@ -8882,6 +8882,18 @@
         "DecayShape": 0.0,
         "ReleaseShape": 0.0,
         "FinalValue": -80.0
+      }
+    },
+    "2fdb3842-ed7a-404c-bf5d-1cd06ff5928d": {
+      "OwnerGuid": "2d093013-9a46-4f99-98a2-a56fa503497e",
+      "PropertyIndex": 0,
+      "Type": "Random",
+      "PropertyType": "PropertyType_Volume",
+      "ClockSource": "ClockSource_Local",
+      "Subnode": {
+        "Amount": 2.5,
+        "Minimum": 0.0,
+        "Maximum": 0.0
       }
     },
     "d8ae5c46-0781-4546-aedd-7ac3849790d0": {

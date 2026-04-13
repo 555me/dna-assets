@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 896,
-        "Length": 113664
+        "FSBOffset": 2016,
+        "Length": 1185280
       }
     ]
   },
@@ -51,7 +51,7 @@
     },
     {
       "Guid": "d6cdb282-9a32-4794-b5e0-3fffb3e1cae3",
-      "Hash": 377654957
+      "Hash": 3728786002
     },
     {
       "Guid": "9010ae8f-d287-44c5-ab8b-54f6de13934a",
@@ -75,7 +75,7 @@
     },
     {
       "Guid": "9c1416e5-5b04-4d1b-97a1-acdf18054b5f",
-      "Hash": 1507704030
+      "Hash": 173211189
     },
     {
       "Guid": "304ae0f5-6f46-4505-bd45-47370e4b90d2",
@@ -389,7 +389,7 @@
       "TimelineGuid": "7fede634-3eca-4015-952e-5c6e219dccba",
       "InputBusGuid": "0d736243-818d-4127-a82e-844b3a35ddae",
       "MasterTrackGuid": "7aab83e8-7c63-43d2-8dfb-3d5363a6f173",
-      "MaximumPolyphony": 5,
+      "MaximumPolyphony": 1,
       "Priority": 128,
       "PolyphonyLimitBehavior": true,
       "SchedulingMode": 0,
@@ -1556,7 +1556,7 @@
           "e5cc5bdc-00a8-4051-86b5-41181a13efa4"
         ],
         "MixerStrip": {
-          "Volume": 1.5,
+          "Volume": -2.0,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -4944,9 +4944,9 @@
       "Subnode": {
         "InitialValue": -80.0,
         "PeakValue": 0.0,
-        "SustainValue": 0.0,
+        "SustainValue": -2.5,
         "AttackTime": 0.0,
-        "HoldTime": 1000.0,
+        "HoldTime": 4200.0,
         "DecayTime": 1000.0,
         "ReleaseTime": 1000.0,
         "AttackShape": 0.0,

@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 2688,
-        "Length": 7711392
+        "FSBOffset": 1888,
+        "Length": 34284032
       }
     ]
   },
@@ -23,7 +23,7 @@
   "HashData": [
     {
       "Guid": "0a70cb1c-aef7-4228-8294-e0c851ca4593",
-      "Hash": 182814850
+      "Hash": 1067815827
     },
     {
       "Guid": "6fb9d246-53a0-4d9b-8a6e-08ee8b27b9d3",
@@ -31,11 +31,11 @@
     },
     {
       "Guid": "96d9a258-4cdd-4921-b24c-3837134ab558",
-      "Hash": 3697711783
+      "Hash": 462101812
     },
     {
       "Guid": "4bd66a9b-adfb-4c44-b11e-75ef1c06c777",
-      "Hash": 1490045914
+      "Hash": 1571356784
     },
     {
       "Guid": "d3829caf-1c7d-46bd-8bd4-e95cfcc29736",
@@ -43,7 +43,7 @@
     },
     {
       "Guid": "c777aace-0529-41dc-b737-fcf39a78bf5d",
-      "Hash": 892466708
+      "Hash": 1249480653
     }
   ],
   "SoundBankData": [],
@@ -250,7 +250,8 @@
         "80ea1649-be25-4252-a9c3-8c130e4f2b8d",
         "a4e7d96d-8b03-4ad4-bffb-d2f2e2a3997f",
         "87d41e81-5fa6-417f-b36c-0f8640dfa5fe",
-        "793febc5-ba85-43ed-bf3f-47cf8fec55fe"
+        "793febc5-ba85-43ed-bf3f-47cf8fec55fe",
+        "294402ea-98bd-4f4a-8bd8-7378c7ba09a0"
       ],
       "ParameterIds": [
         {
@@ -496,7 +497,7 @@
         "PreFaderEffects": [],
         "PostFaderEffects": [],
         "MixerStrip": {
-          "Volume": 4.5,
+          "Volume": 2.5,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -566,7 +567,9 @@
         "Flags": 0,
         "InputChannelLayout": 3,
         "PreFaderEffects": [],
-        "PostFaderEffects": [],
+        "PostFaderEffects": [
+          "1dbbce10-d309-46a0-b4d6-beebd197c07a"
+        ],
         "MixerStrip": {
           "Volume": 0.0,
           "Pitch": 0.0,
@@ -575,7 +578,9 @@
         "MaximumPolyphony": 2147483647,
         "PolyphonyLimitBehavior": 2,
         "PreFaderInputChannelLayouts": [],
-        "PostFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [
+          3
+        ],
         "ObjectPannerIndex": -1,
         "PortType": "FMOD_PORT_TYPE_MUSIC"
       }
@@ -590,7 +595,9 @@
         "Flags": 0,
         "InputChannelLayout": 3,
         "PreFaderEffects": [],
-        "PostFaderEffects": [],
+        "PostFaderEffects": [
+          "46cf20dc-2052-475b-95d5-9f88b2ca539e"
+        ],
         "MixerStrip": {
           "Volume": 0.0,
           "Pitch": 0.0,
@@ -599,7 +606,9 @@
         "MaximumPolyphony": 2147483647,
         "PolyphonyLimitBehavior": 2,
         "PreFaderInputChannelLayouts": [],
-        "PostFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [
+          3
+        ],
         "ObjectPannerIndex": -1,
         "PortType": "FMOD_PORT_TYPE_MUSIC"
       }
@@ -616,7 +625,7 @@
         "PreFaderEffects": [],
         "PostFaderEffects": [],
         "MixerStrip": {
-          "Volume": 0.0,
+          "Volume": 7.5,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -640,7 +649,7 @@
         "PreFaderEffects": [],
         "PostFaderEffects": [],
         "MixerStrip": {
-          "Volume": 4.5,
+          "Volume": 2.5,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -758,7 +767,9 @@
         "Flags": 0,
         "InputChannelLayout": 3,
         "PreFaderEffects": [],
-        "PostFaderEffects": [],
+        "PostFaderEffects": [
+          "6b167f1d-6bdc-4469-9ecc-9d55f8d4defc"
+        ],
         "MixerStrip": {
           "Volume": 0.0,
           "Pitch": 0.0,
@@ -767,7 +778,9 @@
         "MaximumPolyphony": 2147483647,
         "PolyphonyLimitBehavior": 2,
         "PreFaderInputChannelLayouts": [],
-        "PostFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [
+          3
+        ],
         "ObjectPannerIndex": -1,
         "PortType": "FMOD_PORT_TYPE_MUSIC"
       }
@@ -806,7 +819,9 @@
         "Flags": 0,
         "InputChannelLayout": 3,
         "PreFaderEffects": [],
-        "PostFaderEffects": [],
+        "PostFaderEffects": [
+          "3df9bcaa-77d2-40a3-918e-a82d37f9497c"
+        ],
         "MixerStrip": {
           "Volume": 0.0,
           "Pitch": 0.0,
@@ -815,7 +830,9 @@
         "MaximumPolyphony": 2147483647,
         "PolyphonyLimitBehavior": 2,
         "PreFaderInputChannelLayouts": [],
-        "PostFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [
+          3
+        ],
         "ObjectPannerIndex": -1,
         "PortType": "FMOD_PORT_TYPE_MUSIC"
       }
@@ -1036,6 +1053,40 @@
         "PortType": "FMOD_PORT_TYPE_MUSIC"
       }
     },
+    "294402ea-98bd-4f4a-8bd8-7378c7ba09a0": {
+      "Routable": {
+        "BaseGuid": "88fb448b-2be8-46a9-ab01-761ea35dea15",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 0,
+        "InputChannelLayout": 3,
+        "PreFaderEffects": [
+          "8555d4a4-72bf-488a-ab6c-b06dc17bde7f",
+          "df4c9692-5ae4-4371-8789-1ba49de9268e",
+          "8ebc5b26-ecb3-4be5-bb7d-0d88b5afeb4c",
+          "98be8e54-5e61-464d-97dd-ce2f7a3b9f90"
+        ],
+        "PostFaderEffects": [],
+        "MixerStrip": {
+          "Volume": -80.0,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 2147483647,
+        "PolyphonyLimitBehavior": 0,
+        "PreFaderInputChannelLayouts": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "PostFaderInputChannelLayouts": [],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
+    },
     "66db1b61-e600-42b0-890f-a064722197b5": {
       "Routable": {
         "BaseGuid": "00000000-0000-0000-0000-000000000000",
@@ -1144,7 +1195,7 @@
         "PreFaderEffects": [],
         "PostFaderEffects": [],
         "MixerStrip": {
-          "Volume": 0.0,
+          "Volume": 2.0,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -1168,7 +1219,7 @@
         "PreFaderEffects": [],
         "PostFaderEffects": [],
         "MixerStrip": {
-          "Volume": 0.0,
+          "Volume": 2.5,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -1181,7 +1232,126 @@
       }
     }
   },
-  "EffectNodes": {},
+  "EffectNodes": {
+    "df4c9692-5ae4-4371-8789-1ba49de9268e": {
+      "BaseGuid": "df4c9692-5ae4-4371-8789-1ba49de9268e",
+      "InputChannelLayout": 0,
+      "DSPType": "FMOD_DSP_TYPE_FADER",
+      "ParamEffectBody": {
+        "Parameters": [
+          {
+            "Type": 0,
+            "FloatValue": -6.0
+          },
+          {
+            "Type": 3,
+            "FloatValue": 0.0
+          }
+        ],
+        "SideChainEnabled": false
+      },
+      "EffectBody": {
+        "Flags": 0,
+        "WetMix": 100.0,
+        "WetLevel": 0.0,
+        "DryLevel": -80.0,
+        "InputGain": 0.0
+      }
+    },
+    "8555d4a4-72bf-488a-ab6c-b06dc17bde7f": {
+      "BaseGuid": "8555d4a4-72bf-488a-ab6c-b06dc17bde7f",
+      "InputChannelLayout": 0,
+      "DSPType": "FMOD_DSP_TYPE_DISTORTION",
+      "ParamEffectBody": {
+        "Parameters": [
+          {
+            "Type": 0,
+            "FloatValue": 0.255
+          }
+        ],
+        "SideChainEnabled": false
+      },
+      "EffectBody": {
+        "Flags": 0,
+        "WetMix": 100.0,
+        "WetLevel": 0.0,
+        "DryLevel": -80.0,
+        "InputGain": 0.0
+      }
+    },
+    "1dbbce10-d309-46a0-b4d6-beebd197c07a": {
+      "InputChannelLayout": 0,
+      "ReturnGuid": "294402ea-98bd-4f4a-8bd8-7378c7ba09a0",
+      "SendLevel": -80.0,
+      "EffectBody": {
+        "Flags": 0,
+        "WetMix": 100.0,
+        "WetLevel": 0.0,
+        "DryLevel": -80.0,
+        "InputGain": 0.0
+      }
+    },
+    "6b167f1d-6bdc-4469-9ecc-9d55f8d4defc": {
+      "InputChannelLayout": 0,
+      "ReturnGuid": "294402ea-98bd-4f4a-8bd8-7378c7ba09a0",
+      "SendLevel": -80.0,
+      "EffectBody": {
+        "Flags": 0,
+        "WetMix": 100.0,
+        "WetLevel": 0.0,
+        "DryLevel": -80.0,
+        "InputGain": 0.0
+      }
+    },
+    "8ebc5b26-ecb3-4be5-bb7d-0d88b5afeb4c": {
+      "InputChannelLayout": 0,
+      "ReturnGuid": "56e3f0da-37d1-4693-9181-4f5924f7c6ea",
+      "SendLevel": -13.0,
+      "EffectBody": {
+        "Flags": 0,
+        "WetMix": 100.0,
+        "WetLevel": 0.0,
+        "DryLevel": -80.0,
+        "InputGain": 0.0
+      }
+    },
+    "98be8e54-5e61-464d-97dd-ce2f7a3b9f90": {
+      "InputChannelLayout": 0,
+      "ReturnGuid": "432e25ad-673b-4c6c-9854-7a13840354ac",
+      "SendLevel": 0.0,
+      "EffectBody": {
+        "Flags": 0,
+        "WetMix": 100.0,
+        "WetLevel": 0.0,
+        "DryLevel": -80.0,
+        "InputGain": 0.0
+      }
+    },
+    "3df9bcaa-77d2-40a3-918e-a82d37f9497c": {
+      "InputChannelLayout": 0,
+      "ReturnGuid": "294402ea-98bd-4f4a-8bd8-7378c7ba09a0",
+      "SendLevel": -80.0,
+      "EffectBody": {
+        "Flags": 0,
+        "WetMix": 100.0,
+        "WetLevel": 0.0,
+        "DryLevel": -80.0,
+        "InputGain": 0.0
+      }
+    },
+    "46cf20dc-2052-475b-95d5-9f88b2ca539e": {
+      "InputChannelLayout": 0,
+      "ReturnGuid": "294402ea-98bd-4f4a-8bd8-7378c7ba09a0",
+      "SendLevel": -80.0,
+      "EffectBody": {
+        "Flags": 0,
+        "WetMix": 100.0,
+        "WetLevel": 0.0,
+        "DryLevel": -80.0,
+        "InputGain": 0.0
+      }
+    }
+  },
   "TimelineNodes": {
     "d485772d-376c-4804-bafc-c139e5499370": {
       "LegacyGuid": "00000000-0000-0000-0000-000000000000",
@@ -4501,6 +4671,535 @@
           "Type": 0
         }
       ]
+    },
+    "5d54622b-cf6b-4d00-bef0-b64726229c79": {
+      "OwnerGuid": "5d54622b-cf6b-4d00-bef0-b64726229c79",
+      "CurvePoints": [
+        {
+          "X": 4.8472E-40,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 5.04467E-40,
+          "Y": 0.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 6.04621E-40,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 6.04622E-40,
+          "Y": -37.2,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 6.4371E-40,
+          "Y": -40.5,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 6.55354E-40,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 7.60975E-40,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 7.79272E-40,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 8.10043E-40,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 8.2335E-40,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.430686E-39,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.452866E-39,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.479771E-39,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.496002E-39,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.762634E-39,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.785002E-39,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.817214E-39,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.832423E-39,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.924581E-39,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.949635E-39,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 2.000632E-39,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 2.000634E-39,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        }
+      ]
+    },
+    "dc5a2332-8e14-4435-8fe9-c300dbaf58c1": {
+      "OwnerGuid": "dc5a2332-8e14-4435-8fe9-c300dbaf58c1",
+      "CurvePoints": [
+        {
+          "X": 4.8472E-40,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 6.04622E-40,
+          "Y": -37.2,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 6.4371E-40,
+          "Y": -40.5,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 7.79272E-40,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 7.93695E-40,
+          "Y": 0.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.430686E-39,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.496002E-39,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.762634E-39,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.785002E-39,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.785003E-39,
+          "Y": -40.5,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.80263E-39,
+          "Y": 0.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.924581E-39,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 2.000634E-39,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        }
+      ]
+    },
+    "2e023336-cdb6-4b02-a8d5-6afa7f49c4e7": {
+      "OwnerGuid": "2e023336-cdb6-4b02-a8d5-6afa7f49c4e7",
+      "CurvePoints": [
+        {
+          "X": 1.964458E-39,
+          "Y": 7.499996,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 2.015521E-39,
+          "Y": 1.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 2.207761E-39,
+          "Y": 1.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 2.351942E-39,
+          "Y": 5.0,
+          "Shape": 0.0,
+          "Type": 0
+        }
+      ]
+    },
+    "8c937dd4-1b6a-4f9b-b50e-800ffac243ca": {
+      "OwnerGuid": "8c937dd4-1b6a-4f9b-b50e-800ffac243ca",
+      "CurvePoints": [
+        {
+          "X": 4.8472E-40,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 5.04467E-40,
+          "Y": 0.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 5.78456E-40,
+          "Y": 0.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 5.78457E-40,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 6.4371E-40,
+          "Y": -40.5,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 6.55354E-40,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 7.60975E-40,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 7.79272E-40,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 8.10043E-40,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 8.2335E-40,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.102317E-39,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.118423E-39,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.141686E-39,
+          "Y": -41.25,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.153318E-39,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.430686E-39,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.452866E-39,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.479771E-39,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.496002E-39,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.762634E-39,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.785002E-39,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.817214E-39,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.817215E-39,
+          "Y": 0.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.924581E-39,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.949635E-39,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.949636E-39,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.96406E-39,
+          "Y": 0.0,
+          "Shape": 0.0,
+          "Type": 0
+        }
+      ]
+    },
+    "eb57d2f9-70f7-4708-9f16-d8b84910afb9": {
+      "OwnerGuid": "eb57d2f9-70f7-4708-9f16-d8b84910afb9",
+      "CurvePoints": [
+        {
+          "X": 4.8472E-40,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 5.04467E-40,
+          "Y": 0.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 6.04621E-40,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 6.04622E-40,
+          "Y": -37.2,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 6.4371E-40,
+          "Y": -40.5,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 6.55354E-40,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 7.60975E-40,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 8.2335E-40,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.399056E-39,
+          "Y": 0.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.412509E-39,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.425961E-39,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.439414E-39,
+          "Y": 0.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.762634E-39,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.785002E-39,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.785003E-39,
+          "Y": 0.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.924581E-39,
+          "Y": 3.8146973E-06,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.949635E-39,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.949636E-39,
+          "Y": -42.0,
+          "Shape": 0.0,
+          "Type": 0
+        },
+        {
+          "X": 1.949638E-39,
+          "Y": 0.0,
+          "Shape": 0.0,
+          "Type": 0
+        }
+      ]
     }
   },
   "PropertyNodes": {
@@ -4513,6 +5212,16 @@
       "Modulators": [
         "2aacbbbe-52af-411d-83ba-ade06557be52"
       ]
+    },
+    "c021a555-2747-4628-a01b-b732941315e2": {
+      "Index": 0,
+      "Method": 2,
+      "Type": 1,
+      "MappingGuid": "c021a555-2747-4628-a01b-b732941315e2",
+      "Controllers": [
+        "8c937dd4-1b6a-4f9b-b50e-800ffac243ca"
+      ],
+      "Modulators": []
     },
     "678d3693-0732-4013-83fc-6262aa4b587e": {
       "Index": 4,
@@ -4527,6 +5236,46 @@
   },
   "MappingNodes": {
     "d65ba128-a6f5-41d9-b6a1-a7c402f329ac": {
+      "MappingPoints": [
+        {
+          "X": -42.0,
+          "Y": -80.0
+        },
+        {
+          "X": -39.0,
+          "Y": -60.0
+        },
+        {
+          "X": -36.0,
+          "Y": -50.0
+        },
+        {
+          "X": -32.0,
+          "Y": -40.0
+        },
+        {
+          "X": -27.0,
+          "Y": -30.0
+        },
+        {
+          "X": -20.0,
+          "Y": -20.0
+        },
+        {
+          "X": -10.0,
+          "Y": -10.0
+        },
+        {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        {
+          "X": 10.0,
+          "Y": 10.0
+        }
+      ]
+    },
+    "c021a555-2747-4628-a01b-b732941315e2": {
       "MappingPoints": [
         {
           "X": -42.0,
@@ -4760,11 +5509,41 @@
       "PropertyOwnerGuid": "a67a8ce4-a369-410c-a6fe-6099ded51cd0",
       "CurveGuid": "9affbd17-4efb-0267-31f1-9a877c4240c6",
       "PropertyIndex": 4
+    },
+    "5d54622b-cf6b-4d00-bef0-b64726229c79": {
+      "PropertyOwnerGuid": "3df9bcaa-77d2-40a3-918e-a82d37f9497c",
+      "CurveGuid": "5d54622b-cf6b-4d00-bef0-b64726229c79",
+      "PropertyIndex": 0
+    },
+    "dc5a2332-8e14-4435-8fe9-c300dbaf58c1": {
+      "PropertyOwnerGuid": "6b167f1d-6bdc-4469-9ecc-9d55f8d4defc",
+      "CurveGuid": "dc5a2332-8e14-4435-8fe9-c300dbaf58c1",
+      "PropertyIndex": 0
+    },
+    "2e023336-cdb6-4b02-a8d5-6afa7f49c4e7": {
+      "PropertyOwnerGuid": "f43a2449-1f7a-4117-8d14-8135de486714",
+      "CurveGuid": "2e023336-cdb6-4b02-a8d5-6afa7f49c4e7",
+      "PropertyIndex": 0
+    },
+    "8c937dd4-1b6a-4f9b-b50e-800ffac243ca": {
+      "PropertyOwnerGuid": "46cf20dc-2052-475b-95d5-9f88b2ca539e",
+      "CurveGuid": "8c937dd4-1b6a-4f9b-b50e-800ffac243ca",
+      "PropertyIndex": 0
+    },
+    "eb57d2f9-70f7-4708-9f16-d8b84910afb9": {
+      "PropertyOwnerGuid": "1dbbce10-d309-46a0-b4d6-beebd197c07a",
+      "CurveGuid": "eb57d2f9-70f7-4708-9f16-d8b84910afb9",
+      "PropertyIndex": 0
     }
   },
   "SnapshotNodes": {},
   "VCANodes": {},
   "ControllerOwnerNodes": [
-    "9affbd17-4efb-0267-31f1-9a877c4240c6"
+    "2e023336-cdb6-4b02-a8d5-6afa7f49c4e7",
+    "9affbd17-4efb-0267-31f1-9a877c4240c6",
+    "5d54622b-cf6b-4d00-bef0-b64726229c79",
+    "dc5a2332-8e14-4435-8fe9-c300dbaf58c1",
+    "8c937dd4-1b6a-4f9b-b50e-800ffac243ca",
+    "eb57d2f9-70f7-4708-9f16-d8b84910afb9"
   ]
 }
