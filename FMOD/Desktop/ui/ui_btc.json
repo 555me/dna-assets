@@ -4,7 +4,7 @@
     "BaseGuid": "f64b9d21-bcdd-4f6e-95cd-aab2afe4cde2",
     "Hash": 0,
     "FileVersion": "FILEVERSION_EFFECT_WET_DRY",
-    "TopLevelEventCount": 12,
+    "TopLevelEventCount": 15,
     "ExportFlags": 7
   },
   "FormatInfo": {
@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 1472,
-        "Length": 6759488
+        "FSBOffset": 1600,
+        "Length": 7174336
       }
     ]
   },
@@ -42,8 +42,20 @@
       "Hash": 337554428
     },
     {
+      "Guid": "63fec355-5299-4573-af42-c0a42ed472d6",
+      "Hash": 2733146835
+    },
+    {
       "Guid": "cde02656-4cc0-4e53-a970-964719f90731",
       "Hash": 3437739706
+    },
+    {
+      "Guid": "40046757-0d33-47a4-9a5b-9799143d3cbf",
+      "Hash": 4075544122
+    },
+    {
+      "Guid": "cf3cd569-a75c-48dd-bf1b-2780b177b17f",
+      "Hash": 4224398346
     },
     {
       "Guid": "3fe24583-45a8-41eb-881d-76fdcd44e8ad",
@@ -190,6 +202,29 @@
       "MinimumDistance": 1.0,
       "MaximumDistance": 20.0
     },
+    "63fec355-5299-4573-af42-c0a42ed472d6": {
+      "SnapshotGuid": "00000000-0000-0000-0000-000000000000",
+      "TimelineGuid": "acf1ace5-e4f7-426f-9843-87f4e9b05714",
+      "InputBusGuid": "a1de3018-aa9b-4d36-9cb8-99cb64d5d686",
+      "MasterTrackGuid": "62a3ddab-b037-4dbc-95ee-d328d2131d11",
+      "MaximumPolyphony": 5,
+      "Priority": 128,
+      "PolyphonyLimitBehavior": true,
+      "SchedulingMode": 0,
+      "ParameterLayouts": [],
+      "UserPropertyFloatList": [],
+      "UserPropertyStringList": [],
+      "DopplerScale": 0.0,
+      "TriggerCooldown": 0.0,
+      "Flags": 7233,
+      "NonMasterTracks": [
+        "823b5b48-beec-4fc8-980f-4a7238db552a"
+      ],
+      "ParameterIds": [],
+      "EventTriggeredInstruments": [],
+      "MinimumDistance": 1.0,
+      "MaximumDistance": 20.0
+    },
     "cde02656-4cc0-4e53-a970-964719f90731": {
       "SnapshotGuid": "00000000-0000-0000-0000-000000000000",
       "TimelineGuid": "11545690-d6fb-46c1-88b4-cfbdd2dd37fd",
@@ -208,6 +243,52 @@
       "NonMasterTracks": [
         "ec447558-c023-4b51-b221-a2c1b177d919",
         "100ca7e9-ab77-4be7-b2a8-4b2e1efbe432"
+      ],
+      "ParameterIds": [],
+      "EventTriggeredInstruments": [],
+      "MinimumDistance": 1.0,
+      "MaximumDistance": 20.0
+    },
+    "40046757-0d33-47a4-9a5b-9799143d3cbf": {
+      "SnapshotGuid": "00000000-0000-0000-0000-000000000000",
+      "TimelineGuid": "7cd19477-db9d-40c7-b7af-b24eafc6ed3e",
+      "InputBusGuid": "0d93428f-92a6-4bda-b68c-fd8f4ae21348",
+      "MasterTrackGuid": "38c19cab-cc2c-44ab-9cf3-f7bec2ab33ae",
+      "MaximumPolyphony": 5,
+      "Priority": 128,
+      "PolyphonyLimitBehavior": true,
+      "SchedulingMode": 0,
+      "ParameterLayouts": [],
+      "UserPropertyFloatList": [],
+      "UserPropertyStringList": [],
+      "DopplerScale": 0.0,
+      "TriggerCooldown": 0.0,
+      "Flags": 5185,
+      "NonMasterTracks": [
+        "851d8f8e-3e33-4e8b-b8ec-2818255b37e2"
+      ],
+      "ParameterIds": [],
+      "EventTriggeredInstruments": [],
+      "MinimumDistance": 1.0,
+      "MaximumDistance": 20.0
+    },
+    "cf3cd569-a75c-48dd-bf1b-2780b177b17f": {
+      "SnapshotGuid": "00000000-0000-0000-0000-000000000000",
+      "TimelineGuid": "9ec6531b-e55b-4fd5-925b-9802bf373000",
+      "InputBusGuid": "eb4ecf29-84b6-4d37-bd4c-82027a697490",
+      "MasterTrackGuid": "eb5d62e6-42b5-4f5a-9f34-da2e80571b79",
+      "MaximumPolyphony": 5,
+      "Priority": 128,
+      "PolyphonyLimitBehavior": true,
+      "SchedulingMode": 0,
+      "ParameterLayouts": [],
+      "UserPropertyFloatList": [],
+      "UserPropertyStringList": [],
+      "DopplerScale": 0.0,
+      "TriggerCooldown": 0.0,
+      "Flags": 7233,
+      "NonMasterTracks": [
+        "cc6dc763-1556-4d47-828a-3f53180b86a6"
       ],
       "ParameterIds": [],
       "EventTriggeredInstruments": [],
@@ -358,7 +439,79 @@
     }
   },
   "BusNodes": {
+    "a1de3018-aa9b-4d36-9cb8-99cb64d5d686": {
+      "Routable": {
+        "BaseGuid": "8a62bcca-0ea6-40bb-8ab6-801275ce2103",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 1,
+        "InputChannelLayout": 3,
+        "PreFaderEffects": [],
+        "PostFaderEffects": [],
+        "MixerStrip": {
+          "Volume": 0.0,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 2147483647,
+        "PolyphonyLimitBehavior": 0,
+        "PreFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
+    },
+    "eb4ecf29-84b6-4d37-bd4c-82027a697490": {
+      "Routable": {
+        "BaseGuid": "8a62bcca-0ea6-40bb-8ab6-801275ce2103",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 1,
+        "InputChannelLayout": 3,
+        "PreFaderEffects": [],
+        "PostFaderEffects": [],
+        "MixerStrip": {
+          "Volume": 0.0,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 2147483647,
+        "PolyphonyLimitBehavior": 0,
+        "PreFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
+    },
     "46475d30-7206-456a-afc5-87032e549589": {
+      "Routable": {
+        "BaseGuid": "8a62bcca-0ea6-40bb-8ab6-801275ce2103",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 1,
+        "InputChannelLayout": 3,
+        "PreFaderEffects": [],
+        "PostFaderEffects": [],
+        "MixerStrip": {
+          "Volume": 0.0,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 2147483647,
+        "PolyphonyLimitBehavior": 0,
+        "PreFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
+    },
+    "0d93428f-92a6-4bda-b68c-fd8f4ae21348": {
       "Routable": {
         "BaseGuid": "8a62bcca-0ea6-40bb-8ab6-801275ce2103",
         "OutputChannelLayout": 3,
@@ -790,6 +943,30 @@
         "PortType": "FMOD_PORT_TYPE_MUSIC"
       }
     },
+    "823b5b48-beec-4fc8-980f-4a7238db552a": {
+      "Routable": {
+        "BaseGuid": "62a3ddab-b037-4dbc-95ee-d328d2131d11",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 0,
+        "InputChannelLayout": 3,
+        "PreFaderEffects": [],
+        "PostFaderEffects": [],
+        "MixerStrip": {
+          "Volume": 0.0,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 2147483647,
+        "PolyphonyLimitBehavior": 2,
+        "PreFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
+    },
     "e0fa5158-347b-4915-9c2b-f4aace4151ef": {
       "Routable": {
         "BaseGuid": "c17d570b-fc49-42ea-b316-a307cdc0f87b",
@@ -827,6 +1004,30 @@
         "PostFaderEffects": [],
         "MixerStrip": {
           "Volume": -1.0,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 2147483647,
+        "PolyphonyLimitBehavior": 2,
+        "PreFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
+    },
+    "cc6dc763-1556-4d47-828a-3f53180b86a6": {
+      "Routable": {
+        "BaseGuid": "eb5d62e6-42b5-4f5a-9f34-da2e80571b79",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 0,
+        "InputChannelLayout": 3,
+        "PreFaderEffects": [],
+        "PostFaderEffects": [],
+        "MixerStrip": {
+          "Volume": 0.0,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -923,6 +1124,30 @@
         "PostFaderEffects": [],
         "MixerStrip": {
           "Volume": -4.5,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 2147483647,
+        "PolyphonyLimitBehavior": 2,
+        "PreFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
+    },
+    "851d8f8e-3e33-4e8b-b8ec-2818255b37e2": {
+      "Routable": {
+        "BaseGuid": "38c19cab-cc2c-44ab-9cf3-f7bec2ab33ae",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 0,
+        "InputChannelLayout": 3,
+        "PreFaderEffects": [],
+        "PostFaderEffects": [],
+        "MixerStrip": {
+          "Volume": 0.0,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -1342,6 +1567,54 @@
         "PortType": "FMOD_PORT_TYPE_MUSIC"
       }
     },
+    "38c19cab-cc2c-44ab-9cf3-f7bec2ab33ae": {
+      "Routable": {
+        "BaseGuid": "00000000-0000-0000-0000-000000000000",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 0,
+        "InputChannelLayout": 3,
+        "PreFaderEffects": [],
+        "PostFaderEffects": [],
+        "MixerStrip": {
+          "Volume": 0.0,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 2147483647,
+        "PolyphonyLimitBehavior": 2,
+        "PreFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
+    },
+    "62a3ddab-b037-4dbc-95ee-d328d2131d11": {
+      "Routable": {
+        "BaseGuid": "00000000-0000-0000-0000-000000000000",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 0,
+        "InputChannelLayout": 3,
+        "PreFaderEffects": [],
+        "PostFaderEffects": [],
+        "MixerStrip": {
+          "Volume": 3.0,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 2147483647,
+        "PolyphonyLimitBehavior": 2,
+        "PreFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
+    },
     "b4628ab5-513e-4a9c-a7a8-46eaa8336ff1": {
       "Routable": {
         "BaseGuid": "00000000-0000-0000-0000-000000000000",
@@ -1413,6 +1686,30 @@
         "ObjectPannerIndex": -1,
         "PortType": "FMOD_PORT_TYPE_MUSIC"
       }
+    },
+    "eb5d62e6-42b5-4f5a-9f34-da2e80571b79": {
+      "Routable": {
+        "BaseGuid": "00000000-0000-0000-0000-000000000000",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 0,
+        "InputChannelLayout": 3,
+        "PreFaderEffects": [],
+        "PostFaderEffects": [],
+        "MixerStrip": {
+          "Volume": 0.0,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 2147483647,
+        "PolyphonyLimitBehavior": 2,
+        "PreFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
     }
   },
   "EffectNodes": {},
@@ -1430,6 +1727,21 @@
           "Guid": "edcf5dd8-20d8-4f6c-a3cb-7efd2fa3c9ee",
           "StartTime": 38400,
           "Length": 2528866
+        }
+      ],
+      "SustainPoints": [],
+      "TimelineNamedMarkers": [],
+      "TimelineTempoMarkers": [],
+      "LegacyUIntArray": []
+    },
+    "9ec6531b-e55b-4fd5-925b-9802bf373000": {
+      "LegacyGuid": "00000000-0000-0000-0000-000000000000",
+      "TriggerBoxes": [],
+      "TimeLockedTriggerBoxes": [
+        {
+          "Guid": "bf01841e-e5f1-4d4e-921c-e04c2cd248ce",
+          "StartTime": 0,
+          "Length": 811056
         }
       ],
       "SustainPoints": [],
@@ -1494,6 +1806,28 @@
           "Position": 0,
           "Name": "",
           "Length": 702481
+        }
+      ],
+      "TimelineTempoMarkers": [],
+      "LegacyUIntArray": []
+    },
+    "7cd19477-db9d-40c7-b7af-b24eafc6ed3e": {
+      "LegacyGuid": "00000000-0000-0000-0000-000000000000",
+      "TriggerBoxes": [],
+      "TimeLockedTriggerBoxes": [
+        {
+          "Guid": "2d66e0b2-9e16-480c-86a7-689e8c34f2d8",
+          "StartTime": 0,
+          "Length": 811056
+        }
+      ],
+      "SustainPoints": [],
+      "TimelineNamedMarkers": [
+        {
+          "BaseGuid": "07100cdf-47c5-44e5-b522-15174b55f2d4",
+          "Position": 0,
+          "Name": "",
+          "Length": 764784
         }
       ],
       "TimelineTempoMarkers": [],
@@ -1645,6 +1979,21 @@
       "TimelineTempoMarkers": [],
       "LegacyUIntArray": []
     },
+    "acf1ace5-e4f7-426f-9843-87f4e9b05714": {
+      "LegacyGuid": "00000000-0000-0000-0000-000000000000",
+      "TriggerBoxes": [],
+      "TimeLockedTriggerBoxes": [
+        {
+          "Guid": "8fc3ea5d-b620-48a0-b702-b0003d0c4bea",
+          "StartTime": 0,
+          "Length": 670416
+        }
+      ],
+      "SustainPoints": [],
+      "TimelineNamedMarkers": [],
+      "TimelineTempoMarkers": [],
+      "LegacyUIntArray": []
+    },
     "4d80e7f2-ab7c-488d-821e-d65ae19f8175": {
       "LegacyGuid": "00000000-0000-0000-0000-000000000000",
       "TriggerBoxes": [],
@@ -1671,6 +2020,20 @@
       "DestinationGuid": "2f6ab362-9a7b-46ae-b5b6-94f404af66e0",
       "Start": 702481,
       "End": 702481,
+      "LegacyParameterConditions": null,
+      "Evaluators": [],
+      "Quantization": {
+        "Unit": "None",
+        "Multiplier": 0
+      },
+      "TransitionChancePercent": 100.0,
+      "Flags": 2,
+      "TransitionBody": null
+    },
+    "00055c26-1f5e-0bba-2c14-bdbf77e9f6ca": {
+      "DestinationGuid": "07100cdf-47c5-44e5-b522-15174b55f2d4",
+      "Start": 764784,
+      "End": 764784,
       "LegacyParameterConditions": null,
       "Evaluators": [],
       "Quantization": {
@@ -1785,6 +2148,41 @@
         "MaximumPolyphony": 2147483647,
         "Routable": {
           "BaseGuid": "250b916a-873c-4aef-abff-2bc0682ba484",
+          "OutputChannelLayout": 3,
+          "ChannelMask": 4294967295
+        },
+        "PolyphonyLimitBehavior": 2,
+        "LeftTrimOffset": 0,
+        "InitialSeekPercent": 0.0,
+        "AutoPitchAtMinimum": 0.0,
+        "Evaluators": []
+      }
+    },
+    "bf01841e-e5f1-4d4e-921c-e04c2cd248ce": {
+      "LegacyLoadingMode": "WaveformLoadingMode_LoadInMemory",
+      "WaveformResourceGuid": "0cae2933-2b8b-4da6-88e2-d6baa8a78641",
+      "InstrumentBody": {
+        "TimelineGuid": "9ec6531b-e55b-4fd5-925b-9802bf373000",
+        "Volume": 0.0,
+        "Pitch": 0.0,
+        "LoopCount": 0,
+        "Flags": 0,
+        "Offset3DDistance": 0.0,
+        "TriggerChancePercent": 100.0,
+        "TriggerDelay": {
+          "Min": 0.0,
+          "Max": 0.0
+        },
+        "Quantization": {
+          "Unit": "None",
+          "Multiplier": 0
+        },
+        "ControlParameterGuid": "00000000-0000-0000-0000-000000000000",
+        "AutoPitchReference": 1.0,
+        "InitialSeekPosition": 0.0,
+        "MaximumPolyphony": 2147483647,
+        "Routable": {
+          "BaseGuid": "cc6dc763-1556-4d47-828a-3f53180b86a6",
           "OutputChannelLayout": 3,
           "ChannelMask": 4294967295
         },
@@ -2005,6 +2403,41 @@
         "Evaluators": []
       }
     },
+    "8fc3ea5d-b620-48a0-b702-b0003d0c4bea": {
+      "LegacyLoadingMode": "WaveformLoadingMode_LoadInMemory",
+      "WaveformResourceGuid": "b9bffa8a-0c73-4bec-a494-940e6973ca07",
+      "InstrumentBody": {
+        "TimelineGuid": "acf1ace5-e4f7-426f-9843-87f4e9b05714",
+        "Volume": 0.0,
+        "Pitch": 0.0,
+        "LoopCount": 0,
+        "Flags": 0,
+        "Offset3DDistance": 0.0,
+        "TriggerChancePercent": 100.0,
+        "TriggerDelay": {
+          "Min": 0.0,
+          "Max": 0.0
+        },
+        "Quantization": {
+          "Unit": "None",
+          "Multiplier": 0
+        },
+        "ControlParameterGuid": "00000000-0000-0000-0000-000000000000",
+        "AutoPitchReference": 1.0,
+        "InitialSeekPosition": 0.0,
+        "MaximumPolyphony": 2147483647,
+        "Routable": {
+          "BaseGuid": "823b5b48-beec-4fc8-980f-4a7238db552a",
+          "OutputChannelLayout": 3,
+          "ChannelMask": 4294967295
+        },
+        "PolyphonyLimitBehavior": 2,
+        "LeftTrimOffset": 0,
+        "InitialSeekPercent": 0.0,
+        "AutoPitchAtMinimum": 0.0,
+        "Evaluators": []
+      }
+    },
     "b2a67f63-785c-446e-b6dc-d1e81c35ec92": {
       "LegacyLoadingMode": "WaveformLoadingMode_LoadInMemory",
       "WaveformResourceGuid": "eb33009d-75bf-4971-a0e4-dce6a4483ca7",
@@ -2135,6 +2568,41 @@
         "MaximumPolyphony": 2147483647,
         "Routable": {
           "BaseGuid": "d35fcf67-4a64-44ed-815b-2505c10fcc40",
+          "OutputChannelLayout": 3,
+          "ChannelMask": 4294967295
+        },
+        "PolyphonyLimitBehavior": 2,
+        "LeftTrimOffset": 0,
+        "InitialSeekPercent": 0.0,
+        "AutoPitchAtMinimum": 0.0,
+        "Evaluators": []
+      }
+    },
+    "2d66e0b2-9e16-480c-86a7-689e8c34f2d8": {
+      "LegacyLoadingMode": "WaveformLoadingMode_LoadInMemory",
+      "WaveformResourceGuid": "0cae2933-2b8b-4da6-88e2-d6baa8a78641",
+      "InstrumentBody": {
+        "TimelineGuid": "7cd19477-db9d-40c7-b7af-b24eafc6ed3e",
+        "Volume": 0.0,
+        "Pitch": 0.0,
+        "LoopCount": 0,
+        "Flags": 0,
+        "Offset3DDistance": 0.0,
+        "TriggerChancePercent": 100.0,
+        "TriggerDelay": {
+          "Min": 0.0,
+          "Max": 0.0
+        },
+        "Quantization": {
+          "Unit": "None",
+          "Multiplier": 0
+        },
+        "ControlParameterGuid": "00000000-0000-0000-0000-000000000000",
+        "AutoPitchReference": 1.0,
+        "InitialSeekPosition": 0.0,
+        "MaximumPolyphony": 2147483647,
+        "Routable": {
+          "BaseGuid": "851d8f8e-3e33-4e8b-b8ec-2818255b37e2",
           "OutputChannelLayout": 3,
           "ChannelMask": 4294967295
         },

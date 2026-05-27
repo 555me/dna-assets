@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 1472,
-        "Length": 4877408
+        "FSBOffset": 1440,
+        "Length": 1932160
       }
     ]
   },
@@ -78,10 +78,6 @@
       "Hash": 1219772169
     },
     {
-      "Guid": "fd5ecbef-6928-4987-93ec-7ca570c7b479",
-      "Hash": 2521614840
-    },
-    {
       "Guid": "ad320bfa-d87c-4ab3-9931-971da24b739d",
       "Hash": 482430176
     }
@@ -91,7 +87,7 @@
       "Header": {
         "AudioType": "VORBIS",
         "Version": 1,
-        "NumSamples": 16
+        "NumSamples": 15
       },
       "Samples": [
         {
@@ -223,15 +219,6 @@
         {
           "Metadata": {
             "IsStereo": true,
-            "SampleCount": 10368000,
-            "Frequency": 48000,
-            "Channels": 2
-          },
-          "Name": "重铸黑白终版"
-        },
-        {
-          "Metadata": {
-            "IsStereo": true,
             "SampleCount": 756101,
             "Frequency": 48000,
             "Channels": 2
@@ -318,14 +305,9 @@
       "SubsoundIndex": 13,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "fd5ecbef-6928-4987-93ec-7ca570c7b479": {
-      "SoundBankIndex": 0,
-      "SubsoundIndex": 14,
-      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
-    },
     "ad320bfa-d87c-4ab3-9931-971da24b739d": {
       "SoundBankIndex": 0,
-      "SubsoundIndex": 15,
+      "SubsoundIndex": 14,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     }
   },

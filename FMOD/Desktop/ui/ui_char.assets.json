@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 7456,
-        "Length": 5610080
+        "FSBOffset": 7680,
+        "Length": 5897472
       }
     ]
   },
@@ -182,6 +182,10 @@
       "Hash": 1565958494
     },
     {
+      "Guid": "defa7c3d-7290-4422-93a3-d0cbfe618796",
+      "Hash": 2439793558
+    },
+    {
       "Guid": "6e608b41-e2e6-4bc9-ba99-a83af567d6b5",
       "Hash": 3101561593
     },
@@ -302,6 +306,14 @@
       "Hash": 962771580
     },
     {
+      "Guid": "b8201e88-d632-460a-a8d1-4ad944051d16",
+      "Hash": 4260348298
+    },
+    {
+      "Guid": "43bf7d88-03b9-4ba5-9358-8fb295bf3c14",
+      "Hash": 2567870400
+    },
+    {
       "Guid": "06bc6789-35e2-45ad-8279-6f4a77040887",
       "Hash": 1040471284
     },
@@ -360,6 +372,10 @@
     {
       "Guid": "ba1fcab7-37dc-4a5c-a19b-a6158c9df32f",
       "Hash": 2476396347
+    },
+    {
+      "Guid": "719266b9-752e-4efd-a87a-d0b6bb3f5118",
+      "Hash": 1140471499
     },
     {
       "Guid": "7ba8ffb9-6e18-48d1-a392-862515f519e1",
@@ -503,7 +519,7 @@
       "Header": {
         "AudioType": "VORBIS",
         "Version": 1,
-        "NumSamples": 119
+        "NumSamples": 123
       },
       "Samples": [
         {
@@ -869,6 +885,15 @@
         {
           "Metadata": {
             "IsStereo": true,
+            "SampleCount": 165349,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "ui_char_Fuluola_armory_sfx"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
             "SampleCount": 84876,
             "Frequency": 48000,
             "Channels": 2
@@ -1139,6 +1164,24 @@
         {
           "Metadata": {
             "IsStereo": true,
+            "SampleCount": 313033,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "ui_char_Nanzhudark_armory_start"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 249732,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "ui_char_gacha_show_Fuluo"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
             "SampleCount": 29413,
             "Frequency": 48000,
             "Channels": 2
@@ -1270,6 +1313,15 @@
             "Channels": 2
           },
           "Name": "ui_char_jiaojiao_shopping_idle_r03"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 706648,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "ui_char_Fuluola_armory_foley"
         },
         {
           "Metadata": {
@@ -1787,399 +1839,419 @@
       "SubsoundIndex": 39,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "6e608b41-e2e6-4bc9-ba99-a83af567d6b5": {
+    "defa7c3d-7290-4422-93a3-d0cbfe618796": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 40,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "bc1e3b44-266f-46ef-bfa1-c6f8f34f6345": {
+    "6e608b41-e2e6-4bc9-ba99-a83af567d6b5": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 41,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "dd492a45-bb8e-4c89-989d-19bde78085a8": {
+    "bc1e3b44-266f-46ef-bfa1-c6f8f34f6345": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 42,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "6007284a-ce34-47f5-b190-a09f4707779b": {
+    "dd492a45-bb8e-4c89-989d-19bde78085a8": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 43,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "7a95704a-fb58-42b5-b43e-e4efd62e84d0": {
+    "6007284a-ce34-47f5-b190-a09f4707779b": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 44,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "493d744a-8e8f-4172-8959-9fe4eadf50b7": {
+    "7a95704a-fb58-42b5-b43e-e4efd62e84d0": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 45,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "5fc6dc4a-f338-4dde-8f77-2958a25ebd1e": {
+    "493d744a-8e8f-4172-8959-9fe4eadf50b7": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 46,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "636b444d-9267-465d-8b81-50013e600934": {
+    "5fc6dc4a-f338-4dde-8f77-2958a25ebd1e": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 47,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "fc7cff50-6f39-4427-b37d-1b724fd746a3": {
+    "636b444d-9267-465d-8b81-50013e600934": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 48,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "e2e57f54-167b-4079-8778-69d2407134f2": {
+    "fc7cff50-6f39-4427-b37d-1b724fd746a3": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 49,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "2d554b55-e350-421b-94d1-647349630203": {
+    "e2e57f54-167b-4079-8778-69d2407134f2": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 50,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "f58d585b-70cc-4608-a2f1-2c2303fb67b2": {
+    "2d554b55-e350-421b-94d1-647349630203": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 51,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "b628655c-3f00-4aed-b7b3-f41bbebc9987": {
+    "f58d585b-70cc-4608-a2f1-2c2303fb67b2": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 52,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "29bf7f5d-98ba-4d40-9a50-5a20ec745cf9": {
+    "b628655c-3f00-4aed-b7b3-f41bbebc9987": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 53,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "82473466-10a5-4b1f-8e03-7a05c5354e59": {
+    "29bf7f5d-98ba-4d40-9a50-5a20ec745cf9": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 54,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "3ed76967-adc8-4aa5-9905-08a61f8d6257": {
+    "82473466-10a5-4b1f-8e03-7a05c5354e59": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 55,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "6b1bf767-60db-475a-bf89-799c9553472a": {
+    "3ed76967-adc8-4aa5-9905-08a61f8d6257": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 56,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "88915169-697d-43a8-8cc2-58a25c3d9c98": {
+    "6b1bf767-60db-475a-bf89-799c9553472a": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 57,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "19b3a56e-7e67-4587-8fee-d9757abe01a4": {
+    "88915169-697d-43a8-8cc2-58a25c3d9c98": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 58,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "1e408b70-0b33-47cb-892f-82ec8ac0ef81": {
+    "19b3a56e-7e67-4587-8fee-d9757abe01a4": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 59,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "70c4ba70-b5e5-46ba-b675-3cdc2c0d011e": {
+    "1e408b70-0b33-47cb-892f-82ec8ac0ef81": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 60,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "a25cfb72-889a-4967-a015-2fafab2a6d4e": {
+    "70c4ba70-b5e5-46ba-b675-3cdc2c0d011e": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 61,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "89f68973-799c-4aeb-b7c9-2695ae36a753": {
+    "a25cfb72-889a-4967-a015-2fafab2a6d4e": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 62,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "cdac7475-ff07-4454-ac34-f497f003ec06": {
+    "89f68973-799c-4aeb-b7c9-2695ae36a753": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 63,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "c2d30977-24a2-4779-a8a4-a058b8464330": {
+    "cdac7475-ff07-4454-ac34-f497f003ec06": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 64,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "9d51d879-167c-4f37-b36d-a11baa8d6574": {
+    "c2d30977-24a2-4779-a8a4-a058b8464330": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 65,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "a867ef79-498c-4ef2-94f8-ab2c1d1ee4b9": {
+    "9d51d879-167c-4f37-b36d-a11baa8d6574": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 66,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "450a7c7b-b5ec-4e2c-aea7-301754080a06": {
+    "a867ef79-498c-4ef2-94f8-ab2c1d1ee4b9": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 67,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "6b901a7c-4454-4dce-afb5-b4e40bb8e22d": {
+    "450a7c7b-b5ec-4e2c-aea7-301754080a06": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 68,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "10f4587c-c52c-4e8f-93d0-3dce94c64ca7": {
+    "6b901a7c-4454-4dce-afb5-b4e40bb8e22d": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 69,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "06bc6789-35e2-45ad-8279-6f4a77040887": {
+    "10f4587c-c52c-4e8f-93d0-3dce94c64ca7": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 70,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "09472b8f-098f-417d-a993-5a1be13ef281": {
+    "b8201e88-d632-460a-a8d1-4ad944051d16": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 71,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "6a4f309a-89f1-4474-b554-64a0268e5242": {
+    "43bf7d88-03b9-4ba5-9358-8fb295bf3c14": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 72,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "e64f549f-f178-4d4b-b503-9eb4d9133028": {
+    "06bc6789-35e2-45ad-8279-6f4a77040887": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 73,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "e8061ca4-1418-46e7-8ffd-fd40b14946ea": {
+    "09472b8f-098f-417d-a993-5a1be13ef281": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 74,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "b952f6a4-3428-43ff-a7d7-493ee2d1a616": {
+    "6a4f309a-89f1-4474-b554-64a0268e5242": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 75,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "ce4d5ba7-0789-443c-b7b0-11d5e7c80bce": {
+    "e64f549f-f178-4d4b-b503-9eb4d9133028": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 76,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "d39a0aa9-acc7-4b4e-8af4-9d164b7f67d7": {
+    "e8061ca4-1418-46e7-8ffd-fd40b14946ea": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 77,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "ffa3c0ab-9e69-44bf-854c-7a8874759d7e": {
+    "b952f6a4-3428-43ff-a7d7-493ee2d1a616": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 78,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "15b2bcad-8a15-4179-bd35-8b55872b72cd": {
+    "ce4d5ba7-0789-443c-b7b0-11d5e7c80bce": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 79,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "77f49cb3-b578-49b3-8279-f5259034bde4": {
+    "d39a0aa9-acc7-4b4e-8af4-9d164b7f67d7": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 80,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "4bf001b4-80dd-4b0e-b209-f254c9d47fea": {
+    "ffa3c0ab-9e69-44bf-854c-7a8874759d7e": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 81,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "2c980eb4-c782-411f-970b-f708b90ac874": {
+    "15b2bcad-8a15-4179-bd35-8b55872b72cd": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 82,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "ffa828b6-6f23-4d67-8887-6af4445531e1": {
+    "77f49cb3-b578-49b3-8279-f5259034bde4": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 83,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "ba1fcab7-37dc-4a5c-a19b-a6158c9df32f": {
+    "4bf001b4-80dd-4b0e-b209-f254c9d47fea": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 84,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "7ba8ffb9-6e18-48d1-a392-862515f519e1": {
+    "2c980eb4-c782-411f-970b-f708b90ac874": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 85,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "7a4325bb-b277-442a-b7bd-ab73e5dd9451": {
+    "ffa828b6-6f23-4d67-8887-6af4445531e1": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 86,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "483286bb-554b-4e4f-bff3-89ad4510ecc3": {
+    "ba1fcab7-37dc-4a5c-a19b-a6158c9df32f": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 87,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "9f04c5bc-a5d2-4d43-9dec-9ed41c70881f": {
+    "719266b9-752e-4efd-a87a-d0b6bb3f5118": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 88,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "f15cefbd-0998-4126-9c2f-eb725f1b95c0": {
+    "7ba8ffb9-6e18-48d1-a392-862515f519e1": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 89,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "65ef27c0-de28-4824-871d-2bc7da744948": {
+    "7a4325bb-b277-442a-b7bd-ab73e5dd9451": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 90,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "a6d400c1-7275-455c-8474-42319ce7cd9f": {
+    "483286bb-554b-4e4f-bff3-89ad4510ecc3": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 91,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "7c3e32c1-c604-4556-b723-b1cb8bce5140": {
+    "9f04c5bc-a5d2-4d43-9dec-9ed41c70881f": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 92,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "cfbd08c3-f818-482c-8b86-a71f35342344": {
+    "f15cefbd-0998-4126-9c2f-eb725f1b95c0": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 93,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "c3df26ca-5c0f-4908-8abf-4e79c40927a7": {
+    "65ef27c0-de28-4824-871d-2bc7da744948": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 94,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "f0f486ca-ccae-4122-bb6e-904c8f9589f9": {
+    "a6d400c1-7275-455c-8474-42319ce7cd9f": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 95,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "395c17ce-de9a-4e02-84a0-f5532323b4cf": {
+    "7c3e32c1-c604-4556-b723-b1cb8bce5140": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 96,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "02203cd0-b198-48b1-ab19-80f0bda45cde": {
+    "cfbd08c3-f818-482c-8b86-a71f35342344": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 97,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "8428fed0-a65b-4f17-9898-cb79aaa70a6e": {
+    "c3df26ca-5c0f-4908-8abf-4e79c40927a7": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 98,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "15eb74d3-9bd2-4853-9eb6-31a394b1ed98": {
+    "f0f486ca-ccae-4122-bb6e-904c8f9589f9": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 99,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "791657d5-d8a4-4630-83f9-f3ece7700515": {
+    "395c17ce-de9a-4e02-84a0-f5532323b4cf": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 100,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "f3f3c7d5-5e1b-4bf2-8946-f0eecaa178ea": {
+    "02203cd0-b198-48b1-ab19-80f0bda45cde": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 101,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "ee2afbd6-24c1-4397-890b-fd1e471eba61": {
+    "8428fed0-a65b-4f17-9898-cb79aaa70a6e": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 102,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "26cd12d7-8772-41f6-aaca-0b66452e03d8": {
+    "15eb74d3-9bd2-4853-9eb6-31a394b1ed98": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 103,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "c74ec2d9-c511-419c-8a2e-a3cf82ec2dc1": {
+    "791657d5-d8a4-4630-83f9-f3ece7700515": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 104,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "cb4a9cdb-33a8-449d-8d19-8287ece526bc": {
+    "f3f3c7d5-5e1b-4bf2-8946-f0eecaa178ea": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 105,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "9e404bdd-2c4b-4797-9a64-45bc086a2cfd": {
+    "ee2afbd6-24c1-4397-890b-fd1e471eba61": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 106,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "0ed3abdd-ad18-4c07-be62-90b996a6d18f": {
+    "26cd12d7-8772-41f6-aaca-0b66452e03d8": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 107,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "5ba73cdf-3121-4ff5-9e25-288a9e85ede7": {
+    "c74ec2d9-c511-419c-8a2e-a3cf82ec2dc1": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 108,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "111918e5-e4c3-442b-af96-58a3602e2ec4": {
+    "cb4a9cdb-33a8-449d-8d19-8287ece526bc": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 109,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "02a9f3e7-1518-4268-80b9-5c7e639a38a8": {
+    "9e404bdd-2c4b-4797-9a64-45bc086a2cfd": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 110,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "03d67feb-9036-48a8-951f-acf9d9145e61": {
+    "0ed3abdd-ad18-4c07-be62-90b996a6d18f": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 111,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "9248faee-8a9f-47f4-a3e6-83de52ea9a77": {
+    "5ba73cdf-3121-4ff5-9e25-288a9e85ede7": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 112,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "67b548ef-0cb2-4494-8416-4f84a8462c35": {
+    "111918e5-e4c3-442b-af96-58a3602e2ec4": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 113,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "380173f0-b3b3-46b8-b311-7230232d87f4": {
+    "02a9f3e7-1518-4268-80b9-5c7e639a38a8": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 114,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "35ea0ef2-0d06-43f4-aaea-3b35b5dc7569": {
+    "03d67feb-9036-48a8-951f-acf9d9145e61": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 115,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "e36ce8f4-0529-45b8-af88-3c35ad547db9": {
+    "9248faee-8a9f-47f4-a3e6-83de52ea9a77": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 116,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "f0c0d0f6-df58-423f-93a6-8d82621cb2d1": {
+    "67b548ef-0cb2-4494-8416-4f84a8462c35": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 117,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "7f222bfa-e0a0-40cc-a8c6-c2c0fd1a2bc3": {
+    "380173f0-b3b3-46b8-b311-7230232d87f4": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 118,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
+    "35ea0ef2-0d06-43f4-aaea-3b35b5dc7569": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 119,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
+    "e36ce8f4-0529-45b8-af88-3c35ad547db9": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 120,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
+    "f0c0d0f6-df58-423f-93a6-8d82621cb2d1": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 121,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
+    "7f222bfa-e0a0-40cc-a8c6-c2c0fd1a2bc3": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 122,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     }
   },

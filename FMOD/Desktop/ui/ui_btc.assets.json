@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 1472,
-        "Length": 6759488
+        "FSBOffset": 1600,
+        "Length": 7174336
       }
     ]
   },
@@ -42,6 +42,10 @@
       "Hash": 511891627
     },
     {
+      "Guid": "0cae2933-2b8b-4da6-88e2-d6baa8a78641",
+      "Hash": 4268741640
+    },
+    {
       "Guid": "669b7160-3c81-4acf-b373-0e6ad21dcc56",
       "Hash": 4027471516
     },
@@ -56,6 +60,10 @@
     {
       "Guid": "2e79b16b-06d7-4fee-bd98-37251a13b191",
       "Hash": 3071434044
+    },
+    {
+      "Guid": "b9bffa8a-0c73-4bec-a494-940e6973ca07",
+      "Hash": 3934825288
     },
     {
       "Guid": "d0e5bb8c-848b-43ae-8bd3-9f63816c8c22",
@@ -91,7 +99,7 @@
       "Header": {
         "AudioType": "VORBIS",
         "Version": 1,
-        "NumSamples": 16
+        "NumSamples": 18
       },
       "Samples": [
         {
@@ -142,6 +150,15 @@
         {
           "Metadata": {
             "IsStereo": true,
+            "SampleCount": 811056,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "ui_btc_cg_fuluo_skin01"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
             "SampleCount": 875232,
             "Frequency": 48000,
             "Channels": 2
@@ -174,6 +191,15 @@
             "Channels": 2
           },
           "Name": "ui_btc_cg_car01_get"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 670416,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "ui_btc_cg_fuluo_zhanjie01"
         },
         {
           "Metadata": {
@@ -273,59 +299,69 @@
       "SubsoundIndex": 4,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "669b7160-3c81-4acf-b373-0e6ad21dcc56": {
+    "0cae2933-2b8b-4da6-88e2-d6baa8a78641": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 5,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "e984f962-07b7-4a37-9814-e2490e0a4edc": {
+    "669b7160-3c81-4acf-b373-0e6ad21dcc56": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 6,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "ad5b286a-1fa5-4e02-b21d-424c5858f9aa": {
+    "e984f962-07b7-4a37-9814-e2490e0a4edc": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 7,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
+    "ad5b286a-1fa5-4e02-b21d-424c5858f9aa": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 8,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "2e79b16b-06d7-4fee-bd98-37251a13b191": {
       "SoundBankIndex": 0,
-      "SubsoundIndex": 8,
+      "SubsoundIndex": 9,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
+    "b9bffa8a-0c73-4bec-a494-940e6973ca07": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 10,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "d0e5bb8c-848b-43ae-8bd3-9f63816c8c22": {
       "SoundBankIndex": 0,
-      "SubsoundIndex": 9,
+      "SubsoundIndex": 11,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "3a60c790-bad1-44f3-91ea-3de0dcde419e": {
       "SoundBankIndex": 0,
-      "SubsoundIndex": 10,
+      "SubsoundIndex": 12,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "eb33009d-75bf-4971-a0e4-dce6a4483ca7": {
       "SoundBankIndex": 0,
-      "SubsoundIndex": 11,
+      "SubsoundIndex": 13,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "ec06b7ab-5f0c-4a59-aa09-c63d3f4ef1b5": {
       "SoundBankIndex": 0,
-      "SubsoundIndex": 12,
+      "SubsoundIndex": 14,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "d71d00cd-59ce-4913-bfad-74f25276c7b8": {
       "SoundBankIndex": 0,
-      "SubsoundIndex": 13,
+      "SubsoundIndex": 15,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "9d3c94e5-896c-42dc-a74d-dc422c289abb": {
       "SoundBankIndex": 0,
-      "SubsoundIndex": 14,
+      "SubsoundIndex": 16,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
     "fb709efb-bc61-4c5c-b8c5-c7de1261fa96": {
       "SoundBankIndex": 0,
-      "SubsoundIndex": 15,
+      "SubsoundIndex": 17,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     }
   },
