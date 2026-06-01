@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 800,
-        "Length": 4844832
+        "FSBOffset": 85824,
+        "Length": 17300896
       }
     ]
   },
@@ -83,7 +83,7 @@
     },
     {
       "Guid": "7c47e60e-27dc-4689-9538-7f76c177c7d5",
-      "Hash": 1825151871
+      "Hash": 2416487625
     },
     {
       "Guid": "d161af10-de85-419a-ad9c-2643533a5830",
@@ -327,7 +327,7 @@
     },
     {
       "Guid": "7e3e6f6f-8447-41c7-a140-4105d1ee4ccb",
-      "Hash": 3108330482
+      "Hash": 1782433561
     },
     {
       "Guid": "28245b70-e597-4e94-9f09-11654e6181d8",
@@ -1042,7 +1042,9 @@
       "Priority": 128,
       "PolyphonyLimitBehavior": true,
       "SchedulingMode": 0,
-      "ParameterLayouts": [],
+      "ParameterLayouts": [
+        "5c48d8d7-2095-028a-247b-1b01b03f89a9"
+      ],
       "UserPropertyFloatList": [],
       "UserPropertyStringList": [],
       "DopplerScale": 0.0,
@@ -1051,7 +1053,12 @@
       "NonMasterTracks": [
         "68288834-dea0-4f7c-9624-b20ec795f01d"
       ],
-      "ParameterIds": [],
+      "ParameterIds": [
+        {
+          "Data1": 148715336,
+          "Data2": 164987216
+        }
+      ],
       "EventTriggeredInstruments": [],
       "MinimumDistance": 1.0,
       "MaximumDistance": 100.0
@@ -2458,7 +2465,7 @@
       "TimelineGuid": "151e2504-a3fe-4256-a93f-29d55d1d7671",
       "InputBusGuid": "cb08fee6-02cb-41ae-ae3e-d55067cd44c4",
       "MasterTrackGuid": "62920d93-1a56-4293-adb4-446ac3c37203",
-      "MaximumPolyphony": 5,
+      "MaximumPolyphony": 9,
       "Priority": 128,
       "PolyphonyLimitBehavior": true,
       "SchedulingMode": 1,
@@ -55154,6 +55161,18 @@
       "SeekSpeed": 0.0,
       "SeekSpeedDown": 0.0,
       "Labels": []
+    },
+    "200f3ed9-0749-4403-b143-647771484e7c": {
+      "Flags": 0,
+      "Type": "FMOD_STUDIO_PARAMETER_GAME_CONTROLLED",
+      "Name": "Occlusion",
+      "Minimum": 0.0,
+      "Maximum": 1.0,
+      "DefaultValue": 0.0,
+      "Velocity": 0.0,
+      "SeekSpeed": 0.0,
+      "SeekSpeedDown": 0.0,
+      "Labels": []
     }
   },
   "ModulatorNodes": {
@@ -55515,6 +55534,18 @@
         "DecayShape": 0.0,
         "ReleaseShape": 0.0,
         "FinalValue": -80.0
+      }
+    },
+    "6d96711e-0bcc-463b-8a8b-299c823d0b0a": {
+      "OwnerGuid": "200f3ed9-0749-4403-b143-647771484e7c",
+      "PropertyIndex": 2,
+      "Type": "Seek",
+      "PropertyType": "PropertyType_Normal",
+      "ClockSource": "ClockSource_Global",
+      "Subnode": {
+        "Flags": 0,
+        "SeekSpeedAscending": 3.0,
+        "SeekSpeedDescending": 0.0
       }
     },
     "364f7c24-0e29-4fc1-ae6f-ddf285cc0438": {
@@ -57424,6 +57455,18 @@
         "ReleaseShape": 0.0,
         "FinalValue": -80.0
       }
+    },
+    "ac333afc-e38e-4500-be24-da3399f2b3ee": {
+      "OwnerGuid": "e6510ff4-9460-4acf-b09c-f7fb596f0d26",
+      "PropertyIndex": 0,
+      "Type": "Seek",
+      "PropertyType": "PropertyType_Normal",
+      "ClockSource": "ClockSource_Local",
+      "Subnode": {
+        "Flags": 0,
+        "SeekSpeedAscending": 0.48,
+        "SeekSpeedDescending": 0.0
+      }
     }
   },
   "CurveNodes": {
@@ -57813,6 +57856,23 @@
         {
           "X": 1.3452E-41,
           "Y": 0.0,
+          "Shape": 0.0,
+          "Type": 0
+        }
+      ]
+    },
+    "17aa6337-8679-43db-9345-bb2139af5205": {
+      "OwnerGuid": "17aa6337-8679-43db-9345-bb2139af5205",
+      "CurvePoints": [
+        {
+          "X": 0.0,
+          "Y": 0.0,
+          "Shape": 0.49938783,
+          "Type": 0
+        },
+        {
+          "X": 0.99293786,
+          "Y": -12.0,
           "Shape": 0.0,
           "Type": 0
         }
@@ -59132,6 +59192,16 @@
         "0a139d31-e5cf-4d78-a4bb-b88179056bd4"
       ]
     },
+    "a1a60956-8e6e-04bf-10ff-359f40636b8c": {
+      "Index": 2,
+      "Method": 3,
+      "Type": 0,
+      "MappingGuid": "a1a60956-8e6e-04bf-10ff-359f40636b8c",
+      "Controllers": [],
+      "Modulators": [
+        "6d96711e-0bcc-463b-8a8b-299c823d0b0a"
+      ]
+    },
     "1002773e-1415-45a9-8481-e4aa16d012dc": {
       "Index": 5,
       "Method": 2,
@@ -59283,6 +59353,18 @@
         }
       ]
     },
+    "a1a60956-8e6e-04bf-10ff-359f40636b8c": {
+      "MappingPoints": [
+        {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        {
+          "X": 1.0,
+          "Y": 1.0
+        }
+      ]
+    },
     "678d3693-0732-4013-83fc-6262aa4b587e": {
       "MappingPoints": [
         {
@@ -59299,6 +59381,13 @@
   "ParameterLayoutNodes": {
     "3338ae01-0ccd-08d9-1137-b6e3ed4413b3": {
       "ParameterGuid": "9ad92952-207e-46a7-aa79-c36ae6a25fd3",
+      "LegacyGuid": "00000000-0000-0000-0000-000000000000",
+      "Instruments": [],
+      "Flags": 0,
+      "TriggerBoxes": []
+    },
+    "5c48d8d7-2095-028a-247b-1b01b03f89a9": {
+      "ParameterGuid": "200f3ed9-0749-4403-b143-647771484e7c",
       "LegacyGuid": "00000000-0000-0000-0000-000000000000",
       "Instruments": [],
       "Flags": 0,
@@ -59357,6 +59446,11 @@
       "PropertyOwnerGuid": "726524f3-1209-4bd7-b730-48618b07fd71",
       "CurveGuid": "46538c36-5f53-0796-0bd6-2a7961ae54a4",
       "PropertyIndex": 4
+    },
+    "17aa6337-8679-43db-9345-bb2139af5205": {
+      "PropertyOwnerGuid": "e6510ff4-9460-4acf-b09c-f7fb596f0d26",
+      "CurveGuid": "17aa6337-8679-43db-9345-bb2139af5205",
+      "PropertyIndex": 0
     },
     "7b30c157-abdd-0241-2212-f2cd4c2db716": {
       "PropertyOwnerGuid": "c8b31f47-b3a7-4e81-8f85-79f0993e0d69",
@@ -59490,6 +59584,7 @@
     "46606980-6ab5-0564-18a4-2381568f2f9a",
     "4b1e2094-6644-0f76-162b-bf96efd73ac7",
     "61f5989b-d8c4-08bd-2467-87f9ceaba447",
-    "435d4dba-b255-4909-a983-cdb3cdf201ff"
+    "435d4dba-b255-4909-a983-cdb3cdf201ff",
+    "17aa6337-8679-43db-9345-bb2139af5205"
   ]
 }

@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 2048,
-        "Length": 1074784
+        "FSBOffset": 4608,
+        "Length": 1199168
       }
     ]
   },
@@ -27,7 +27,7 @@
     },
     {
       "Guid": "8935da08-412b-4f75-acfc-e631f453f9fa",
-      "Hash": 3380490346
+      "Hash": 3697647093
     },
     {
       "Guid": "9b73ec2c-fe42-4383-a221-0076b69db9c8",
@@ -35,7 +35,7 @@
     },
     {
       "Guid": "8f6df03c-ca90-4e9e-8000-a9d6f087a06e",
-      "Hash": 1286839074
+      "Hash": 657796858
     },
     {
       "Guid": "a1884553-63d4-43a0-9a7a-51dc2d24f30f",
@@ -128,7 +128,7 @@
       "UserPropertyStringList": [],
       "DopplerScale": 0.0,
       "TriggerCooldown": 0.0,
-      "Flags": 7265,
+      "Flags": 5217,
       "NonMasterTracks": [
         "b7baac1e-4b16-4c81-906b-fd82ed90c566"
       ],
@@ -198,7 +198,7 @@
       "UserPropertyStringList": [],
       "DopplerScale": 0.0,
       "TriggerCooldown": 0.0,
-      "Flags": 7265,
+      "Flags": 5217,
       "NonMasterTracks": [
         "fb00a2a2-1b50-47bd-9de7-b07c00a4297e"
       ],
@@ -1267,7 +1267,7 @@
           "219e68fe-d8bd-422e-963f-505339da15de"
         ],
         "MixerStrip": {
-          "Volume": -6.0,
+          "Volume": -7.5,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -1609,7 +1609,7 @@
           "219e68fe-d8bd-422e-963f-505339da15de"
         ],
         "MixerStrip": {
-          "Volume": -2.0,
+          "Volume": -3.5,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -3215,7 +3215,14 @@
         }
       ],
       "SustainPoints": [],
-      "TimelineNamedMarkers": [],
+      "TimelineNamedMarkers": [
+        {
+          "BaseGuid": "bb88070a-7430-42df-8b8c-2b13e1295e7a",
+          "Position": 412800,
+          "Name": "",
+          "Length": 24000
+        }
+      ],
       "TimelineTempoMarkers": [],
       "LegacyUIntArray": []
     },
@@ -3381,11 +3388,18 @@
         {
           "Guid": "2ae8a25f-a1e2-4749-be20-1baef8c63d33",
           "StartTime": 0,
-          "Length": 592521
+          "Length": 412800
         }
       ],
       "SustainPoints": [],
-      "TimelineNamedMarkers": [],
+      "TimelineNamedMarkers": [
+        {
+          "BaseGuid": "1d178423-3211-4743-8546-8d65eb7aff03",
+          "Position": 417600,
+          "Name": "",
+          "Length": 24000
+        }
+      ],
       "TimelineTempoMarkers": [],
       "LegacyUIntArray": []
     },
@@ -3406,6 +3420,20 @@
     }
   },
   "TransitionNodes": {
+    "bc9d57f3-2cab-0d80-12ba-83bbdd955a64": {
+      "DestinationGuid": "bb88070a-7430-42df-8b8c-2b13e1295e7a",
+      "Start": 436800,
+      "End": 436800,
+      "LegacyParameterConditions": null,
+      "Evaluators": [],
+      "Quantization": {
+        "Unit": "None",
+        "Multiplier": 0
+      },
+      "TransitionChancePercent": 100.0,
+      "Flags": 2,
+      "TransitionBody": null
+    },
     "3e7cba16-5fb8-01f8-32a9-a77824d17ee4": {
       "DestinationGuid": "3969eaef-0723-4ea7-ab9f-0fd0186d7afa",
       "Start": 484800,
@@ -3424,6 +3452,20 @@
       "DestinationGuid": "2fe745e7-a6bb-42e1-8fa6-f77f445b0868",
       "Start": 184800,
       "End": 184800,
+      "LegacyParameterConditions": null,
+      "Evaluators": [],
+      "Quantization": {
+        "Unit": "None",
+        "Multiplier": 0
+      },
+      "TransitionChancePercent": 100.0,
+      "Flags": 2,
+      "TransitionBody": null
+    },
+    "1a02d4da-6a8a-081c-1c70-25cdd7c6fb1d": {
+      "DestinationGuid": "1d178423-3211-4743-8546-8d65eb7aff03",
+      "Start": 441600,
+      "End": 441600,
       "LegacyParameterConditions": null,
       "Evaluators": [],
       "Quantization": {

@@ -14,13 +14,17 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 800,
-        "Length": 4844832
+        "FSBOffset": 1024,
+        "Length": 11046496
       }
     ]
   },
   "EncryptionKey": "UGFuc2hlbjY2Ng==",
   "HashData": [
+    {
+      "Guid": "38ab410e-f3b3-4576-ac88-678c8f9bffa1",
+      "Hash": 2544123420
+    },
     {
       "Guid": "3b233b13-961d-4fd3-bd8d-cfc124509950",
       "Hash": 1506796694
@@ -30,8 +34,20 @@
       "Hash": 1395380957
     },
     {
+      "Guid": "62bf584f-00cf-42f4-8397-9f95f51bb4c2",
+      "Hash": 3372679034
+    },
+    {
       "Guid": "f160d066-1aa7-4680-8960-85c8e3f92946",
       "Hash": 1890900528
+    },
+    {
+      "Guid": "6b427c6c-9303-4237-be86-b6e2e7745a38",
+      "Hash": 21184248
+    },
+    {
+      "Guid": "61d693ca-70de-48b5-838a-8127cf434253",
+      "Hash": 1516908947
     },
     {
       "Guid": "a6f435d5-fe6d-499a-af9b-e3edb38412db",
@@ -43,9 +59,18 @@
       "Header": {
         "AudioType": "VORBIS",
         "Version": 1,
-        "NumSamples": 4
+        "NumSamples": 8
       },
       "Samples": [
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 6380305,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "20260524_芙洛拉_钢琴"
+        },
         {
           "Metadata": {
             "IsStereo": true,
@@ -67,11 +92,38 @@
         {
           "Metadata": {
             "IsStereo": true,
+            "SampleCount": 4762527,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "main theme choir"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
             "SampleCount": 3276997,
             "Frequency": 48000,
             "Channels": 2
           },
           "Name": "jazz 战斗 循环 1"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 6809311,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "Demo_DNA_剧情_BPM115_Take01_260525"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 4965517,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "Demo_DNA_精英怪战斗_BPM140_Take01_260522"
         },
         {
           "Metadata": {
@@ -92,24 +144,44 @@
   "TransitionNodes": {},
   "InstrumentNodes": {},
   "WavEntries": {
-    "3b233b13-961d-4fd3-bd8d-cfc124509950": {
+    "38ab410e-f3b3-4576-ac88-678c8f9bffa1": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 0,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "48fffc49-c99f-4503-b143-698a9503bdc5": {
+    "3b233b13-961d-4fd3-bd8d-cfc124509950": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 1,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "f160d066-1aa7-4680-8960-85c8e3f92946": {
+    "48fffc49-c99f-4503-b143-698a9503bdc5": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 2,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "a6f435d5-fe6d-499a-af9b-e3edb38412db": {
+    "62bf584f-00cf-42f4-8397-9f95f51bb4c2": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 3,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "f160d066-1aa7-4680-8960-85c8e3f92946": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 4,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "6b427c6c-9303-4237-be86-b6e2e7745a38": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 5,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "61d693ca-70de-48b5-838a-8127cf434253": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 6,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "a6f435d5-fe6d-499a-af9b-e3edb38412db": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 7,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     }
   },
