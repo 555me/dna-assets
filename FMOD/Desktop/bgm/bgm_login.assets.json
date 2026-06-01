@@ -15,7 +15,7 @@
     "Header": [
       {
         "FSBOffset": 1440,
-        "Length": 1932160
+        "Length": 1917056
       }
     ]
   },
@@ -70,16 +70,16 @@
       "Hash": 1491599140
     },
     {
+      "Guid": "3e162295-a75f-48b8-a488-526f7fc0cbe8",
+      "Hash": 4255709764
+    },
+    {
       "Guid": "7598279f-bb7d-42aa-a877-2e9fb6549fa7",
       "Hash": 4196971910
     },
     {
       "Guid": "f1b386e8-b694-4214-9224-092ae4a817af",
       "Hash": 1219772169
-    },
-    {
-      "Guid": "ad320bfa-d87c-4ab3-9931-971da24b739d",
-      "Hash": 482430176
     }
   ],
   "SoundBankData": [
@@ -201,6 +201,15 @@
         {
           "Metadata": {
             "IsStereo": true,
+            "SampleCount": 758400,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "cine_login_1_4"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
             "SampleCount": 1216482,
             "Frequency": 48000,
             "Channels": 2
@@ -215,15 +224,6 @@
             "Channels": 2
           },
           "Name": "ambience_2d_login_bird_s06"
-        },
-        {
-          "Metadata": {
-            "IsStereo": true,
-            "SampleCount": 756101,
-            "Frequency": 48000,
-            "Channels": 2
-          },
-          "Name": "cine_login_1_3"
         }
       ]
     }
@@ -295,17 +295,17 @@
       "SubsoundIndex": 11,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "7598279f-bb7d-42aa-a877-2e9fb6549fa7": {
+    "3e162295-a75f-48b8-a488-526f7fc0cbe8": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 12,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "7598279f-bb7d-42aa-a877-2e9fb6549fa7": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 13,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
     "f1b386e8-b694-4214-9224-092ae4a817af": {
-      "SoundBankIndex": 0,
-      "SubsoundIndex": 13,
-      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
-    },
-    "ad320bfa-d87c-4ab3-9931-971da24b739d": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 14,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"

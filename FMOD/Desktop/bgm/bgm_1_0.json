@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 1184,
-        "Length": 7316256
+        "FSBOffset": 9088,
+        "Length": 15583872
       }
     ]
   },
@@ -71,7 +71,7 @@
     },
     {
       "Guid": "72b9f2a6-5051-45ed-84e5-efa4753ac5f5",
-      "Hash": 975905851
+      "Hash": 1031206067
     },
     {
       "Guid": "e293d6bd-ed92-474d-a752-21b5c6d12571",
@@ -3234,9 +3234,7 @@
         "Flags": 0,
         "InputChannelLayout": 3,
         "PreFaderEffects": [],
-        "PostFaderEffects": [
-          "f5a2717e-aa19-424d-b501-f57e9b081429"
-        ],
+        "PostFaderEffects": [],
         "MixerStrip": {
           "Volume": -6.0,
           "Pitch": 0.0,
@@ -3245,9 +3243,7 @@
         "MaximumPolyphony": 2147483647,
         "PolyphonyLimitBehavior": 2,
         "PreFaderInputChannelLayouts": [],
-        "PostFaderInputChannelLayouts": [
-          3
-        ],
+        "PostFaderInputChannelLayouts": [],
         "ObjectPannerIndex": -1,
         "PortType": "FMOD_PORT_TYPE_MUSIC"
       }
@@ -4155,119 +4151,6 @@
     },
     "720a5d7d-4c59-48bf-bd85-331d8f7b1828": {
       "BaseGuid": "720a5d7d-4c59-48bf-bd85-331d8f7b1828",
-      "InputChannelLayout": 0,
-      "DSPType": "FMOD_DSP_TYPE_LOUDNESS_METER",
-      "ParamEffectBody": {
-        "Parameters": [
-          {
-            "Type": 1,
-            "FloatValue": 3E-45
-          },
-          {
-            "Type": 0,
-            "FloatValue": 0.0
-          },
-          {
-            "Type": 0,
-            "FloatValue": 0.0
-          },
-          {
-            "Type": 0,
-            "FloatValue": 360.0
-          },
-          {
-            "Type": 0,
-            "FloatValue": 0.0
-          },
-          {
-            "Type": 0,
-            "FloatValue": 0.0
-          },
-          {
-            "Type": 1,
-            "FloatValue": 1E-45
-          },
-          {
-            "Type": 0,
-            "FloatValue": 60.0
-          },
-          {
-            "Type": 0,
-            "FloatValue": 0.0
-          },
-          {
-            "Type": 1,
-            "FloatValue": 5.738E-42
-          },
-          {
-            "Type": 3,
-            "FloatValue": 0.0
-          },
-          {
-            "Type": 1,
-            "FloatValue": 0.0
-          },
-          {
-            "Type": 0,
-            "FloatValue": 1.0
-          },
-          {
-            "Type": 0,
-            "FloatValue": 20.0
-          },
-          {
-            "Type": 1,
-            "FloatValue": 0.0
-          },
-          {
-            "Type": 0,
-            "FloatValue": 0.0
-          },
-          {
-            "Type": 0,
-            "FloatValue": 0.0
-          },
-          {
-            "Type": 0,
-            "FloatValue": 1.0
-          },
-          {
-            "Type": 1,
-            "FloatValue": 0.0
-          },
-          {
-            "Type": 3,
-            "FloatValue": 0.0
-          },
-          {
-            "Type": 1,
-            "FloatValue": 4E-45
-          },
-          {
-            "Type": 0,
-            "FloatValue": 0.0
-          },
-          {
-            "Type": 3,
-            "FloatValue": 0.0
-          },
-          {
-            "Type": 2,
-            "FloatValue": 0.0
-          }
-        ],
-        "SideChainEnabled": false
-      },
-      "EffectBody": {
-        "Flags": 0,
-        "WetMix": 100.0,
-        "WetLevel": 0.0,
-        "DryLevel": -80.0,
-        "InputGain": 0.0
-      }
-    },
-    "f5a2717e-aa19-424d-b501-f57e9b081429": {
-      "BaseGuid": "f5a2717e-aa19-424d-b501-f57e9b081429",
       "InputChannelLayout": 0,
       "DSPType": "FMOD_DSP_TYPE_LOUDNESS_METER",
       "ParamEffectBody": {
@@ -9232,10 +9115,10 @@
         "AttackTime": 0.0,
         "HoldTime": 1000.0,
         "DecayTime": 1000.0,
-        "ReleaseTime": 1600.0,
+        "ReleaseTime": 5400.0,
         "AttackShape": 0.0,
         "DecayShape": 0.0,
-        "ReleaseShape": 0.0,
+        "ReleaseShape": 0.42926258,
         "FinalValue": -80.0
       }
     },

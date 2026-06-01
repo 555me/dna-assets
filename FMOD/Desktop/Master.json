@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 2016,
-        "Length": 4730144
+        "FSBOffset": 5504,
+        "Length": 23380576
       }
     ]
   },
@@ -255,6 +255,10 @@
       "Hash": 486826479
     },
     {
+      "Guid": "9bf9b00b-a6ea-4c00-8cfd-0a46f3853b47",
+      "Hash": 505939439
+    },
+    {
       "Guid": "a401c20b-ea7b-4ff0-8b5a-9a40eb66de6a",
       "Hash": 2602398839
     },
@@ -332,7 +336,7 @@
     },
     {
       "Guid": "d91c3111-cd32-4565-b7c9-f588c114c3e7",
-      "Hash": 3644717447
+      "Hash": 642806973
     },
     {
       "Guid": "9ffd5c11-2406-455f-ae36-d9813fcee0cc",
@@ -1297,6 +1301,10 @@
     {
       "Guid": "aea7334d-5701-4034-b69b-40bd6815d50d",
       "Hash": 877228250
+    },
+    {
+      "Guid": "32ce474d-60e1-4236-ae00-196520511507",
+      "Hash": 1919196230
     },
     {
       "Guid": "bb797a4d-5fd6-4ced-82ce-5b8082fbcdc3",
@@ -2495,6 +2503,10 @@
       "Hash": 2254858897
     },
     {
+      "Guid": "8f4b3e99-e461-40c6-9f56-8c5743840995",
+      "Hash": 2681327886
+    },
+    {
       "Guid": "ad4ddd99-109f-4355-b4e6-3b10c9814a9a",
       "Hash": 2416999049
     },
@@ -2557,6 +2569,10 @@
     {
       "Guid": "6673419d-00cb-4668-9a37-8b533e49d259",
       "Hash": 312619118
+    },
+    {
+      "Guid": "6b4f459d-e4c5-45b6-8026-c8636beb9b48",
+      "Hash": 2966558965
     },
     {
       "Guid": "1327069e-3b84-4075-9201-f2fe0e528d04",
@@ -4025,6 +4041,10 @@
     {
       "Guid": "9c1105fa-b1d7-4a58-aee6-cb595c5947ae",
       "Hash": 2817483077
+    },
+    {
+      "Guid": "0f7f4afa-5646-4b35-9f7c-b8da48057392",
+      "Hash": 858105422
     },
     {
       "Guid": "ef4952fa-b7e2-4b9f-a495-137a43e2727a",
@@ -7661,6 +7681,30 @@
         "PortType": "FMOD_PORT_TYPE_MUSIC"
       }
     },
+    "9bf9b00b-a6ea-4c00-8cfd-0a46f3853b47": {
+      "Routable": {
+        "BaseGuid": "4e341fb9-25fb-4a67-a090-4568c57039ce",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 1,
+        "InputChannelLayout": 3,
+        "PreFaderEffects": [],
+        "PostFaderEffects": [],
+        "MixerStrip": {
+          "Volume": 0.0,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 2147483647,
+        "PolyphonyLimitBehavior": 2,
+        "PreFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
+    },
     "8b2add0b-3660-4713-a643-a61f63f348cd": {
       "Routable": {
         "BaseGuid": "c57c875c-e6f1-4307-88e6-bfb231a1e19d",
@@ -8099,7 +8143,7 @@
         "PreFaderEffects": [],
         "PostFaderEffects": [],
         "MixerStrip": {
-          "Volume": 0.0,
+          "Volume": -1.5,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -13401,6 +13445,30 @@
         "PostFaderInputChannelLayouts": [
           3
         ],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
+    },
+    "32ce474d-60e1-4236-ae00-196520511507": {
+      "Routable": {
+        "BaseGuid": "4d9becf6-3ab3-4d0b-8557-025ee9ac003c",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 1,
+        "InputChannelLayout": 3,
+        "PreFaderEffects": [],
+        "PostFaderEffects": [],
+        "MixerStrip": {
+          "Volume": 0.0,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 2147483647,
+        "PolyphonyLimitBehavior": 2,
+        "PreFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [],
         "ObjectPannerIndex": -1,
         "PortType": "FMOD_PORT_TYPE_MUSIC"
       }
@@ -19851,6 +19919,30 @@
         "PortType": "FMOD_PORT_TYPE_MUSIC"
       }
     },
+    "8f4b3e99-e461-40c6-9f56-8c5743840995": {
+      "Routable": {
+        "BaseGuid": "cbde52e5-9117-4d51-a657-ed11cc3cb980",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 1,
+        "InputChannelLayout": 3,
+        "PreFaderEffects": [],
+        "PostFaderEffects": [],
+        "MixerStrip": {
+          "Volume": 0.0,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 2147483647,
+        "PolyphonyLimitBehavior": 2,
+        "PreFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
+    },
     "ad4ddd99-109f-4355-b4e6-3b10c9814a9a": {
       "Routable": {
         "BaseGuid": "f5d97d5f-abc8-478d-a80e-b99094bb31a5",
@@ -20231,6 +20323,34 @@
         "PolyphonyLimitBehavior": 2,
         "PreFaderInputChannelLayouts": [],
         "PostFaderInputChannelLayouts": [],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
+    },
+    "6b4f459d-e4c5-45b6-8026-c8636beb9b48": {
+      "Routable": {
+        "BaseGuid": "fc3d2489-de6e-4fc4-ab60-578c9e3c632d",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 1,
+        "InputChannelLayout": 3,
+        "PreFaderEffects": [],
+        "PostFaderEffects": [
+          "3c8da1f1-d615-4444-888e-965c6dc83eb0"
+        ],
+        "MixerStrip": {
+          "Volume": 0.0,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 2147483647,
+        "PolyphonyLimitBehavior": 2,
+        "PreFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [
+          3
+        ],
         "ObjectPannerIndex": -1,
         "PortType": "FMOD_PORT_TYPE_MUSIC"
       }
@@ -20806,12 +20926,12 @@
     "b07d5ba5-6d2e-4834-8ba5-05000b8cb2d8": {
       "Routable": {
         "BaseGuid": "ebead91e-c064-4917-8bc5-0c345d1e32f9",
-        "OutputChannelLayout": 2,
+        "OutputChannelLayout": 3,
         "ChannelMask": 4294967295
       },
       "BusBody": {
         "Flags": 1,
-        "InputChannelLayout": 2,
+        "InputChannelLayout": 3,
         "PreFaderEffects": [],
         "PostFaderEffects": [],
         "MixerStrip": {
@@ -28380,6 +28500,30 @@
     "9c1105fa-b1d7-4a58-aee6-cb595c5947ae": {
       "Routable": {
         "BaseGuid": "f85ac54e-2822-4a6a-bda3-f8a22a4247c9",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 1,
+        "InputChannelLayout": 3,
+        "PreFaderEffects": [],
+        "PostFaderEffects": [],
+        "MixerStrip": {
+          "Volume": 0.0,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 2147483647,
+        "PolyphonyLimitBehavior": 2,
+        "PreFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
+    },
+    "0f7f4afa-5646-4b35-9f7c-b8da48057392": {
+      "Routable": {
+        "BaseGuid": "cbde52e5-9117-4d51-a657-ed11cc3cb980",
         "OutputChannelLayout": 3,
         "ChannelMask": 4294967295
       },
@@ -42651,6 +42795,75 @@
           {
             "Type": 1,
             "FloatValue": 1E-45
+          }
+        ],
+        "SideChainEnabled": false
+      },
+      "EffectBody": {
+        "Flags": 0,
+        "WetMix": 100.0,
+        "WetLevel": 0.0,
+        "DryLevel": -80.0,
+        "InputGain": 0.0
+      }
+    },
+    "3c8da1f1-d615-4444-888e-965c6dc83eb0": {
+      "BaseGuid": "3c8da1f1-d615-4444-888e-965c6dc83eb0",
+      "InputChannelLayout": 0,
+      "DSPType": "FMOD_DSP_TYPE_DELAY",
+      "ParamEffectBody": {
+        "Parameters": [
+          {
+            "Type": 0,
+            "FloatValue": 2000.0
+          },
+          {
+            "Type": 0,
+            "FloatValue": 20.0
+          },
+          {
+            "Type": 0,
+            "FloatValue": 14.0
+          },
+          {
+            "Type": 0,
+            "FloatValue": 1950.0
+          },
+          {
+            "Type": 0,
+            "FloatValue": 66.5
+          },
+          {
+            "Type": 0,
+            "FloatValue": 47.0
+          },
+          {
+            "Type": 0,
+            "FloatValue": 41.0
+          },
+          {
+            "Type": 0,
+            "FloatValue": 110.0
+          },
+          {
+            "Type": 0,
+            "FloatValue": -12.5
+          },
+          {
+            "Type": 0,
+            "FloatValue": 5000.0
+          },
+          {
+            "Type": 0,
+            "FloatValue": 64.0
+          },
+          {
+            "Type": 0,
+            "FloatValue": -19.0
+          },
+          {
+            "Type": 0,
+            "FloatValue": 0.0
           }
         ],
         "SideChainEnabled": false

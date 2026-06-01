@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 736,
-        "Length": 228768
+        "FSBOffset": 832,
+        "Length": 532768
       }
     ]
   },
@@ -30,6 +30,14 @@
       "Hash": 862854325
     },
     {
+      "Guid": "75291295-9feb-4069-a7b6-17df9d0cd448",
+      "Hash": 2191224792
+    },
+    {
+      "Guid": "3f8b3999-5ff6-4bd4-95a1-f357bae34dab",
+      "Hash": 1400092167
+    },
+    {
       "Guid": "b19847ed-1cd9-4ecc-b36c-92ba76ce3ef2",
       "Hash": 512989995
     }
@@ -39,7 +47,7 @@
       "Header": {
         "AudioType": "VORBIS",
         "Version": 1,
-        "NumSamples": 3
+        "NumSamples": 5
       },
       "Samples": [
         {
@@ -59,6 +67,24 @@
             "Channels": 2
           },
           "Name": "sfx_btc_mvp_bg_shanhe"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 262110,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "sfx_btc_mvp_bg_zuirang"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 822977,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "sfx_btc_mvp_bg_jisu"
         },
         {
           "Metadata": {
@@ -89,9 +115,19 @@
       "SubsoundIndex": 1,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     },
-    "b19847ed-1cd9-4ecc-b36c-92ba76ce3ef2": {
+    "75291295-9feb-4069-a7b6-17df9d0cd448": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 2,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
+    "3f8b3999-5ff6-4bd4-95a1-f357bae34dab": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 3,
+      "LoadingMode": "WaveformLoadingMode_LoadInMemory"
+    },
+    "b19847ed-1cd9-4ecc-b36c-92ba76ce3ef2": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 4,
       "LoadingMode": "WaveformLoadingMode_LoadInMemory"
     }
   },

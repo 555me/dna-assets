@@ -60984,10 +60984,6 @@
         "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/xingyaoxunyou_entrance_loop",
         "AssetName": "xingyaoxunyou_entrance_loop"
       },
-      "event:/sfx/mnt/yinyi/appear": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/yinyi/appear",
-        "AssetName": "appear"
-      },
       "event:/ui/common/region_level_task_complete": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/region_level_task_complete",
         "AssetName": "region_level_task_complete"
@@ -66332,21 +66328,89 @@
         "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/en/story/voice_en_story_1206_2_assets",
         "AssetName": "voice_en_story_1206_2_assets"
       },
-      "event:/bgm/1_1/musicbox/0120_scene_zhuyinjitan": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_1/musicbox/0120_scene_zhuyinjitan",
-        "AssetName": "0120_scene_zhuyinjitan"
+      "bank:/sfx/weapon/sfx_weapon_Machinegun_Common01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/weapon/sfx_weapon_Machinegun_Common01",
+        "AssetName": "sfx_weapon_Machinegun_Common01"
+      },
+      "event:/sfx/weapon/Machinegun/Common01/reload": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Common01/reload",
+        "AssetName": "reload"
+      },
+      "bus:/sfx/combat/weapon/Machinegun/Common01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/combat/weapon/Machinegun/Common01",
+        "AssetName": "Common01"
+      },
+      "bank:/sfx/weapon/sfx_weapon_Machinegun_Common01.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/weapon/sfx_weapon_Machinegun_Common01_assets",
+        "AssetName": "sfx_weapon_Machinegun_Common01_assets"
+      },
+      "event:/sfx/weapon/Machinegun/Common01/shoot_fire": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Common01/shoot_fire",
+        "AssetName": "shoot_fire"
+      },
+      "event:/sfx/weapon/Machinegun/Common01/hit": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Common01/hit",
+        "AssetName": "hit"
+      },
+      "bus:/sfx/combat/weapon/Machinegun/Bomu": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/combat/weapon/Machinegun/Bomu",
+        "AssetName": "Bomu"
+      },
+      "bank:/sfx/weapon/sfx_weapon_Machinegun_Bomu": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/weapon/sfx_weapon_Machinegun_Bomu",
+        "AssetName": "sfx_weapon_Machinegun_Bomu"
+      },
+      "event:/sfx/weapon/Machinegun/Bomu/shootfly": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Bomu/shootfly",
+        "AssetName": "shootfly"
+      },
+      "event:/sfx/weapon/Machinegun/Bomu/echo": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Bomu/echo",
+        "AssetName": "echo"
+      },
+      "event:/sfx/weapon/Machinegun/Bomu/shootfly_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Bomu/shootfly_loop",
+        "AssetName": "shootfly_loop"
+      },
+      "event:/sfx/weapon/Machinegun/Bomu/shoot_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Bomu/shoot_loop",
+        "AssetName": "shoot_loop"
+      },
+      "event:/sfx/weapon/Machinegun/Bomu/behit": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Bomu/behit",
+        "AssetName": "behit"
+      },
+      "event:/sfx/weapon/Machinegun/Bomu/reload": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Bomu/reload",
+        "AssetName": "reload"
+      },
+      "event:/sfx/weapon/Machinegun/Bomu/shootfly_explosion": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Bomu/shootfly_explosion",
+        "AssetName": "shootfly_explosion"
+      },
+      "bank:/sfx/weapon/sfx_weapon_Machinegun_Bomu.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/weapon/sfx_weapon_Machinegun_Bomu_assets",
+        "AssetName": "sfx_weapon_Machinegun_Bomu_assets"
+      },
+      "event:/sfx/weapon/Machinegun/Bomu/explosion": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Bomu/explosion",
+        "AssetName": "explosion"
+      },
+      "event:/sfx/weapon/Machinegun/Bomu/shoot": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Bomu/shoot",
+        "AssetName": "shoot"
+      },
+      "event:/snapshot/ui/mute_in_cg": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/snapshot/ui/mute_in_cg",
+        "AssetName": "mute_in_cg"
+      },
+      "snapshot:/UI/mute_in_cg": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Snapshots/UI/mute_in_cg",
+        "AssetName": "mute_in_cg"
       },
       "bus:/voice/common/ch/char/Fuluo01": {
         "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/common/ch/char/Fuluo01",
         "AssetName": "Fuluo01"
-      },
-      "event:/sfx/player/Fuluo/skill02_wawa_loop": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/skill02_wawa_loop",
-        "AssetName": "skill02_wawa_loop"
-      },
-      "event:/voice/jp/char/Fuluo01/vo_gain": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo01/vo_gain",
-        "AssetName": "vo_gain"
       },
       "event:/voice/ch/char/NanzhuDark/vo_skill02_r02": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NanzhuDark/vo_skill02_r02",
@@ -66360,33 +66424,9 @@
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/Fuluo/vo_attack_heavy_r04",
         "AssetName": "vo_attack_heavy_r04"
       },
-      "bank:/ambience/world/ambience_wolrd_chezhan": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/ambience/world/ambience_wolrd_chezhan",
-        "AssetName": "ambience_wolrd_chezhan"
-      },
-      "event:/voice/jp/char/Fuluo/vo_attack_charge_r01": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo/vo_attack_charge_r01",
-        "AssetName": "vo_attack_charge_r01"
-      },
-      "event:/ambience/world/chezhan/train_out_tunnel": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/train_out_tunnel",
-        "AssetName": "train_out_tunnel"
-      },
-      "event:/ambience/world/chezhan/station_tower": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/station_tower",
-        "AssetName": "station_tower"
-      },
       "event:/voice/ch/char/Fuluo01/vo_battlestart": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/Fuluo01/vo_battlestart",
         "AssetName": "vo_battlestart"
-      },
-      "event:/sfx/btc/fuluola/huanwen": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluola/huanwen",
-        "AssetName": "huanwen"
-      },
-      "event:/ambience/world/chezhan/medical_room": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/medical_room",
-        "AssetName": "medical_room"
       },
       "bank:/sfx/weapon/sfx_weapon_Crossbow_Leyuan.assets": {
         "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/weapon/sfx_weapon_Crossbow_Leyuan_assets",
@@ -66408,14 +66448,6 @@
         "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/combat/weapon/Katana/Common/mod01_attack_02",
         "AssetName": "mod01_attack_02"
       },
-      "event:/snapshot/ui/mute_in_cg": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/snapshot/ui/mute_in_cg",
-        "AssetName": "mute_in_cg"
-      },
-      "bus:/sfx/combat/weapon/Machinegun/Bomu": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/combat/weapon/Machinegun/Bomu",
-        "AssetName": "Bomu"
-      },
       "event:/voice/ch/char/NanzhuDark/vo_skill01": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NanzhuDark/vo_skill01",
         "AssetName": "vo_skill01"
@@ -66428,57 +66460,17 @@
         "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/combat/weapon/Crossbow/Leyuan",
         "AssetName": "Leyuan"
       },
-      "event:/sfx/common/player/idle/Fuluola": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/player/idle/Fuluola",
-        "AssetName": "Fuluola"
-      },
-      "event:/sfx/boss/Lieche/vo_jp_Skill08": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_jp_Skill08",
-        "AssetName": "vo_jp_Skill08"
-      },
       "event:/voice/ch/char/NvzhuDark/vo_skill01_r01": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NvzhuDark/vo_skill01_r01",
         "AssetName": "vo_skill01_r01"
-      },
-      "bank:/sfx/weapon/sfx_weapon_Machinegun_Common01": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/weapon/sfx_weapon_Machinegun_Common01",
-        "AssetName": "sfx_weapon_Machinegun_Common01"
-      },
-      "event:/voice/jp/char/Fuluo01/vo_skill02_r03": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo01/vo_skill02_r03",
-        "AssetName": "vo_skill02_r03"
-      },
-      "bus:/sfx/combat/enemy/Jt/Hongshan": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/combat/enemy/Jt/Hongshan",
-        "AssetName": "Hongshan"
-      },
-      "event:/sfx/boss/Qihuo/skill04_5": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill04_5",
-        "AssetName": "skill04_5"
       },
       "event:/sfx/enemy/Jt/Tiequan/hit": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/enemy/Jt/Tiequan/hit",
         "AssetName": "hit"
       },
-      "event:/sfx/enemy/Jt/Hongshan/reload": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/enemy/Jt/Hongshan/reload",
-        "AssetName": "reload"
-      },
-      "event:/sfx/boss/Lieche/vo_ch_Skill09": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_ch_Skill09",
-        "AssetName": "vo_ch_Skill09"
-      },
-      "event:/ui/common/shenjingluopan_unlock_gift": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/shenjingluopan_unlock_gift",
-        "AssetName": "shenjingluopan_unlock_gift"
-      },
       "event:/voice/ch/char/Fuluo/vo_attack_heavy_r05": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/Fuluo/vo_attack_heavy_r05",
         "AssetName": "vo_attack_heavy_r05"
-      },
-      "event:/bgm/1_3/musicbox/0152_story_jiaolancun_piano": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_3/musicbox/0152_story_jiaolancun_piano",
-        "AssetName": "0152_story_jiaolancun_piano"
       },
       "event:/sfx/boss/Lieche/vo_ch_BattleStart01": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_ch_BattleStart01",
@@ -66496,25 +66488,9 @@
         "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/ch/char/voice_ch_char_Fuluo01_assets",
         "AssetName": "voice_ch_char_Fuluo01_assets"
       },
-      "bank:/voice/jp/char/voice_jp_char_Fuluo01.assets": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/char/voice_jp_char_Fuluo01_assets",
-        "AssetName": "voice_jp_char_Fuluo01_assets"
-      },
       "bank:/voice/ch/char/voice_ch_char_NvzhuDark": {
         "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/ch/char/voice_ch_char_NvzhuDark",
         "AssetName": "voice_ch_char_NvzhuDark"
-      },
-      "event:/bgm/1_3/musicbox/0147_boss_two_dragon": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_3/musicbox/0147_boss_two_dragon",
-        "AssetName": "0147_boss_two_dragon"
-      },
-      "event:/voice/jp/char/Shuimu01/vo_skill02_r03": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Shuimu01/vo_skill02_r03",
-        "AssetName": "vo_skill02_r03"
-      },
-      "bank:/sfx/btc/sfx_btc_xiunv.assets": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/btc/sfx_btc_xiunv_assets",
-        "AssetName": "sfx_btc_xiunv_assets"
       },
       "event:/sfx/boss/Lieche/vo_ch_Skill07": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_ch_Skill07",
@@ -66528,21 +66504,9 @@
         "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/enemy/sfx_enemy_Jt_tiequan",
         "AssetName": "sfx_enemy_Jt_tiequan"
       },
-      "event:/voice/jp/char/Fuluo01/vo_appear": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo01/vo_appear",
-        "AssetName": "vo_appear"
-      },
       "event:/voice/ch/char/Fuluo01/vo_appear": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/Fuluo01/vo_appear",
         "AssetName": "vo_appear"
-      },
-      "event:/ui/activity/lianmeiyanyi_btn_large_confirm_click": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/lianmeiyanyi_btn_large_confirm_click",
-        "AssetName": "lianmeiyanyi_btn_large_confirm_click"
-      },
-      "event:/ambience/world/chezhan/mt": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/mt",
-        "AssetName": "mt"
       },
       "bus:/voice/combat_voice/ch/char/NanzhuDark": {
         "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/combat_voice/ch/char/NanzhuDark",
@@ -66556,73 +66520,17 @@
         "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/ch/char/voice_ch_char_NanzhuDark",
         "AssetName": "voice_ch_char_NanzhuDark"
       },
-      "event:/sfx/player/Fuluo/skill02_wawa_attack_start": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/skill02_wawa_attack_start",
-        "AssetName": "skill02_wawa_attack_start"
-      },
-      "event:/sfx/boss/Qihuo/skill02_3": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill02_3",
-        "AssetName": "skill02_3"
-      },
-      "event:/sfx/boss/Qihuo/skill05_2": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill05_2",
-        "AssetName": "skill05_2"
-      },
-      "bank:/voice/jp/story/voice_jp_story_1004_1": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/story/voice_jp_story_1004_1",
-        "AssetName": "voice_jp_story_1004_1"
-      },
       "bank:/voice/ch/story/voice_ch_story_1004_3.assets": {
         "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/ch/story/voice_ch_story_1004_3_assets",
         "AssetName": "voice_ch_story_1004_3_assets"
-      },
-      "event:/sfx/btc/fuluola/bulletjump": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluola/bulletjump",
-        "AssetName": "bulletjump"
-      },
-      "event:/sfx/weapon/Machinegun/Bomu/shoot": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Bomu/shoot",
-        "AssetName": "shoot"
       },
       "event:/voice/ch/char/Fuluo/vo_attack_charge_r02": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/Fuluo/vo_attack_charge_r02",
         "AssetName": "vo_attack_charge_r02"
       },
-      "bus:/voice/combat_voice/jp/char/Fuluo01": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/combat_voice/jp/char/Fuluo01",
-        "AssetName": "Fuluo01"
-      },
-      "event:/sfx/boss/Qihuo/skill05_1": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill05_1",
-        "AssetName": "skill05_1"
-      },
-      "event:/sfx/btc/fuluola/dance_party_start_fire_place": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluola/dance_party_start_fire_place",
-        "AssetName": "dance_party_start_fire_place"
-      },
-      "event:/sfx/weapon/Machinegun/Common01/reload": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Common01/reload",
-        "AssetName": "reload"
-      },
-      "bus:/sfx/combat/weapon/Machinegun/Common01": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/combat/weapon/Machinegun/Common01",
-        "AssetName": "Common01"
-      },
       "bus:/voice/common/ch/char/NvzhuDark": {
         "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/common/ch/char/NvzhuDark",
         "AssetName": "NvzhuDark"
-      },
-      "event:/ambience/world/chezhan/station_train_industry": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/station_train_industry",
-        "AssetName": "station_train_industry"
-      },
-      "bank:/sfx/boss/sfx_boss_Qihuo": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/boss/sfx_boss_Qihuo",
-        "AssetName": "sfx_boss_Qihuo"
-      },
-      "event:/voice/jp/char/Fuluo/vo_attack_charge_r03": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo/vo_attack_charge_r03",
-        "AssetName": "vo_attack_charge_r03"
       },
       "event:/voice/ch/char/NanzhuDark/vo_die": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NanzhuDark/vo_die",
@@ -66632,121 +66540,25 @@
         "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Katana/Common/mod01_run_attack_01",
         "AssetName": "mod01_run_attack_01"
       },
-      "event:/sfx/boss/Qihuo/sword": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/sword",
-        "AssetName": "sword"
-      },
-      "event:/sfx/btc/xiunv/bulletjump_xiunv02": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/xiunv/bulletjump_xiunv02",
-        "AssetName": "bulletjump_xiunv02"
-      },
-      "event:/sfx/player/Fuluo/passive_wawa": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/passive_wawa",
-        "AssetName": "passive_wawa"
-      },
-      "event:/ambience/world/chezhan/station_industry": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/station_industry",
-        "AssetName": "station_industry"
-      },
-      "event:/sfx/boss/Qihuo/skill07_ball_fade": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill07_ball_fade",
-        "AssetName": "skill07_ball_fade"
-      },
-      "event:/sfx/boss/Lieche/vo_jp_Skill07": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_jp_Skill07",
-        "AssetName": "vo_jp_Skill07"
-      },
       "event:/voice/ch/char/Fuluo01/vo_skill02": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/Fuluo01/vo_skill02",
         "AssetName": "vo_skill02"
-      },
-      "event:/ambience/world/chezhan/wood_room": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/wood_room",
-        "AssetName": "wood_room"
-      },
-      "bank:/sfx/player/sfx_player_Fuluo": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/player/sfx_player_Fuluo",
-        "AssetName": "sfx_player_Fuluo"
-      },
-      "bus:/sfx/combat/player/Fuluola": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/combat/player/Fuluola",
-        "AssetName": "Fuluola"
-      },
-      "event:/ui/activity/lianmeiyanyi_level_toast_stage_change": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/lianmeiyanyi_level_toast_stage_change",
-        "AssetName": "lianmeiyanyi_level_toast_stage_change"
-      },
-      "event:/voice/jp/char/Fuluo01/vo_skill02_r02": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo01/vo_skill02_r02",
-        "AssetName": "vo_skill02_r02"
       },
       "event:/sfx/boss/Lieche/vo_ch_BattleStart02": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_ch_BattleStart02",
         "AssetName": "vo_ch_BattleStart02"
       },
-      "bank:/sfx/weapon/sfx_weapon_Machinegun_Bomu": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/weapon/sfx_weapon_Machinegun_Bomu",
-        "AssetName": "sfx_weapon_Machinegun_Bomu"
-      },
-      "bank:/sfx/enemy/sfx_enemy_Jt_Hongshan.assets": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/enemy/sfx_enemy_Jt_Hongshan_assets",
-        "AssetName": "sfx_enemy_Jt_Hongshan_assets"
-      },
-      "event:/sfx/boss/Qihuo/skill02_1": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill02_1",
-        "AssetName": "skill02_1"
-      },
-      "event:/sfx/boss/Qihuo/skill07_ball_fx": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill07_ball_fx",
-        "AssetName": "skill07_ball_fx"
-      },
-      "event:/sfx/btc/common/yuetai": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/common/yuetai",
-        "AssetName": "yuetai"
-      },
       "event:/sfx/weapon/Katana/Common/mod01_run_attack_02": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Katana/Common/mod01_run_attack_02",
         "AssetName": "mod01_run_attack_02"
-      },
-      "event:/ui/common/month_signin_trans_to_keep_page": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/month_signin_trans_to_keep_page",
-        "AssetName": "month_signin_trans_to_keep_page"
-      },
-      "event:/sfx/boss/Qihuo/skill04_1": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill04_1",
-        "AssetName": "skill04_1"
-      },
-      "event:/voice/jp/char/Fuluo/vo_attack_charge": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo/vo_attack_charge",
-        "AssetName": "vo_attack_charge"
       },
       "event:/voice/ch/char/NanzhuDark/vo_revive": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NanzhuDark/vo_revive",
         "AssetName": "vo_revive"
       },
-      "event:/ui/common/gift_collection_panel_show": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/gift_collection_panel_show",
-        "AssetName": "gift_collection_panel_show"
-      },
       "event:/voice/ch/char/NvzhuDark/vo_skill02_r01": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NvzhuDark/vo_skill02_r01",
         "AssetName": "vo_skill02_r01"
-      },
-      "event:/bgm/1_3/musicbox/0150_scene_yanyingong": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_3/musicbox/0150_scene_yanyingong",
-        "AssetName": "0150_scene_yanyingong"
-      },
-      "event:/sfx/btc/common/huoche": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/common/huoche",
-        "AssetName": "huoche"
-      },
-      "event:/ambience/world/chezhan/train_out_wild": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/train_out_wild",
-        "AssetName": "train_out_wild"
-      },
-      "bus:/voice/common/jp/char/Fuluo01": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/common/jp/char/Fuluo01",
-        "AssetName": "Fuluo01"
       },
       "event:/voice/ch/char/NanzhuDark/vo_battlestart": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NanzhuDark/vo_battlestart",
@@ -66756,10 +66568,6 @@
         "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/boss/sfx_boss_Lieche",
         "AssetName": "sfx_boss_Lieche"
       },
-      "event:/sfx/boss/Lieche/vo_ch_Skill04": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_ch_Skill04",
-        "AssetName": "vo_ch_Skill04"
-      },
       "event:/voice/ch/char/NvzhuDark/vo_die_r02": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NvzhuDark/vo_die_r02",
         "AssetName": "vo_die_r02"
@@ -66768,105 +66576,37 @@
         "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/combat_voice/ch/char/NvzhuDark",
         "AssetName": "NvzhuDark"
       },
-      "event:/sfx/player/Fuluo/skill02_wawa_attack_loop": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/skill02_wawa_attack_loop",
-        "AssetName": "skill02_wawa_attack_loop"
-      },
       "bank:/voice/ch/story/voice_ch_story_1004_1.assets": {
         "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/ch/story/voice_ch_story_1004_1_assets",
         "AssetName": "voice_ch_story_1004_1_assets"
-      },
-      "event:/ui/activity/xier_seven_day_entrance_loop": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/xier_seven_day_entrance_loop",
-        "AssetName": "xier_seven_day_entrance_loop"
-      },
-      "bank:/sfx/btc/sfx_btc_fuluola": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/btc/sfx_btc_fuluola",
-        "AssetName": "sfx_btc_fuluola"
-      },
-      "event:/voice/jp/char/Fuluo01/vo_battlestart": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo01/vo_battlestart",
-        "AssetName": "vo_battlestart"
       },
       "event:/voice/ch/char/NanzhuDark/vo_skill02": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NanzhuDark/vo_skill02",
         "AssetName": "vo_skill02"
       },
-      "event:/bgm/1_3/musicbox/0156_scene_jiaolancun": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_3/musicbox/0156_scene_jiaolancun",
-        "AssetName": "0156_scene_jiaolancun"
-      },
       "bus:/voice/common/ch/boss/Lieche": {
         "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/common/ch/boss/Lieche",
         "AssetName": "Lieche"
-      },
-      "event:/sfx/boss/Qihuo/skill02_fx": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill02_fx",
-        "AssetName": "skill02_fx"
-      },
-      "event:/voice/jp/char/Fuluo01/vo_skill02": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo01/vo_skill02",
-        "AssetName": "vo_skill02"
-      },
-      "bank:/voice/jp/story/voice_jp_story_1004_0": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/story/voice_jp_story_1004_0",
-        "AssetName": "voice_jp_story_1004_0"
-      },
-      "event:/ui/activity/lianmeiyanyi_btn_small_click": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/lianmeiyanyi_btn_small_click",
-        "AssetName": "lianmeiyanyi_btn_small_click"
-      },
-      "event:/sfx/boss/Qihuo/skill04_3": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill04_3",
-        "AssetName": "skill04_3"
       },
       "event:/voice/ch/char/Fuluo01/vo_skill02_r01": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/Fuluo01/vo_skill02_r01",
         "AssetName": "vo_skill02_r01"
       },
-      "event:/ambience/world/chezhan/under_industry_small": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/under_industry_small",
-        "AssetName": "under_industry_small"
-      },
       "event:/voice/ch/char/Fuluo/vo_attack_charge_r01": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/Fuluo/vo_attack_charge_r01",
         "AssetName": "vo_attack_charge_r01"
-      },
-      "event:/sfx/weapon/Machinegun/Bomu/shootfly": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Bomu/shootfly",
-        "AssetName": "shootfly"
-      },
-      "event:/sfx/weapon/Machinegun/Bomu/echo": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Bomu/echo",
-        "AssetName": "echo"
       },
       "event:/voice/ch/char/Fuluo01/vo_gain": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/Fuluo01/vo_gain",
         "AssetName": "vo_gain"
       },
-      "event:/ui/char/Fuluola_armory_foley": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/char/Fuluola_armory_foley",
-        "AssetName": "Fuluola_armory_foley"
-      },
       "bank:/voice/ch/char/voice_ch_char_NanzhuDark.assets": {
         "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/ch/char/voice_ch_char_NanzhuDark_assets",
         "AssetName": "voice_ch_char_NanzhuDark_assets"
       },
-      "event:/sfx/enemy/Jt/Hongshan/whoosh": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/enemy/Jt/Hongshan/whoosh",
-        "AssetName": "whoosh"
-      },
       "event:/voice/ch/char/NvzhuDark/vo": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NvzhuDark/vo",
         "AssetName": "vo"
-      },
-      "event:/ambience/world/chezhan/under_industry_big": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/under_industry_big",
-        "AssetName": "under_industry_big"
-      },
-      "event:/sfx/weapon/Machinegun/Common01/hit": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Common01/hit",
-        "AssetName": "hit"
       },
       "event:/sfx/weapon/Machinegun/Bomu/bat": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Bomu/bat",
@@ -66875,14 +66615,6 @@
       "bank:/voice/ch/char/voice_ch_char_NvzhuDark.assets": {
         "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/ch/char/voice_ch_char_NvzhuDark_assets",
         "AssetName": "voice_ch_char_NvzhuDark_assets"
-      },
-      "bank:/voice/jp/char/voice_jp_char_Fuluo01": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/char/voice_jp_char_Fuluo01",
-        "AssetName": "voice_jp_char_Fuluo01"
-      },
-      "snapshot:/UI/mute_in_cg": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Snapshots/UI/mute_in_cg",
-        "AssetName": "mute_in_cg"
       },
       "bank:/voice/ch/char/voice_ch_char_Fuluo01": {
         "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/ch/char/voice_ch_char_Fuluo01",
@@ -66900,73 +66632,13 @@
         "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/ch/story/voice_ch_story_1004_2",
         "AssetName": "voice_ch_story_1004_2"
       },
-      "bank:/sfx/btc/sfx_btc_xiunv": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/btc/sfx_btc_xiunv",
-        "AssetName": "sfx_btc_xiunv"
-      },
-      "event:/sfx/boss/Qihuo/skill07_2": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill07_2",
-        "AssetName": "skill07_2"
-      },
-      "event:/ambience/world/chezhan/station_hall": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/station_hall",
-        "AssetName": "station_hall"
-      },
-      "event:/ui/common/month_signin_show": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/month_signin_show",
-        "AssetName": "month_signin_show"
-      },
-      "event:/ui/common/shenjingluopan_panel_show": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/shenjingluopan_panel_show",
-        "AssetName": "shenjingluopan_panel_show"
-      },
-      "event:/sfx/boss/Qihuo/skill07_ball_exp": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill07_ball_exp",
-        "AssetName": "skill07_ball_exp"
-      },
-      "event:/bgm/1_3/musicbox/0143_story_zhiliu_kill_god": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_3/musicbox/0143_story_zhiliu_kill_god",
-        "AssetName": "0143_story_zhiliu_kill_god"
-      },
       "event:/sfx/weapon/Crossbow/Leyuan/bullet_bounce": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Crossbow/Leyuan/bullet_bounce",
         "AssetName": "bullet_bounce"
       },
-      "event:/ui/activity/fuluo_seven_day_entrance_loop": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/fuluo_seven_day_entrance_loop",
-        "AssetName": "fuluo_seven_day_entrance_loop"
-      },
-      "event:/sfx/weapon/Machinegun/Bomu/shootfly_loop": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Bomu/shootfly_loop",
-        "AssetName": "shootfly_loop"
-      },
-      "event:/sfx/btc/fuluola/choutuoluo": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluola/choutuoluo",
-        "AssetName": "choutuoluo"
-      },
-      "event:/sfx/boss/Qihuo/skill06_1": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill06_1",
-        "AssetName": "skill06_1"
-      },
       "bus:/voice/common/ch/char/NanzhuDark": {
         "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/common/ch/char/NanzhuDark",
         "AssetName": "NanzhuDark"
-      },
-      "event:/sfx/btc/fuluola/zuirang_loop": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluola/zuirang_loop",
-        "AssetName": "zuirang_loop"
-      },
-      "event:/sfx/boss/Qihuo/skill07_1": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill07_1",
-        "AssetName": "skill07_1"
-      },
-      "event:/sfx/boss/Qihuo/skill06_exp": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill06_exp",
-        "AssetName": "skill06_exp"
-      },
-      "bank:/sfx/weapon/sfx_weapon_Machinegun_Common01.assets": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/weapon/sfx_weapon_Machinegun_Common01_assets",
-        "AssetName": "sfx_weapon_Machinegun_Common01_assets"
       },
       "event:/sfx/enemy/Jt/Tiequan/vo_skill01": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/enemy/Jt/Tiequan/vo_skill01",
@@ -66975,18 +66647,6 @@
       "event:/voice/ch/char/NanzhuDark/vo_die_r02": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NanzhuDark/vo_die_r02",
         "AssetName": "vo_die_r02"
-      },
-      "event:/sfx/btc/fuluola/dance_party_beat_heavy": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluola/dance_party_beat_heavy",
-        "AssetName": "dance_party_beat_heavy"
-      },
-      "event:/sfx/weapon/Machinegun/Bomu/shoot_loop": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Bomu/shoot_loop",
-        "AssetName": "shoot_loop"
-      },
-      "event:/ui/activity/lianmeiyanyi_btn_common_click": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/lianmeiyanyi_btn_common_click",
-        "AssetName": "lianmeiyanyi_btn_common_click"
       },
       "event:/sfx/boss/Lieche/vo_ch_Skill06": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_ch_Skill06",
@@ -67000,30 +66660,6 @@
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NvzhuDark/vo_die_r01",
         "AssetName": "vo_die_r01"
       },
-      "event:/voice/jp/char/Shuimu01/vo_skill02_r02": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Shuimu01/vo_skill02_r02",
-        "AssetName": "vo_skill02_r02"
-      },
-      "event:/ui/common/main_quest_start_chapter3": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/main_quest_start_chapter3",
-        "AssetName": "main_quest_start_chapter3"
-      },
-      "event:/sfx/btc/fuluola/dance_party_beat": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluola/dance_party_beat",
-        "AssetName": "dance_party_beat"
-      },
-      "event:/voice/jp/char/Fuluo01/vo_skill02_r01": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo01/vo_skill02_r01",
-        "AssetName": "vo_skill02_r01"
-      },
-      "event:/ambience/world/chezhan/under_industry_mid": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/under_industry_mid",
-        "AssetName": "under_industry_mid"
-      },
-      "bus:/sfx/combat/boss/Qihuo": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/combat/boss/Qihuo",
-        "AssetName": "Qihuo"
-      },
       "bank:/voice/ch/story/voice_ch_story_1004_0.assets": {
         "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/ch/story/voice_ch_story_1004_0_assets",
         "AssetName": "voice_ch_story_1004_0_assets"
@@ -67031,34 +66667,6 @@
       "bank:/sfx/weapon/sfx_weapon_Crossbow_Leyuan": {
         "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/weapon/sfx_weapon_Crossbow_Leyuan",
         "AssetName": "sfx_weapon_Crossbow_Leyuan"
-      },
-      "event:/sfx/player/Fuluo/skill01_short_end": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/skill01_short_end",
-        "AssetName": "skill01_short_end"
-      },
-      "event:/ui/common/chapter_3_trans_clock": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/chapter_3_trans_clock",
-        "AssetName": "chapter_3_trans_clock"
-      },
-      "event:/sfx/boss/Qihuo/skill04_4": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill04_4",
-        "AssetName": "skill04_4"
-      },
-      "event:/ui/activity/fuluo_trail_entrance_loop": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/fuluo_trail_entrance_loop",
-        "AssetName": "fuluo_trail_entrance_loop"
-      },
-      "event:/ui/activity/lianmeiyanyi_crystal_sub_panel_show": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/lianmeiyanyi_crystal_sub_panel_show",
-        "AssetName": "lianmeiyanyi_crystal_sub_panel_show"
-      },
-      "bus:/ambience/world/chezhan": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Buses/ambience/world/chezhan",
-        "AssetName": "chezhan"
-      },
-      "event:/sfx/weapon/Machinegun/Common01/shoot_fire": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Common01/shoot_fire",
-        "AssetName": "shoot_fire"
       },
       "event:/voice/ch/char/NanzhuDark/vo_die_r01": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NanzhuDark/vo_die_r01",
@@ -67068,41 +66676,17 @@
         "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/enemy/Jt/Tiequan/skill01",
         "AssetName": "skill01"
       },
-      "event:/sfx/boss/Lieche/vo_jp_Skill09": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_jp_Skill09",
-        "AssetName": "vo_jp_Skill09"
-      },
-      "event:/sfx/player/Fuluo/heavyattack_end": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/heavyattack_end",
-        "AssetName": "heavyattack_end"
-      },
       "event:/voice/ch/char/NvzhuDark/vo_skill02_r02": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NvzhuDark/vo_skill02_r02",
         "AssetName": "vo_skill02_r02"
-      },
-      "event:/sfx/boss/Lieche/vo_jp_Skill06": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_jp_Skill06",
-        "AssetName": "vo_jp_Skill06"
-      },
-      "event:/sfx/btc/fuluola/fallattck": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluola/fallattck",
-        "AssetName": "fallattck"
       },
       "event:/voice/ch/story/1004": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/story/1004",
         "AssetName": "1004"
       },
-      "event:/bgm/1_3/musicbox/0142_story_zhiliu_memory": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_3/musicbox/0142_story_zhiliu_memory",
-        "AssetName": "0142_story_zhiliu_memory"
-      },
       "event:/sfx/weapon/Crossbow/Leyuan/reload": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Crossbow/Leyuan/reload",
         "AssetName": "reload"
-      },
-      "bank:/ambience/world/ambience_wolrd_chezhan.assets": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/ambience/world/ambience_wolrd_chezhan_assets",
-        "AssetName": "ambience_wolrd_chezhan_assets"
       },
       "event:/voice/ch/char/Fuluo01/vo_skill02_r02": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/Fuluo01/vo_skill02_r02",
@@ -67116,69 +66700,13 @@
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NvzhuDark/vo_skill02_r03",
         "AssetName": "vo_skill02_r03"
       },
-      "event:/ui/activity/lianmeiyanyi_entrance_loop": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/lianmeiyanyi_entrance_loop",
-        "AssetName": "lianmeiyanyi_entrance_loop"
-      },
-      "event:/sfx/btc/fuluola/death": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluola/death",
-        "AssetName": "death"
-      },
-      "event:/sfx/weapon/Machinegun/Bomu/behit": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Bomu/behit",
-        "AssetName": "behit"
-      },
-      "event:/ui/char/Fuluola_armory_sfx": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/char/Fuluola_armory_sfx",
-        "AssetName": "Fuluola_armory_sfx"
-      },
       "event:/voice/ch/char/NvzhuDark/vo_skill01": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NvzhuDark/vo_skill01",
         "AssetName": "vo_skill01"
       },
-      "event:/ambience/world/chezhan/station_train_citizen": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/station_train_citizen",
-        "AssetName": "station_train_citizen"
-      },
-      "bank:/voice/jp/story/voice_jp_story_1004_0.assets": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/story/voice_jp_story_1004_0_assets",
-        "AssetName": "voice_jp_story_1004_0_assets"
-      },
-      "event:/ui/common/month_signin_trans_to_normal_page": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/month_signin_trans_to_normal_page",
-        "AssetName": "month_signin_trans_to_normal_page"
-      },
-      "event:/ui/common/skill_name_toast_simple_chapter3": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/skill_name_toast_simple_chapter3",
-        "AssetName": "skill_name_toast_simple_chapter3"
-      },
       "event:/voice/ch/char/NanzhuDark/vo_skill01_r01": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NanzhuDark/vo_skill01_r01",
         "AssetName": "vo_skill01_r01"
-      },
-      "event:/sfx/player/Fuluo/skill01_short": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/skill01_short",
-        "AssetName": "skill01_short"
-      },
-      "bus:/sfx/btc/fuluola": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/btc/fuluola",
-        "AssetName": "fuluola"
-      },
-      "event:/ambience/world/chezhan/train_in_poor": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/train_in_poor",
-        "AssetName": "train_in_poor"
-      },
-      "event:/sfx/btc/fuluola/dance_party_start": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluola/dance_party_start",
-        "AssetName": "dance_party_start"
-      },
-      "event:/ambience/world/chezhan/wild": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/wild",
-        "AssetName": "wild"
-      },
-      "bank:/sfx/btc/sfx_btc_fuluola.assets": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/btc/sfx_btc_fuluola_assets",
-        "AssetName": "sfx_btc_fuluola_assets"
       },
       "bank:/voice/ch/story/voice_ch_story_1004_1": {
         "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/ch/story/voice_ch_story_1004_1",
@@ -67188,10 +66716,6 @@
         "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/combat_voice/ch/char/Fuluo01",
         "AssetName": "Fuluo01"
       },
-      "event:/ui/activity/lianmeiyanyi_level_success": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/lianmeiyanyi_level_success",
-        "AssetName": "lianmeiyanyi_level_success"
-      },
       "event:/sfx/enemy/Jt/Tiequan/attack01": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/enemy/Jt/Tiequan/attack01",
         "AssetName": "attack01"
@@ -67200,157 +66724,37 @@
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/Fuluo01/vo_skill02_r03",
         "AssetName": "vo_skill02_r03"
       },
-      "event:/sfx/weapon/Machinegun/Bomu/reload": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Bomu/reload",
-        "AssetName": "reload"
-      },
-      "event:/bgm/1_3/musicbox/0160_scene_wuyousheng_village": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_3/musicbox/0160_scene_wuyousheng_village",
-        "AssetName": "0160_scene_wuyousheng_village"
-      },
       "event:/voice/ch/char/NvzhuDark/vo_revive": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NvzhuDark/vo_revive",
         "AssetName": "vo_revive"
-      },
-      "bus:/voice/common/jp/boss/Lieche": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/common/jp/boss/Lieche",
-        "AssetName": "Lieche"
-      },
-      "event:/bgm/1_3/musicbox/0157_scene_shanwaishan": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_3/musicbox/0157_scene_shanwaishan",
-        "AssetName": "0157_scene_shanwaishan"
-      },
-      "event:/sfx/btc/fuluola/zuirang_start": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluola/zuirang_start",
-        "AssetName": "zuirang_start"
-      },
-      "event:/ambience/world/chezhan/train_in_nor": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/train_in_nor",
-        "AssetName": "train_in_nor"
       },
       "bank:/sfx/boss/sfx_boss_Lieche.assets": {
         "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/boss/sfx_boss_Lieche_assets",
         "AssetName": "sfx_boss_Lieche_assets"
       },
-      "event:/ui/activity/xier_trail_entrance_loop": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/xier_trail_entrance_loop",
-        "AssetName": "xier_trail_entrance_loop"
-      },
       "event:/sfx/boss/Lieche/vo_ch_Skill08": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_ch_Skill08",
         "AssetName": "vo_ch_Skill08"
-      },
-      "event:/sfx/weapon/Machinegun/Bomu/shootfly_explosion": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Bomu/shootfly_explosion",
-        "AssetName": "shootfly_explosion"
       },
       "event:/voice/ch/char/NanzhuDark/vo": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NanzhuDark/vo",
         "AssetName": "vo"
       },
-      "event:/sfx/boss/Qihuo/skill04_2": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill04_2",
-        "AssetName": "skill04_2"
-      },
-      "event:/ui/activity/lianmeiyanyi_level_select_page_in": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/lianmeiyanyi_level_select_page_in",
-        "AssetName": "lianmeiyanyi_level_select_page_in"
-      },
-      "event:/voice/jp/story/1004": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/story/1004",
-        "AssetName": "1004"
-      },
-      "bus:/sfx/btc/xiunv": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/btc/xiunv",
-        "AssetName": "xiunv"
-      },
-      "event:/sfx/enemy/Jt/Hongshan/skill01": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/enemy/Jt/Hongshan/skill01",
-        "AssetName": "skill01"
-      },
-      "event:/sfx/btc/xiunv/bulletjump_xiunv01": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/xiunv/bulletjump_xiunv01",
-        "AssetName": "bulletjump_xiunv01"
-      },
-      "event:/sfx/boss/Lieche/vo_jp_Skill04": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_jp_Skill04",
-        "AssetName": "vo_jp_Skill04"
-      },
       "event:/voice/ch/char/Fuluo/vo_attack_charge": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/Fuluo/vo_attack_charge",
         "AssetName": "vo_attack_charge"
-      },
-      "bank:/sfx/enemy/sfx_enemy_Jt_Hongshan": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/enemy/sfx_enemy_Jt_Hongshan",
-        "AssetName": "sfx_enemy_Jt_Hongshan"
-      },
-      "bank:/sfx/weapon/sfx_weapon_Machinegun_Bomu.assets": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/weapon/sfx_weapon_Machinegun_Bomu_assets",
-        "AssetName": "sfx_weapon_Machinegun_Bomu_assets"
-      },
-      "bank:/sfx/player/sfx_player_Fuluo.assets": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/player/sfx_player_Fuluo_assets",
-        "AssetName": "sfx_player_Fuluo_assets"
       },
       "event:/sfx/weapon/Katana/Common/mod01_hit_heavy": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Katana/Common/mod01_hit_heavy",
         "AssetName": "mod01_hit_heavy"
       },
-      "event:/sfx/common/player/idle/Fuluola_foley": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/player/idle/Fuluola_foley",
-        "AssetName": "Fuluola_foley"
-      },
-      "event:/ambience/world/chezhan/train_in_rich": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/train_in_rich",
-        "AssetName": "train_in_rich"
-      },
-      "event:/sfx/player/Fuluo/skill01_long": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/skill01_long",
-        "AssetName": "skill01_long"
-      },
-      "event:/ambience/world/chezhan/station_entrance": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/station_entrance",
-        "AssetName": "station_entrance"
-      },
-      "event:/sfx/player/Fuluo/skill02_wawa_stop": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/skill02_wawa_stop",
-        "AssetName": "skill02_wawa_stop"
-      },
       "event:/voice/ch/char/NanzhuDark/vo_skill01_r02": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NanzhuDark/vo_skill01_r02",
         "AssetName": "vo_skill01_r02"
       },
-      "event:/ui/activity/lianmeiyanyi_level_finish": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/lianmeiyanyi_level_finish",
-        "AssetName": "lianmeiyanyi_level_finish"
-      },
-      "event:/ui/activity/manyouxunli_gift_info_change": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/manyouxunli_gift_info_change",
-        "AssetName": "manyouxunli_gift_info_change"
-      },
-      "event:/sfx/boss/Qihuo/skill05_4": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill05_4",
-        "AssetName": "skill05_4"
-      },
-      "bank:/sfx/boss/sfx_boss_Qihuo.assets": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/boss/sfx_boss_Qihuo_assets",
-        "AssetName": "sfx_boss_Qihuo_assets"
-      },
-      "event:/voice/jp/char/Fuluo/vo_attack_charge_r02": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo/vo_attack_charge_r02",
-        "AssetName": "vo_attack_charge_r02"
-      },
-      "event:/sfx/player/Fuluo/heavyattack_start_end": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/heavyattack_start_end",
-        "AssetName": "heavyattack_start_end"
-      },
       "event:/sfx/enemy/Jt/Tiequan/attack02": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/enemy/Jt/Tiequan/attack02",
         "AssetName": "attack02"
-      },
-      "event:/sfx/boss/Qihuo/skill05_3": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill05_3",
-        "AssetName": "skill05_3"
       },
       "event:/voice/ch/char/NvzhuDark/vo_die": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NvzhuDark/vo_die",
@@ -67360,65 +66764,9 @@
         "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/enemy/Jt/Tiequan/vo_attack01",
         "AssetName": "vo_attack01"
       },
-      "event:/sfx/boss/Qihuo/skill06_2": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill06_2",
-        "AssetName": "skill06_2"
-      },
-      "event:/sfx/boss/Qihuo/skill02_2": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill02_2",
-        "AssetName": "skill02_2"
-      },
-      "event:/ui/common/month_signin_daily_gift_in": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/month_signin_daily_gift_in",
-        "AssetName": "month_signin_daily_gift_in"
-      },
-      "event:/sfx/player/Fuluo/heavyattack_start": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/heavyattack_start",
-        "AssetName": "heavyattack_start"
-      },
-      "event:/ambience/world/chezhan/under_trail_zone": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/under_trail_zone",
-        "AssetName": "under_trail_zone"
-      },
-      "event:/sfx/boss/Qihuo/skill03_2": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill03_2",
-        "AssetName": "skill03_2"
-      },
-      "event:/ambience/world/chezhan/station_diaodushi": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/station_diaodushi",
-        "AssetName": "station_diaodushi"
-      },
-      "event:/sfx/enemy/Jt/Hongshan/attack": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/enemy/Jt/Hongshan/attack",
-        "AssetName": "attack"
-      },
       "event:/sfx/weapon/Crossbow/Leyuan/bullet_hit": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Crossbow/Leyuan/bullet_hit",
         "AssetName": "bullet_hit"
-      },
-      "event:/sfx/boss/Qihuo/skill03_1": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill03_1",
-        "AssetName": "skill03_1"
-      },
-      "bank:/voice/jp/story/voice_jp_story_1004_1.assets": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/story/voice_jp_story_1004_1_assets",
-        "AssetName": "voice_jp_story_1004_1_assets"
-      },
-      "event:/sfx/player/Fuluo/passve_hit": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/passve_hit",
-        "AssetName": "passve_hit"
-      },
-      "event:/bgm/1_3/musicbox/0158_scene_yuanjiao": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_3/musicbox/0158_scene_yuanjiao",
-        "AssetName": "0158_scene_yuanjiao"
-      },
-      "event:/sfx/weapon/Machinegun/Bomu/explosion": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Bomu/explosion",
-        "AssetName": "explosion"
-      },
-      "event:/bgm/1_3/musicbox/0155_scene_haojing": {
-        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_3/musicbox/0155_scene_haojing",
-        "AssetName": "0155_scene_haojing"
       },
       "bank:/voice/ch/story/voice_ch_story_1004_3": {
         "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/ch/story/voice_ch_story_1004_3",
@@ -67435,6 +66783,3010 @@
       "event:/sfx/boss/Lieche/vo_ch_BattleEnd02": {
         "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_ch_BattleEnd02",
         "AssetName": "vo_ch_BattleEnd02"
+      },
+      "bank:/sfx/btc/sfx_btc_fuluola": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/btc/sfx_btc_fuluola",
+        "AssetName": "sfx_btc_fuluola"
+      },
+      "bus:/sfx/btc/fuluola": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/btc/fuluola",
+        "AssetName": "fuluola"
+      },
+      "bank:/sfx/btc/sfx_btc_fuluola.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/btc/sfx_btc_fuluola_assets",
+        "AssetName": "sfx_btc_fuluola_assets"
+      },
+      "bank:/ambience/world/ambience_wolrd_chezhan": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/ambience/world/ambience_wolrd_chezhan",
+        "AssetName": "ambience_wolrd_chezhan"
+      },
+      "event:/ambience/world/chezhan/train_out_tunnel": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/train_out_tunnel",
+        "AssetName": "train_out_tunnel"
+      },
+      "event:/ambience/world/chezhan/station_tower": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/station_tower",
+        "AssetName": "station_tower"
+      },
+      "event:/ambience/world/chezhan/medical_room": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/medical_room",
+        "AssetName": "medical_room"
+      },
+      "event:/ambience/world/chezhan/mt": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/mt",
+        "AssetName": "mt"
+      },
+      "event:/ambience/world/chezhan/station_train_industry": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/station_train_industry",
+        "AssetName": "station_train_industry"
+      },
+      "event:/ambience/world/chezhan/station_industry": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/station_industry",
+        "AssetName": "station_industry"
+      },
+      "event:/ambience/world/chezhan/wood_room": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/wood_room",
+        "AssetName": "wood_room"
+      },
+      "event:/ambience/world/chezhan/train_out_wild": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/train_out_wild",
+        "AssetName": "train_out_wild"
+      },
+      "event:/ambience/world/chezhan/under_industry_small": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/under_industry_small",
+        "AssetName": "under_industry_small"
+      },
+      "event:/ambience/world/chezhan/under_industry_big": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/under_industry_big",
+        "AssetName": "under_industry_big"
+      },
+      "event:/ambience/world/chezhan/station_hall": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/station_hall",
+        "AssetName": "station_hall"
+      },
+      "event:/ambience/world/chezhan/under_industry_mid": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/under_industry_mid",
+        "AssetName": "under_industry_mid"
+      },
+      "bus:/ambience/world/chezhan": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/ambience/world/chezhan",
+        "AssetName": "chezhan"
+      },
+      "bank:/ambience/world/ambience_wolrd_chezhan.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/ambience/world/ambience_wolrd_chezhan_assets",
+        "AssetName": "ambience_wolrd_chezhan_assets"
+      },
+      "event:/ambience/world/chezhan/station_train_citizen": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/station_train_citizen",
+        "AssetName": "station_train_citizen"
+      },
+      "event:/ambience/world/chezhan/train_in_poor": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/train_in_poor",
+        "AssetName": "train_in_poor"
+      },
+      "event:/ambience/world/chezhan/wild": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/wild",
+        "AssetName": "wild"
+      },
+      "event:/ambience/world/chezhan/train_in_nor": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/train_in_nor",
+        "AssetName": "train_in_nor"
+      },
+      "event:/ambience/world/chezhan/train_in_rich": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/train_in_rich",
+        "AssetName": "train_in_rich"
+      },
+      "event:/ambience/world/chezhan/station_entrance": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/station_entrance",
+        "AssetName": "station_entrance"
+      },
+      "event:/ambience/world/chezhan/under_trail_zone": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/under_trail_zone",
+        "AssetName": "under_trail_zone"
+      },
+      "event:/ambience/world/chezhan/station_diaodushi": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/station_diaodushi",
+        "AssetName": "station_diaodushi"
+      },
+      "event:/bgm/1_1/musicbox/0120_scene_zhuyinjitan": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_1/musicbox/0120_scene_zhuyinjitan",
+        "AssetName": "0120_scene_zhuyinjitan"
+      },
+      "bus:/sfx/combat/enemy/Jt/Hongshan": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/combat/enemy/Jt/Hongshan",
+        "AssetName": "Hongshan"
+      },
+      "event:/sfx/enemy/Jt/Hongshan/reload": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/enemy/Jt/Hongshan/reload",
+        "AssetName": "reload"
+      },
+      "event:/bgm/1_3/musicbox/0152_story_jiaolancun_piano": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_3/musicbox/0152_story_jiaolancun_piano",
+        "AssetName": "0152_story_jiaolancun_piano"
+      },
+      "event:/bgm/1_3/musicbox/0147_boss_two_dragon": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_3/musicbox/0147_boss_two_dragon",
+        "AssetName": "0147_boss_two_dragon"
+      },
+      "bank:/sfx/enemy/sfx_enemy_Jt_Hongshan.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/enemy/sfx_enemy_Jt_Hongshan_assets",
+        "AssetName": "sfx_enemy_Jt_Hongshan_assets"
+      },
+      "event:/bgm/1_3/musicbox/0150_scene_yanyingong": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_3/musicbox/0150_scene_yanyingong",
+        "AssetName": "0150_scene_yanyingong"
+      },
+      "event:/bgm/1_3/musicbox/0156_scene_jiaolancun": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_3/musicbox/0156_scene_jiaolancun",
+        "AssetName": "0156_scene_jiaolancun"
+      },
+      "event:/sfx/enemy/Jt/Hongshan/whoosh": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/enemy/Jt/Hongshan/whoosh",
+        "AssetName": "whoosh"
+      },
+      "event:/bgm/1_3/musicbox/0143_story_zhiliu_kill_god": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_3/musicbox/0143_story_zhiliu_kill_god",
+        "AssetName": "0143_story_zhiliu_kill_god"
+      },
+      "event:/bgm/1_3/musicbox/0142_story_zhiliu_memory": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_3/musicbox/0142_story_zhiliu_memory",
+        "AssetName": "0142_story_zhiliu_memory"
+      },
+      "event:/bgm/1_3/musicbox/0160_scene_wuyousheng_village": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_3/musicbox/0160_scene_wuyousheng_village",
+        "AssetName": "0160_scene_wuyousheng_village"
+      },
+      "event:/bgm/1_3/musicbox/0157_scene_shanwaishan": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_3/musicbox/0157_scene_shanwaishan",
+        "AssetName": "0157_scene_shanwaishan"
+      },
+      "event:/sfx/enemy/Jt/Hongshan/skill01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/enemy/Jt/Hongshan/skill01",
+        "AssetName": "skill01"
+      },
+      "bank:/sfx/enemy/sfx_enemy_Jt_Hongshan": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/enemy/sfx_enemy_Jt_Hongshan",
+        "AssetName": "sfx_enemy_Jt_Hongshan"
+      },
+      "event:/sfx/enemy/Jt/Hongshan/attack": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/enemy/Jt/Hongshan/attack",
+        "AssetName": "attack"
+      },
+      "event:/bgm/1_3/musicbox/0158_scene_yuanjiao": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_3/musicbox/0158_scene_yuanjiao",
+        "AssetName": "0158_scene_yuanjiao"
+      },
+      "event:/bgm/1_3/musicbox/0155_scene_haojing": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_3/musicbox/0155_scene_haojing",
+        "AssetName": "0155_scene_haojing"
+      },
+      "event:/sfx/boss/Qihuo/skill04_5": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill04_5",
+        "AssetName": "skill04_5"
+      },
+      "event:/sfx/boss/Qihuo/skill02_3": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill02_3",
+        "AssetName": "skill02_3"
+      },
+      "event:/sfx/boss/Qihuo/skill05_2": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill05_2",
+        "AssetName": "skill05_2"
+      },
+      "event:/sfx/boss/Qihuo/skill05_1": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill05_1",
+        "AssetName": "skill05_1"
+      },
+      "bank:/sfx/boss/sfx_boss_Qihuo": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/boss/sfx_boss_Qihuo",
+        "AssetName": "sfx_boss_Qihuo"
+      },
+      "event:/sfx/boss/Qihuo/sword": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/sword",
+        "AssetName": "sword"
+      },
+      "event:/sfx/boss/Qihuo/skill07_ball_fade": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill07_ball_fade",
+        "AssetName": "skill07_ball_fade"
+      },
+      "event:/sfx/boss/Qihuo/skill02_1": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill02_1",
+        "AssetName": "skill02_1"
+      },
+      "event:/sfx/boss/Qihuo/skill07_ball_fx": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill07_ball_fx",
+        "AssetName": "skill07_ball_fx"
+      },
+      "event:/sfx/boss/Qihuo/skill04_1": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill04_1",
+        "AssetName": "skill04_1"
+      },
+      "event:/sfx/boss/Qihuo/skill02_fx": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill02_fx",
+        "AssetName": "skill02_fx"
+      },
+      "event:/sfx/boss/Qihuo/skill04_3": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill04_3",
+        "AssetName": "skill04_3"
+      },
+      "event:/sfx/boss/Qihuo/skill07_2": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill07_2",
+        "AssetName": "skill07_2"
+      },
+      "event:/sfx/boss/Qihuo/skill07_ball_exp": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill07_ball_exp",
+        "AssetName": "skill07_ball_exp"
+      },
+      "event:/sfx/boss/Qihuo/skill06_1": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill06_1",
+        "AssetName": "skill06_1"
+      },
+      "event:/sfx/boss/Qihuo/skill07_1": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill07_1",
+        "AssetName": "skill07_1"
+      },
+      "event:/sfx/boss/Qihuo/skill06_exp": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill06_exp",
+        "AssetName": "skill06_exp"
+      },
+      "bus:/sfx/combat/boss/Qihuo": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/combat/boss/Qihuo",
+        "AssetName": "Qihuo"
+      },
+      "event:/sfx/boss/Qihuo/skill04_4": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill04_4",
+        "AssetName": "skill04_4"
+      },
+      "event:/sfx/boss/Qihuo/skill04_2": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill04_2",
+        "AssetName": "skill04_2"
+      },
+      "event:/sfx/boss/Qihuo/skill05_4": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill05_4",
+        "AssetName": "skill05_4"
+      },
+      "bank:/sfx/boss/sfx_boss_Qihuo.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/boss/sfx_boss_Qihuo_assets",
+        "AssetName": "sfx_boss_Qihuo_assets"
+      },
+      "event:/sfx/boss/Qihuo/skill05_3": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill05_3",
+        "AssetName": "skill05_3"
+      },
+      "event:/sfx/boss/Qihuo/skill06_2": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill06_2",
+        "AssetName": "skill06_2"
+      },
+      "event:/sfx/boss/Qihuo/skill02_2": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill02_2",
+        "AssetName": "skill02_2"
+      },
+      "event:/sfx/boss/Qihuo/skill03_2": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill03_2",
+        "AssetName": "skill03_2"
+      },
+      "event:/sfx/boss/Qihuo/skill03_1": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Qihuo/skill03_1",
+        "AssetName": "skill03_1"
+      },
+      "bank:/sfx/btc/sfx_btc_xiunv.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/btc/sfx_btc_xiunv_assets",
+        "AssetName": "sfx_btc_xiunv_assets"
+      },
+      "event:/sfx/btc/xiunv/bulletjump_xiunv02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/xiunv/bulletjump_xiunv02",
+        "AssetName": "bulletjump_xiunv02"
+      },
+      "bank:/sfx/btc/sfx_btc_xiunv": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/btc/sfx_btc_xiunv",
+        "AssetName": "sfx_btc_xiunv"
+      },
+      "bus:/sfx/btc/xiunv": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/btc/xiunv",
+        "AssetName": "xiunv"
+      },
+      "event:/sfx/btc/xiunv/bulletjump_xiunv01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/xiunv/bulletjump_xiunv01",
+        "AssetName": "bulletjump_xiunv01"
+      },
+      "event:/voice/jp/char/Fuluo01/vo_gain": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo01/vo_gain",
+        "AssetName": "vo_gain"
+      },
+      "event:/voice/jp/char/Fuluo/vo_attack_charge_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo/vo_attack_charge_r01",
+        "AssetName": "vo_attack_charge_r01"
+      },
+      "event:/sfx/boss/Lieche/vo_jp_Skill08": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_jp_Skill08",
+        "AssetName": "vo_jp_Skill08"
+      },
+      "event:/voice/jp/char/Fuluo01/vo_skill02_r03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo01/vo_skill02_r03",
+        "AssetName": "vo_skill02_r03"
+      },
+      "bank:/voice/jp/char/voice_jp_char_Fuluo01.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/char/voice_jp_char_Fuluo01_assets",
+        "AssetName": "voice_jp_char_Fuluo01_assets"
+      },
+      "event:/voice/jp/char/Shuimu01/vo_skill02_r03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Shuimu01/vo_skill02_r03",
+        "AssetName": "vo_skill02_r03"
+      },
+      "event:/voice/jp/char/Fuluo01/vo_appear": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo01/vo_appear",
+        "AssetName": "vo_appear"
+      },
+      "bank:/voice/jp/story/voice_jp_story_1004_1": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/story/voice_jp_story_1004_1",
+        "AssetName": "voice_jp_story_1004_1"
+      },
+      "bus:/voice/combat_voice/jp/char/Fuluo01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/combat_voice/jp/char/Fuluo01",
+        "AssetName": "Fuluo01"
+      },
+      "event:/voice/jp/char/Fuluo/vo_attack_charge_r03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo/vo_attack_charge_r03",
+        "AssetName": "vo_attack_charge_r03"
+      },
+      "event:/sfx/boss/Lieche/vo_jp_Skill07": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_jp_Skill07",
+        "AssetName": "vo_jp_Skill07"
+      },
+      "event:/voice/jp/char/Fuluo01/vo_skill02_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo01/vo_skill02_r02",
+        "AssetName": "vo_skill02_r02"
+      },
+      "event:/voice/jp/char/Fuluo/vo_attack_charge": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo/vo_attack_charge",
+        "AssetName": "vo_attack_charge"
+      },
+      "bus:/voice/common/jp/char/Fuluo01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/common/jp/char/Fuluo01",
+        "AssetName": "Fuluo01"
+      },
+      "event:/voice/jp/char/Fuluo01/vo_battlestart": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo01/vo_battlestart",
+        "AssetName": "vo_battlestart"
+      },
+      "event:/voice/jp/char/Fuluo01/vo_skill02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo01/vo_skill02",
+        "AssetName": "vo_skill02"
+      },
+      "bank:/voice/jp/story/voice_jp_story_1004_0": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/story/voice_jp_story_1004_0",
+        "AssetName": "voice_jp_story_1004_0"
+      },
+      "bank:/voice/jp/char/voice_jp_char_Fuluo01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/char/voice_jp_char_Fuluo01",
+        "AssetName": "voice_jp_char_Fuluo01"
+      },
+      "event:/voice/jp/char/Shuimu01/vo_skill02_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Shuimu01/vo_skill02_r02",
+        "AssetName": "vo_skill02_r02"
+      },
+      "event:/voice/jp/char/Fuluo01/vo_skill02_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo01/vo_skill02_r01",
+        "AssetName": "vo_skill02_r01"
+      },
+      "event:/sfx/boss/Lieche/vo_jp_Skill06": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_jp_Skill06",
+        "AssetName": "vo_jp_Skill06"
+      },
+      "bank:/voice/jp/story/voice_jp_story_1004_0.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/story/voice_jp_story_1004_0_assets",
+        "AssetName": "voice_jp_story_1004_0_assets"
+      },
+      "bus:/voice/common/jp/boss/Lieche": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/common/jp/boss/Lieche",
+        "AssetName": "Lieche"
+      },
+      "event:/voice/jp/story/1004": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/story/1004",
+        "AssetName": "1004"
+      },
+      "event:/voice/jp/char/Fuluo/vo_attack_charge_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/Fuluo/vo_attack_charge_r02",
+        "AssetName": "vo_attack_charge_r02"
+      },
+      "bank:/voice/jp/story/voice_jp_story_1004_1.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/story/voice_jp_story_1004_1_assets",
+        "AssetName": "voice_jp_story_1004_1_assets"
+      },
+      "event:/ui/common/shenjingluopan_unlock_gift": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/shenjingluopan_unlock_gift",
+        "AssetName": "shenjingluopan_unlock_gift"
+      },
+      "event:/ui/activity/lianmeiyanyi_btn_large_confirm_click": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/lianmeiyanyi_btn_large_confirm_click",
+        "AssetName": "lianmeiyanyi_btn_large_confirm_click"
+      },
+      "event:/ui/activity/lianmeiyanyi_level_toast_stage_change": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/lianmeiyanyi_level_toast_stage_change",
+        "AssetName": "lianmeiyanyi_level_toast_stage_change"
+      },
+      "event:/ui/common/month_signin_trans_to_keep_page": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/month_signin_trans_to_keep_page",
+        "AssetName": "month_signin_trans_to_keep_page"
+      },
+      "event:/ui/common/gift_collection_panel_show": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/gift_collection_panel_show",
+        "AssetName": "gift_collection_panel_show"
+      },
+      "event:/ui/activity/lianmeiyanyi_btn_small_click": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/lianmeiyanyi_btn_small_click",
+        "AssetName": "lianmeiyanyi_btn_small_click"
+      },
+      "event:/ui/common/month_signin_show": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/month_signin_show",
+        "AssetName": "month_signin_show"
+      },
+      "event:/ui/common/shenjingluopan_panel_show": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/shenjingluopan_panel_show",
+        "AssetName": "shenjingluopan_panel_show"
+      },
+      "event:/ui/activity/lianmeiyanyi_btn_common_click": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/lianmeiyanyi_btn_common_click",
+        "AssetName": "lianmeiyanyi_btn_common_click"
+      },
+      "event:/ui/common/main_quest_start_chapter3": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/main_quest_start_chapter3",
+        "AssetName": "main_quest_start_chapter3"
+      },
+      "event:/ui/common/chapter_3_trans_clock": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/chapter_3_trans_clock",
+        "AssetName": "chapter_3_trans_clock"
+      },
+      "event:/ui/activity/lianmeiyanyi_crystal_sub_panel_show": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/lianmeiyanyi_crystal_sub_panel_show",
+        "AssetName": "lianmeiyanyi_crystal_sub_panel_show"
+      },
+      "event:/ui/activity/lianmeiyanyi_entrance_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/lianmeiyanyi_entrance_loop",
+        "AssetName": "lianmeiyanyi_entrance_loop"
+      },
+      "event:/ui/common/month_signin_trans_to_normal_page": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/month_signin_trans_to_normal_page",
+        "AssetName": "month_signin_trans_to_normal_page"
+      },
+      "event:/ui/common/skill_name_toast_simple_chapter3": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/skill_name_toast_simple_chapter3",
+        "AssetName": "skill_name_toast_simple_chapter3"
+      },
+      "event:/ui/activity/lianmeiyanyi_level_success": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/lianmeiyanyi_level_success",
+        "AssetName": "lianmeiyanyi_level_success"
+      },
+      "event:/ui/activity/lianmeiyanyi_level_select_page_in": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/lianmeiyanyi_level_select_page_in",
+        "AssetName": "lianmeiyanyi_level_select_page_in"
+      },
+      "event:/ui/activity/lianmeiyanyi_level_finish": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/lianmeiyanyi_level_finish",
+        "AssetName": "lianmeiyanyi_level_finish"
+      },
+      "event:/ui/activity/manyouxunli_gift_info_change": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/manyouxunli_gift_info_change",
+        "AssetName": "manyouxunli_gift_info_change"
+      },
+      "event:/ui/common/month_signin_daily_gift_in": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/month_signin_daily_gift_in",
+        "AssetName": "month_signin_daily_gift_in"
+      },
+      "event:/sfx/common/player/idle/Fuluola": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/player/idle/Fuluola",
+        "AssetName": "Fuluola"
+      },
+      "bus:/sfx/combat/player/Fuluola": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/combat/player/Fuluola",
+        "AssetName": "Fuluola"
+      },
+      "event:/sfx/btc/common/yuetai": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/common/yuetai",
+        "AssetName": "yuetai"
+      },
+      "event:/sfx/btc/common/huoche": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/common/huoche",
+        "AssetName": "huoche"
+      },
+      "event:/ui/activity/xier_seven_day_entrance_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/xier_seven_day_entrance_loop",
+        "AssetName": "xier_seven_day_entrance_loop"
+      },
+      "event:/ui/char/Fuluola_armory_foley": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/char/Fuluola_armory_foley",
+        "AssetName": "Fuluola_armory_foley"
+      },
+      "event:/ui/activity/fuluo_seven_day_entrance_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/fuluo_seven_day_entrance_loop",
+        "AssetName": "fuluo_seven_day_entrance_loop"
+      },
+      "event:/ui/activity/fuluo_trail_entrance_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/fuluo_trail_entrance_loop",
+        "AssetName": "fuluo_trail_entrance_loop"
+      },
+      "event:/ui/char/Fuluola_armory_sfx": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/char/Fuluola_armory_sfx",
+        "AssetName": "Fuluola_armory_sfx"
+      },
+      "event:/ui/activity/xier_trail_entrance_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/xier_trail_entrance_loop",
+        "AssetName": "xier_trail_entrance_loop"
+      },
+      "event:/sfx/common/player/idle/Fuluola_foley": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/player/idle/Fuluola_foley",
+        "AssetName": "Fuluola_foley"
+      },
+      "event:/sfx/player/Fuluo/skill02_wawa_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/skill02_wawa_loop",
+        "AssetName": "skill02_wawa_loop"
+      },
+      "event:/sfx/player/Fuluo/skill02_wawa_attack_start": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/skill02_wawa_attack_start",
+        "AssetName": "skill02_wawa_attack_start"
+      },
+      "event:/sfx/player/Fuluo/passive_wawa": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/passive_wawa",
+        "AssetName": "passive_wawa"
+      },
+      "bank:/sfx/player/sfx_player_Fuluo": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/player/sfx_player_Fuluo",
+        "AssetName": "sfx_player_Fuluo"
+      },
+      "event:/sfx/player/Fuluo/skill02_wawa_attack_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/skill02_wawa_attack_loop",
+        "AssetName": "skill02_wawa_attack_loop"
+      },
+      "event:/sfx/player/Fuluo/skill01_short_end": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/skill01_short_end",
+        "AssetName": "skill01_short_end"
+      },
+      "event:/sfx/player/Fuluo/heavyattack_end": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/heavyattack_end",
+        "AssetName": "heavyattack_end"
+      },
+      "event:/sfx/player/Fuluo/skill01_short": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/skill01_short",
+        "AssetName": "skill01_short"
+      },
+      "bank:/sfx/player/sfx_player_Fuluo.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/player/sfx_player_Fuluo_assets",
+        "AssetName": "sfx_player_Fuluo_assets"
+      },
+      "event:/sfx/player/Fuluo/skill01_long": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/skill01_long",
+        "AssetName": "skill01_long"
+      },
+      "event:/sfx/player/Fuluo/skill02_wawa_stop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/skill02_wawa_stop",
+        "AssetName": "skill02_wawa_stop"
+      },
+      "event:/sfx/player/Fuluo/heavyattack_start_end": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/heavyattack_start_end",
+        "AssetName": "heavyattack_start_end"
+      },
+      "event:/sfx/player/Fuluo/heavyattack_start": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/heavyattack_start",
+        "AssetName": "heavyattack_start"
+      },
+      "event:/sfx/player/Fuluo/passve_hit": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/passve_hit",
+        "AssetName": "passve_hit"
+      },
+      "bank:/sfx/player/sfx_player_NanzhuDark.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/player/sfx_player_NanzhuDark_assets",
+        "AssetName": "sfx_player_NanzhuDark_assets"
+      },
+      "event:/sfx/player/NanzhuDark/attack_back": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/NanzhuDark/attack_back",
+        "AssetName": "attack_back"
+      },
+      "event:/sfx/player/NanzhuDark/skill02_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/NanzhuDark/skill02_loop",
+        "AssetName": "skill02_loop"
+      },
+      "event:/sfx/player/NanzhuDark/skill01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/NanzhuDark/skill01",
+        "AssetName": "skill01"
+      },
+      "event:/ui/char/Nanzhudark_armory_start": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/char/Nanzhudark_armory_start",
+        "AssetName": "Nanzhudark_armory_start"
+      },
+      "event:/sfx/player/NanzhuDark/skill02_attack": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/NanzhuDark/skill02_attack",
+        "AssetName": "skill02_attack"
+      },
+      "event:/sfx/player/NanzhuDark/skill01_attack": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/NanzhuDark/skill01_attack",
+        "AssetName": "skill01_attack"
+      },
+      "event:/sfx/player/NanzhuDark/attack_normal": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/NanzhuDark/attack_normal",
+        "AssetName": "attack_normal"
+      },
+      "event:/sfx/player/NanzhuDark/skill02_loop02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/NanzhuDark/skill02_loop02",
+        "AssetName": "skill02_loop02"
+      },
+      "bank:/sfx/player/sfx_player_NanzhuDark": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/player/sfx_player_NanzhuDark",
+        "AssetName": "sfx_player_NanzhuDark"
+      },
+      "event:/sfx/common/player/idle/Nanzhudark_foley": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/player/idle/Nanzhudark_foley",
+        "AssetName": "Nanzhudark_foley"
+      },
+      "event:/sfx/player/NanzhuDark/skill02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/NanzhuDark/skill02",
+        "AssetName": "skill02"
+      },
+      "event:/sfx/player/NanzhuDark/dark_hit": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/NanzhuDark/dark_hit",
+        "AssetName": "dark_hit"
+      },
+      "bus:/sfx/combat/player/NanzhuDark": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/combat/player/NanzhuDark",
+        "AssetName": "NanzhuDark"
+      },
+      "event:/sfx/btc/fuluo/huanwen": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluo/huanwen",
+        "AssetName": "huanwen"
+      },
+      "event:/sfx/btc/fuluo/footstep_leaves": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluo/footstep_leaves",
+        "AssetName": "footstep_leaves"
+      },
+      "event:/sfx/btc/fuluo/bulletjump": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluo/bulletjump",
+        "AssetName": "bulletjump"
+      },
+      "event:/sfx/btc/fuluo/dance_party_start_fire_place": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluo/dance_party_start_fire_place",
+        "AssetName": "dance_party_start_fire_place"
+      },
+      "bus:/sfx/combat/player/Fuluo": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/combat/player/Fuluo",
+        "AssetName": "Fuluo"
+      },
+      "event:/sfx/btc/fuluo/choutuoluo": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluo/choutuoluo",
+        "AssetName": "choutuoluo"
+      },
+      "event:/sfx/btc/fuluo/zuirang_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluo/zuirang_loop",
+        "AssetName": "zuirang_loop"
+      },
+      "event:/sfx/btc/fuluo/dance_party_beat_heavy": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluo/dance_party_beat_heavy",
+        "AssetName": "dance_party_beat_heavy"
+      },
+      "event:/sfx/btc/fuluo/dance_party_beat": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluo/dance_party_beat",
+        "AssetName": "dance_party_beat"
+      },
+      "event:/sfx/btc/fuluo/death": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluo/death",
+        "AssetName": "death"
+      },
+      "event:/sfx/player/Fuluo/skill02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/skill02",
+        "AssetName": "skill02"
+      },
+      "event:/sfx/btc/fuluo/dance_party_start": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluo/dance_party_start",
+        "AssetName": "dance_party_start"
+      },
+      "event:/sfx/btc/fuluo/zuirang_start": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluo/zuirang_start",
+        "AssetName": "zuirang_start"
+      },
+      "event:/sfx/player/NanzhuDark/skill01_bs": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/NanzhuDark/skill01_bs",
+        "AssetName": "skill01_bs"
+      },
+      "bank:/voice/kr/char/voice_kr_char_Fuluo01.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/kr/char/voice_kr_char_Fuluo01_assets",
+        "AssetName": "voice_kr_char_Fuluo01_assets"
+      },
+      "event:/voice/kr/char/Fuluo01/vo_skill02_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/Fuluo01/vo_skill02_r02",
+        "AssetName": "vo_skill02_r02"
+      },
+      "bus:/voice/common/kr/char/NvzhuDark": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/common/kr/char/NvzhuDark",
+        "AssetName": "NvzhuDark"
+      },
+      "event:/voice/kr/char/NvzhuDark/vo_die_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NvzhuDark/vo_die_r01",
+        "AssetName": "vo_die_r01"
+      },
+      "event:/voice/kr/char/NanzhuDark/vo_skill01_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NanzhuDark/vo_skill01_r02",
+        "AssetName": "vo_skill01_r02"
+      },
+      "event:/voice/kr/char/NvzhuDark/vo": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NvzhuDark/vo",
+        "AssetName": "vo"
+      },
+      "event:/voice/kr/char/NanzhuDark/vo_skill02_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NanzhuDark/vo_skill02_r02",
+        "AssetName": "vo_skill02_r02"
+      },
+      "bank:/voice/kr/char/voice_kr_char_NvzhuDark": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/kr/char/voice_kr_char_NvzhuDark",
+        "AssetName": "voice_kr_char_NvzhuDark"
+      },
+      "event:/sfx/boss/Lieche/vo_kr_BattleEnd02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_kr_BattleEnd02",
+        "AssetName": "vo_kr_BattleEnd02"
+      },
+      "event:/voice/kr/char/Shuimu01/vo_skill02_r03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/Shuimu01/vo_skill02_r03",
+        "AssetName": "vo_skill02_r03"
+      },
+      "event:/sfx/boss/Lieche/vo_kr_Skill08": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_kr_Skill08",
+        "AssetName": "vo_kr_Skill08"
+      },
+      "event:/sfx/boss/Lieche/vo_kr_BattleEnd01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_kr_BattleEnd01",
+        "AssetName": "vo_kr_BattleEnd01"
+      },
+      "event:/voice/kr/char/Fuluo/vo_attack_charge": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/Fuluo/vo_attack_charge",
+        "AssetName": "vo_attack_charge"
+      },
+      "bank:/voice/kr/char/voice_kr_char_NanzhuDark.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/kr/char/voice_kr_char_NanzhuDark_assets",
+        "AssetName": "voice_kr_char_NanzhuDark_assets"
+      },
+      "event:/voice/kr/char/NvzhuDark/vo_skill01_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NvzhuDark/vo_skill01_r02",
+        "AssetName": "vo_skill01_r02"
+      },
+      "event:/voice/kr/char/Fuluo01/vo_appear": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/Fuluo01/vo_appear",
+        "AssetName": "vo_appear"
+      },
+      "event:/voice/kr/char/NanzhuDark/vo_skill02_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NanzhuDark/vo_skill02_r01",
+        "AssetName": "vo_skill02_r01"
+      },
+      "event:/voice/kr/char/NanzhuDark/vo_skill02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NanzhuDark/vo_skill02",
+        "AssetName": "vo_skill02"
+      },
+      "event:/voice/kr/char/Fuluo/vo_attack_charge_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/Fuluo/vo_attack_charge_r02",
+        "AssetName": "vo_attack_charge_r02"
+      },
+      "event:/sfx/boss/Lieche/vo_kr_Skill07": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_kr_Skill07",
+        "AssetName": "vo_kr_Skill07"
+      },
+      "event:/voice/kr/char/NvzhuDark/vo_battlestart": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NvzhuDark/vo_battlestart",
+        "AssetName": "vo_battlestart"
+      },
+      "event:/sfx/boss/Lieche/vo_kr_Skill03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_kr_Skill03",
+        "AssetName": "vo_kr_Skill03"
+      },
+      "event:/sfx/boss/Lieche/vo_kr_Skill06": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_kr_Skill06",
+        "AssetName": "vo_kr_Skill06"
+      },
+      "event:/voice/kr/char/NvzhuDark/vo_skill02_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NvzhuDark/vo_skill02_r01",
+        "AssetName": "vo_skill02_r01"
+      },
+      "event:/voice/kr/char/Fuluo01/vo_battlestart": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/Fuluo01/vo_battlestart",
+        "AssetName": "vo_battlestart"
+      },
+      "bus:/voice/combat_voice/kr/char/Fuluo01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/combat_voice/kr/char/Fuluo01",
+        "AssetName": "Fuluo01"
+      },
+      "event:/voice/kr/char/Fuluo/vo_attack_charge_r03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/Fuluo/vo_attack_charge_r03",
+        "AssetName": "vo_attack_charge_r03"
+      },
+      "event:/voice/kr/char/NanzhuDark/vo": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NanzhuDark/vo",
+        "AssetName": "vo"
+      },
+      "event:/voice/kr/char/Fuluo/vo_attack_charge_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/Fuluo/vo_attack_charge_r01",
+        "AssetName": "vo_attack_charge_r01"
+      },
+      "event:/voice/kr/char/NanzhuDark/vo_die": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NanzhuDark/vo_die",
+        "AssetName": "vo_die"
+      },
+      "event:/voice/kr/char/Fuluo/vo_attack_charge_r04": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/Fuluo/vo_attack_charge_r04",
+        "AssetName": "vo_attack_charge_r04"
+      },
+      "event:/voice/kr/char/Fuluo01/vo_skill02_r03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/Fuluo01/vo_skill02_r03",
+        "AssetName": "vo_skill02_r03"
+      },
+      "event:/voice/kr/char/NanzhuDark/vo_die_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NanzhuDark/vo_die_r01",
+        "AssetName": "vo_die_r01"
+      },
+      "bank:/voice/kr/char/voice_kr_char_NvzhuDark.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/kr/char/voice_kr_char_NvzhuDark_assets",
+        "AssetName": "voice_kr_char_NvzhuDark_assets"
+      },
+      "event:/voice/kr/char/NanzhuDark/vo_skill02_r03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NanzhuDark/vo_skill02_r03",
+        "AssetName": "vo_skill02_r03"
+      },
+      "event:/voice/kr/char/NvzhuDark/vo_die_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NvzhuDark/vo_die_r02",
+        "AssetName": "vo_die_r02"
+      },
+      "event:/voice/kr/char/Fuluo/vo_attack_mid_r04": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/Fuluo/vo_attack_mid_r04",
+        "AssetName": "vo_attack_mid_r04"
+      },
+      "event:/voice/kr/char/Fuluo01/vo_gain": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/Fuluo01/vo_gain",
+        "AssetName": "vo_gain"
+      },
+      "event:/voice/kr/char/Fuluo/vo_attack_heavy_r05": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/Fuluo/vo_attack_heavy_r05",
+        "AssetName": "vo_attack_heavy_r05"
+      },
+      "event:/sfx/boss/Lieche/vo_kr_BattleStart01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_kr_BattleStart01",
+        "AssetName": "vo_kr_BattleStart01"
+      },
+      "bus:/voice/combat_voice/kr/char/NanzhuDark": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/combat_voice/kr/char/NanzhuDark",
+        "AssetName": "NanzhuDark"
+      },
+      "event:/voice/kr/char/Fuluo/vo_attack_light_r04": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/Fuluo/vo_attack_light_r04",
+        "AssetName": "vo_attack_light_r04"
+      },
+      "event:/voice/kr/char/NvzhuDark/vo_skill01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NvzhuDark/vo_skill01",
+        "AssetName": "vo_skill01"
+      },
+      "event:/voice/kr/char/NanzhuDark/vo_skill01_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NanzhuDark/vo_skill01_r01",
+        "AssetName": "vo_skill01_r01"
+      },
+      "bank:/voice/kr/char/voice_kr_char_Fuluo01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/kr/char/voice_kr_char_Fuluo01",
+        "AssetName": "voice_kr_char_Fuluo01"
+      },
+      "event:/voice/kr/char/NvzhuDark/vo_die": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NvzhuDark/vo_die",
+        "AssetName": "vo_die"
+      },
+      "event:/sfx/boss/Lieche/vo_kr_Skill05": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_kr_Skill05",
+        "AssetName": "vo_kr_Skill05"
+      },
+      "event:/sfx/boss/Lieche/vo_kr_BattleStart02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_kr_BattleStart02",
+        "AssetName": "vo_kr_BattleStart02"
+      },
+      "event:/voice/kr/char/NanzhuDark/vo_revive": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NanzhuDark/vo_revive",
+        "AssetName": "vo_revive"
+      },
+      "event:/voice/kr/char/Fuluo/vo_jump_r03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/Fuluo/vo_jump_r03",
+        "AssetName": "vo_jump_r03"
+      },
+      "event:/voice/kr/char/Shuimu01/vo_skill02_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/Shuimu01/vo_skill02_r02",
+        "AssetName": "vo_skill02_r02"
+      },
+      "bus:/voice/common/kr/boss/Lieche": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/common/kr/boss/Lieche",
+        "AssetName": "Lieche"
+      },
+      "bus:/voice/common/kr/char/NanzhuDark": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/common/kr/char/NanzhuDark",
+        "AssetName": "NanzhuDark"
+      },
+      "event:/voice/kr/char/NvzhuDark/vo_skill01_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NvzhuDark/vo_skill01_r01",
+        "AssetName": "vo_skill01_r01"
+      },
+      "event:/voice/kr/char/NanzhuDark/vo_battlestart": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NanzhuDark/vo_battlestart",
+        "AssetName": "vo_battlestart"
+      },
+      "event:/voice/kr/char/NvzhuDark/vo_skill02_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NvzhuDark/vo_skill02_r02",
+        "AssetName": "vo_skill02_r02"
+      },
+      "event:/voice/kr/char/Fuluo01/vo_skill02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/Fuluo01/vo_skill02",
+        "AssetName": "vo_skill02"
+      },
+      "event:/voice/kr/char/Fuluo/vo_attack_heavy_r04": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/Fuluo/vo_attack_heavy_r04",
+        "AssetName": "vo_attack_heavy_r04"
+      },
+      "event:/voice/kr/char/NvzhuDark/vo_skill02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NvzhuDark/vo_skill02",
+        "AssetName": "vo_skill02"
+      },
+      "bus:/voice/combat_voice/kr/char/NvzhuDark": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/combat_voice/kr/char/NvzhuDark",
+        "AssetName": "NvzhuDark"
+      },
+      "event:/voice/kr/char/NvzhuDark/vo_revive": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NvzhuDark/vo_revive",
+        "AssetName": "vo_revive"
+      },
+      "event:/voice/kr/char/Fuluo01/vo_skill02_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/Fuluo01/vo_skill02_r01",
+        "AssetName": "vo_skill02_r01"
+      },
+      "event:/voice/kr/char/NvzhuDark/vo_skill02_r03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NvzhuDark/vo_skill02_r03",
+        "AssetName": "vo_skill02_r03"
+      },
+      "bus:/voice/common/kr/char/Fuluo01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/common/kr/char/Fuluo01",
+        "AssetName": "Fuluo01"
+      },
+      "event:/voice/kr/char/NanzhuDark/vo_skill01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NanzhuDark/vo_skill01",
+        "AssetName": "vo_skill01"
+      },
+      "event:/voice/kr/char/NanzhuDark/vo_die_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/char/NanzhuDark/vo_die_r02",
+        "AssetName": "vo_die_r02"
+      },
+      "bank:/voice/kr/char/voice_kr_char_NanzhuDark": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/kr/char/voice_kr_char_NanzhuDark",
+        "AssetName": "voice_kr_char_NanzhuDark"
+      },
+      "event:/sfx/btc/fuluo/fallattack": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/fuluo/fallattack",
+        "AssetName": "fallattack"
+      },
+      "event:/sfx/player/Fuluo/vo_death": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/vo_death",
+        "AssetName": "vo_death"
+      },
+      "event:/sfx/player/Fuluo/vo_skill": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/vo_skill",
+        "AssetName": "vo_skill"
+      },
+      "event:/sfx/player/Fuluo/vo_breath": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/vo_breath",
+        "AssetName": "vo_breath"
+      },
+      "event:/sfx/player/Fuluo/vo_happy": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/vo_happy",
+        "AssetName": "vo_happy"
+      },
+      "event:/sfx/player/Fuluo/vo_music": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/vo_music",
+        "AssetName": "vo_music"
+      },
+      "event:/sfx/player/Fuluo/vo_angry": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo/vo_angry",
+        "AssetName": "vo_angry"
+      },
+      "event:/ui/char/gacha_show_Fuluo": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/char/gacha_show_Fuluo",
+        "AssetName": "gacha_show_Fuluo"
+      },
+      "event:/sfx/weapon/Polearm/wuzhi/explosion_hit": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Polearm/wuzhi/explosion_hit",
+        "AssetName": "explosion_hit"
+      },
+      "bank:/sfx/weapon/sfx_weapon_Polearm_wuzhi": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/weapon/sfx_weapon_Polearm_wuzhi",
+        "AssetName": "sfx_weapon_Polearm_wuzhi"
+      },
+      "bus:/sfx/combat/weapon/Polearm/wuzhi": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/combat/weapon/Polearm/wuzhi",
+        "AssetName": "wuzhi"
+      },
+      "event:/sfx/weapon/Polearm/wuzhi/explosion": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Polearm/wuzhi/explosion",
+        "AssetName": "explosion"
+      },
+      "bank:/sfx/weapon/sfx_weapon_Polearm_wuzhi.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/weapon/sfx_weapon_Polearm_wuzhi_assets",
+        "AssetName": "sfx_weapon_Polearm_wuzhi_assets"
+      },
+      "event:/sfx/player/Shuimu02/summon_birth": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Shuimu02/summon_birth",
+        "AssetName": "summon_birth"
+      },
+      "event:/sfx/player/Shuimu02/summon_die": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Shuimu02/summon_die",
+        "AssetName": "summon_die"
+      },
+      "event:/sfx/player/Shuimu02/summon_hit": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Shuimu02/summon_hit",
+        "AssetName": "summon_hit"
+      },
+      "event:/sfx/player/Shuimu02/skill01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Shuimu02/skill01",
+        "AssetName": "skill01"
+      },
+      "event:/sfx/player/Shuimu02/skill_hit": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Shuimu02/skill_hit",
+        "AssetName": "skill_hit"
+      },
+      "event:/sfx/player/Shuimu02/skill02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Shuimu02/skill02",
+        "AssetName": "skill02"
+      },
+      "bus:/sfx/combat/player/Shuimu02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/combat/player/Shuimu02",
+        "AssetName": "Shuimu02"
+      },
+      "event:/sfx/player/Shuimu02/summon_attack_charge": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Shuimu02/summon_attack_charge",
+        "AssetName": "summon_attack_charge"
+      },
+      "event:/sfx/player/Shuimu02/summon_attack_cast": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Shuimu02/summon_attack_cast",
+        "AssetName": "summon_attack_cast"
+      },
+      "event:/sfx/player/Shuimu02/skill01_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Shuimu02/skill01_loop",
+        "AssetName": "skill01_loop"
+      },
+      "bank:/sfx/player/sfx_player_Shuimu02.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/player/sfx_player_Shuimu02_assets",
+        "AssetName": "sfx_player_Shuimu02_assets"
+      },
+      "bank:/sfx/player/sfx_player_Shuimu02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/player/sfx_player_Shuimu02",
+        "AssetName": "sfx_player_Shuimu02"
+      },
+      "event:/ui/btc/gacha_pool_fuluo_skin01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/btc/gacha_pool_fuluo_skin01",
+        "AssetName": "gacha_pool_fuluo_skin01"
+      },
+      "event:/ui/btc/cg_fuluo_zhanjie01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/btc/cg_fuluo_zhanjie01",
+        "AssetName": "cg_fuluo_zhanjie01"
+      },
+      "event:/ui/btc/cg_fuluo_skin01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/btc/cg_fuluo_skin01",
+        "AssetName": "cg_fuluo_skin01"
+      },
+      "event:/sfx/player/Shuimu02/update_03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Shuimu02/update_03",
+        "AssetName": "update_03"
+      },
+      "event:/sfx/player/Shuimu02/update_02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Shuimu02/update_02",
+        "AssetName": "update_02"
+      },
+      "event:/cine/Ver0104/SC007": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC007",
+        "AssetName": "SC007"
+      },
+      "bank:/cine/cine_Chapter03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/cine/cine_Chapter03",
+        "AssetName": "cine_Chapter03"
+      },
+      "event:/cine/Ver0104/SC010": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC010",
+        "AssetName": "SC010"
+      },
+      "event:/cine/Ver0104/SC013": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC013",
+        "AssetName": "SC013"
+      },
+      "event:/cine/Chapter03/Fix_SEQ_06": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Chapter03/Fix_SEQ_06",
+        "AssetName": "Fix_SEQ_06"
+      },
+      "event:/cine/Ver0104/HardBoss_Lieche": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/HardBoss_Lieche",
+        "AssetName": "HardBoss_Lieche"
+      },
+      "event:/cine/Ver0104/SC022": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC022",
+        "AssetName": "SC022"
+      },
+      "event:/cine/Ver0104/SC014": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC014",
+        "AssetName": "SC014"
+      },
+      "event:/cine/Ver0104/SC019": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC019",
+        "AssetName": "SC019"
+      },
+      "event:/cine/Chapter03/Fix_SEQ_01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Chapter03/Fix_SEQ_01",
+        "AssetName": "Fix_SEQ_01"
+      },
+      "bank:/cine/cine_Ver0104.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/cine/cine_Ver0104_assets",
+        "AssetName": "cine_Ver0104_assets"
+      },
+      "event:/cine/Ver0104/SC024": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC024",
+        "AssetName": "SC024"
+      },
+      "event:/cine/Ver0104/SC021": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC021",
+        "AssetName": "SC021"
+      },
+      "event:/cine/Ver0104/SC016": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC016",
+        "AssetName": "SC016"
+      },
+      "event:/cine/Chapter03/Fix_SEQ_04": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Chapter03/Fix_SEQ_04",
+        "AssetName": "Fix_SEQ_04"
+      },
+      "event:/cine/Ver0104/SC112": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC112",
+        "AssetName": "SC112"
+      },
+      "event:/cine/Ver0104/SC012": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC012",
+        "AssetName": "SC012"
+      },
+      "event:/cine/Chapter03/Fix_SEQ_02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Chapter03/Fix_SEQ_02",
+        "AssetName": "Fix_SEQ_02"
+      },
+      "event:/cine/Ver0104/SC015": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC015",
+        "AssetName": "SC015"
+      },
+      "event:/cine/Chapter03/Fix_SEQ_09": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Chapter03/Fix_SEQ_09",
+        "AssetName": "Fix_SEQ_09"
+      },
+      "event:/cine/Chapter03/Fix_SEQ_07": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Chapter03/Fix_SEQ_07",
+        "AssetName": "Fix_SEQ_07"
+      },
+      "bank:/cine/cine_Chapter03.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/cine/cine_Chapter03_assets",
+        "AssetName": "cine_Chapter03_assets"
+      },
+      "event:/cine/Ver0104/SC006": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC006",
+        "AssetName": "SC006"
+      },
+      "event:/cine/Ver0104/SC025": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC025",
+        "AssetName": "SC025"
+      },
+      "event:/cine/Ver0104/SC023": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC023",
+        "AssetName": "SC023"
+      },
+      "event:/cine/Ver0104/SC020": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC020",
+        "AssetName": "SC020"
+      },
+      "event:/cine/Ver0104/SC026": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC026",
+        "AssetName": "SC026"
+      },
+      "bank:/cine/cine_Ver0104": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/cine/cine_Ver0104",
+        "AssetName": "cine_Ver0104"
+      },
+      "event:/sfx/player/Fuluo01/heavyattack_start": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo01/heavyattack_start",
+        "AssetName": "heavyattack_start"
+      },
+      "event:/sfx/player/Fuluo01/skill01_short_end": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo01/skill01_short_end",
+        "AssetName": "skill01_short_end"
+      },
+      "event:/sfx/player/Fuluo01/passive_wawa": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo01/passive_wawa",
+        "AssetName": "passive_wawa"
+      },
+      "bank:/sfx/player/sfx_player_Fuluo01.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/player/sfx_player_Fuluo01_assets",
+        "AssetName": "sfx_player_Fuluo01_assets"
+      },
+      "event:/sfx/player/Fuluo01/passve_hit": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo01/passve_hit",
+        "AssetName": "passve_hit"
+      },
+      "event:/sfx/player/Fuluo01/level3": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo01/level3",
+        "AssetName": "level3"
+      },
+      "event:/sfx/player/Fuluo01/skill02_wawa_stop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo01/skill02_wawa_stop",
+        "AssetName": "skill02_wawa_stop"
+      },
+      "event:/sfx/player/Fuluo01/skill02_wawa_attack_start": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo01/skill02_wawa_attack_start",
+        "AssetName": "skill02_wawa_attack_start"
+      },
+      "event:/sfx/player/Fuluo01/level2": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo01/level2",
+        "AssetName": "level2"
+      },
+      "event:/sfx/player/Fuluo01/skill01_short": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo01/skill01_short",
+        "AssetName": "skill01_short"
+      },
+      "event:/sfx/player/Fuluo01/heavyattack_end": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo01/heavyattack_end",
+        "AssetName": "heavyattack_end"
+      },
+      "event:/sfx/player/Fuluo01/skill02_wawa_attack_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo01/skill02_wawa_attack_loop",
+        "AssetName": "skill02_wawa_attack_loop"
+      },
+      "event:/sfx/player/Fuluo01/skill02_wawa_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo01/skill02_wawa_loop",
+        "AssetName": "skill02_wawa_loop"
+      },
+      "event:/sfx/player/Fuluo01/skill01_long": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo01/skill01_long",
+        "AssetName": "skill01_long"
+      },
+      "bus:/sfx/combat/player/Fuluo01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/combat/player/Fuluo01",
+        "AssetName": "Fuluo01"
+      },
+      "bank:/sfx/player/sfx_player_Fuluo01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/player/sfx_player_Fuluo01",
+        "AssetName": "sfx_player_Fuluo01"
+      },
+      "event:/sfx/player/Fuluo01/skill02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo01/skill02",
+        "AssetName": "skill02"
+      },
+      "event:/sfx/player/Fuluo01/heavyattack_start_end": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/player/Fuluo01/heavyattack_start_end",
+        "AssetName": "heavyattack_start_end"
+      },
+      "bank:/voice/jp/story/voice_jp_story_1004_3": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/story/voice_jp_story_1004_3",
+        "AssetName": "voice_jp_story_1004_3"
+      },
+      "event:/voice/jp/char/NvzhuDark/vo_revive": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NvzhuDark/vo_revive",
+        "AssetName": "vo_revive"
+      },
+      "event:/voice/en/char/NvzhuDark/vo_revive": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NvzhuDark/vo_revive",
+        "AssetName": "vo_revive"
+      },
+      "event:/voice/jp/char/NvzhuDark/vo_skill02_r03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NvzhuDark/vo_skill02_r03",
+        "AssetName": "vo_skill02_r03"
+      },
+      "event:/voice/jp/char/NanzhuDark/vo_skill02_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NanzhuDark/vo_skill02_r01",
+        "AssetName": "vo_skill02_r01"
+      },
+      "event:/voice/en/char/Fuluo/vo_attack_light_r04": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/Fuluo/vo_attack_light_r04",
+        "AssetName": "vo_attack_light_r04"
+      },
+      "event:/voice/jp/char/NvzhuDark/vo_skill02_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NvzhuDark/vo_skill02_r02",
+        "AssetName": "vo_skill02_r02"
+      },
+      "event:/voice/ch/char/Shuimu02/vo_appear": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/Shuimu02/vo_appear",
+        "AssetName": "vo_appear"
+      },
+      "bank:/voice/en/char/voice_en_char_NanzhuDark": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/en/char/voice_en_char_NanzhuDark",
+        "AssetName": "voice_en_char_NanzhuDark"
+      },
+      "event:/voice/en/char/NvzhuDark/vo_skill01_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NvzhuDark/vo_skill01_r02",
+        "AssetName": "vo_skill01_r02"
+      },
+      "bus:/voice/combat_voice/en/char/NanzhuDark": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/combat_voice/en/char/NanzhuDark",
+        "AssetName": "NanzhuDark"
+      },
+      "event:/voice/jp/char/NvzhuDark/vo_skill01_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NvzhuDark/vo_skill01_r02",
+        "AssetName": "vo_skill01_r02"
+      },
+      "bank:/voice/en/story/voice_en_story_1004_1.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/en/story/voice_en_story_1004_1_assets",
+        "AssetName": "voice_en_story_1004_1_assets"
+      },
+      "event:/voice/jp/char/NanzhuDark/vo_skill01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NanzhuDark/vo_skill01",
+        "AssetName": "vo_skill01"
+      },
+      "event:/voice/jp/char/NvzhuDark/vo_skill01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NvzhuDark/vo_skill01",
+        "AssetName": "vo_skill01"
+      },
+      "bank:/voice/kr/story/voice_kr_story_1004_0": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/kr/story/voice_kr_story_1004_0",
+        "AssetName": "voice_kr_story_1004_0"
+      },
+      "bank:/voice/ch/char/voice_ch_char_Shuimu02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/ch/char/voice_ch_char_Shuimu02",
+        "AssetName": "voice_ch_char_Shuimu02"
+      },
+      "bus:/voice/combat_voice/en/char/NvzhuDark": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/combat_voice/en/char/NvzhuDark",
+        "AssetName": "NvzhuDark"
+      },
+      "event:/voice/en/char/NanzhuDark/vo_die": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NanzhuDark/vo_die",
+        "AssetName": "vo_die"
+      },
+      "bank:/voice/kr/story/voice_kr_story_1004_1": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/kr/story/voice_kr_story_1004_1",
+        "AssetName": "voice_kr_story_1004_1"
+      },
+      "bank:/voice/kr/story/voice_kr_story_1004_4.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/kr/story/voice_kr_story_1004_4_assets",
+        "AssetName": "voice_kr_story_1004_4_assets"
+      },
+      "event:/voice/jp/char/NvzhuDark/vo_die_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NvzhuDark/vo_die_r01",
+        "AssetName": "vo_die_r01"
+      },
+      "event:/voice/en/char/Fuluo01/vo_skill02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/Fuluo01/vo_skill02",
+        "AssetName": "vo_skill02"
+      },
+      "event:/voice/en/char/NvzhuDark/vo_die": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NvzhuDark/vo_die",
+        "AssetName": "vo_die"
+      },
+      "event:/voice/en/story/1004": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/story/1004",
+        "AssetName": "1004"
+      },
+      "bus:/voice/common/en/char/NanzhuDark": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/common/en/char/NanzhuDark",
+        "AssetName": "NanzhuDark"
+      },
+      "bank:/voice/en/story/voice_en_story_1004_0": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/en/story/voice_en_story_1004_0",
+        "AssetName": "voice_en_story_1004_0"
+      },
+      "bank:/voice/ch/story/voice_ch_story_1004": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/ch/story/voice_ch_story_1004",
+        "AssetName": "voice_ch_story_1004"
+      },
+      "event:/voice/en/char/NanzhuDark/vo_battlestart": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NanzhuDark/vo_battlestart",
+        "AssetName": "vo_battlestart"
+      },
+      "bus:/voice/common/ch/char/Shuimu02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/common/ch/char/Shuimu02",
+        "AssetName": "Shuimu02"
+      },
+      "event:/voice/jp/char/NanzhuDark/vo_skill01_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NanzhuDark/vo_skill01_r01",
+        "AssetName": "vo_skill01_r01"
+      },
+      "event:/voice/en/char/NanzhuDark/vo_die_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NanzhuDark/vo_die_r01",
+        "AssetName": "vo_die_r01"
+      },
+      "bus:/voice/common/jp/char/NvzhuDark": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/common/jp/char/NvzhuDark",
+        "AssetName": "NvzhuDark"
+      },
+      "event:/voice/en/char/Fuluo01/vo_skill02_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/Fuluo01/vo_skill02_r01",
+        "AssetName": "vo_skill02_r01"
+      },
+      "event:/voice/en/char/Shuimu01/vo_skill02_r03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/Shuimu01/vo_skill02_r03",
+        "AssetName": "vo_skill02_r03"
+      },
+      "event:/voice/jp/char/NanzhuDark/vo_die": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NanzhuDark/vo_die",
+        "AssetName": "vo_die"
+      },
+      "event:/voice/en/char/NanzhuDark/vo_skill02_r03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NanzhuDark/vo_skill02_r03",
+        "AssetName": "vo_skill02_r03"
+      },
+      "event:/voice/ch/char/Shuimu02/vo_gain": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/Shuimu02/vo_gain",
+        "AssetName": "vo_gain"
+      },
+      "bank:/voice/kr/story/voice_kr_story_1004_2.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/kr/story/voice_kr_story_1004_2_assets",
+        "AssetName": "voice_kr_story_1004_2_assets"
+      },
+      "event:/voice/jp/char/NvzhuDark/vo": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NvzhuDark/vo",
+        "AssetName": "vo"
+      },
+      "bank:/voice/jp/story/voice_jp_story_1004_2": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/story/voice_jp_story_1004_2",
+        "AssetName": "voice_jp_story_1004_2"
+      },
+      "event:/voice/en/char/Shuimu01/vo_skill02_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/Shuimu01/vo_skill02_r02",
+        "AssetName": "vo_skill02_r02"
+      },
+      "event:/voice/en/char/Fuluo/vo_attack_charge_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/Fuluo/vo_attack_charge_r02",
+        "AssetName": "vo_attack_charge_r02"
+      },
+      "event:/voice/jp/char/NvzhuDark/vo_battlestart": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NvzhuDark/vo_battlestart",
+        "AssetName": "vo_battlestart"
+      },
+      "event:/voice/en/char/NanzhuDark/vo_revive": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NanzhuDark/vo_revive",
+        "AssetName": "vo_revive"
+      },
+      "bank:/voice/en/char/voice_en_char_NvzhuDark.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/en/char/voice_en_char_NvzhuDark_assets",
+        "AssetName": "voice_en_char_NvzhuDark_assets"
+      },
+      "event:/voice/en/char/NanzhuDark/vo_skill01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NanzhuDark/vo_skill01",
+        "AssetName": "vo_skill01"
+      },
+      "bus:/voice/combat_voice/ch/char/Shuimu02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/combat_voice/ch/char/Shuimu02",
+        "AssetName": "Shuimu02"
+      },
+      "event:/voice/en/char/NvzhuDark/vo_die_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NvzhuDark/vo_die_r01",
+        "AssetName": "vo_die_r01"
+      },
+      "bank:/voice/jp/story/voice_jp_story_1004_4": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/story/voice_jp_story_1004_4",
+        "AssetName": "voice_jp_story_1004_4"
+      },
+      "bank:/voice/jp/char/voice_jp_char_NvzhuDark.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/char/voice_jp_char_NvzhuDark_assets",
+        "AssetName": "voice_jp_char_NvzhuDark_assets"
+      },
+      "bus:/voice/common/jp/char/NanzhuDark": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/common/jp/char/NanzhuDark",
+        "AssetName": "NanzhuDark"
+      },
+      "bank:/voice/en/char/voice_en_char_Fuluo01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/en/char/voice_en_char_Fuluo01",
+        "AssetName": "voice_en_char_Fuluo01"
+      },
+      "event:/voice/en/char/Fuluo01/vo_gain": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/Fuluo01/vo_gain",
+        "AssetName": "vo_gain"
+      },
+      "bank:/voice/jp/char/voice_jp_char_NanzhuDark.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/char/voice_jp_char_NanzhuDark_assets",
+        "AssetName": "voice_jp_char_NanzhuDark_assets"
+      },
+      "bus:/voice/combat_voice/jp/char/NvzhuDark": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/combat_voice/jp/char/NvzhuDark",
+        "AssetName": "NvzhuDark"
+      },
+      "bus:/voice/common/en/char/Fuluo01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/common/en/char/Fuluo01",
+        "AssetName": "Fuluo01"
+      },
+      "event:/voice/ch/char/Shuimu02/vo_skill02_r03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/Shuimu02/vo_skill02_r03",
+        "AssetName": "vo_skill02_r03"
+      },
+      "event:/voice/jp/char/NanzhuDark/vo": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NanzhuDark/vo",
+        "AssetName": "vo"
+      },
+      "bank:/voice/kr/story/voice_kr_story_1004_3": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/kr/story/voice_kr_story_1004_3",
+        "AssetName": "voice_kr_story_1004_3"
+      },
+      "bus:/voice/common/en/char/NvzhuDark": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/common/en/char/NvzhuDark",
+        "AssetName": "NvzhuDark"
+      },
+      "bank:/voice/ch/story/voice_ch_story_1004.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/ch/story/voice_ch_story_1004_assets",
+        "AssetName": "voice_ch_story_1004_assets"
+      },
+      "bank:/voice/en/story/voice_en_story_1004_0.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/en/story/voice_en_story_1004_0_assets",
+        "AssetName": "voice_en_story_1004_0_assets"
+      },
+      "event:/voice/en/char/Fuluo/vo_attack_charge_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/Fuluo/vo_attack_charge_r01",
+        "AssetName": "vo_attack_charge_r01"
+      },
+      "event:/voice/en/char/Fuluo/vo_attack_charge": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/Fuluo/vo_attack_charge",
+        "AssetName": "vo_attack_charge"
+      },
+      "event:/voice/en/char/Fuluo01/vo_skill02_r03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/Fuluo01/vo_skill02_r03",
+        "AssetName": "vo_skill02_r03"
+      },
+      "event:/sfx/boss/Lieche/vo_jp_BattleEnd02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_jp_BattleEnd02",
+        "AssetName": "vo_jp_BattleEnd02"
+      },
+      "event:/voice/en/char/NanzhuDark/vo_skill02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NanzhuDark/vo_skill02",
+        "AssetName": "vo_skill02"
+      },
+      "event:/voice/en/char/NvzhuDark/vo_skill02_r03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NvzhuDark/vo_skill02_r03",
+        "AssetName": "vo_skill02_r03"
+      },
+      "event:/voice/en/char/NvzhuDark/vo_skill02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NvzhuDark/vo_skill02",
+        "AssetName": "vo_skill02"
+      },
+      "bank:/voice/kr/story/voice_kr_story_1004_4": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/kr/story/voice_kr_story_1004_4",
+        "AssetName": "voice_kr_story_1004_4"
+      },
+      "bank:/voice/kr/story/voice_kr_story_1004_1.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/kr/story/voice_kr_story_1004_1_assets",
+        "AssetName": "voice_kr_story_1004_1_assets"
+      },
+      "event:/voice/ch/char/Shuimu02/vo_skill02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/Shuimu02/vo_skill02",
+        "AssetName": "vo_skill02"
+      },
+      "bank:/voice/kr/story/voice_kr_story_1004_0.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/kr/story/voice_kr_story_1004_0_assets",
+        "AssetName": "voice_kr_story_1004_0_assets"
+      },
+      "event:/voice/jp/char/NvzhuDark/vo_die_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NvzhuDark/vo_die_r02",
+        "AssetName": "vo_die_r02"
+      },
+      "event:/voice/jp/char/NanzhuDark/vo_skill02_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NanzhuDark/vo_skill02_r02",
+        "AssetName": "vo_skill02_r02"
+      },
+      "event:/voice/ch/char/Shuimu02/vo_skill02_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/Shuimu02/vo_skill02_r01",
+        "AssetName": "vo_skill02_r01"
+      },
+      "bank:/voice/ch/char/voice_ch_char_Shuimu02.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/ch/char/voice_ch_char_Shuimu02_assets",
+        "AssetName": "voice_ch_char_Shuimu02_assets"
+      },
+      "bank:/voice/en/story/voice_en_story_1004_1": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/en/story/voice_en_story_1004_1",
+        "AssetName": "voice_en_story_1004_1"
+      },
+      "event:/voice/jp/char/NanzhuDark/vo_die_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NanzhuDark/vo_die_r01",
+        "AssetName": "vo_die_r01"
+      },
+      "event:/voice/jp/char/NvzhuDark/vo_die": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NvzhuDark/vo_die",
+        "AssetName": "vo_die"
+      },
+      "event:/voice/en/char/Fuluo01/vo_appear": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/Fuluo01/vo_appear",
+        "AssetName": "vo_appear"
+      },
+      "event:/voice/en/char/NvzhuDark/vo_skill02_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NvzhuDark/vo_skill02_r01",
+        "AssetName": "vo_skill02_r01"
+      },
+      "event:/voice/jp/char/NanzhuDark/vo_skill02_r03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NanzhuDark/vo_skill02_r03",
+        "AssetName": "vo_skill02_r03"
+      },
+      "event:/sfx/boss/Lieche/vo_jp_BattleEnd01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_jp_BattleEnd01",
+        "AssetName": "vo_jp_BattleEnd01"
+      },
+      "bank:/voice/en/char/voice_en_char_NanzhuDark.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/en/char/voice_en_char_NanzhuDark_assets",
+        "AssetName": "voice_en_char_NanzhuDark_assets"
+      },
+      "event:/voice/en/char/NvzhuDark/vo_battlestart": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NvzhuDark/vo_battlestart",
+        "AssetName": "vo_battlestart"
+      },
+      "bank:/voice/jp/story/voice_jp_story_1004_3.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/story/voice_jp_story_1004_3_assets",
+        "AssetName": "voice_jp_story_1004_3_assets"
+      },
+      "event:/voice/en/char/NanzhuDark/vo_skill02_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NanzhuDark/vo_skill02_r02",
+        "AssetName": "vo_skill02_r02"
+      },
+      "bus:/voice/combat_voice/en/char/Fuluo01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/combat_voice/en/char/Fuluo01",
+        "AssetName": "Fuluo01"
+      },
+      "bank:/voice/kr/story/voice_kr_story_1004_3.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/kr/story/voice_kr_story_1004_3_assets",
+        "AssetName": "voice_kr_story_1004_3_assets"
+      },
+      "event:/voice/en/char/NanzhuDark/vo_die_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NanzhuDark/vo_die_r02",
+        "AssetName": "vo_die_r02"
+      },
+      "event:/voice/en/char/NanzhuDark/vo": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NanzhuDark/vo",
+        "AssetName": "vo"
+      },
+      "event:/voice/en/char/NvzhuDark/vo_skill02_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NvzhuDark/vo_skill02_r02",
+        "AssetName": "vo_skill02_r02"
+      },
+      "bank:/voice/jp/char/voice_jp_char_NanzhuDark": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/char/voice_jp_char_NanzhuDark",
+        "AssetName": "voice_jp_char_NanzhuDark"
+      },
+      "bank:/voice/jp/char/voice_jp_char_NvzhuDark": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/char/voice_jp_char_NvzhuDark",
+        "AssetName": "voice_jp_char_NvzhuDark"
+      },
+      "bank:/voice/jp/story/voice_jp_story_1004_4.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/story/voice_jp_story_1004_4_assets",
+        "AssetName": "voice_jp_story_1004_4_assets"
+      },
+      "event:/sfx/boss/Lieche/vo_jp_BattleStart02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_jp_BattleStart02",
+        "AssetName": "vo_jp_BattleStart02"
+      },
+      "event:/voice/ch/char/Shuimu02/vo_battlestart": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/Shuimu02/vo_battlestart",
+        "AssetName": "vo_battlestart"
+      },
+      "bank:/voice/en/char/voice_en_char_Fuluo01.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/en/char/voice_en_char_Fuluo01_assets",
+        "AssetName": "voice_en_char_Fuluo01_assets"
+      },
+      "event:/voice/jp/char/NanzhuDark/vo_skill01_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NanzhuDark/vo_skill01_r02",
+        "AssetName": "vo_skill01_r02"
+      },
+      "event:/voice/en/char/NvzhuDark/vo_die_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NvzhuDark/vo_die_r02",
+        "AssetName": "vo_die_r02"
+      },
+      "bank:/voice/en/char/voice_en_char_NvzhuDark": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/en/char/voice_en_char_NvzhuDark",
+        "AssetName": "voice_en_char_NvzhuDark"
+      },
+      "event:/sfx/boss/Lieche/vo_jp_BattleStart01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_jp_BattleStart01",
+        "AssetName": "vo_jp_BattleStart01"
+      },
+      "event:/voice/ch/char/NanzhuLight/vo_skill01_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/NanzhuLight/vo_skill01_r02",
+        "AssetName": "vo_skill01_r02"
+      },
+      "event:/voice/ch/char/Shuimu02/vo_skill02_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/ch/char/Shuimu02/vo_skill02_r02",
+        "AssetName": "vo_skill02_r02"
+      },
+      "event:/voice/en/char/NanzhuDark/vo_skill02_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NanzhuDark/vo_skill02_r01",
+        "AssetName": "vo_skill02_r01"
+      },
+      "event:/voice/jp/char/NanzhuDark/vo_skill02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NanzhuDark/vo_skill02",
+        "AssetName": "vo_skill02"
+      },
+      "event:/voice/jp/char/NvzhuDark/vo_skill02_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NvzhuDark/vo_skill02_r01",
+        "AssetName": "vo_skill02_r01"
+      },
+      "event:/voice/kr/story/1004": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/kr/story/1004",
+        "AssetName": "1004"
+      },
+      "bank:/voice/jp/story/voice_jp_story_1004_2.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/story/voice_jp_story_1004_2_assets",
+        "AssetName": "voice_jp_story_1004_2_assets"
+      },
+      "event:/voice/en/char/Fuluo01/vo_battlestart": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/Fuluo01/vo_battlestart",
+        "AssetName": "vo_battlestart"
+      },
+      "bus:/voice/combat_voice/jp/char/NanzhuDark": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/combat_voice/jp/char/NanzhuDark",
+        "AssetName": "NanzhuDark"
+      },
+      "event:/voice/jp/char/NanzhuDark/vo_die_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NanzhuDark/vo_die_r02",
+        "AssetName": "vo_die_r02"
+      },
+      "bank:/voice/kr/story/voice_kr_story_1004_2": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/kr/story/voice_kr_story_1004_2",
+        "AssetName": "voice_kr_story_1004_2"
+      },
+      "event:/voice/jp/char/NanzhuDark/vo_revive": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NanzhuDark/vo_revive",
+        "AssetName": "vo_revive"
+      },
+      "event:/voice/en/char/NanzhuDark/vo_skill01_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NanzhuDark/vo_skill01_r02",
+        "AssetName": "vo_skill01_r02"
+      },
+      "event:/voice/jp/char/NanzhuDark/vo_battlestart": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NanzhuDark/vo_battlestart",
+        "AssetName": "vo_battlestart"
+      },
+      "event:/voice/jp/char/NvzhuDark/vo_skill01_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NvzhuDark/vo_skill01_r01",
+        "AssetName": "vo_skill01_r01"
+      },
+      "event:/voice/en/char/NvzhuDark/vo_skill01_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NvzhuDark/vo_skill01_r01",
+        "AssetName": "vo_skill01_r01"
+      },
+      "event:/voice/en/char/Fuluo01/vo_skill02_r02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/Fuluo01/vo_skill02_r02",
+        "AssetName": "vo_skill02_r02"
+      },
+      "event:/voice/en/char/NvzhuDark/vo_skill01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NvzhuDark/vo_skill01",
+        "AssetName": "vo_skill01"
+      },
+      "event:/voice/en/char/NanzhuDark/vo_skill01_r01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NanzhuDark/vo_skill01_r01",
+        "AssetName": "vo_skill01_r01"
+      },
+      "event:/voice/en/char/NvzhuDark/vo": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/NvzhuDark/vo",
+        "AssetName": "vo"
+      },
+      "event:/voice/en/char/Fuluo/vo_attack_mid_r04": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/en/char/Fuluo/vo_attack_mid_r04",
+        "AssetName": "vo_attack_mid_r04"
+      },
+      "event:/voice/jp/char/NvzhuDark/vo_skill02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/voice/jp/char/NvzhuDark/vo_skill02",
+        "AssetName": "vo_skill02"
+      },
+      "event:/ui/armory/open_set_full_screen": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/armory/open_set_full_screen",
+        "AssetName": "open_set_full_screen"
+      },
+      "event:/sfx/weapon/Machinegun/Jingci/shoot_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Jingci/shoot_loop",
+        "AssetName": "shoot_loop"
+      },
+      "event:/sfx/weapon/Machinegun/Jingci/explosion": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Jingci/explosion",
+        "AssetName": "explosion"
+      },
+      "bank:/sfx/weapon/sfx_weapon_Machinegun_Jingci.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/weapon/sfx_weapon_Machinegun_Jingci_assets",
+        "AssetName": "sfx_weapon_Machinegun_Jingci_assets"
+      },
+      "event:/sfx/common/scene/shenmiao/prison_fade": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/scene/shenmiao/prison_fade",
+        "AssetName": "prison_fade"
+      },
+      "event:/sfx/weapon/Machinegun/Jingci/reload": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Jingci/reload",
+        "AssetName": "reload"
+      },
+      "event:/sfx/common/scene/shenmiao/prison_level01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/scene/shenmiao/prison_level01",
+        "AssetName": "prison_level01"
+      },
+      "event:/sfx/common/scene/shenmiao/prison_level03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/scene/shenmiao/prison_level03",
+        "AssetName": "prison_level03"
+      },
+      "event:/sfx/weapon/Machinegun/Jingci/shoot": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Jingci/shoot",
+        "AssetName": "shoot"
+      },
+      "bus:/sfx/combat/weapon/Machinegun/Jingci": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/combat/weapon/Machinegun/Jingci",
+        "AssetName": "Jingci"
+      },
+      "event:/sfx/common/scene/shenmiao/prison_start": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/scene/shenmiao/prison_start",
+        "AssetName": "prison_start"
+      },
+      "bank:/sfx/weapon/sfx_weapon_Machinegun_Jingci": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/weapon/sfx_weapon_Machinegun_Jingci",
+        "AssetName": "sfx_weapon_Machinegun_Jingci"
+      },
+      "event:/sfx/weapon/Machinegun/Jingci/be_hit": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Machinegun/Jingci/be_hit",
+        "AssetName": "be_hit"
+      },
+      "event:/sfx/common/scene/shenmiao/prison_level02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/scene/shenmiao/prison_level02",
+        "AssetName": "prison_level02"
+      },
+      "event:/ui/common/association_flag_in": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/association_flag_in",
+        "AssetName": "association_flag_in"
+      },
+      "event:/ui/common/common_page_in": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/common_page_in",
+        "AssetName": "common_page_in"
+      },
+      "event:/ui/common/association_mainpage_in": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/association_mainpage_in",
+        "AssetName": "association_mainpage_in"
+      },
+      "event:/sfx/boss/Lieche/missle_explode": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/missle_explode",
+        "AssetName": "missle_explode"
+      },
+      "event:/sfx/boss/Lieche/hand_skill07_recover": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/hand_skill07_recover",
+        "AssetName": "hand_skill07_recover"
+      },
+      "event:/sfx/boss/Lieche/hand_skill01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/hand_skill01",
+        "AssetName": "hand_skill01"
+      },
+      "event:/sfx/boss/Lieche/hand_skill02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/hand_skill02",
+        "AssetName": "hand_skill02"
+      },
+      "event:/sfx/boss/Lieche/hand_break_die": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/hand_break_die",
+        "AssetName": "hand_break_die"
+      },
+      "event:/sfx/boss/Lieche/hand_skill06": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/hand_skill06",
+        "AssetName": "hand_skill06"
+      },
+      "event:/sfx/boss/Lieche/hand_skill07_fixing": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/hand_skill07_fixing",
+        "AssetName": "hand_skill07_fixing"
+      },
+      "event:/sfx/boss/Lieche/hand_skill05": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/hand_skill05",
+        "AssetName": "hand_skill05"
+      },
+      "event:/sfx/boss/Lieche/hand_skill07_falldown": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/hand_skill07_falldown",
+        "AssetName": "hand_skill07_falldown"
+      },
+      "event:/sfx/boss/Lieche/hand_skill04": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/hand_skill04",
+        "AssetName": "hand_skill04"
+      },
+      "bus:/sfx/combat/boss/Lieche": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/combat/boss/Lieche",
+        "AssetName": "Lieche"
+      },
+      "event:/sfx/boss/Lieche/hand_die": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/hand_die",
+        "AssetName": "hand_die"
+      },
+      "event:/sfx/boss/Lieche/hand_skill03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/hand_skill03",
+        "AssetName": "hand_skill03"
+      },
+      "bus:/voice/common/ch/boss/Lieche/broadcast": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/common/ch/boss/Lieche/broadcast",
+        "AssetName": "broadcast"
+      },
+      "event:/sfx/common/story/03/mt_18": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_18",
+        "AssetName": "mt_18"
+      },
+      "event:/sfx/common/story/03/guandeng03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/guandeng03",
+        "AssetName": "guandeng03"
+      },
+      "event:/sfx/common/story/03/jewfall": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/jewfall",
+        "AssetName": "jewfall"
+      },
+      "bank:/bgm/bgm_1_4.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/bgm/bgm_1_4_assets",
+        "AssetName": "bgm_1_4_assets"
+      },
+      "bus:/sfx/common/story/03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/common/story/03",
+        "AssetName": "03"
+      },
+      "event:/sfx/common/story/03/mt_7": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_7",
+        "AssetName": "mt_7"
+      },
+      "event:/sfx/common/story/03/army_jingli": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/army_jingli",
+        "AssetName": "army_jingli"
+      },
+      "event:/sfx/common/story/03/mt_8": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_8",
+        "AssetName": "mt_8"
+      },
+      "event:/sfx/common/story/03/mt_26": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_26",
+        "AssetName": "mt_26"
+      },
+      "event:/sfx/common/story/03/mt_3": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_3",
+        "AssetName": "mt_3"
+      },
+      "event:/sfx/common/story/03/zhuanlie02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/zhuanlie02",
+        "AssetName": "zhuanlie02"
+      },
+      "event:/sfx/weapon/Polearm/Liandu/mod02_vo_btc_assessory02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Polearm/Liandu/mod02_vo_btc_assessory02",
+        "AssetName": "mod02_vo_btc_assessory02"
+      },
+      "event:/sfx/common/story/03/mt_4": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_4",
+        "AssetName": "mt_4"
+      },
+      "event:/sfx/common/story/03/train_pass": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/train_pass",
+        "AssetName": "train_pass"
+      },
+      "event:/ui/activity/explor_sub_page_in": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/explor_sub_page_in",
+        "AssetName": "explor_sub_page_in"
+      },
+      "event:/sfx/common/story/03/fs19": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/fs19",
+        "AssetName": "fs19"
+      },
+      "event:/sfx/common/story/03/mt_5": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_5",
+        "AssetName": "mt_5"
+      },
+      "event:/ui/activity/item_unlock_refresh": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/item_unlock_refresh",
+        "AssetName": "item_unlock_refresh"
+      },
+      "event:/sfx/common/story/03/zhujuerun": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/zhujuerun",
+        "AssetName": "zhujuerun"
+      },
+      "event:/sfx/common/story/03/mt_25": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_25",
+        "AssetName": "mt_25"
+      },
+      "event:/sfx/common/story/03/mt_13": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_13",
+        "AssetName": "mt_13"
+      },
+      "event:/sfx/weapon/Polearm/Liandu/mod02_cast_btc_assessory02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Polearm/Liandu/mod02_cast_btc_assessory02",
+        "AssetName": "mod02_cast_btc_assessory02"
+      },
+      "event:/sfx/common/story/03/mouse": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mouse",
+        "AssetName": "mouse"
+      },
+      "event:/sfx/common/story/03/mt_12": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_12",
+        "AssetName": "mt_12"
+      },
+      "event:/sfx/common/story/03/mt_10": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_10",
+        "AssetName": "mt_10"
+      },
+      "event:/sfx/common/story/03/mt_14": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_14",
+        "AssetName": "mt_14"
+      },
+      "event:/sfx/common/story/03/mt_24": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_24",
+        "AssetName": "mt_24"
+      },
+      "event:/sfx/common/story/03/train_rumble": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/train_rumble",
+        "AssetName": "train_rumble"
+      },
+      "event:/sfx/common/story/03/mt_1": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_1",
+        "AssetName": "mt_1"
+      },
+      "event:/sfx/common/story/03/mt_16": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_16",
+        "AssetName": "mt_16"
+      },
+      "event:/sfx/common/story/03/mt_23": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_23",
+        "AssetName": "mt_23"
+      },
+      "event:/sfx/common/story/03/fs25": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/fs25",
+        "AssetName": "fs25"
+      },
+      "event:/sfx/common/story/03/fs60_train": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/fs60_train",
+        "AssetName": "fs60_train"
+      },
+      "event:/sfx/common/story/03/mt_19": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_19",
+        "AssetName": "mt_19"
+      },
+      "event:/sfx/common/story/03/fs86": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/fs86",
+        "AssetName": "fs86"
+      },
+      "event:/sfx/common/story/03/guandeng01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/guandeng01",
+        "AssetName": "guandeng01"
+      },
+      "event:/sfx/common/story/03/mt_15": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_15",
+        "AssetName": "mt_15"
+      },
+      "event:/sfx/common/story/03/mt_2": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_2",
+        "AssetName": "mt_2"
+      },
+      "bank:/bgm/bgm_1_4": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/bgm/bgm_1_4",
+        "AssetName": "bgm_1_4"
+      },
+      "event:/sfx/common/story/03/zhuanlie01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/zhuanlie01",
+        "AssetName": "zhuanlie01"
+      },
+      "event:/sfx/common/story/03/mt_22": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_22",
+        "AssetName": "mt_22"
+      },
+      "event:/sfx/common/story/03/guandeng02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/guandeng02",
+        "AssetName": "guandeng02"
+      },
+      "event:/sfx/weapon/Polearm/Liandu/mod02_charge_btc_assessory02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/weapon/Polearm/Liandu/mod02_charge_btc_assessory02",
+        "AssetName": "mod02_charge_btc_assessory02"
+      },
+      "event:/sfx/common/story/03/army_hit": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/army_hit",
+        "AssetName": "army_hit"
+      },
+      "event:/sfx/common/story/03/mt_11": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_11",
+        "AssetName": "mt_11"
+      },
+      "event:/sfx/common/story/03/mt_6": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_6",
+        "AssetName": "mt_6"
+      },
+      "event:/sfx/common/story/03/mt_20": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_20",
+        "AssetName": "mt_20"
+      },
+      "event:/sfx/common/story/03/fs18": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/fs18",
+        "AssetName": "fs18"
+      },
+      "event:/sfx/common/story/03/weapon_back": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/weapon_back",
+        "AssetName": "weapon_back"
+      },
+      "event:/sfx/common/story/03/mt_17": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_17",
+        "AssetName": "mt_17"
+      },
+      "event:/sfx/common/story/03/train_horn": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/train_horn",
+        "AssetName": "train_horn"
+      },
+      "event:/sfx/common/story/03/paper": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/paper",
+        "AssetName": "paper"
+      },
+      "event:/sfx/common/story/03/fs60_turn": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/fs60_turn",
+        "AssetName": "fs60_turn"
+      },
+      "event:/sfx/common/story/03/mt_21": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_21",
+        "AssetName": "mt_21"
+      },
+      "event:/sfx/common/story/03/fs24": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/fs24",
+        "AssetName": "fs24"
+      },
+      "event:/sfx/common/story/03/mt_27": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/mt_27",
+        "AssetName": "mt_27"
+      },
+      "event:/sfx/common/story/03/fs60_horn": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/fs60_horn",
+        "AssetName": "fs60_horn"
+      },
+      "event:/ambience/common/pad_noise_waterinside": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/pad_noise_waterinside",
+        "AssetName": "pad_noise_waterinside"
+      },
+      "bank:/sfx/mnt/sfx_mnt_chensi": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/mnt/sfx_mnt_chensi",
+        "AssetName": "sfx_mnt_chensi"
+      },
+      "event:/sfx/mnt/chensi/fly": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/chensi/fly",
+        "AssetName": "fly"
+      },
+      "event:/sfx/mnt/chensi/run_fast_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/chensi/run_fast_loop",
+        "AssetName": "run_fast_loop"
+      },
+      "event:/sfx/mnt/chensi/land": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/chensi/land",
+        "AssetName": "land"
+      },
+      "event:/sfx/mnt/chensi/GroundIdle": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/chensi/GroundIdle",
+        "AssetName": "GroundIdle"
+      },
+      "event:/sfx/mnt/chensi/jump": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/chensi/jump",
+        "AssetName": "jump"
+      },
+      "event:/sfx/mnt/chensi/turn": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/chensi/turn",
+        "AssetName": "turn"
+      },
+      "event:/sfx/mnt/chensi/run_slow_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/chensi/run_slow_loop",
+        "AssetName": "run_slow_loop"
+      },
+      "event:/sfx/mnt/chensi/dodge": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/chensi/dodge",
+        "AssetName": "dodge"
+      },
+      "event:/sfx/mnt/chensi/fly_start": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/chensi/fly_start",
+        "AssetName": "fly_start"
+      },
+      "event:/sfx/mnt/chensi/appear_inair": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/chensi/appear_inair",
+        "AssetName": "appear_inair"
+      },
+      "bank:/sfx/mnt/sfx_mnt_chensi.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/mnt/sfx_mnt_chensi_assets",
+        "AssetName": "sfx_mnt_chensi_assets"
+      },
+      "event:/sfx/mnt/chensi/appear": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/chensi/appear",
+        "AssetName": "appear"
+      },
+      "event:/sfx/mnt/chensi/die": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/chensi/die",
+        "AssetName": "die"
+      },
+      "bus:/sfx/common/mnt/chensi": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/common/mnt/chensi",
+        "AssetName": "chensi"
+      },
+      "event:/sfx/boss/Lieche/cannon_gear_bounce_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_gear_bounce_loop",
+        "AssetName": "cannon_gear_bounce_loop"
+      },
+      "event:/sfx/boss/Lieche/cannon_gear_move_on_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_gear_move_on_loop",
+        "AssetName": "cannon_gear_move_on_loop"
+      },
+      "event:/sfx/boss/Lieche/cannon_skill01_bullet_bounce": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_skill01_bullet_bounce",
+        "AssetName": "cannon_skill01_bullet_bounce"
+      },
+      "event:/sfx/boss/Lieche/cannon_bullet_mid_burst": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_bullet_mid_burst",
+        "AssetName": "cannon_bullet_mid_burst"
+      },
+      "event:/sfx/boss/Lieche/cannon_bullet_bind_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_bullet_bind_loop",
+        "AssetName": "cannon_bullet_bind_loop"
+      },
+      "event:/sfx/boss/Lieche/cannon_skill01_bullet_burst": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_skill01_bullet_burst",
+        "AssetName": "cannon_skill01_bullet_burst"
+      },
+      "event:/sfx/boss/Lieche/cannon_kajia_bomb_death": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_kajia_bomb_death",
+        "AssetName": "cannon_kajia_bomb_death"
+      },
+      "event:/sfx/boss/Lieche/cannon_sub_train_explode_and_escape": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_sub_train_explode_and_escape",
+        "AssetName": "cannon_sub_train_explode_and_escape"
+      },
+      "event:/sfx/boss/Lieche/core_skill01_laser_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/core_skill01_laser_loop",
+        "AssetName": "core_skill01_laser_loop"
+      },
+      "event:/sfx/boss/Lieche/cannon_skill02_laser_shoot_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_skill02_laser_shoot_loop",
+        "AssetName": "cannon_skill02_laser_shoot_loop"
+      },
+      "event:/sfx/boss/Lieche/cannon_thin_laser_cast": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_thin_laser_cast",
+        "AssetName": "cannon_thin_laser_cast"
+      },
+      "event:/sfx/boss/Lieche/cannon_small_laser_hit": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_small_laser_hit",
+        "AssetName": "cannon_small_laser_hit"
+      },
+      "event:/sfx/boss/Lieche/cannon_laser_big_burst": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_laser_big_burst",
+        "AssetName": "cannon_laser_big_burst"
+      },
+      "event:/sfx/boss/Lieche/cannon_gear_move_idle_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_gear_move_idle_loop",
+        "AssetName": "cannon_gear_move_idle_loop"
+      },
+      "event:/sfx/boss/Lieche/cannon_bullet_hit_player": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_bullet_hit_player",
+        "AssetName": "cannon_bullet_hit_player"
+      },
+      "event:/sfx/boss/Lieche/cannon_bullet_bind_burst": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_bullet_bind_burst",
+        "AssetName": "cannon_bullet_bind_burst"
+      },
+      "event:/sfx/boss/Lieche/cannon_main_train_explode": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_main_train_explode",
+        "AssetName": "cannon_main_train_explode"
+      },
+      "event:/sfx/boss/Lieche/cannon_kajia_bomb_hit_player": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_kajia_bomb_hit_player",
+        "AssetName": "cannon_kajia_bomb_hit_player"
+      },
+      "event:/sfx/boss/Lieche/cannon_kajia_bomb_burst": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_kajia_bomb_burst",
+        "AssetName": "cannon_kajia_bomb_burst"
+      },
+      "event:/sfx/boss/Lieche/cannon_kajia_bomb_appear_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_kajia_bomb_appear_loop",
+        "AssetName": "cannon_kajia_bomb_appear_loop"
+      },
+      "event:/sfx/boss/Lieche/core_skill04_laser_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/core_skill04_laser_loop",
+        "AssetName": "core_skill04_laser_loop"
+      },
+      "event:/sfx/boss/Lieche/cannon_thin_laser_hit_player": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_thin_laser_hit_player",
+        "AssetName": "cannon_thin_laser_hit_player"
+      },
+      "event:/sfx/boss/Lieche/cannon_laser_hit_player": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_laser_hit_player",
+        "AssetName": "cannon_laser_hit_player"
+      },
+      "event:/sfx/boss/Lieche/cannon_gear_hit_player": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_gear_hit_player",
+        "AssetName": "cannon_gear_hit_player"
+      },
+      "event:/sfx/boss/Lieche/cannon_laser_small_burst": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_laser_small_burst",
+        "AssetName": "cannon_laser_small_burst"
+      },
+      "event:/sfx/boss/Lieche/cannon_force_move_loop_player": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_force_move_loop_player",
+        "AssetName": "cannon_force_move_loop_player"
+      },
+      "event:/sfx/common/scene/train/sweetener": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/scene/train/sweetener",
+        "AssetName": "sweetener"
+      },
+      "event:/sfx/common/scene/train/passby": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/scene/train/passby",
+        "AssetName": "passby"
+      },
+      "event:/sfx/common/scene/convey/belt": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/scene/convey/belt",
+        "AssetName": "belt"
+      },
+      "event:/sfx/common/scene/train/constant": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/scene/train/constant",
+        "AssetName": "constant"
+      },
+      "event:/sfx/common/scene/train/horn": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/scene/train/horn",
+        "AssetName": "horn"
+      },
+      "event:/sfx/common/scene/train/mech": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/scene/train/mech",
+        "AssetName": "mech"
+      },
+      "bus:/sfx/common/scene/convey": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/common/scene/convey",
+        "AssetName": "convey"
+      },
+      "event:/sfx/common/scene/train/intro": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/scene/train/intro",
+        "AssetName": "intro"
+      },
+      "bus:/sfx/common/scene/train": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/common/scene/train",
+        "AssetName": "train"
+      },
+      "event:/sfx/mnt/chensi/vo_secondJump": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/chensi/vo_secondJump",
+        "AssetName": "vo_secondJump"
+      },
+      "event:/sfx/mnt/chensi/vo_land": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/chensi/vo_land",
+        "AssetName": "vo_land"
+      },
+      "event:/sfx/mnt/chensi/vo_jump": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/chensi/vo_jump",
+        "AssetName": "vo_jump"
+      },
+      "event:/sfx/mnt/chensi/vo_flyStart": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/chensi/vo_flyStart",
+        "AssetName": "vo_flyStart"
+      },
+      "event:/sfx/mnt/chensi/vo_appear": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/chensi/vo_appear",
+        "AssetName": "vo_appear"
+      },
+      "event:/sfx/mnt/chensi/vo_dodge": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/chensi/vo_dodge",
+        "AssetName": "vo_dodge"
+      },
+      "event:/sfx/common/story/03/task_switch": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/task_switch",
+        "AssetName": "task_switch"
+      },
+      "event:/sfx/common/story/03/pad_roomtone_restaurant": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/pad_roomtone_restaurant",
+        "AssetName": "pad_roomtone_restaurant"
+      },
+      "event:/sfx/common/story/03/task_cut": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/task_cut",
+        "AssetName": "task_cut"
+      },
+      "event:/sfx/common/story/03/task_cup": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/task_cup",
+        "AssetName": "task_cup"
+      },
+      "event:/sfx/common/story/03/task_pipe": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/task_pipe",
+        "AssetName": "task_pipe"
+      },
+      "event:/sfx/common/story/03/task_sweep": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/task_sweep",
+        "AssetName": "task_sweep"
+      },
+      "event:/sfx/common/story/03/task_surgery": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/task_surgery",
+        "AssetName": "task_surgery"
+      },
+      "event:/sfx/common/story/03/task_glass": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/task_glass",
+        "AssetName": "task_glass"
+      },
+      "event:/sfx/common/story/03/task_tea": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/task_tea",
+        "AssetName": "task_tea"
+      },
+      "event:/sfx/common/story/03/llk_sing": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/llk_sing",
+        "AssetName": "llk_sing"
+      },
+      "event:/sfx/common/story/03/task_searchbox": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/task_searchbox",
+        "AssetName": "task_searchbox"
+      },
+      "event:/sfx/common/story/03/task_breakdish": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/task_breakdish",
+        "AssetName": "task_breakdish"
+      },
+      "event:/sfx/common/story/03/task_timer": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/task_timer",
+        "AssetName": "task_timer"
+      },
+      "event:/sfx/common/story/03/task_paper": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/task_paper",
+        "AssetName": "task_paper"
+      },
+      "event:/sfx/common/story/03/task_medicine": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/task_medicine",
+        "AssetName": "task_medicine"
+      },
+      "event:/ui/common/skin_collecting_page_in": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/skin_collecting_page_in",
+        "AssetName": "skin_collecting_page_in"
+      },
+      "event:/ui/common/skin_collecting_score_page_in": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/skin_collecting_score_page_in",
+        "AssetName": "skin_collecting_score_page_in"
+      },
+      "event:/ui/common/role_prop_change_click_confirm": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/role_prop_change_click_confirm",
+        "AssetName": "role_prop_change_click_confirm"
+      },
+      "event:/ui/common/role_prop_change_page_in": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/role_prop_change_page_in",
+        "AssetName": "role_prop_change_page_in"
+      },
+      "bank:/voice/en/story/voice_en_story_1004.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/en/story/voice_en_story_1004_assets",
+        "AssetName": "voice_en_story_1004_assets"
+      },
+      "event:/sfx/mnt/yewei/run_start": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/yewei/run_start",
+        "AssetName": "run_start"
+      },
+      "event:/sfx/common/story/03/fuluo_vo_dislike": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/fuluo_vo_dislike",
+        "AssetName": "fuluo_vo_dislike"
+      },
+      "event:/sfx/boss/Lieche/vo_en_Skill07": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_en_Skill07",
+        "AssetName": "vo_en_Skill07"
+      },
+      "event:/sfx/boss/Lieche/score_death_explode": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/score_death_explode",
+        "AssetName": "score_death_explode"
+      },
+      "event:/sfx/mnt/yewei/fly_idle_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/yewei/fly_idle_loop",
+        "AssetName": "fly_idle_loop"
+      },
+      "event:/ambience/world/chezhan/train_far": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/train_far",
+        "AssetName": "train_far"
+      },
+      "bank:/voice/kr/story/voice_kr_story_1004": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/kr/story/voice_kr_story_1004",
+        "AssetName": "voice_kr_story_1004"
+      },
+      "event:/sfx/boss/Lieche/mcore_HarmedIdleToFightIdle": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/mcore_HarmedIdleToFightIdle",
+        "AssetName": "mcore_HarmedIdleToFightIdle"
+      },
+      "event:/sfx/mnt/shiru/appear": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/shiru/appear",
+        "AssetName": "appear"
+      },
+      "bus:/sfx/common/mnt/yewei": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/common/mnt/yewei",
+        "AssetName": "yewei"
+      },
+      "event:/sfx/mnt/shiru/disappear": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/shiru/disappear",
+        "AssetName": "disappear"
+      },
+      "bank:/sfx/mnt/sfx_mnt_yewei.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/mnt/sfx_mnt_yewei_assets",
+        "AssetName": "sfx_mnt_yewei_assets"
+      },
+      "event:/sfx/mnt/yewei/jump": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/yewei/jump",
+        "AssetName": "jump"
+      },
+      "event:/sfx/mnt/yewei/fly": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/yewei/fly",
+        "AssetName": "fly"
+      },
+      "event:/sfx/mnt/yinyi/1": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/yinyi/1",
+        "AssetName": "1"
+      },
+      "event:/sfx/boss/Lieche/core_skill01_cast_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/core_skill01_cast_loop",
+        "AssetName": "core_skill01_cast_loop"
+      },
+      "event:/sfx/boss/Lieche/vo_en_BattleEnd01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_en_BattleEnd01",
+        "AssetName": "vo_en_BattleEnd01"
+      },
+      "event:/sfx/mnt/yewei/appear": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/yewei/appear",
+        "AssetName": "appear"
+      },
+      "event:/sfx/boss/Lieche/vo_en_Skill05": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_en_Skill05",
+        "AssetName": "vo_en_Skill05"
+      },
+      "event:/ambience/common/industry_train_mid_near_4": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/industry_train_mid_near_4",
+        "AssetName": "industry_train_mid_near_4"
+      },
+      "event:/sfx/boss/Lieche/cannon_foley_01_up": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_foley_01_up",
+        "AssetName": "cannon_foley_01_up"
+      },
+      "bank:/voice/jp/story/voice_jp_story_1004": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/story/voice_jp_story_1004",
+        "AssetName": "voice_jp_story_1004"
+      },
+      "event:/ambience/common/industry_train_mid_near_6": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/industry_train_mid_near_6",
+        "AssetName": "industry_train_mid_near_6"
+      },
+      "event:/sfx/boss/Lieche/vo_en_BattleStart01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_en_BattleStart01",
+        "AssetName": "vo_en_BattleStart01"
+      },
+      "event:/ambience/common/industry_train_mid_mid_3": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/industry_train_mid_mid_3",
+        "AssetName": "industry_train_mid_mid_3"
+      },
+      "bus:/voice/common/en/boss/Lieche": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/voice/common/en/boss/Lieche",
+        "AssetName": "Lieche"
+      },
+      "event:/sfx/boss/Lieche/mcore_skill02_cast": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/mcore_skill02_cast",
+        "AssetName": "mcore_skill02_cast"
+      },
+      "bank:/sfx/mnt/sfx_mnt_shiru": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/mnt/sfx_mnt_shiru",
+        "AssetName": "sfx_mnt_shiru"
+      },
+      "event:/bgm/1_4/0168_boss_haluoji": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_4/0168_boss_haluoji",
+        "AssetName": "0168_boss_haluoji"
+      },
+      "event:/cine/Ver0104/SC014_3": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC014_3",
+        "AssetName": "SC014_3"
+      },
+      "event:/ambience/world/chezhan/walla_hall": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/walla_hall",
+        "AssetName": "walla_hall"
+      },
+      "event:/sfx/mnt/yewei/run": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/yewei/run",
+        "AssetName": "run"
+      },
+      "event:/ambience/common/walla_crowds_station_mid": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/walla_crowds_station_mid",
+        "AssetName": "walla_crowds_station_mid"
+      },
+      "event:/ambience/world/chezhan/broadcast": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/broadcast",
+        "AssetName": "broadcast"
+      },
+      "event:/ambience/common/craft_civil_station_near_2": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/craft_civil_station_near_2",
+        "AssetName": "craft_civil_station_near_2"
+      },
+      "bank:/voice/en/story/voice_en_story_1004_3.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/en/story/voice_en_story_1004_3_assets",
+        "AssetName": "voice_en_story_1004_3_assets"
+      },
+      "event:/sfx/mnt/chensi/land_idle": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/chensi/land_idle",
+        "AssetName": "land_idle"
+      },
+      "event:/ambience/common/industry_train_mid_mid_1": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/industry_train_mid_mid_1",
+        "AssetName": "industry_train_mid_mid_1"
+      },
+      "event:/bgm/1_4/0172_story_counter_attack": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_4/0172_story_counter_attack",
+        "AssetName": "0172_story_counter_attack"
+      },
+      "event:/sfx/mnt/shiru/hoof": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/shiru/hoof",
+        "AssetName": "hoof"
+      },
+      "event:/cine/Ver0104/SC112_2": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC112_2",
+        "AssetName": "SC112_2"
+      },
+      "bank:/voice/en/story/voice_en_story_1004_4": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/en/story/voice_en_story_1004_4",
+        "AssetName": "voice_en_story_1004_4"
+      },
+      "event:/sfx/boss/Lieche/mcore_death": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/mcore_death",
+        "AssetName": "mcore_death"
+      },
+      "event:/ambience/common/industry_train_mid_mid_4": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/industry_train_mid_mid_4",
+        "AssetName": "industry_train_mid_mid_4"
+      },
+      "event:/sfx/boss/Lieche/cannon_foley_02_long": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_foley_02_long",
+        "AssetName": "cannon_foley_02_long"
+      },
+      "event:/sfx/boss/Lieche/missle_fly_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/missle_fly_loop",
+        "AssetName": "missle_fly_loop"
+      },
+      "event:/sfx/mnt/yewei/fly_start": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/yewei/fly_start",
+        "AssetName": "fly_start"
+      },
+      "event:/sfx/mnt/shiru/wind": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/shiru/wind",
+        "AssetName": "wind"
+      },
+      "event:/ambience/common/industry_train_mid_near_2": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/industry_train_mid_near_2",
+        "AssetName": "industry_train_mid_near_2"
+      },
+      "event:/sfx/boss/Lieche/cannon_kajia_bomb_pet_jump": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_kajia_bomb_pet_jump",
+        "AssetName": "cannon_kajia_bomb_pet_jump"
+      },
+      "event:/sfx/common/story/03/jumpintotrain": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/jumpintotrain",
+        "AssetName": "jumpintotrain"
+      },
+      "event:/cine/Ver0104/SC014_4": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC014_4",
+        "AssetName": "SC014_4"
+      },
+      "event:/sfx/mnt/shiru/layer": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/shiru/layer",
+        "AssetName": "layer"
+      },
+      "event:/sfx/boss/Lieche/cannon_skill02_cast": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_skill02_cast",
+        "AssetName": "cannon_skill02_cast"
+      },
+      "bus:/sfx/common/mnt/chensi/vo": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/common/mnt/chensi/vo",
+        "AssetName": "vo"
+      },
+      "event:/sfx/common/story/03/kitchenring": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/story/03/kitchenring",
+        "AssetName": "kitchenring"
+      },
+      "event:/sfx/boss/Lieche/vo_en_Skill06": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_en_Skill06",
+        "AssetName": "vo_en_Skill06"
+      },
+      "event:/cine/Ver0104/SC112_1": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC112_1",
+        "AssetName": "SC112_1"
+      },
+      "event:/ambience/common/pad_train_ext": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/pad_train_ext",
+        "AssetName": "pad_train_ext"
+      },
+      "event:/sfx/boss/Lieche/vo_ch_Skill03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_ch_Skill03",
+        "AssetName": "vo_ch_Skill03"
+      },
+      "event:/ui/activity/limit_gift_pool_gacha_show_xiunv": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/limit_gift_pool_gacha_show_xiunv",
+        "AssetName": "limit_gift_pool_gacha_show_xiunv"
+      },
+      "event:/sfx/boss/Lieche/cannon_kajia_bomb_death_foley": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_kajia_bomb_death_foley",
+        "AssetName": "cannon_kajia_bomb_death_foley"
+      },
+      "event:/ambience/common/pad_train_int_tunnel": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/pad_train_int_tunnel",
+        "AssetName": "pad_train_int_tunnel"
+      },
+      "event:/sfx/boss/Lieche/hand_skill07_fixing_fx_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/hand_skill07_fixing_fx_loop",
+        "AssetName": "hand_skill07_fixing_fx_loop"
+      },
+      "event:/sfx/boss/Lieche/score_down": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/score_down",
+        "AssetName": "score_down"
+      },
+      "event:/sfx/mnt/shiru/metal": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/shiru/metal",
+        "AssetName": "metal"
+      },
+      "bank:/voice/en/story/voice_en_story_1004_2": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/en/story/voice_en_story_1004_2",
+        "AssetName": "voice_en_story_1004_2"
+      },
+      "event:/bgm/1_4/0163_combat_jazz_01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_4/0163_combat_jazz_01",
+        "AssetName": "0163_combat_jazz_01"
+      },
+      "event:/bgm/1_4/0170_story_fuluo_play_piano": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_4/0170_story_fuluo_play_piano",
+        "AssetName": "0170_story_fuluo_play_piano"
+      },
+      "event:/bgm/1_4/0169_cs_tiaoche": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_4/0169_cs_tiaoche",
+        "AssetName": "0169_cs_tiaoche"
+      },
+      "bank:/sfx/mnt/sfx_mnt_shiru.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/mnt/sfx_mnt_shiru_assets",
+        "AssetName": "sfx_mnt_shiru_assets"
+      },
+      "event:/cine/Ver0104/SC014_5": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC014_5",
+        "AssetName": "SC014_5"
+      },
+      "event:/sfx/mnt/yewei/double_jump": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/yewei/double_jump",
+        "AssetName": "double_jump"
+      },
+      "event:/ambience/world/chezhan/train_near": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/train_near",
+        "AssetName": "train_near"
+      },
+      "event:/ambience/world/chezhan/train_mid": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/world/chezhan/train_mid",
+        "AssetName": "train_mid"
+      },
+      "bus:/sfx/common/mnt/shiru": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/sfx/common/mnt/shiru",
+        "AssetName": "shiru"
+      },
+      "bank:/voice/jp/story/voice_jp_story_1004.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/jp/story/voice_jp_story_1004_assets",
+        "AssetName": "voice_jp_story_1004_assets"
+      },
+      "event:/ambience/common/industry_train_mid_mid_2": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/industry_train_mid_mid_2",
+        "AssetName": "industry_train_mid_mid_2"
+      },
+      "event:/ambience/common/craft_civil_station_near": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/craft_civil_station_near",
+        "AssetName": "craft_civil_station_near"
+      },
+      "event:/sfx/boss/Lieche/mcore_skill03_score_show_hint": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/mcore_skill03_score_show_hint",
+        "AssetName": "mcore_skill03_score_show_hint"
+      },
+      "event:/ambience/common/pad_roomtone_platform": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/pad_roomtone_platform",
+        "AssetName": "pad_roomtone_platform"
+      },
+      "event:/cine/Ver0104/SC021_cut": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC021_cut",
+        "AssetName": "SC021_cut"
+      },
+      "event:/bgm/1_4/0167_story_fuluo_theme": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_4/0167_story_fuluo_theme",
+        "AssetName": "0167_story_fuluo_theme"
+      },
+      "bus:/ambience/common/boradcast": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Buses/ambience/common/boradcast",
+        "AssetName": "boradcast"
+      },
+      "event:/ambience/common/industry_train_mid_near_5": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/industry_train_mid_near_5",
+        "AssetName": "industry_train_mid_near_5"
+      },
+      "event:/sfx/boss/Lieche/vo_en_Skill08": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_en_Skill08",
+        "AssetName": "vo_en_Skill08"
+      },
+      "event:/sfx/mnt/yewei/turn_180": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/yewei/turn_180",
+        "AssetName": "turn_180"
+      },
+      "event:/sfx/boss/Lieche/vo_en_Skill03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_en_Skill03",
+        "AssetName": "vo_en_Skill03"
+      },
+      "event:/bgm/1_4/0171_combat_lieche_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_4/0171_combat_lieche_loop",
+        "AssetName": "0171_combat_lieche_loop"
+      },
+      "event:/sfx/boss/Lieche/cannon_IdleToFightIdle": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_IdleToFightIdle",
+        "AssetName": "cannon_IdleToFightIdle"
+      },
+      "event:/sfx/boss/Lieche/vo_ch_Skill05": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_ch_Skill05",
+        "AssetName": "vo_ch_Skill05"
+      },
+      "event:/cine/Ver0104/SC112_3": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC112_3",
+        "AssetName": "SC112_3"
+      },
+      "event:/sfx/mnt/shiru/fly": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/shiru/fly",
+        "AssetName": "fly"
+      },
+      "event:/sfx/common/scene/machine/feichuan_fly": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/common/scene/machine/feichuan_fly",
+        "AssetName": "feichuan_fly"
+      },
+      "bank:/sfx/mnt/sfx_mnt_yewei": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/sfx/mnt/sfx_mnt_yewei",
+        "AssetName": "sfx_mnt_yewei"
+      },
+      "event:/ambience/common/pad_train_int": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/pad_train_int",
+        "AssetName": "pad_train_int"
+      },
+      "event:/sfx/boss/Lieche/vo_en_BattleEnd02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_en_BattleEnd02",
+        "AssetName": "vo_en_BattleEnd02"
+      },
+      "event:/bgm/1_4/0166_story_danger": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_4/0166_story_danger",
+        "AssetName": "0166_story_danger"
+      },
+      "event:/bgm/1_4/0173_story_main_theme_choir": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_4/0173_story_main_theme_choir",
+        "AssetName": "0173_story_main_theme_choir"
+      },
+      "event:/sfx/boss/Lieche/missle_explode_x4": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/missle_explode_x4",
+        "AssetName": "missle_explode_x4"
+      },
+      "event:/ui/activity/limit_gift_pool_sub_page_in_xiunv": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/limit_gift_pool_sub_page_in_xiunv",
+        "AssetName": "limit_gift_pool_sub_page_in_xiunv"
+      },
+      "event:/sfx/boss/Lieche/vo_jp_Skill05": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_jp_Skill05",
+        "AssetName": "vo_jp_Skill05"
+      },
+      "bank:/voice/kr/story/voice_kr_story_1004.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/kr/story/voice_kr_story_1004_assets",
+        "AssetName": "voice_kr_story_1004_assets"
+      },
+      "event:/ui/activity/limit_gift_pool_xiunv_entrance_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/activity/limit_gift_pool_xiunv_entrance_loop",
+        "AssetName": "limit_gift_pool_xiunv_entrance_loop"
+      },
+      "event:/sfx/mnt/yewei/disappear": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/yewei/disappear",
+        "AssetName": "disappear"
+      },
+      "event:/sfx/btc/mvp/bg_jisu": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/mvp/bg_jisu",
+        "AssetName": "bg_jisu"
+      },
+      "event:/bgm/1_4/0162_story_jazz_sneak_into": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_4/0162_story_jazz_sneak_into",
+        "AssetName": "0162_story_jazz_sneak_into"
+      },
+      "bank:/voice/en/story/voice_en_story_1004": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/en/story/voice_en_story_1004",
+        "AssetName": "voice_en_story_1004"
+      },
+      "event:/sfx/mnt/shiru/fly_idle_loop": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/shiru/fly_idle_loop",
+        "AssetName": "fly_idle_loop"
+      },
+      "event:/sfx/boss/Lieche/vo_en_BattleStart02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_en_BattleStart02",
+        "AssetName": "vo_en_BattleStart02"
+      },
+      "event:/ambience/common/pad_roomtone_station": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/pad_roomtone_station",
+        "AssetName": "pad_roomtone_station"
+      },
+      "event:/ambience/common/industry_train_mid_far_1": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/industry_train_mid_far_1",
+        "AssetName": "industry_train_mid_far_1"
+      },
+      "event:/sfx/boss/Lieche/cannon_skill01_shoot": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_skill01_shoot",
+        "AssetName": "cannon_skill01_shoot"
+      },
+      "bank:/voice/en/story/voice_en_story_1004_2.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/en/story/voice_en_story_1004_2_assets",
+        "AssetName": "voice_en_story_1004_2_assets"
+      },
+      "event:/cine/Ver0104/SC014_1": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC014_1",
+        "AssetName": "SC014_1"
+      },
+      "event:/sfx/boss/Lieche/mcore_FightIdle": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/mcore_FightIdle",
+        "AssetName": "mcore_FightIdle"
+      },
+      "event:/ui/common/chapter_3_trans_clock_scare": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ui/common/chapter_3_trans_clock_scare",
+        "AssetName": "chapter_3_trans_clock_scare"
+      },
+      "event:/ambience/common/industry_train_mid_near_1": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/industry_train_mid_near_1",
+        "AssetName": "industry_train_mid_near_1"
+      },
+      "event:/sfx/mnt/shiru/wood": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/shiru/wood",
+        "AssetName": "wood"
+      },
+      "event:/sfx/boss/Lieche/cannon_condemned": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/cannon_condemned",
+        "AssetName": "cannon_condemned"
+      },
+      "event:/bgm/1_4/0165_story_xier_theme": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_4/0165_story_xier_theme",
+        "AssetName": "0165_story_xier_theme"
+      },
+      "event:/ambience/common/craft_civil_package_near": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/craft_civil_package_near",
+        "AssetName": "craft_civil_package_near"
+      },
+      "event:/bgm/1_4/0171_combat_lieche_intro": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_4/0171_combat_lieche_intro",
+        "AssetName": "0171_combat_lieche_intro"
+      },
+      "event:/sfx/btc/mvp/bg_zuirang": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/btc/mvp/bg_zuirang",
+        "AssetName": "bg_zuirang"
+      },
+      "event:/sfx/mnt/yewei/vo_run_start": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/yewei/vo_run_start",
+        "AssetName": "vo_run_start"
+      },
+      "event:/sfx/boss/Lieche/vo_jp_Skill03": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/vo_jp_Skill03",
+        "AssetName": "vo_jp_Skill03"
+      },
+      "event:/sfx/mnt/shiru/circle": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/shiru/circle",
+        "AssetName": "circle"
+      },
+      "event:/cine/Ver0104/SC014_2": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/cine/Ver0104/SC014_2",
+        "AssetName": "SC014_2"
+      },
+      "event:/ambience/common/walla_crowds_station_mid_02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/walla_crowds_station_mid_02",
+        "AssetName": "walla_crowds_station_mid_02"
+      },
+      "bank:/voice/en/story/voice_en_story_1004_4.assets": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/en/story/voice_en_story_1004_4_assets",
+        "AssetName": "voice_en_story_1004_4_assets"
+      },
+      "event:/sfx/mnt/yewei/turn_90": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/yewei/turn_90",
+        "AssetName": "turn_90"
+      },
+      "event:/sfx/boss/Lieche/b_hit_mid": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/b_hit_mid",
+        "AssetName": "b_hit_mid"
+      },
+      "event:/sfx/mnt/shiru/wheel": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/shiru/wheel",
+        "AssetName": "wheel"
+      },
+      "bank:/voice/en/story/voice_en_story_1004_3": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Banks/voice/en/story/voice_en_story_1004_3",
+        "AssetName": "voice_en_story_1004_3"
+      },
+      "event:/bgm/1_4/0164_cs_xier_show": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_4/0164_cs_xier_show",
+        "AssetName": "0164_cs_xier_show"
+      },
+      "event:/ambience/common/pad_industry_construct": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/pad_industry_construct",
+        "AssetName": "pad_industry_construct"
+      },
+      "event:/ambience/common/boradcast_tone_02": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/boradcast_tone_02",
+        "AssetName": "boradcast_tone_02"
+      },
+      "event:/ambience/common/boradcast_tone_01": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/ambience/common/boradcast_tone_01",
+        "AssetName": "boradcast_tone_01"
+      },
+      "event:/sfx/mnt/shiru/snor": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/shiru/snor",
+        "AssetName": "snor"
+      },
+      "event:/sfx/mnt/yewei/snor": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/mnt/yewei/snor",
+        "AssetName": "snor"
+      },
+      "event:/sfx/boss/Lieche/mcore_FightIdleToHarmedIdle": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/sfx/boss/Lieche/mcore_FightIdleToHarmedIdle",
+        "AssetName": "mcore_FightIdleToHarmedIdle"
+      },
+      "event:/bgm/1_4/0161_scene_train_station": {
+        "PackageName": "/Game/Asset/Audio/FMOD/Events/bgm/1_4/0161_scene_train_station",
+        "AssetName": "0161_scene_train_station"
       }
     }
   }
