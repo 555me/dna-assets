@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 1024,
-        "Length": 11046496
+        "FSBOffset": 1248,
+        "Length": 16116768
       }
     ]
   },
@@ -30,12 +30,16 @@
       "Hash": 1506796694
     },
     {
-      "Guid": "48fffc49-c99f-4503-b143-698a9503bdc5",
-      "Hash": 1395380957
+      "Guid": "b9058731-7b5f-46bb-a248-fc01ccb2d3c4",
+      "Hash": 480492640
     },
     {
-      "Guid": "62bf584f-00cf-42f4-8397-9f95f51bb4c2",
-      "Hash": 3372679034
+      "Guid": "0ad03037-fe4d-4f2b-bb6d-e2e218873770",
+      "Hash": 3842374153
+    },
+    {
+      "Guid": "48fffc49-c99f-4503-b143-698a9503bdc5",
+      "Hash": 1395380957
     },
     {
       "Guid": "f160d066-1aa7-4680-8960-85c8e3f92946",
@@ -46,12 +50,24 @@
       "Hash": 21184248
     },
     {
-      "Guid": "61d693ca-70de-48b5-838a-8127cf434253",
-      "Hash": 1516908947
+      "Guid": "3c5f1fa2-7f2b-433e-a0c4-64b4abaa9096",
+      "Hash": 143250141
     },
     {
       "Guid": "a6f435d5-fe6d-499a-af9b-e3edb38412db",
       "Hash": 3306600341
+    },
+    {
+      "Guid": "d4a334da-616e-45a2-83c6-eb1b5732dfe3",
+      "Hash": 1537496309
+    },
+    {
+      "Guid": "13dac3e5-dba8-4eda-a664-f8face56eca0",
+      "Hash": 2488046535
+    },
+    {
+      "Guid": "df6a1aeb-0e94-44d8-b807-1c3f4a791894",
+      "Hash": 53553546
     }
   ],
   "SoundBankData": [
@@ -59,7 +75,7 @@
       "Header": {
         "AudioType": "VORBIS",
         "Version": 1,
-        "NumSamples": 8
+        "NumSamples": 12
       },
       "Samples": [
         {
@@ -83,20 +99,29 @@
         {
           "Metadata": {
             "IsStereo": true,
+            "SampleCount": 9410704,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "卡嘉机械 Loop"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 4756736,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "260527_Zoey_Main Theme Ending_Mix2alt"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
             "SampleCount": 6632727,
             "Frequency": 48000,
             "Channels": 2
           },
           "Name": "火车站 260515-Yang Qu"
-        },
-        {
-          "Metadata": {
-            "IsStereo": true,
-            "SampleCount": 4762527,
-            "Frequency": 48000,
-            "Channels": 2
-          },
-          "Name": "main theme choir"
         },
         {
           "Metadata": {
@@ -119,11 +144,11 @@
         {
           "Metadata": {
             "IsStereo": true,
-            "SampleCount": 4965517,
+            "SampleCount": 892395,
             "Frequency": 48000,
             "Channels": 2
           },
-          "Name": "Demo_DNA_精英怪战斗_BPM140_Take01_260522"
+          "Name": "卡嘉机械 Intro"
         },
         {
           "Metadata": {
@@ -133,6 +158,33 @@
             "Channels": 2
           },
           "Name": "潜入 v2"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 4695465,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "Demo_DNA_精英怪战斗_BPM148_Take02_260527"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 1336320,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "希尔妲出场动画"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 6740200,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "芙洛拉主题"
         }
       ]
     }
@@ -154,34 +206,54 @@
       "SubsoundIndex": 1,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "48fffc49-c99f-4503-b143-698a9503bdc5": {
+    "b9058731-7b5f-46bb-a248-fc01ccb2d3c4": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 2,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "62bf584f-00cf-42f4-8397-9f95f51bb4c2": {
+    "0ad03037-fe4d-4f2b-bb6d-e2e218873770": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 3,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "f160d066-1aa7-4680-8960-85c8e3f92946": {
+    "48fffc49-c99f-4503-b143-698a9503bdc5": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 4,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "6b427c6c-9303-4237-be86-b6e2e7745a38": {
+    "f160d066-1aa7-4680-8960-85c8e3f92946": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 5,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "61d693ca-70de-48b5-838a-8127cf434253": {
+    "6b427c6c-9303-4237-be86-b6e2e7745a38": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 6,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "a6f435d5-fe6d-499a-af9b-e3edb38412db": {
+    "3c5f1fa2-7f2b-433e-a0c4-64b4abaa9096": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 7,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "a6f435d5-fe6d-499a-af9b-e3edb38412db": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 8,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "d4a334da-616e-45a2-83c6-eb1b5732dfe3": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 9,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "13dac3e5-dba8-4eda-a664-f8face56eca0": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 10,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "df6a1aeb-0e94-44d8-b807-1c3f4a791894": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 11,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     }
   },
