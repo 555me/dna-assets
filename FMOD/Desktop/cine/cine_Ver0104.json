@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 1248,
-        "Length": 16116768
+        "FSBOffset": 8864,
+        "Length": 20898592
       }
     ]
   },
@@ -55,7 +55,7 @@
     },
     {
       "Guid": "5d959f53-a4ba-490b-9123-7939111df2c4",
-      "Hash": 1343519234
+      "Hash": 3195884741
     },
     {
       "Guid": "29b2775e-58d8-4359-a96a-d424964cdf38",
@@ -107,7 +107,7 @@
     },
     {
       "Guid": "07333cb1-86c4-4de1-b0ca-3e81f58a4562",
-      "Hash": 486469311
+      "Hash": 1729534185
     },
     {
       "Guid": "2d970cc0-e712-4565-bc2f-8c9d548e8341",
@@ -948,6 +948,7 @@
       "NonMasterTracks": [
         "a174cb64-11b9-4f32-a3a2-d4b0f00c669d",
         "ceea387f-fbc9-4720-a7c7-c52ac050ee67",
+        "d868ec87-cebb-4a17-b064-3a77db83ad14",
         "047329bc-c70b-401c-a9f9-fcd9c0f3500f",
         "45c600e1-6ca0-4ebc-b0f3-2a547a5ea316",
         "44c9e8f4-a39a-40e7-804b-0a043dc8fb8b"
@@ -3409,6 +3410,34 @@
         "PortType": "FMOD_PORT_TYPE_MUSIC"
       }
     },
+    "d868ec87-cebb-4a17-b064-3a77db83ad14": {
+      "Routable": {
+        "BaseGuid": "962eaca3-1d0d-4941-9da6-565e82253227",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 0,
+        "InputChannelLayout": 3,
+        "PreFaderEffects": [
+          "55eaeab6-f784-48f9-a9d0-bb9a662570bf"
+        ],
+        "PostFaderEffects": [],
+        "MixerStrip": {
+          "Volume": -80.0,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 2147483647,
+        "PolyphonyLimitBehavior": 2,
+        "PreFaderInputChannelLayouts": [
+          3
+        ],
+        "PostFaderInputChannelLayouts": [],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
+    },
     "3d29fd88-dc9e-4856-b25d-62cc963d44ff": {
       "Routable": {
         "BaseGuid": "439cf1e7-33f2-408d-98fe-6864e55a6ebe",
@@ -3709,7 +3738,7 @@
         "PreFaderEffects": [],
         "PostFaderEffects": [],
         "MixerStrip": {
-          "Volume": 0.0,
+          "Volume": -3.0,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -6176,6 +6205,18 @@
         "InputGain": 0.0
       }
     },
+    "55eaeab6-f784-48f9-a9d0-bb9a662570bf": {
+      "InputChannelLayout": 0,
+      "ReturnGuid": "72d38e9e-4597-42e7-b351-48c36a739e55",
+      "SendLevel": -3.5,
+      "EffectBody": {
+        "Flags": 0,
+        "WetMix": 100.0,
+        "WetLevel": 0.0,
+        "DryLevel": -80.0,
+        "InputGain": 0.0
+      }
+    },
     "9dfb32b9-3e42-4fc7-91d9-4fa88f1a9df4": {
       "InputChannelLayout": 0,
       "ReturnGuid": "36e0e019-6ada-4116-a3b1-d2d7f231fe6c",
@@ -7132,6 +7173,11 @@
         },
         {
           "Guid": "db784441-9540-4e0c-9aab-c67824b86f7e",
+          "StartTime": 0,
+          "Length": 849439
+        },
+        {
+          "Guid": "346cbb41-24a3-4164-bcf7-e63643998fc2",
           "StartTime": 0,
           "Length": 849439
         },
@@ -12334,6 +12380,41 @@
             "Data": null
           }
         ]
+      }
+    },
+    "346cbb41-24a3-4164-bcf7-e63643998fc2": {
+      "LegacyLoadingMode": "WaveformLoadingMode_LoadInMemory",
+      "WaveformResourceGuid": "f48671e5-cf7f-4d4c-bb43-db188eb6dc56",
+      "InstrumentBody": {
+        "TimelineGuid": "8bf9a564-b2bf-4671-b73c-966936793953",
+        "Volume": 0.0,
+        "Pitch": 0.0,
+        "LoopCount": 0,
+        "Flags": 0,
+        "Offset3DDistance": 0.0,
+        "TriggerChancePercent": 100.0,
+        "TriggerDelay": {
+          "Min": 0.0,
+          "Max": 0.0
+        },
+        "Quantization": {
+          "Unit": "None",
+          "Multiplier": 0
+        },
+        "ControlParameterGuid": "00000000-0000-0000-0000-000000000000",
+        "AutoPitchReference": 1.0,
+        "InitialSeekPosition": 0.0,
+        "MaximumPolyphony": 2147483647,
+        "Routable": {
+          "BaseGuid": "d868ec87-cebb-4a17-b064-3a77db83ad14",
+          "OutputChannelLayout": 3,
+          "ChannelMask": 4294967295
+        },
+        "PolyphonyLimitBehavior": 2,
+        "LeftTrimOffset": 52800,
+        "InitialSeekPercent": 0.0,
+        "AutoPitchAtMinimum": 0.0,
+        "Evaluators": []
       }
     },
     "c399c741-1f52-4f36-8a54-4d5d1a1617d2": {

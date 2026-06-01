@@ -14,17 +14,13 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 1248,
-        "Length": 16116768
+        "FSBOffset": 1440,
+        "Length": 19902720
       }
     ]
   },
   "EncryptionKey": "UGFuc2hlbjY2Ng==",
   "HashData": [
-    {
-      "Guid": "38ab410e-f3b3-4576-ac88-678c8f9bffa1",
-      "Hash": 2544123420
-    },
     {
       "Guid": "3b233b13-961d-4fd3-bd8d-cfc124509950",
       "Hash": 1506796694
@@ -38,6 +34,10 @@
       "Hash": 3842374153
     },
     {
+      "Guid": "abc32c44-17c8-441c-b9d9-e9b119dee9a0",
+      "Hash": 4041363449
+    },
+    {
       "Guid": "48fffc49-c99f-4503-b143-698a9503bdc5",
       "Hash": 1395380957
     },
@@ -46,12 +46,28 @@
       "Hash": 1890900528
     },
     {
-      "Guid": "6b427c6c-9303-4237-be86-b6e2e7745a38",
-      "Hash": 21184248
+      "Guid": "4f4c559a-c9d2-4914-8041-ff4300223c13",
+      "Hash": 1023568564
     },
     {
       "Guid": "3c5f1fa2-7f2b-433e-a0c4-64b4abaa9096",
       "Hash": 143250141
+    },
+    {
+      "Guid": "7570a3b4-b061-4b91-8d4a-48b43306fcaa",
+      "Hash": 100463147
+    },
+    {
+      "Guid": "3d52e5b4-f7c8-485d-86a7-7c2e6bf1e048",
+      "Hash": 4130380652
+    },
+    {
+      "Guid": "9c6df3c6-34dc-4ace-a514-6aa6c882933f",
+      "Hash": 1421966892
+    },
+    {
+      "Guid": "50051bd5-9293-4038-9c7a-5cd09ea8c48e",
+      "Hash": 153067906
     },
     {
       "Guid": "a6f435d5-fe6d-499a-af9b-e3edb38412db",
@@ -64,10 +80,6 @@
     {
       "Guid": "13dac3e5-dba8-4eda-a664-f8face56eca0",
       "Hash": 2488046535
-    },
-    {
-      "Guid": "df6a1aeb-0e94-44d8-b807-1c3f4a791894",
-      "Hash": 53553546
     }
   ],
   "SoundBankData": [
@@ -75,18 +87,9 @@
       "Header": {
         "AudioType": "VORBIS",
         "Version": 1,
-        "NumSamples": 12
+        "NumSamples": 15
       },
       "Samples": [
-        {
-          "Metadata": {
-            "IsStereo": true,
-            "SampleCount": 6380305,
-            "Frequency": 48000,
-            "Channels": 2
-          },
-          "Name": "20260524_芙洛拉_钢琴"
-        },
         {
           "Metadata": {
             "IsStereo": true,
@@ -117,6 +120,15 @@
         {
           "Metadata": {
             "IsStereo": true,
+            "SampleCount": 5847273,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "DNA_希尔达印象曲"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
             "SampleCount": 6632727,
             "Frequency": 48000,
             "Channels": 2
@@ -135,11 +147,11 @@
         {
           "Metadata": {
             "IsStereo": true,
-            "SampleCount": 6809311,
+            "SampleCount": 6740200,
             "Frequency": 48000,
             "Channels": 2
           },
-          "Name": "Demo_DNA_剧情_BPM115_Take01_260525"
+          "Name": "芙洛拉主题2"
         },
         {
           "Metadata": {
@@ -149,6 +161,42 @@
             "Channels": 2
           },
           "Name": "卡嘉机械 Intro"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 6091234,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "芙罗拉弹琴"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 7268760,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "Demo_DNA_剧情_BPM115_Take02_260529"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 3509170,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "Main Theme jpop Ver"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 2952000,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "demo 1"
         },
         {
           "Metadata": {
@@ -176,15 +224,6 @@
             "Channels": 2
           },
           "Name": "希尔妲出场动画"
-        },
-        {
-          "Metadata": {
-            "IsStereo": true,
-            "SampleCount": 6740200,
-            "Frequency": 48000,
-            "Channels": 2
-          },
-          "Name": "芙洛拉主题"
         }
       ]
     }
@@ -196,22 +235,22 @@
   "TransitionNodes": {},
   "InstrumentNodes": {},
   "WavEntries": {
-    "38ab410e-f3b3-4576-ac88-678c8f9bffa1": {
+    "3b233b13-961d-4fd3-bd8d-cfc124509950": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 0,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "3b233b13-961d-4fd3-bd8d-cfc124509950": {
+    "b9058731-7b5f-46bb-a248-fc01ccb2d3c4": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 1,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "b9058731-7b5f-46bb-a248-fc01ccb2d3c4": {
+    "0ad03037-fe4d-4f2b-bb6d-e2e218873770": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 2,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "0ad03037-fe4d-4f2b-bb6d-e2e218873770": {
+    "abc32c44-17c8-441c-b9d9-e9b119dee9a0": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 3,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
@@ -226,7 +265,7 @@
       "SubsoundIndex": 5,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "6b427c6c-9303-4237-be86-b6e2e7745a38": {
+    "4f4c559a-c9d2-4914-8041-ff4300223c13": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 6,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
@@ -236,24 +275,39 @@
       "SubsoundIndex": 7,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "a6f435d5-fe6d-499a-af9b-e3edb38412db": {
+    "7570a3b4-b061-4b91-8d4a-48b43306fcaa": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 8,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "d4a334da-616e-45a2-83c6-eb1b5732dfe3": {
+    "3d52e5b4-f7c8-485d-86a7-7c2e6bf1e048": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 9,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "13dac3e5-dba8-4eda-a664-f8face56eca0": {
+    "9c6df3c6-34dc-4ace-a514-6aa6c882933f": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 10,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "df6a1aeb-0e94-44d8-b807-1c3f4a791894": {
+    "50051bd5-9293-4038-9c7a-5cd09ea8c48e": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 11,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "a6f435d5-fe6d-499a-af9b-e3edb38412db": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 12,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "d4a334da-616e-45a2-83c6-eb1b5732dfe3": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 13,
+      "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
+    },
+    "13dac3e5-dba8-4eda-a664-f8face56eca0": {
+      "SoundBankIndex": 0,
+      "SubsoundIndex": 14,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     }
   },
