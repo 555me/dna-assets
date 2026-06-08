@@ -15,7 +15,7 @@
     "Header": [
       {
         "FSBOffset": 1440,
-        "Length": 19902720
+        "Length": 19851712
       }
     ]
   },
@@ -32,6 +32,10 @@
     {
       "Guid": "0ad03037-fe4d-4f2b-bb6d-e2e218873770",
       "Hash": 3842374153
+    },
+    {
+      "Guid": "b1baca41-4efe-4452-86af-4066809303cb",
+      "Hash": 1989823623
     },
     {
       "Guid": "abc32c44-17c8-441c-b9d9-e9b119dee9a0",
@@ -58,10 +62,6 @@
       "Hash": 100463147
     },
     {
-      "Guid": "3d52e5b4-f7c8-485d-86a7-7c2e6bf1e048",
-      "Hash": 4130380652
-    },
-    {
       "Guid": "9c6df3c6-34dc-4ace-a514-6aa6c882933f",
       "Hash": 1421966892
     },
@@ -74,8 +74,8 @@
       "Hash": 3306600341
     },
     {
-      "Guid": "d4a334da-616e-45a2-83c6-eb1b5732dfe3",
-      "Hash": 1537496309
+      "Guid": "e60645e2-97fb-493c-a2b9-cf264eb1f94c",
+      "Hash": 2443021611
     },
     {
       "Guid": "13dac3e5-dba8-4eda-a664-f8face56eca0",
@@ -116,6 +116,15 @@
             "Channels": 2
           },
           "Name": "260527_Zoey_Main Theme Ending_Mix2alt"
+        },
+        {
+          "Metadata": {
+            "IsStereo": true,
+            "SampleCount": 7292130,
+            "Frequency": 48000,
+            "Channels": 2
+          },
+          "Name": "DNA_剧情_BPM108_260531"
         },
         {
           "Metadata": {
@@ -174,15 +183,6 @@
         {
           "Metadata": {
             "IsStereo": true,
-            "SampleCount": 7268760,
-            "Frequency": 48000,
-            "Channels": 2
-          },
-          "Name": "Demo_DNA_剧情_BPM115_Take02_260529"
-        },
-        {
-          "Metadata": {
-            "IsStereo": true,
             "SampleCount": 3509170,
             "Frequency": 48000,
             "Channels": 2
@@ -210,11 +210,11 @@
         {
           "Metadata": {
             "IsStereo": true,
-            "SampleCount": 4695465,
+            "SampleCount": 4692193,
             "Frequency": 48000,
             "Channels": 2
           },
-          "Name": "Demo_DNA_精英怪战斗_BPM148_Take02_260527"
+          "Name": "DNA_精英怪战斗_BPM148_260530"
         },
         {
           "Metadata": {
@@ -250,37 +250,37 @@
       "SubsoundIndex": 2,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "abc32c44-17c8-441c-b9d9-e9b119dee9a0": {
+    "b1baca41-4efe-4452-86af-4066809303cb": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 3,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "48fffc49-c99f-4503-b143-698a9503bdc5": {
+    "abc32c44-17c8-441c-b9d9-e9b119dee9a0": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 4,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "f160d066-1aa7-4680-8960-85c8e3f92946": {
+    "48fffc49-c99f-4503-b143-698a9503bdc5": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 5,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "4f4c559a-c9d2-4914-8041-ff4300223c13": {
+    "f160d066-1aa7-4680-8960-85c8e3f92946": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 6,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "3c5f1fa2-7f2b-433e-a0c4-64b4abaa9096": {
+    "4f4c559a-c9d2-4914-8041-ff4300223c13": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 7,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "7570a3b4-b061-4b91-8d4a-48b43306fcaa": {
+    "3c5f1fa2-7f2b-433e-a0c4-64b4abaa9096": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 8,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "3d52e5b4-f7c8-485d-86a7-7c2e6bf1e048": {
+    "7570a3b4-b061-4b91-8d4a-48b43306fcaa": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 9,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
@@ -300,7 +300,7 @@
       "SubsoundIndex": 12,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"
     },
-    "d4a334da-616e-45a2-83c6-eb1b5732dfe3": {
+    "e60645e2-97fb-493c-a2b9-cf264eb1f94c": {
       "SoundBankIndex": 0,
       "SubsoundIndex": 13,
       "LoadingMode": "WaveformLoadingMode_StreamFromDisk"

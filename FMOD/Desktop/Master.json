@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 1248,
-        "Length": 16116768
+        "FSBOffset": 2176,
+        "Length": 1137376
       }
     ]
   },
@@ -1620,7 +1620,7 @@
     },
     {
       "Guid": "a2c6d65e-25b1-4739-be1c-ddc895377fe0",
-      "Hash": 1860976420
+      "Hash": 3116114566
     },
     {
       "Guid": "1495e35e-bfa0-4f63-af4c-262e2b06685f",
@@ -2103,6 +2103,10 @@
       "Hash": 2605064873
     },
     {
+      "Guid": "e16bc180-4ae1-4b7b-8d2e-fb3ee6a3112c",
+      "Hash": 552991903
+    },
+    {
       "Guid": "fbd3f280-9b2c-49fd-a796-f2ed863e91c0",
       "Hash": 3258081447
     },
@@ -2505,6 +2509,10 @@
     {
       "Guid": "8f4b3e99-e461-40c6-9f56-8c5743840995",
       "Hash": 2681327886
+    },
+    {
+      "Guid": "2395bb99-1a89-4eb3-a388-dc45eb6b644a",
+      "Hash": 716213690
     },
     {
       "Guid": "ad4ddd99-109f-4355-b4e6-3b10c9814a9a",
@@ -3513,6 +3521,10 @@
     {
       "Guid": "f3d405d9-04d6-418d-8bbe-1b7b9bb3dc75",
       "Hash": 1527984687
+    },
+    {
+      "Guid": "ae6937d9-fe63-4285-a23f-7747de52d30c",
+      "Hash": 3660382268
     },
     {
       "Guid": "701738d9-3a60-44f1-b0a6-9cb9ba6fc14c",
@@ -7434,12 +7446,12 @@
     "d35f9109-369d-40d5-9daf-00be671ddbc4": {
       "Routable": {
         "BaseGuid": "819ae662-020d-4dcd-914b-1a04f26db92b",
-        "OutputChannelLayout": 3,
+        "OutputChannelLayout": 2,
         "ChannelMask": 4294967295
       },
       "BusBody": {
         "Flags": 1,
-        "InputChannelLayout": 3,
+        "InputChannelLayout": 2,
         "PreFaderEffects": [],
         "PostFaderEffects": [],
         "MixerStrip": {
@@ -13456,12 +13468,12 @@
     "32ce474d-60e1-4236-ae00-196520511507": {
       "Routable": {
         "BaseGuid": "4d9becf6-3ab3-4d0b-8557-025ee9ac003c",
-        "OutputChannelLayout": 3,
+        "OutputChannelLayout": 2,
         "ChannelMask": 4294967295
       },
       "BusBody": {
         "Flags": 1,
-        "InputChannelLayout": 3,
+        "InputChannelLayout": 2,
         "PreFaderEffects": [],
         "PostFaderEffects": [],
         "MixerStrip": {
@@ -14710,12 +14722,12 @@
     "cae6675b-d007-4c19-81db-180fcc6ff07a": {
       "Routable": {
         "BaseGuid": "4332b5e3-f9fe-4e99-9f93-6af057403808",
-        "OutputChannelLayout": 3,
+        "OutputChannelLayout": 2,
         "ChannelMask": 4294967295
       },
       "BusBody": {
         "Flags": 1,
-        "InputChannelLayout": 3,
+        "InputChannelLayout": 2,
         "PreFaderEffects": [],
         "PostFaderEffects": [],
         "MixerStrip": {
@@ -17755,6 +17767,30 @@
         "PortType": "FMOD_PORT_TYPE_MUSIC"
       }
     },
+    "e16bc180-4ae1-4b7b-8d2e-fb3ee6a3112c": {
+      "Routable": {
+        "BaseGuid": "5f8723f4-756e-453b-b15c-765fc070c679",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 1,
+        "InputChannelLayout": 3,
+        "PreFaderEffects": [],
+        "PostFaderEffects": [],
+        "MixerStrip": {
+          "Volume": 0.0,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 2147483647,
+        "PolyphonyLimitBehavior": 2,
+        "PreFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
+    },
     "fbd3f280-9b2c-49fd-a796-f2ed863e91c0": {
       "Routable": {
         "BaseGuid": "72cf3ff2-7648-46bf-9011-909a9d601149",
@@ -19926,6 +19962,30 @@
     "8f4b3e99-e461-40c6-9f56-8c5743840995": {
       "Routable": {
         "BaseGuid": "cbde52e5-9117-4d51-a657-ed11cc3cb980",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 1,
+        "InputChannelLayout": 3,
+        "PreFaderEffects": [],
+        "PostFaderEffects": [],
+        "MixerStrip": {
+          "Volume": 0.0,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 2147483647,
+        "PolyphonyLimitBehavior": 2,
+        "PreFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
+    },
+    "2395bb99-1a89-4eb3-a388-dc45eb6b644a": {
+      "Routable": {
+        "BaseGuid": "5f8723f4-756e-453b-b15c-765fc070c679",
         "OutputChannelLayout": 3,
         "ChannelMask": 4294967295
       },
@@ -25312,6 +25372,30 @@
       "BusBody": {
         "Flags": 1,
         "InputChannelLayout": 2,
+        "PreFaderEffects": [],
+        "PostFaderEffects": [],
+        "MixerStrip": {
+          "Volume": 0.0,
+          "Pitch": 0.0,
+          "VCAs": []
+        },
+        "MaximumPolyphony": 2147483647,
+        "PolyphonyLimitBehavior": 2,
+        "PreFaderInputChannelLayouts": [],
+        "PostFaderInputChannelLayouts": [],
+        "ObjectPannerIndex": -1,
+        "PortType": "FMOD_PORT_TYPE_MUSIC"
+      }
+    },
+    "ae6937d9-fe63-4285-a23f-7747de52d30c": {
+      "Routable": {
+        "BaseGuid": "f85ac54e-2822-4a6a-bda3-f8a22a4247c9",
+        "OutputChannelLayout": 3,
+        "ChannelMask": 4294967295
+      },
+      "BusBody": {
+        "Flags": 1,
+        "InputChannelLayout": 3,
         "PreFaderEffects": [],
         "PostFaderEffects": [],
         "MixerStrip": {
@@ -57405,6 +57489,12 @@
           "EntryIndex": 299233930,
           "TargetIndex": 0,
           "Value": -80.0
+        },
+        {
+          "SnapshotGuid": "a748a4c6-37d9-ae69-63fe-8542a23f7747",
+          "EntryIndex": 215175902,
+          "TargetIndex": 0,
+          "Value": 3.0
         },
         {
           "SnapshotGuid": "8b1caa42-2eee-bccc-f1b7-804eb55e2518",
