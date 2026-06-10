@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 3456,
-        "Length": 787200
+        "FSBOffset": 15648,
+        "Length": 18069312
       }
     ]
   },
@@ -27,7 +27,7 @@
     },
     {
       "Guid": "5f253b07-d4e3-458f-b5f2-e0f4e177345e",
-      "Hash": 344730816
+      "Hash": 3360302557
     },
     {
       "Guid": "ed066e0a-8a7c-42d5-a0db-9e8dff53e6ca",
@@ -35,7 +35,7 @@
     },
     {
       "Guid": "71e74017-110e-4330-b2b4-fcaf8545c7c1",
-      "Hash": 1105368219
+      "Hash": 462915169
     },
     {
       "Guid": "333f5827-769e-4118-a767-849f0def929b",
@@ -136,7 +136,7 @@
       "TimelineGuid": "1f354fb5-712e-4e4c-bdce-35681d1d8661",
       "InputBusGuid": "b9422714-577e-4201-ab7e-01d8c72fda92",
       "MasterTrackGuid": "a6b99ee4-4bd0-48b8-9ff2-56e88a37bfaf",
-      "MaximumPolyphony": 2,
+      "MaximumPolyphony": 5,
       "Priority": 128,
       "PolyphonyLimitBehavior": true,
       "SchedulingMode": 1,
@@ -147,7 +147,7 @@
       "UserPropertyFloatList": [],
       "UserPropertyStringList": [],
       "DopplerScale": 0.0,
-      "TriggerCooldown": 0.04,
+      "TriggerCooldown": 0.06,
       "Flags": 7265,
       "NonMasterTracks": [
         "79fbca08-2b20-4da0-9fdb-1354a48adce3",
@@ -219,9 +219,9 @@
       ],
       "UserPropertyFloatList": [],
       "UserPropertyStringList": [],
-      "DopplerScale": 250.0,
+      "DopplerScale": 0.0,
       "TriggerCooldown": 0.0,
-      "Flags": 5473,
+      "Flags": 5217,
       "NonMasterTracks": [
         "1856cd8b-d5b6-4fa2-bbc5-4c538c65fa44"
       ],
@@ -236,7 +236,7 @@
         }
       ],
       "EventTriggeredInstruments": [],
-      "MinimumDistance": 0.0,
+      "MinimumDistance": 1.0,
       "MaximumDistance": 20.0
     },
     "333f5827-769e-4118-a767-849f0def929b": {
@@ -1177,7 +1177,7 @@
         "PreFaderEffects": [],
         "PostFaderEffects": [],
         "MixerStrip": {
-          "Volume": 0.0,
+          "Volume": -1.5,
           "Pitch": 0.0,
           "VCAs": []
         },
@@ -3134,15 +3134,15 @@
           },
           {
             "Type": 1,
-            "FloatValue": 0.0
+            "FloatValue": 1E-45
           },
           {
             "Type": 0,
-            "FloatValue": 0.0
+            "FloatValue": 3.8
           },
           {
             "Type": 0,
-            "FloatValue": 0.0
+            "FloatValue": 66.0
           },
           {
             "Type": 0,
@@ -7841,6 +7841,26 @@
         "SeekSpeedDescending": 0.0
       }
     },
+    "e351cf3f-629f-49a1-9185-de54750e9dc7": {
+      "OwnerGuid": "a6b99ee4-4bd0-48b8-9ff2-56e88a37bfaf",
+      "PropertyIndex": 0,
+      "Type": "ADSR",
+      "PropertyType": "PropertyType_Volume",
+      "ClockSource": "ClockSource_Local",
+      "Subnode": {
+        "InitialValue": -80.0,
+        "PeakValue": 0.0,
+        "SustainValue": 0.0,
+        "AttackTime": 0.0,
+        "HoldTime": 1000.0,
+        "DecayTime": 1000.0,
+        "ReleaseTime": 1000.0,
+        "AttackShape": 0.0,
+        "DecayShape": 0.0,
+        "ReleaseShape": 0.0,
+        "FinalValue": -80.0
+      }
+    },
     "f20d804d-b093-45a8-9bdc-fee8d103d911": {
       "OwnerGuid": "a2081c22-5c10-49b7-be95-a498900ea939",
       "PropertyIndex": 0,
@@ -8250,7 +8270,7 @@
       "MappingGuid": "d65ba128-a6f5-41d9-b6a1-a7c402f329ac",
       "Controllers": [],
       "Modulators": [
-        "ad2c1357-000c-42b5-b8bb-366ccf0a43a9"
+        "e351cf3f-629f-49a1-9185-de54750e9dc7"
       ]
     },
     "887687bb-7fbe-4539-912b-74b6e2b0bf39": {

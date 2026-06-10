@@ -14,8 +14,8 @@
   "SoundDataInfo": {
     "Header": [
       {
-        "FSBOffset": 2176,
-        "Length": 1137376
+        "FSBOffset": 15648,
+        "Length": 18069312
       }
     ]
   },
@@ -187,7 +187,7 @@
     },
     {
       "Guid": "3eefa91e-ca8e-43cf-9e16-c438cc901f53",
-      "Hash": 53846173
+      "Hash": 1527259927
     },
     {
       "Guid": "835ad61e-a7db-453a-ade1-2a76167ef6a5",
@@ -1563,7 +1563,7 @@
     },
     {
       "Guid": "5a05f8e1-2e54-4064-8526-745e0cdf507e",
-      "Hash": 4237926737
+      "Hash": 3444667606
     },
     {
       "Guid": "cafb42e4-a17d-4cd7-a896-7798c8d179a1",
@@ -21020,7 +21020,7 @@
     },
     "2cdf18ce-e7ce-47b2-a4f9-ced5296c032a": {
       "Routable": {
-        "BaseGuid": "feb49713-7b53-4d72-8f8b-ecff745ff80c",
+        "BaseGuid": "36d6c054-418f-4cfc-8fbb-67fc3880e9cb",
         "OutputChannelLayout": 3,
         "ChannelMask": 4294967295
       },
@@ -42468,6 +42468,7 @@
         "PreFaderEffects": [],
         "PostFaderEffects": [
           "2d5081c9-c505-4527-ae4a-8ae264d7c752",
+          "a678a182-bca8-43cc-a1f7-f8212c0dd433",
           "0e128919-22ee-4ba5-bf75-9581224ae644"
         ],
         "MixerStrip": {
@@ -42479,6 +42480,7 @@
         "PolyphonyLimitBehavior": 2,
         "PreFaderInputChannelLayouts": [],
         "PostFaderInputChannelLayouts": [
+          3,
           3,
           3
         ],
@@ -51282,6 +51284,47 @@
         "InputGain": 0.0
       }
     },
+    "a678a182-bca8-43cc-a1f7-f8212c0dd433": {
+      "BaseGuid": "a678a182-bca8-43cc-a1f7-f8212c0dd433",
+      "InputChannelLayout": 0,
+      "DSPType": "FMOD_DSP_TYPE_CONVOLUTIONREVERB",
+      "ParamEffectBody": {
+        "Parameters": [
+          {
+            "Type": 0,
+            "FloatValue": 0.0
+          },
+          {
+            "Type": 0,
+            "FloatValue": 0.0
+          },
+          {
+            "Type": 0,
+            "FloatValue": -2.0
+          },
+          {
+            "Type": 0,
+            "FloatValue": 400.0
+          },
+          {
+            "Type": 0,
+            "FloatValue": 4000.0
+          },
+          {
+            "Type": 1,
+            "FloatValue": 1E-45
+          }
+        ],
+        "SideChainEnabled": false
+      },
+      "EffectBody": {
+        "Flags": 0,
+        "WetMix": 100.0,
+        "WetLevel": 0.0,
+        "DryLevel": -80.0,
+        "InputGain": 0.0
+      }
+    },
     "66ffe383-3857-41ab-9793-b9ec6bf655fc": {
       "BaseGuid": "66ffe383-3857-41ab-9793-b9ec6bf655fc",
       "InputChannelLayout": 0,
@@ -52886,7 +52929,7 @@
           },
           {
             "Type": 0,
-            "FloatValue": 36.0
+            "FloatValue": 22.0
           },
           {
             "Type": 0,
